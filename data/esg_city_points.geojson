@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "ESG_City_Points",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 76, "City_Name": "Amman", "center": [ 35.93551, 31.952366 ], "zoom": 10.94, "bearing": 0.0, "pitch": 44.69 }, "geometry": { "type": "Point", "coordinates": [ 35.919336314485449, 31.951386464751504 ] } },
+{ "type": "Feature", "properties": { "fid": 336, "City_Name": "Mexico City", "center": [ -99.069524, 19.450779 ], "zoom": 10.17, "bearing": 0.0, "pitch": 38.99 }, "geometry": { "type": "Point", "coordinates": [ -99.101091581225603, 19.457659604398632 ] } },
+{ "type": "Feature", "properties": { "fid": 799, "City_Name": "Bangkok", "center": [ 100.535248, 13.768482 ], "zoom": 9.97, "bearing": 0.0, "pitch": 40.98 }, "geometry": { "type": "Point", "coordinates": [ 100.56813228239119, 13.778801078899539 ] } },
+{ "type": "Feature", "properties": { "fid": 892, "City_Name": "Panama City", "center": [ -79.467453, 9.054829 ], "zoom": 11.5, "bearing": 0.0, "pitch": 59.98 }, "geometry": { "type": "Point", "coordinates": [ -79.497515260149555, 9.013829150641525 ] } },
+{ "type": "Feature", "properties": { "fid": 1165, "City_Name": "Colombo", "center": [ 79.965318, 6.759415 ], "zoom": 9.81, "bearing": 0.0, "pitch": 33.99 }, "geometry": { "type": "Point", "coordinates": [ 79.958323944492406, 6.932357722680249 ] } },
+{ "type": "Feature", "properties": { "fid": 2311, "City_Name": "Jakarta", "center": [ 106.833867, -6.621427 ], "zoom": 9.67, "bearing": 0.0, "pitch": 38.99 }, "geometry": { "type": "Point", "coordinates": [ 106.815475171798411, -6.172653326038387 ] } },
+{ "type": "Feature", "properties": { "fid": 2873, "City_Name": "Cape Town", "center": [ 18.563954, -33.989981 ], "zoom": 10.88, "bearing": 0.0, "pitch": 44.48 }, "geometry": { "type": "Point", "coordinates": [ 18.600086702400798, -33.982889829763067 ] } },
+{ "type": "Feature", "properties": { "fid": 10, "City_Name": "Valparaiso", "center": [ -71.498299, -33.047401 ], "zoom": 11.1, "bearing": 0.0, "pitch": 43.48, "Category": "C1" }, "geometry": { "type": "Point", "coordinates": [ -71.62739583920451, -33.042575544979698 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "City_Name": "Natal", "center": [ -35.248005, -5.866932 ], "zoom": 11.48, "bearing": 0.0, "pitch": 45.98, "Category": "B2" }, "geometry": { "type": "Point", "coordinates": [ -35.212223332260749, -5.814877064286144 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "City_Name": "Dar es Salaam", "center": [ 39.239429, -6.831427 ], "zoom": 10.1, "bearing": 0.0, "pitch": 46.48, "Category": "C2" }, "geometry": { "type": "Point", "coordinates": [ 39.218708041177813, -6.825200004764525 ] } },
+{ "type": "Feature", "properties": { "fid": 13, "City_Name": "Brazzaville", "center": [ 15.267144, -4.2539 ], "zoom": 12.46, "bearing": 0.0, "pitch": 46.48, "Category": "C1" }, "geometry": { "type": "Point", "coordinates": [ 15.268282806301356, -4.253046135825453 ] } },
+{ "type": "Feature", "properties": { "fid": 14, "City_Name": "Dubai", "center": [ 55.234685683142779, 25.177065811310452 ], "zoom": 10.5, "bearing": 0.0, "pitch": 56.98, "Category": "A2" }, "geometry": { "type": "Point", "coordinates": [ 55.234685683142779, 25.177065811310452 ] } },
+{ "type": "Feature", "properties": { "fid": 15, "City_Name": "Expo City Dubai", "center": [ 55.149451, 24.963045 ], "zoom": 13.99, "bearing": 0.0, "pitch": 46.48, "Category": "A3" }, "geometry": { "type": "Point", "coordinates": [ 55.150946455839211, 24.96152906476464 ] } },
+{ "type": "Feature", "properties": { "fid": 16, "City_Name": "Almaty", "center": [ 76.88831, 43.274014 ], "zoom": 10.82, "bearing": 0.0, "pitch": 46.48, "Category": "B1" }, "geometry": { "type": "Point", "coordinates": [ 76.898488309803199, 43.265559102492823 ] } },
+{ "type": "Feature", "properties": { "fid": 17, "City_Name": "Adoni", "center": [ 77.279764, 15.63344 ], "zoom": 12.82, "bearing": 0.0, "pitch": 46.48, "Category": "C2" }, "geometry": { "type": "Point", "coordinates": [ 77.273189700817156, 15.62514604003816 ] } }
+]
+}
