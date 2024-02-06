@@ -337,6 +337,28 @@
           15.62514604003816
         ]
       }
-    }
+    },
+    {
+       "type": "Feature",
+       "properties": {
+          "fid": 17,
+          "City_Name": "Astana",
+          "center": [
+            71.436664997192452, 
+            51.160220893455033
+          ],
+          "zoom": 12.82,
+          "bearing": 0.0,
+          "pitch": 46.48,
+          "Category": "B1"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            71.436664997192452, 
+            51.160220893455033
+          ]
+         }
+       }
   ]
 }
