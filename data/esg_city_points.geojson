@@ -339,24 +339,46 @@
       }
     },
     {
+      "type": "Feature",
+      "properties": {
+         "fid": 17,
+         "City_Name": "Astana",
+         "center": [
+           71.436664997192452, 
+           51.160220893455033
+         ],
+         "zoom": 12.82,
+         "bearing": 0.0,
+         "pitch": 46.48,
+         "Category": "B1"
+       },
+       "geometry": {
+         "type": "Point",
+         "coordinates": [
+           71.436664997192452, 
+           51.160220893455033
+         ]
+        }
+      },
+    {
        "type": "Feature",
        "properties": {
-          "fid": 17,
-          "City_Name": "Astana",
+          "fid": 2874,
+          "City_Name": "Lahore",
           "center": [
-            71.436664997192452, 
-            51.160220893455033
+            74.3261404253931488, 
+            31.4846764884750101
           ],
           "zoom": 12.82,
           "bearing": 0.0,
           "pitch": 46.48,
-          "Category": "B1"
+          "Category": "C2"
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            71.436664997192452, 
-            51.160220893455033
+            74.3261404253931488, 
+            31.4846764884750101
           ]
          }
        }
