@@ -49,7 +49,7 @@ export const Header: FC<HeaderProps> = ({
           {!displayBackButton && (
             <div
               onClick={() => {
-                navigate("/urban");
+                navigate("/");
               }}
               style={{
                 display: "flex",

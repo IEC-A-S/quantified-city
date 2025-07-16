@@ -5,28 +5,28 @@ import { useLocation } from "react-router-dom";
 
 const MenuLinks = [
   {
-    name: "Mainpage",
+    name: "City Profile",
     link: "/",
   },
+  //{
+  //   name: "Urban Rating & Monitoring",
+  //   link: "/urban",
+  // },
+  // {
+  //   name: "Corporate Rating & Monitoring",
+  //   link: "/",
+  //   disabled: true,
+  // },
+  // {
+  //   name: "Project Marketplace",
+  //   link: "/marketplace",
+  // },
+  // {
+  //   name: "Expo City Dubai",
+  //   link: "/expo_city_dubai",
+  // },
   {
-    name: "Urban Rating & Monitoring",
-    link: "/urban",
-  },
-  {
-    name: "Corporate Rating & Monitoring",
-    link: "/",
-    disabled: true,
-  },
-  {
-    name: "Project Marketplace",
-    link: "/marketplace",
-  },
-  {
-    name: "Expo City Dubai",
-    link: "/expo_city_dubai",
-  },
-  {
-    name: "Governance",
+    name: "About Us",
     link: "/governance",
   },
   {
@@ -34,10 +34,10 @@ const MenuLinks = [
     // link: "/",
     disabled: true,
   },
-  {
-    name: "Resilience News",
-    link: "/resilience_news",
-  },
+  // {
+  //   name: "Resilience News",
+  //   link: "/resilience_news",
+  // },
 ];
 
 interface MainMenuProps {

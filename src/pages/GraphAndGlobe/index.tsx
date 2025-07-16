@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Layout } from "./components/Layout";
 import { Header } from "./components/Layout/Header";
 import { Content } from "./components/Layout/Content";
@@ -7,12 +7,21 @@ import { BlueMap } from "./components/Map";
 import type mapboxgl from "mapbox-gl";
 import { SelectedCity } from "./SelectedCity";
 import { MainMenu } from "../../components/MainMenu";
+import { useNavigate } from "react-router-dom";
 
 export const GraphAndGlobe = () => {
   const [currentView, setCurrentView] = useState<"graph" | "map">("map");
   const [map, setMap] = useState<mapboxgl.Map | null>(null);
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
   const [menuVisible, setMenuVisible] = useState<boolean>(false);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (selectedCity) {
+      navigate("/city/" + selectedCity);
+    }
+  }, [selectedCity, navigate]);
 
   return (
     <div>
@@ -24,7 +33,7 @@ export const GraphAndGlobe = () => {
           setMenuVisible={setMenuVisible}
         />
         {selectedCity ? (
-          <SelectedCity selectedCityName={selectedCity} />
+          <></>
         ) : (
           <Content
             map={map}
