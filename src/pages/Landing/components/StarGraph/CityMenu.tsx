@@ -1,0 +1,149 @@
+import { Button, Menu, MenuItem } from "@mui/material";
+import { useState } from "react";
+import type { FC, MouseEvent } from "react";
+
+interface ICityItem {
+  value: string;
+  cities: string[];
+  color: string;
+  isMobile?: boolean;
+  onChange: (city: string) => void;
+}
+
+export const CityMenu: FC<ICityItem> = ({
+  value,
+  cities,
+  color,
+  isMobile,
+  onChange,
+}) => {
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+
+  const handleClick = (event: MouseEvent<HTMLElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  if (isMobile) {
+    return (
+      <>
+        <Button onClick={handleClick}>
+          <div
+            style={{
+              width: "16px",
+              height: "16px",
+              borderRadius: "50%",
+              backgroundColor: color,
+            }}
+          ></div>
+          {value}
+          <img src={"/assets/smallArrowDown.svg"} alt="arrow down" />
+        </Button>
+        <Menu
+          id="demo-positioned-menu"
+          aria-labelledby="demo-positioned-button"
+          anchorEl={anchorEl}
+          open={Boolean(anchorEl)}
+          onClose={handleClose}
+          anchorOrigin={{
+            vertical: "top",
+            horizontal: "left",
+          }}
+          transformOrigin={{
+            vertical: "top",
+            horizontal: "left",
+          }}
+        >
+          {cities?.map((city, index) => (
+            <MenuItem
+              key={city}
+              onClick={() => {
+                handleClose();
+                onChange(city);
+              }}
+            >
+              {city}
+            </MenuItem>
+          ))}
+        </Menu>
+      </>
+    );
+  }
+
+  return (
+    <div>
+      <Button
+        onClick={handleClick}
+        style={{
+          background: "transparent",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{
+              width: "1.2vh",
+              height: "1.2vh",
+              borderRadius: "50%",
+              backgroundColor: color,
+              marginRight: "1vh",
+            }}
+          ></div>
+          <div
+            style={{
+              fontFamily: "SuisseIntl-Light",
+              fontSize: "3.1vh",
+              fontWeight: 600,
+              textAlign: "center",
+              color: "#000",
+              textTransform: "none",
+            }}
+          >
+            {value}
+          </div>
+          <div
+            style={{
+              marginLeft: "1vh",
+            }}
+          >
+            <img src={"/assets/smallArrowDown.svg"} alt="arrow down" />
+          </div>
+        </div>
+      </Button>
+      <Menu
+        id="demo-positioned-menu"
+        aria-labelledby="demo-positioned-button"
+        anchorEl={anchorEl}
+        open={Boolean(anchorEl)}
+        onClose={handleClose}
+        anchorOrigin={{
+          vertical: "top",
+          horizontal: "left",
+        }}
+        transformOrigin={{
+          vertical: "top",
+          horizontal: "left",
+        }}
+      >
+        {cities?.map((city, index) => (
+          <MenuItem
+            key={city}
+            onClick={() => {
+              handleClose();
+              onChange(city);
+            }}
+          >
+            {city}
+          </MenuItem>
+        ))}
+      </Menu>
+    </div>
+  );
+};

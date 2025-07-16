@@ -1,0 +1,8882 @@
+[
+    {
+        "city": "Almaty",
+        "time_loss": 29.345794392523363
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 94.09368635437882
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 96.12088407758232
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 91.08322324966974
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 54.12517780938833
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 33.48714568226763
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 129.0446841294299
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 34.587080948487326
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 123.63534046145189
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 7.911733046286329
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 60.478359908883824
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 78.3946891973446
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 89.03541823662397
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 22.941176470588236
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 81.03448275862068
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 52.65234546251644
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 36.75464320625611
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 98.22335025380711
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 3.0953363598844406
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 35.6951871657754
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 11.788990825688073
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 31.75787728026534
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 35.5225988700565
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 16.61698956780924
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 2.074688796680498
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 6.853352984524687
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.56887486855941
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 83.59073359073359
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 10.895883777239709
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.44558521560575
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 35.935302390998594
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 99.06914893617021
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 10.920034393809114
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 6.009174311926605
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 3.4710743801652892
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 37.08971553610503
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.705042816365367
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 41.508104298801975
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 7.815275310834814
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 71.14528530959126
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 11.747243426632739
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 97.57207890743551
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 16.1608497723824
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 22.293401665598974
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 1.5434606011372867
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 6.15521855486173
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 0
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 45.38461538461539
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 16.251354279523294
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 9.107981220657276
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 4.296296296296297
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 15.96774193548387
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 10.841546626231993
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 18.11989100817439
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 18.456883509833585
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 9.50533462657614
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 17.123287671232877
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 12.569610182975339
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 20.64343163538874
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 8.36734693877551
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 30.671506352087114
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 6.153846153846154
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 30.567226890756302
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 39.29155313351499
+      },
+      {
+        "city": "Natal",
+        "time_loss": 34.33936955063716
+      },
+      {
+        "city": "Natal",
+        "time_loss": 47.342600163532296
+      },
+      {
+        "city": "Natal",
+        "time_loss": 19.88065326633166
+      },
+      {
+        "city": "Natal",
+        "time_loss": 32.23767383059418
+      },
+      {
+        "city": "Natal",
+        "time_loss": 55.139289145052835
+      },
+      {
+        "city": "Natal",
+        "time_loss": 7.561728395061729
+      },
+      {
+        "city": "Natal",
+        "time_loss": 25.016949152542374
+      },
+      {
+        "city": "Natal",
+        "time_loss": 37.10870802504269
+      },
+      {
+        "city": "Natal",
+        "time_loss": 58.37282780410742
+      },
+      {
+        "city": "Natal",
+        "time_loss": 33.939182104159386
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 41.03837471783296
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 19.823973176865046
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 61.76215277777778
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 1.9664545980335455
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 15.411089866156788
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 13.83253412025083
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 11.696391538780588
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 8.102299591661295
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 16.395086487841564
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 23.10838445807771
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 13.114754098360656
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 36.63297316138027
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 16.52227722772277
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 47.33700642791552
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 49.270879363676535
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 17.323402210475734
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 26.587408808430155
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 20.646178092986602
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 62.37687366167024
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 44.285714285714285
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 56.33001422475107
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 60.58495821727019
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 26.36085626911315
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 20.66115702479339
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 46.47933884297521
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 22.489851150202977
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 102.11202938475665
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 32.608695652173914
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 27.767527675276753
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 48.97209985315712
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 44.02173913043478
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 68.46758349705304
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 21.1433046202036
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 22.517871326449562
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 64.72911963882619
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 25.235945835043086
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -6.742925948223961
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 6.923076923076923
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 4.3478260869565215
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 2.6804123711340204
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 10.119047619047619
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 1.7699115044247788
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 4.848484848484849
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -2.9013539651837523
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -3.91644908616188
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -1.1272141706924315
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 28.785046728971963
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 94.09368635437882
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 90.978800180424
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 91.08322324966974
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 54.12517780938833
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 33.94858272907054
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 126.19414483821264
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 28.863450531479966
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 98.3680360157569
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 5.974165769644779
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 60.478359908883824
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 66.68678334339167
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 92.99171062547099
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 22.941176470588236
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 79.58620689655173
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 41.297676457693996
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 30.205278592375368
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 98.22335025380711
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 4.127115146512588
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 35.6951871657754
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 11.284403669724771
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 31.75787728026534
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 35.5225988700565
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 15.350223546944859
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 2.143845089903181
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 5.821665438467207
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 10.02453557658605
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 75.1930501930502
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 10.895883777239709
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.44558521560575
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 28.90295358649789
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 88.16489361702128
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 10.877042132416165
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 5.275229357798165
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 3.4710743801652892
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 37.08971553610503
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.705042816365367
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 41.29668780831572
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 8.436944937833037
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 66.24848239579117
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 10.559796437659033
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 84.97723823975721
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 14.719271623672231
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 18.06534272901986
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 1.5434606011372867
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 3.033006244424621
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 0
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 44.72527472527472
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 16.251354279523294
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 1.0328638497652582
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 4.296296296296297
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 7.258064516129032
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 8.263836239575436
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 16.4850136239782
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 16.187594553706504
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 4.75266731328807
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 13.356164383561644
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 12.569610182975339
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 19.97319034852547
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 5.1020408163265305
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 26.678765880217785
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 6.153846153846154
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 25.840336134453782
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 33.678474114441414
+      },
+      {
+        "city": "Natal",
+        "time_loss": 34.33936955063716
+      },
+      {
+        "city": "Natal",
+        "time_loss": 47.342600163532296
+      },
+      {
+        "city": "Natal",
+        "time_loss": 19.88065326633166
+      },
+      {
+        "city": "Natal",
+        "time_loss": 32.23767383059418
+      },
+      {
+        "city": "Natal",
+        "time_loss": 49.4716618635927
+      },
+      {
+        "city": "Natal",
+        "time_loss": 8.641975308641975
+      },
+      {
+        "city": "Natal",
+        "time_loss": 24.338983050847457
+      },
+      {
+        "city": "Natal",
+        "time_loss": 43.597040409789415
+      },
+      {
+        "city": "Natal",
+        "time_loss": 55.37124802527646
+      },
+      {
+        "city": "Natal",
+        "time_loss": 33.344984271233834
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 41.03837471783296
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 19.823973176865046
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 61.08940972222222
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 1.5037593984962405
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 13.690248565965582
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 13.943194393212837
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 11.696391538780588
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 3.352675693101225
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 10.478816746051642
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 28.084526244035448
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 10.21437578814628
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 36.63297316138027
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 12.747524752475247
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 47.33700642791552
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 55.89924878479894
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 17.323402210475734
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 26.99270467441232
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 20.77751510375624
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 62.37687366167024
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 50.30612244897959
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 56.45448079658606
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 60.58495821727019
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 18.837920489296636
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 20.66115702479339
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 45.50413223140496
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 24.844384303112314
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 93.66391184573003
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 29.202898550724637
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 25.645756457564577
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 41.55653450807636
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 38.94927536231884
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 66.99410609037328
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 20.516836335160534
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 22.517871326449562
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 62.18961625282167
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 21.99425523184243
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -3.0704394942805537
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 4.230769230769231
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -0.8695652173913043
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 1.8556701030927836
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 3.2738095238095237
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 0.7079646017699115
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 0
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -2.9013539651837523
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -2.8720626631853787
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -1.1272141706924315
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 28.598130841121495
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 90.56347589952478
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 92.24176815516464
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 79.52443857331572
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 49.85775248933144
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 32.30059327620303
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 127.96610169491525
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 22.730989370400653
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 114.0123804164322
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 7.965554359526372
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 48.747152619589976
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 76.64453832226916
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 91.78598342125095
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 25.11764705882353
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 60.89655172413793
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 43.533537921964054
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 33.43108504398827
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 100.88832487309645
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 2.8889806025588114
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 41.77807486631016
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 11.100917431192661
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 33.001658374792704
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 36.440677966101696
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 14.977645305514159
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 2.9737206085753805
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 7.663964627855564
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 10.830704521556257
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 82.72200772200772
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 14.527845036319613
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.44558521560575
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 31.434599156118143
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 90.15957446808511
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 13.026655202063628
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 5.229357798165138
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 4.87603305785124
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 36.65207877461707
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.324452901998097
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 41.08527131782946
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 7.726465364120782
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 71.83326588425739
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 12.80746395250212
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 95.22003034901365
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 15.250379362670714
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 21.588725176169124
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 2.843216896831844
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 7.314897413024085
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 0
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 44.94505494505494
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 19.068255687974
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 1.1267605633802817
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 6.074074074074074
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 14.274193548387096
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 11.675511751326763
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 18.256130790190735
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 22.239031770045386
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 3.6857419980601356
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 14.897260273972602
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 11.05807478122514
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 20.241286863270776
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 5.3061224489795915
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 28.312159709618875
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 6.25
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 23.949579831932773
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 26.920980926430516
+      },
+      {
+        "city": "Natal",
+        "time_loss": 35.479543930248155
+      },
+      {
+        "city": "Natal",
+        "time_loss": 45.29844644317253
+      },
+      {
+        "city": "Natal",
+        "time_loss": 22.016331658291456
+      },
+      {
+        "city": "Natal",
+        "time_loss": 34.63969658659924
+      },
+      {
+        "city": "Natal",
+        "time_loss": 51.48895292987512
+      },
+      {
+        "city": "Natal",
+        "time_loss": 9.722222222222221
+      },
+      {
+        "city": "Natal",
+        "time_loss": 25.593220338983052
+      },
+      {
+        "city": "Natal",
+        "time_loss": 39.328400682982355
+      },
+      {
+        "city": "Natal",
+        "time_loss": 46.91943127962085
+      },
+      {
+        "city": "Natal",
+        "time_loss": 35.40720027962251
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 39.729119638826184
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 18.357082984073763
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 61.24131944444444
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 14.285714285714286
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 14.684512428298278
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 11.619328661010696
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 14.973040232268769
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 4.706640876853643
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 13.938330408623715
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 22.903885480572598
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 9.96216897856242
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 39.28197978389683
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 12.5
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 46.76308539944903
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 40.07954043305347
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 17.972128784238347
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 26.26317211564442
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 19.096401365904914
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 62.82655246252676
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 39.965986394557824
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 50.693456614509245
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 43.686165273909005
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 20.214067278287462
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 28.558310376492194
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 45.05785123966942
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 15.263870094722598
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 98.71441689623508
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 28.6231884057971
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 25.7380073800738
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 34.434654919236415
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 43.75
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 67.09233791748527
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 20.986687548942836
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 20.05559968228753
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 60.214446952595935
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 17.80878128846943
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -8.067429259482239
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 6.153846153846154
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 3.4782608695652173
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 4.742268041237113
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 8.035714285714286
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 1.415929203539823
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 3.9393939393939394
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -3.8684719535783367
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -4.177545691906006
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -2.737520128824477
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 28.22429906542056
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 80.04073319755601
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 75.01127649977447
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 81.17569352708058
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 34.63726884779516
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 36.84904416611734
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 113.40523882896764
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 22.48569092395748
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 102.25098480585255
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 10.333692142088267
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 59.111617312072894
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 79.66203983101991
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 74.94348153730219
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 21
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 66.96551724137932
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 38.22884699693117
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 27.174975562072337
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 91.24365482233503
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 7.470078415187784
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 40.24064171122995
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 11.926605504587156
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 36.318407960199
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 44.42090395480226
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.836065573770492
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 2.904564315352697
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 6.705969049373619
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 10.339992989835261
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 94.11196911196912
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 15.415657788539145
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.188911704312115
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 28.973277074542896
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 75.39893617021276
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 11.306964746345658
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 6.192660550458716
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 5.206611570247934
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 40.481400437636765
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 10.65651760228354
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 39.25299506694856
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 8.170515097690942
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 77.66086604613517
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 11.068702290076336
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 74.27921092564492
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 19.347496206373293
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 28.699551569506728
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 1.868399675060926
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 7.047279214986619
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 0
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 40.989010989010985
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 19.393282773564465
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 5.539906103286385
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 4.444444444444445
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 13.709677419354838
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 9.780136467020471
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 19.346049046321525
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 16.792738275340394
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 1.454898157129001
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 11.986301369863014
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 9.785202863961814
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 12.868632707774799
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 5.1020408163265305
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 26.497277676950997
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 5
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 21.428571428571427
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 27.302452316076295
+      },
+      {
+        "city": "Natal",
+        "time_loss": 32.99798792756539
+      },
+      {
+        "city": "Natal",
+        "time_loss": 56.091578086672115
+      },
+      {
+        "city": "Natal",
+        "time_loss": 21.32537688442211
+      },
+      {
+        "city": "Natal",
+        "time_loss": 34.38685208596713
+      },
+      {
+        "city": "Natal",
+        "time_loss": 47.262247838616716
+      },
+      {
+        "city": "Natal",
+        "time_loss": 9.876543209876543
+      },
+      {
+        "city": "Natal",
+        "time_loss": 26.406779661016948
+      },
+      {
+        "city": "Natal",
+        "time_loss": 36.14114968696642
+      },
+      {
+        "city": "Natal",
+        "time_loss": 51.26382306477093
+      },
+      {
+        "city": "Natal",
+        "time_loss": 36.91017126878714
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 39.79683972911964
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 19.949706621961443
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 63.91059027777778
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 3.2967032967032965
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 14.531548757170173
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 10.106971597196607
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 19.99170468685193
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 0
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 7.6961644522436705
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 18.677573278800274
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 8.78520386717108
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 35.70930637852911
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 11.138613861386139
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 45.95959595959596
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 38.35616438356164
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 18.789043728976452
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 24.939205620102676
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 17.047543997898607
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 61.37044967880086
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 34.38775510204081
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 52.16927453769559
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 54.828226555246054
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 16.850152905198776
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 17.26354453627181
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 46.413223140495866
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 22.949932341001354
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 100.82644628099173
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 35
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 28.136531365313655
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 45.15418502202643
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 48.91304347826087
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 65.12770137524558
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 25.92012529365701
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 23.907863383637807
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 68.34085778781038
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 28.929011079195732
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -6.381697772426249
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 5.384615384615385
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -1.7391304347826086
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 4.536082474226804
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 11.607142857142858
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 0
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 3.0303030303030303
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -3.481624758220503
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -3.3942558746736293
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -1.7713365539452497
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 30.8411214953271
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 68.83910386965377
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 87.00947225981055
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 71.4663143989432
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 44.52347083926031
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 42.25444957152274
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 122.26502311248073
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 26.90106295993459
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 112.09904333145751
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 10.118406889128094
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 48.06378132118451
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 65.47978273989138
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 96.0060286360211
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 26.235294117647058
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 73.3103448275862
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 53.397632617273125
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 24.633431085043988
+      },
+      {
+        "city": "Almaty",
+        "time_loss": 97.20812182741116
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 0.9905076351630211
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 22.86096256684492
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 9.862385321100918
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 27.69485903814262
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 20.550847457627118
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 4.769001490312966
+      },
+      {
+        "city": "Dubai",
+        "time_loss": -1.1065006915629323
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 5.232129697862933
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 5.187521906764809
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 58.3011583011583
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 4.761904761904762
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 8.829568788501026
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 15.541490857946554
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 61.43617021276596
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 6.577815993121238
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 2.477064220183486
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 0.9090909090909091
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 18.052516411378555
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 5.899143672692674
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 28.823114869626497
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 6.74955595026643
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 32.13273978146499
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 6.870229007633588
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 33.38391502276176
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 13.353566009104703
+      },
+      {
+        "city": "Dubai",
+        "time_loss": 12.748238308776425
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 4.8740861088545895
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 4.63871543264942
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 0
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 42.08791208791209
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 17.876489707475624
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 6.103286384976526
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 6.222222222222222
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 10.64516129032258
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 11.599696739954512
+      },
+      {
+        "city": "Adoni",
+        "time_loss": 16.62125340599455
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 21.482602118003026
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 3.3947623666343354
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 18.664383561643834
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 9.069212410501194
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 15.281501340482574
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 7.346938775510204
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 50.99818511796733
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 5.288461538461538
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 26.15546218487395
+      },
+      {
+        "city": "Brazzaville",
+        "time_loss": 34.71389645776567
+      },
+      {
+        "city": "Natal",
+        "time_loss": 32.05902079141516
+      },
+      {
+        "city": "Natal",
+        "time_loss": 26.90106295993459
+      },
+      {
+        "city": "Natal",
+        "time_loss": 28.2035175879397
+      },
+      {
+        "city": "Natal",
+        "time_loss": 35.52465233881163
+      },
+      {
+        "city": "Natal",
+        "time_loss": 51.96926032660903
+      },
+      {
+        "city": "Natal",
+        "time_loss": 7.561728395061729
+      },
+      {
+        "city": "Natal",
+        "time_loss": 33.05084745762712
+      },
+      {
+        "city": "Natal",
+        "time_loss": 33.29538986909505
+      },
+      {
+        "city": "Natal",
+        "time_loss": 62.16429699842022
+      },
+      {
+        "city": "Natal",
+        "time_loss": 38.72771758126529
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 40.79006772009029
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 21.62615255658005
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 58.919270833333336
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 12.955465587044534
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 14.225621414913958
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 12.098856510512727
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 26.545002073828286
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 6.791317429615302
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 20.00501378791677
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 25.80095432856169
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 13.871374527112232
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 38.567445102823285
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 12.004950495049505
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 47.13039485766758
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 52.31992929739284
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 18.957232099951945
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 26.452310186436097
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 20.48857368006304
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 63.42612419700214
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 48.095238095238095
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 55.42318634423898
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 55.84958217270195
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 20.33639143730887
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 31.864095500459136
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 46.3801652892562
+      },
+      {
+        "city": "Dar es Salaam",
+        "time_loss": 23.27469553450609
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 91.27640036730946
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 36.3768115942029
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 27.121771217712176
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 34.50807635829662
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 48.007246376811594
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 71.2180746561886
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 22.16131558339859
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 25.615567911040507
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 61.56884875846501
+      },
+      {
+        "city": "Valparaiso",
+        "time_loss": 22.979072630283135
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -3.4918723660445514
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 0.38461538461538464
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 2.608695652173913
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 4.329896907216495
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 2.0833333333333335
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 1.0619469026548674
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": 2.4242424242424243
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -5.609284332688588
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -5.221932114882507
+      },
+      {
+        "city": "Expo City Dubai",
+        "time_loss": -2.898550724637681
+      },
+      {
+        "city": "Amman",
+        "time_loss": 100.8379888268156
+      },
+      {
+        "city": "Amman",
+        "time_loss": 19.80519480519481
+      },
+      {
+        "city": "Amman",
+        "time_loss": 36.03164942178941
+      },
+      {
+        "city": "Amman",
+        "time_loss": 20
+      },
+      {
+        "city": "Amman",
+        "time_loss": 103.3733133433283
+      },
+      {
+        "city": "Amman",
+        "time_loss": 69.24731182795699
+      },
+      {
+        "city": "Amman",
+        "time_loss": 77.6297335203366
+      },
+      {
+        "city": "Amman",
+        "time_loss": 42.875
+      },
+      {
+        "city": "Amman",
+        "time_loss": 51.82795698924731
+      },
+      {
+        "city": "Amman",
+        "time_loss": 78.95705521472392
+      },
+      {
+        "city": "Amman",
+        "time_loss": 59.10543130990416
+      },
+      {
+        "city": "Amman",
+        "time_loss": 17.10625470987189
+      },
+      {
+        "city": "Amman",
+        "time_loss": 37.67752715121136
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 32.40391861341372
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 59.9264705882353
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 81.43690736688548
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 75.79441245468117
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 47.32872407291012
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 56.62358642972536
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 71.07578768095374
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 74.05503477472028
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 56.18661257606491
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": -1.121495327102804
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 45.31450577663671
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 76.73306772908367
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 47.58181291630466
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 92.1598077500751
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 128.3870967741935
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 74.8688602765856
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 71.4388748647674
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 31.36258660508083
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 63.30337078651685
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 68.65671641791045
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 64.75216365066876
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 177.9424585876199
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 65.06962473448195
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 48.89952153110048
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 78.49596022374145
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 26.93236714975846
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 182.9787234042553
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 77.89036113276175
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 70.38664323374341
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 74.52878247580234
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 45.81347855684139
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 106.5034429992349
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 193.9446366782007
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 70.63142437591777
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 29.24114671163575
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 18.25313807531381
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 24.85078676071622
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 66.61931818181819
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 45.09090909090909
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 13.67880485527544
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 69.64472309299896
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 79.93957703927492
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 156.8010936431989
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 35.81395348837209
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 69.0319310694374
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 45.53459119496856
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 68.07031888798038
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 32.31101511879049
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 34.47482749808331
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 68.38529176658673
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 14.80865224625624
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 68.32222895215021
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 28.37270341207349
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 110.0835322195704
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 34.57051961823966
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 77.85182281458252
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 32.77748827514331
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 57.55305867665418
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 30.03759398496241
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 92.83469516027655
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 32.91700241740532
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 32.67813267813268
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 25.20908004778973
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 28.71736662883087
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 59.33719095213046
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 18.45483723062815
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 78.79490150637312
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 17.65814266487214
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 43.16690442225392
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 42.92656587473002
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 59.74409448818898
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 16.87943262411348
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 56.66436464088398
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 21.33687472332891
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 33.43530131538697
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 49.13913448115402
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 56.80406549971767
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 34.90122295390405
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 59.46153846153846
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 25.08813160987074
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 2.89463527595523
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 40.26280323450135
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 9.082693176683236
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 107.1330589849108
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 16.87150837988827
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 42.98526585522101
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 48.48484848484848
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 52.28190003104626
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 40.91586001489203
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 67.46557878633351
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 32.60489510489511
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 28.4407027818448
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 12.45074862096139
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 41.12469437652812
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 86.74311926605505
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 32.49895702962036
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 61.09309865678555
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 58.94484412470024
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 34.98010610079576
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 94.0552995391705
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 60.95311299000769
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 31.280276816609
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 33.80281690140845
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 21.04885057471265
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 129.6506904955321
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 62.17494089834516
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 54.2043085476025
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 19.6875
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 47.67747589833479
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 33.31524688008682
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 64.86636971046771
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 18.60082304526749
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 14.3003064351379
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 37.68637532133676
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 35.17948717948718
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.15711854792967
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 20.95860566448802
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 17.46634449430445
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 32.29893974657357
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 59.50155763239876
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 18.83643299952313
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 22.00514138817481
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 60.22935779816514
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 13.80065717415115
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.26224156692057
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 81.03448275862068
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 22.80300555374061
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 10.16190881976992
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 8.181378086170728
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 24.21100090171326
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 19.20106524633822
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 33.42558425584256
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 12.56309590577678
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 16.94626793095064
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 50.5765407554672
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 15.7541504768633
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 20.06045616927727
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 16.50570676031607
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 24.37284234752589
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 46.02385685884692
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 54.54075032341527
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 72.25240284162139
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 7.122774133083412
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.688
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 25.41577390062239
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.24313072439634
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 13.07759372275501
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.50254435428414
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.2846865364851
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.13507625272331
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.08145580589255
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 17.33537519142419
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.20191238603513
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 53.0213539300318
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 42.02632384450566
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.92145702902675
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.56413835892663
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 42.46880570409982
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.02990897269181
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 17.30608840700584
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 20.14551333872271
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 79.32636469221835
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 21.92037470725995
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.48505537854651
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 57.36602299848123
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 62.29235880398671
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 45.3919882034898
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 24.78911042944785
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.9004329004329
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 15.67080045095829
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 30.30923612533279
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 4.259896729776248
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 74.6141975308642
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 19.82053611994548
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.05037313432836
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 47.49307130259511
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 42.74905422446406
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.56394402863651
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 35.75012137886389
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.17440912795436
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 40.62196307094266
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.05356352368305
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 16.60198361362656
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 20.28526148969889
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 57.20730397422127
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 77.35849056603773
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 13.73046049852134
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.70775969962453
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 50.29441624365482
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 14.73946712166951
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.55455568053993
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 52.29896698399838
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 25.98397770811564
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 39.12930811090956
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 35.12782361693494
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 27.16916650844883
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.05208670333225
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.64285714285714
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 72.96683325761018
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 22.14305289120307
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 51.62174508908177
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 57.07936507936508
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.35181561208958
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 39.46948544076586
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.18623124448367
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.33905356214249
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 57.59432441148017
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 45.52158273381295
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 17.97356828193833
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.57012888551933
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 24.21966066571688
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 16.82994222557146
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.0280296784831
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 55.63063063063063
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 55.96298834818369
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 24.50582868727826
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 44.3515704154002
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 12.26896473523075
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 13.72701372701373
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 44.28610578240614
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.24796274738068
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.1439652497673
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 8.90726896771115
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 21.44095073037881
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 32.76904474002419
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 15.8072696534235
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 7.966101694915254
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 28.46079380445305
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 33.46273291925466
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 26.09561752988048
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 5.613701236917222
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 25.30864197530864
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 11.61067193675889
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 28.43373493975903
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 40.42769857433809
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 15.08728179551122
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 16.58630665380906
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 27.53968253968254
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 22.24276032039433
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 31.83520599250936
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 38.80597014925373
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 21.45557655954631
+      },
+      {
+        "city": "Amman",
+        "time_loss": 80.63314711359403
+      },
+      {
+        "city": "Amman",
+        "time_loss": 16.55844155844156
+      },
+      {
+        "city": "Amman",
+        "time_loss": 31.34510042604991
+      },
+      {
+        "city": "Amman",
+        "time_loss": 18.61224489795918
+      },
+      {
+        "city": "Amman",
+        "time_loss": 102.5487256371814
+      },
+      {
+        "city": "Amman",
+        "time_loss": 60.53763440860215
+      },
+      {
+        "city": "Amman",
+        "time_loss": 76.43758765778401
+      },
+      {
+        "city": "Amman",
+        "time_loss": 31.875
+      },
+      {
+        "city": "Amman",
+        "time_loss": 38.49462365591398
+      },
+      {
+        "city": "Amman",
+        "time_loss": 58.65030674846626
+      },
+      {
+        "city": "Amman",
+        "time_loss": 49.94675186368477
+      },
+      {
+        "city": "Amman",
+        "time_loss": 12.81085154483798
+      },
+      {
+        "city": "Amman",
+        "time_loss": 28.73851294903927
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 36.02110022607385
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 60.56985294117647
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 86.10503282275711
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 82.89613990189805
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 43.43180389692018
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 57.8082929456112
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 82.96906045983536
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 87.0577562745691
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 53.05708490292669
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": -0.3271028037383177
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 43.64569961489089
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 73.58565737051792
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 56.84911671010715
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 93.75187744067287
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 126.6935483870968
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 80.92513113972342
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 70.35701406419041
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 36.44341801385681
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 63.68539325842696
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 70.39222492190211
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 69.70889063729346
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 177.6373147340889
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 61.198961529384
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 54.06698564593302
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 74.08328154133002
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 28.3816425120773
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 185.5623100303951
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 85.32086256170435
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 69.50790861159929
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 78.2475802343352
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 57.43135920127071
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 109.3343534812548
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 203.6332179930796
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 79.2462065589819
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 29.67959527824621
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 24.29393305439331
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 23.33152468800868
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 68.79734848484848
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 55.8716577540107
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 14.51914098972922
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 77.56008359456635
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 85.98187311178248
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 148.1203007518797
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 31.31782945736434
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 97.87126203750634
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 65.03144654088051
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 117.7023712183156
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 68.29373650107992
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 57.1939688218758
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 99.80015987210231
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 24.68108707709373
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 95.15445184736524
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 37.3490813648294
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 125.8353221957041
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 64.84623541887593
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 128.1850254802038
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 61.80302240750391
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 83.31252600915522
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 40.37593984962406
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 161.4079195474544
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 47.26027397260274
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 38.6977886977887
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 39.90442054958184
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 35.61293984108967
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 87.69068911099421
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 27.23521320495186
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 112.0509849362688
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 32.51682368775236
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 52.35378031383738
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 140.9287257019438
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 72.73622047244095
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 21.56028368794326
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 82.38950276243094
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 31.8282425852147
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 38.75802997858673
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 69.14844113541182
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 66.96781479390175
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 62.60583254938852
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 87.42307692307692
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 28.73090481786134
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 9.918950212273254
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 76.41509433962264
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 17.66832354270221
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 193.9643347050755
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 23.77094972067039
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 43.11338885329917
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 80.36616161616162
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 64.48307978888543
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 59.41921072226359
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 90.20907700152983
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 41.52097902097902
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 36.53001464128843
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 18.1639085894405
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 73.74083129584352
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 144.7706422018349
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 72.46558197747184
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 78.50856878184345
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 84.1726618705036
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 68.26923076923077
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 129.5852534562212
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 98.65488086087625
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 35.4325259515571
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 34.05136702568351
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 19.39655172413793
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 120.5523964256702
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 71.8676122931442
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 82.14037526059764
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 26.328125
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 45.92462751971954
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 39.88062940857298
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 78.84187082405346
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 24.03292181069959
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 22.33571671773919
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 42.5706940874036
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 33.43589743589744
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.78105501985252
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 20.93681917211329
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 18.570935450466
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 32.5833979829325
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 64.48598130841121
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.5307582260372
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 24.11311053984576
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 74.72477064220183
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 14.18400876232202
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 22.43743199129489
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 92.4916573971079
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 28.25873897419144
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 10.82232637409459
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 11.63466193319348
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 24.48151487826871
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.99733688415446
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 34.31734317343174
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 15.8160403813797
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 20.0097252613664
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 60.99403578528827
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 18.29742140586365
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 23.90766694146744
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 17.32513901082821
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.15189873417722
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 51.98807157057654
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 61.08667529107374
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 76.13873798579189
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 7.005623242736645
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 47.84
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 22.02836445260688
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.47543713572023
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 15.19907003777971
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.99587402007977
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 34.45529290853032
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.89760348583878
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.10225303292894
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 15.23736600306279
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 42.02801867911941
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 71.4447978191731
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 48.69911233547597
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 37.79169038133182
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 47.52598107646968
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.9554367201426
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.82409268235016
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 22.64386989157631
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 25.96604688763137
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 100.4645760743322
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.57142857142857
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 27.78030647853133
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 64.67780429594272
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 68.02325581395348
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.27500614401573
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 17.58052147239264
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 37.51803751803752
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 16.04123047189563
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.49703051402826
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 3.227194492254733
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 114.5447530864197
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 19.86597001363017
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.5634328358209
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 52.6832955404384
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 60.19335855401429
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 35.37260006508298
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 40.60527593461725
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.2559087204564
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 51.92743764172336
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 35.70163789287295
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.08969383354894
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.28050713153724
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 58.92588614393126
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 87.3907040957202
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 13.94169835234474
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.89236545682103
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 54.94416243654823
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 13.440084000525
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.02587176602925
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 56.7956248734049
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 34.27377220480669
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 41.072816791915
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.92871635330718
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.04252895386368
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 30.15205435134261
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.96428571428572
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 79.41844616083598
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 22.03343381748424
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 60.80402010050251
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 67.84126984126983
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 21.65688193085454
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 50
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.95057369814651
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.07904316172647
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 61.14156723637537
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.16546762589928
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 21.97136563876652
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.89158453373768
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 23.96062686180547
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.99020346646571
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.87881286067601
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 70.04504504504504
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 102.8444139821796
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.30714647744551
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 52.2289766970618
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 13.08538383036625
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 16.7055167055167
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 46.91696355165799
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 62.07799767171129
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 35.12255662426311
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 10.37060601240655
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 25.62515474127259
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 36.63845223700121
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 17.92054099746407
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 19.83050847457627
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 34.75314617618587
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 56.2888198757764
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 38.64541832669322
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 16.93625118934348
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 43.08641975308642
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 18.87351778656127
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 35.50200803212851
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 50.40733197556008
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 18.64089775561097
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 18.70781099324976
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 31.74603174603175
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 27.0486752926679
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 39.70037453183521
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 43.16877152698049
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 26.74858223062382
+      },
+      {
+        "city": "Amman",
+        "time_loss": 80.54003724394786
+      },
+      {
+        "city": "Amman",
+        "time_loss": 18.07359307359307
+      },
+      {
+        "city": "Amman",
+        "time_loss": 31.22337188070603
+      },
+      {
+        "city": "Amman",
+        "time_loss": 19.51020408163265
+      },
+      {
+        "city": "Amman",
+        "time_loss": 90.10494752623688
+      },
+      {
+        "city": "Amman",
+        "time_loss": 61.61290322580645
+      },
+      {
+        "city": "Amman",
+        "time_loss": 71.03786816269285
+      },
+      {
+        "city": "Amman",
+        "time_loss": 36.6875
+      },
+      {
+        "city": "Amman",
+        "time_loss": 46.73835125448029
+      },
+      {
+        "city": "Amman",
+        "time_loss": 63.80368098159509
+      },
+      {
+        "city": "Amman",
+        "time_loss": 48.77529286474974
+      },
+      {
+        "city": "Amman",
+        "time_loss": 16.80482290881688
+      },
+      {
+        "city": "Amman",
+        "time_loss": 32.24728487886382
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 31.80105501130369
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 60.29411764705883
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 82.64040846097738
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 75.87971849008318
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 40.91766184789441
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 52.55788906838988
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 82.344592676696
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 70.547323858482
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 51.81106925528832
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": -4.859813084112149
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 41.3992297817715
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 65.2589641434263
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 63.97335650159282
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 89.15590267347552
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 114.2741935483871
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 70.72007629947544
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 69.70789758384421
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 29.4919168591224
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 62.08988764044944
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 67.47657063519611
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 60.34618410700236
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 153.8796861377507
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 57.80033042246873
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 52.72727272727273
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 67.37103791174643
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 28.80434782608696
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 179.3313069908815
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 87.03559366069109
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 64.49912126537785
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 75.54763117677025
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 54.32266848196052
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 101.8362662586075
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 198.4429065743945
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 76.79882525697504
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 25.96964586846543
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 22.5418410041841
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 22.57189365165491
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 59.23295454545455
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 52.77005347593583
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 13.16526610644258
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 74.42528735632185
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 73.71601208459215
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 148.4620642515379
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 31.62790697674419
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 76.5838824125697
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 69.15094339622641
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 97.58789860997547
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 42.93736501079913
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 46.28162535139279
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 99.96003197442046
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 28.45257903494176
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 76.43852210781344
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 37.06036745406824
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 117.8997613365155
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 64.4220572640509
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 108.6240689925519
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 56.74830640958833
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 71.78526841448189
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 41.50375939849624
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 139.0949088623507
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 50.04029008863819
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 39.14823914823915
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 43.42891278375149
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 40.97616345062429
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 87.00683850604945
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 25.79092159559835
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 107.531865585168
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 22.07267833109017
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 57.26105563480742
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 129.9676025917927
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 60.28543307086614
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 21.89125295508274
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 70.82182320441989
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 30.45595396193006
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 44.26430100948302
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 78.50162866449512
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 75.04234895539243
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 48.35371589840075
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 90.84615384615384
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 30.43478260869565
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 6.985719799305287
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 67.28436657681941
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 15.54450971531857
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 166.8724279835391
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 21.34078212290503
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 51.05701473414478
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 77.58838383838383
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 68.39490841353617
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 68.95011169024572
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 91.07598164201937
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 50.30594405594405
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 48.53587115666178
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 17.3758865248227
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 52.1760391198044
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 132.4770642201835
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 57.07133917396746
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 88.60583603520148
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 96.35491606714628
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 48.14323607427055
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 115.5760368663594
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 89.04688700999232
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 38.47750865051903
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 35.87406793703397
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 19.97126436781609
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 125.6701868399675
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 63.00236406619386
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 69.97915218902016
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 27.5
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 47.45836985100789
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 35.37710255018991
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 69.59910913140311
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 23.25102880658436
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 18.7946884576098
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 42.05655526992288
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 36.15384615384615
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 22.66023823028928
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 22.35294117647059
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 19.67552640662755
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 36.85027152831653
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 61.00726895119418
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.10157367668097
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 25.65552699228792
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 72.98165137614679
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 15.82694414019715
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 31.64309031556039
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 88.87652947719688
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 24.63247304802352
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 9.267149552620367
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 9.811198967242214
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 24.52660054102795
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.01198402130493
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 32.50307503075031
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 12.33875490745934
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 15.97374179431072
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 56.58051689860835
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 18.82726951607206
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.48942017037648
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 16.33011413520632
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.60529344073648
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 50.7455268389662
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 59.61190168175938
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 70.53907229419139
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 10.02811621368322
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 40.768
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.99724517906336
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.97502081598668
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 16.30340017436792
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.39073029844588
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.62795477903391
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 35.81699346405229
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.02772963604853
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 15.5895865237366
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 40.58261062930843
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 87.55111313039528
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 47.35231098867462
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 39.38531587933979
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 47.89824724678145
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 55.3030303030303
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.25724080860622
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 17.51459549624687
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 25.25464834276475
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 110.4819976771196
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 30.47619047619047
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.6037020179032
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 65.41549142981124
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 69.55980066445183
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 50.35635291226345
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 21.51073619631902
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.07462378890951
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 17.28136575938154
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.36063895146427
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 3.78657487091222
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 132.5231481481482
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 22.17174011812812
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 46.45522388059702
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 51.67548500881834
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 59.62589323245061
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 42.36902050113896
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 42.01327075578573
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 20.08964955175224
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 48.00777453838678
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.62328463922089
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 20.54764984907288
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 30.50713153724247
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 57.01396348012889
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 80.48780487804878
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.36361075904802
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 39.90926157697121
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 56.22335025380711
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.11261320383252
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 48.73453318335208
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 55.47903585173182
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.27830024381749
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 45.37444933920705
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 39.91613688624374
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.06759065881906
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.37560659980589
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.03571428571428
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 79.16855974557019
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 22.37599342285558
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 62.72270443124714
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 72.53968253968254
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 19.61295933898674
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 50.43877143996809
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.78905560458958
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 30.55122204888195
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 61.46404385682038
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.39928057553957
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 22.74229074889868
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.77028051554208
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 25.86452532055433
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 19.05300175835217
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.79637262984336
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 64.50450450450451
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 103.0157642220699
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 27.82564622402433
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 55.59777102330294
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 19.29924027667536
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 16.10981610981611
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 45.27267744587558
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 58.17811408614669
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 37.75985107043127
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 10.49785271194528
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.5231492943798
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 34.94558645707376
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 16.73710904480135
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 14.51977401129943
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 30.78412391093901
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 47.51552795031056
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 33.36653386454184
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 11.03710751665081
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 36.2962962962963
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 12.79644268774704
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 33.89558232931727
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 46.84317718940937
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 16.95760598503741
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 17.45419479267117
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 27.46031746031746
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 30.06777572396796
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 37.82771535580525
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 39.03559127439724
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 23.62948960302457
+      },
+      {
+        "city": "Amman",
+        "time_loss": 76.81564245810056
+      },
+      {
+        "city": "Amman",
+        "time_loss": 19.6969696969697
+      },
+      {
+        "city": "Amman",
+        "time_loss": 34.51004260499087
+      },
+      {
+        "city": "Amman",
+        "time_loss": 19.18367346938776
+      },
+      {
+        "city": "Amman",
+        "time_loss": 106.5217391304348
+      },
+      {
+        "city": "Amman",
+        "time_loss": 66.02150537634408
+      },
+      {
+        "city": "Amman",
+        "time_loss": 68.93408134642357
+      },
+      {
+        "city": "Amman",
+        "time_loss": 41.625
+      },
+      {
+        "city": "Amman",
+        "time_loss": 60.21505376344086
+      },
+      {
+        "city": "Amman",
+        "time_loss": 69.93865030674847
+      },
+      {
+        "city": "Amman",
+        "time_loss": 59.31842385516507
+      },
+      {
+        "city": "Amman",
+        "time_loss": 23.21024868123587
+      },
+      {
+        "city": "Amman",
+        "time_loss": 41.01921470342523
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 33.98643556895252
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 56.4797794117647
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 79.68636032093363
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 76.98869695030923
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 44.68887492143306
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 50.51157781367797
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 85.15469770082316
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 69.15633504687028
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 53.11503911909591
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": -2.242990654205607
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 54.49293966623877
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 67.29083665338645
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 60.84564147118448
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 96.99609492340042
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 104.4354838709677
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 62.66094420600859
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 68.84240894338262
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 32.26327944572748
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 66.38202247191012
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 64.10968413745228
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 56.56963021243116
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 162.2493461203139
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 62.85107387302337
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 55.78947368421053
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 61.90180236171535
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 28.3816425120773
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 179.8632218844985
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 90.85476747207066
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 64.19156414762742
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 78.2475802343352
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 62.06035852053551
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 97.93420045906656
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 194.4636678200692
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 73.1767009300049
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 28.29679595278246
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 22.46338912133891
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 24.30819316332067
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 61.50568181818182
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 54.54545454545455
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 14.93930905695612
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 84.1692789968652
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 69.12386706948641
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 150.5126452494873
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 28.01033591731266
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 100.5068423720223
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 104.748427672956
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 108.585445625511
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 58.14254859611231
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 61.76846409404549
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 103.796962430056
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 39.60066555740433
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 80.67837674136887
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 57.63779527559055
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 135.2028639618138
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 83.56309650053022
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 109.5648765190121
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 58.78061490359562
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 71.49396587598835
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 50.22556390977444
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 154.242614707731
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 52.57856567284448
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 40.17199017199017
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 47.43130227001195
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 52.35527809307605
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 107.9431877958969
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 45.52957359009628
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 113.8470451911935
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 25.41049798115747
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 74.80741797432239
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 143.2505399568035
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 77.31299212598425
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 23.26241134751773
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 71.33977900552486
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 43.16069057104914
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 53.16610584276537
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 77.85016286644951
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 75.6634669678148
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 54.60959548447789
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 105.3461538461538
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 33.07873090481786
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 10.65225781551525
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 70.82210242587601
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 26.07320379575237
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 196.639231824417
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 27.79329608938547
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 54.26008968609865
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 91.79292929292929
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 72.08941322570631
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 78.03425167535369
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 95.46149923508415
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 62.15034965034965
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 63.25036603221083
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 21.35539795114263
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 67.77506112469437
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 145.5504587155963
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 61.82728410513141
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 102.0379805465493
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 95.58752997601918
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 56.96286472148541
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 126.8202764976959
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 98.46272098385857
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 31.55709342560554
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 35.37696768848384
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 21.47988505747126
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 117.5467099918765
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 63.47517730496454
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 67.06045865184156
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 28.359375
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 51.48992112182296
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 37.22192078133478
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 64.75501113585746
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 23.53909465020576
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 17.53489955737147
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 37.22365038560411
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 34.56410256410256
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 17.55530346001134
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 14.90196078431373
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 16.39627200552296
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 28.2648047582105
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 53.99792315680166
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 18.57415355269433
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 22.98200514138817
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 66.92660550458716
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 13.91018619934283
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 31.20783460282916
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 86.09566184649611
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 23.32571055210715
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 7.328504473796336
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 10.05325157334194
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 24.16591523895401
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 16.96404793608522
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 27.67527675276753
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 13.74088614694335
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 10.72210065645514
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 51.610337972167
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 17.48498763687743
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 19.48337455344875
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 12.58413813286509
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 24.23475258918297
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 55.8648111332008
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 52.28978007761966
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 71.2912661930631
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 7.567947516401125
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 41.44
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 27.85430058157331
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 25.87843463780183
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 12.00232490555071
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 24.24700866455783
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.58787255909558
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 34.29193899782135
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.07625649913345
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 9.448698315467075
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 34.71203024238381
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 68.05997273966379
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 41.99571472298745
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 30.0796812749004
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.46750426554987
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 45.09803921568628
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.57429956259605
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 20.60050041701418
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 20.67906224737268
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 81.53310104529616
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 27.22872755659641
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.44636625701715
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 56.04252549359948
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 68.56312292358804
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 47.55468173998526
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 25.92024539877301
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.53988868274583
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 15.57416653245289
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.44562768789678
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 2.517211703958692
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 108.0632716049383
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.82099045888233
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 50.79291044776119
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.91181657848325
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 51.5973097940311
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 37.4877969410999
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.70496844149539
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 17.23716381418093
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 48.26692581794622
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.7618415227977
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 19.40491591203105
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.87321711568938
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 51.32116004296456
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 86.56235618959963
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 12.08280523869877
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.87046307884856
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.19796954314721
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 13.91258695366846
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 44.68503937007874
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.0176220376747
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 33.96029258098223
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 39.88079813423167
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 39.30745299607737
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.21340421492311
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.0109996764801
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.03571428571428
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 70.03634711494774
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 15.33296793642094
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 55.91594335312929
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 65.84126984126983
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.7866927592955
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 42.10211408057439
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 34.81906443071492
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 24.75299011960479
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 60.30312802321831
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 51.02517985611511
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.60132158590308
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.62850644427597
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 23.17057375987566
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 16.02612408942477
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.52102225886232
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 59.63963963963964
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 95.16792323509253
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.22909275215408
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 46.35258358662614
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 14.35536908946593
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 16.88681688681689
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.61277062208824
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.79627473806752
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.42320819112628
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 9.988865913790361
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 23.69398365932161
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 36.15477629987908
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 16.99070160608622
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 15.59322033898305
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 34.75314617618587
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 40.6055900621118
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 34.16334661354582
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 14.93815413891532
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 38.95061728395062
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 19.12055335968379
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 29.23694779116466
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 56.21181262729124
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 17.26932668329177
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 18.17743490838959
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 33.01587301587302
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 36.22920517560074
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 36.70411985018727
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 43.28358208955224
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 25.70888468809074
+      },
+      {
+        "city": "Amman",
+        "time_loss": 31.84357541899441
+      },
+      {
+        "city": "Amman",
+        "time_loss": 8.982683982683982
+      },
+      {
+        "city": "Amman",
+        "time_loss": 17.95496043822276
+      },
+      {
+        "city": "Amman",
+        "time_loss": 12.48979591836735
+      },
+      {
+        "city": "Amman",
+        "time_loss": 55.62218890554723
+      },
+      {
+        "city": "Amman",
+        "time_loss": 26.88172043010753
+      },
+      {
+        "city": "Amman",
+        "time_loss": 18.09256661991585
+      },
+      {
+        "city": "Amman",
+        "time_loss": 21.875
+      },
+      {
+        "city": "Amman",
+        "time_loss": 34.40860215053763
+      },
+      {
+        "city": "Amman",
+        "time_loss": 31.53374233128834
+      },
+      {
+        "city": "Amman",
+        "time_loss": 32.05537806176784
+      },
+      {
+        "city": "Amman",
+        "time_loss": 10.62547098718915
+      },
+      {
+        "city": "Amman",
+        "time_loss": 13.86800334168755
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 33.91107761868877
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 63.0514705882353
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 87.34500364697301
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 95.09490296438473
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 47.07730986800754
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 64.10877759827679
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 80.21572523417542
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 88.02540066525552
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 69.51608229498696
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": -0.4672897196261682
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 62.002567394095
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 80.5179282868526
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 52.15754416449465
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 123.1300690898168
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 141.8548387096774
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 37.38674296614211
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 77.78579156148575
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 40.32332563510393
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 83.52808988764045
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 73.51614022908713
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 56.80566483084186
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 176.9398430688753
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 71.72527731885768
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 47.32057416267943
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 78.49596022374145
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 40.39855072463768
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 174.1641337386018
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 94.72590283190439
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 71.70474516695958
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 91.69638308711157
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 53.57385976855004
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 117.9801071155318
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 151.9031141868512
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 74.79197258932942
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 38.14502529510961
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 38.44142259414226
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 26.04449267498644
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 66.52462121212122
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 45.96791443850267
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 18.16059757236228
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 93.44305120167189
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 86.34441087613293
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 169.583048530417
+      },
+      {
+        "city": "Mexico City",
+        "time_loss": 36.64082687338502
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 96.9589457678662
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 105.377358490566
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 95.46197874080131
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 56.06911447084233
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 60.84845387170969
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 109.7921662669864
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 64.55906821963394
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 105.9963658388855
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 66.8241469816273
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 125.6563245823389
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 82.42311770943796
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 103.8808310466484
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 83.22042730588848
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 81.81439866833125
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 61.05263157894737
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 175.6756756756757
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 70.34649476228847
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 50.08190008190008
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 73.02867383512545
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 58.82519863791146
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 112.3093108890058
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 53.00320953690967
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 127.3464658169177
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 33.08209959623149
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 80.59914407988587
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 90.44276457883369
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 82.57874015748031
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 31.15839243498818
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 81.07734806629834
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 67.46347941567065
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 67.88008565310493
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 107.6779897626803
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 95.70863918690006
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 84.28974600188147
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 102.3846153846154
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 55.34665099882491
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 13.58548822848321
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 84.63611859838275
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 44.37415273384546
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 167.0781893004115
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 40.69832402234637
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 58.10377962844331
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 91.98232323232324
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 100.0620925178516
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 99.70215934475056
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 100.1019887812341
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 84.7465034965035
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 68.74084919472914
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 30.02364066193853
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 82.49388753056235
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 137.4311926605505
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 57.48852732582395
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 112.4594719777675
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 107.9136690647482
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 64.95358090185677
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 121.705069124424
+      },
+      {
+        "city": "Bangkok",
+        "time_loss": 99.69254419677172
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 27.1280276816609
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 31.64871582435791
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 20.83333333333333
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 120.8773354995938
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 66.903073286052
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 51.42460041695622
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 31.953125
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 37.59859772129711
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 36.46228974498101
+      },
+      {
+        "city": "Panama City",
+        "time_loss": 75.11135857461025
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.89300411522634
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 21.89308818522302
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 38.30334190231363
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 33.7948717948718
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 23.85138967668746
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 20.50108932461874
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 18.01863997238523
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 32.1955003878976
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 55.97092419522326
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 27.25321888412017
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 25.55269922879177
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 68.39449541284404
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 13.91018619934283
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 36.99673558215451
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 76.8075639599555
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 24.01176086246325
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 10.03408606731998
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 11.23124092302727
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 25.33814247069432
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 19.14780292942743
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 31.54981549815498
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 13.34828939988783
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 15.80354972039874
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 56.779324055666
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 25.04415400918403
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 23.3031052486947
+      },
+      {
+        "city": "Colombo",
+        "time_loss": 16.53497219783436
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 35.99539700805524
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 60.03976143141153
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 65.92496765847348
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 74.30004178854993
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 18.08809746954077
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 54.784
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.46607489031732
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.69192339716903
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 17.93083405986632
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 34.20437353871544
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 46.81397738951696
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 37.1677559912854
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.05025996533796
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 21.4854517611026
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.98888147653992
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 90.25442980463426
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 58.24915824915825
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 51.93511667615253
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 63.45587094772763
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 71.92513368983957
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 41.80163139851046
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 20.97581317764804
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.3338722716249
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 125.0580720092915
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.66198282591725
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 35.91260810195721
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 71.01323497504882
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 71.76079734219269
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 54.48513148193659
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.49923312883435
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 46.83570397856112
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 27.08970848767918
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.19373336063895
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 6.820137693631669
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 122.9166666666667
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 27.82825988187188
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 53.87126865671642
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 53.56512975560594
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 70.97519966372425
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.60950211519688
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 50.94675513837191
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 25.14262428687856
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.40071266601879
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 45.92740150509075
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.05088400172488
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 57.84469096671949
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 60.92373791621912
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 78.1868384721583
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 27.37642585551331
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 48.13829787234042
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 59.91878172588832
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 22.35201470009187
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 58.74578177727784
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 63.64188778610492
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 35.24904214559387
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 61.98497019953356
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 50.18260516704991
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 38.08619707613443
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 29.6344225169848
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 32.71428571428572
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 88.45979100408906
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 27.48698273499589
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 73.54956601187757
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 83.17460317460318
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.70145683844314
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 60.92939768647786
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.59752868490732
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 34.06136245449818
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 59.9806514027733
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 48.3273381294964
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.01321585903084
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 41.95602729340409
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 28.61028364201528
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 23.07209243908566
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 56.36850783182193
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 71.08108108108108
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 105.6888279643591
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 31.4749113025849
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 69.57953394123606
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 26.82843859848055
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 19.45091945091945
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 49.98629761578515
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 73.22467986030267
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 43.03443996276761
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 11.16589788452362
+      },
+      {
+        "city": "Jakarta",
+        "time_loss": 36.22183708838821
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 36.51753325272067
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 18.17413355874894
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 13.78531073446328
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 31.75217812197483
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 25.54347826086957
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 21.01593625498008
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 7.231208372978116
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 25.98765432098766
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 19.96047430830039
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 31.4859437751004
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 48.16700610997963
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 18.95261845386534
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 22.22757955641273
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 33.80952380952381
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 25.939617991374
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 31.7103620474407
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 20.20665901262916
+      },
+      {
+        "city": "Cape Town",
+        "time_loss": 25.51984877126654
+      },
+      {
+        "city": "Astana",
+        "time_loss": 19.16666666666667
+      },
+      {
+        "city": "Astana",
+        "time_loss": 20.55555555555556
+      },
+      {
+        "city": "Astana",
+        "time_loss": 20.83333333333333
+      },
+      {
+        "city": "Astana",
+        "time_loss": 22.05962059620596
+      },
+      {
+        "city": "Astana",
+        "time_loss": 22.710027100271
+      },
+      {
+        "city": "Astana",
+        "time_loss": 23.05555555555556
+      },
+      {
+        "city": "Astana",
+        "time_loss": 23.63143631436314
+      },
+      {
+        "city": "Astana",
+        "time_loss": 23.88888888888889
+      },
+      {
+        "city": "Astana",
+        "time_loss": 25.76590730557738
+      },
+      {
+        "city": "Astana",
+        "time_loss": 25.85365853658537
+      },
+      {
+        "city": "Astana",
+        "time_loss": 27.10133542812255
+      },
+      {
+        "city": "Astana",
+        "time_loss": 27.17989002356638
+      },
+      {
+        "city": "Astana",
+        "time_loss": 29.77219167321288
+      },
+      {
+        "city": "Astana",
+        "time_loss": 30.24439918533605
+      },
+      {
+        "city": "Astana",
+        "time_loss": 30.73170731707317
+      },
+      {
+        "city": "Astana",
+        "time_loss": 32.17922606924643
+      },
+      {
+        "city": "Astana",
+        "time_loss": 33.09572301425662
+      },
+      {
+        "city": "Astana",
+        "time_loss": 33.30714846818539
+      },
+      {
+        "city": "Astana",
+        "time_loss": 36.35437881873727
+      },
+      {
+        "city": "Astana",
+        "time_loss": 37.27087576374745
+      },
+      {
+        "city": "Astana",
+        "time_loss": 59.86093552465234
+      },
+      {
+        "city": "Astana",
+        "time_loss": 62.04878048780488
+      },
+      {
+        "city": "Astana",
+        "time_loss": 62.13653603034134
+      },
+      {
+        "city": "Astana",
+        "time_loss": 64.18732782369146
+      },
+      {
+        "city": "Astana",
+        "time_loss": 66.56131479140329
+      },
+      {
+        "city": "Astana",
+        "time_loss": 69.46341463414635
+      },
+      {
+        "city": "Astana",
+        "time_loss": 70.41719342604299
+      },
+      {
+        "city": "Astana",
+        "time_loss": 70.54361567635904
+      },
+      {
+        "city": "Astana",
+        "time_loss": 71.21951219512195
+      },
+      {
+        "city": "Astana",
+        "time_loss": 71.70731707317073
+      },
+      {
+        "city": "Astana",
+        "time_loss": 73.07317073170732
+      },
+      {
+        "city": "Astana",
+        "time_loss": 73.55371900826447
+      },
+      {
+        "city": "Astana",
+        "time_loss": 74.38848920863309
+      },
+      {
+        "city": "Astana",
+        "time_loss": 75.25179856115108
+      },
+      {
+        "city": "Astana",
+        "time_loss": 76.83453237410072
+      },
+      {
+        "city": "Astana",
+        "time_loss": 77.26618705035972
+      },
+      {
+        "city": "Astana",
+        "time_loss": 80.14388489208633
+      },
+      {
+        "city": "Astana",
+        "time_loss": 81.37854363535297
+      },
+      {
+        "city": "Astana",
+        "time_loss": 84.02203856749311
+      },
+      {
+        "city": "Astana",
+        "time_loss": 86.7704280155642
+      },
+      {
+        "city": "Astana",
+        "time_loss": 87.05234159779614
+      },
+      {
+        "city": "Astana",
+        "time_loss": 91.04683195592287
+      },
+      {
+        "city": "Astana",
+        "time_loss": 98.27682045580879
+      },
+      {
+        "city": "Astana",
+        "time_loss": 100
+      },
+      {
+        "city": "Astana",
+        "time_loss": 102.8349082823791
+      },
+      {
+        "city": "Astana",
+        "time_loss": 103.0572540300167
+      },
+      {
+        "city": "Astana",
+        "time_loss": 117.0075349838536
+      },
+      {
+        "city": "Astana",
+        "time_loss": 119.2680301399354
+      },
+      {
+        "city": "Astana",
+        "time_loss": 125.1883745963402
+      },
+      {
+        "city": "Astana",
+        "time_loss": 128.740581270183
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 32.88590604026846
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 10.04223369310183
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -1.066790352504638
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 1.01933216168717
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 11.12970711297071
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 9.626802374893979
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 22.1985513421389
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -6.471558120362737
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -4.354587869362364
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -2.458740316604918
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 14.87848251333729
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 8.85608856088561
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 12.38233164373642
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -1.837160751565762
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 18.50649350649351
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 14.64605370219691
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 0.3305004721435316
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 4.406233207952714
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 34.57249070631971
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 30.2013422818792
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 11.63772876583763
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -1.623376623376623
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 1.300527240773286
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 15.14644351464435
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 17.55725190839695
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 19.08819769919046
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -3.957131079967024
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -2.021772939346812
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 1.886156955203772
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 17.72377000592768
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 6.958355297838692
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 16.4373642288197
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 1.210855949895616
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 19.31818181818182
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 17.16842961757526
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -0.1888574126534467
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 6.93175711982805
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 36.15241635687732
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 24.60850111856823
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 12.34162365086814
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -0.4638218923933209
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 0.2460456942003515
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 13.05439330543933
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 12.29855810008482
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 21.04814657008948
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -4.03957131079967
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -1.555209953343701
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -1.549343213203099
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 17.54593953764078
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 8.803373748023194
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 16.9442433019551
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 3.423799582463466
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 16.55844155844156
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 23.67778681855167
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 2.880075542965062
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 5.427189682966147
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 26.20817843866171
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 24.94407158836689
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 9.94838104176443
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 2.179962894248609
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 3.304042179261863
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 9.288702928870293
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 23.07039864291773
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 22.15594375798892
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -0.8244023083264633
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -2.216174183514775
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 4.917480633209835
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 16.30112625963248
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 8.065366367949395
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 17.16147719044171
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -0.3340292275574113
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 19.6969696969697
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 13.83238405207486
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 5.996222851746931
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 2.740462117141322
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 30.11152416356877
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 27.85234899328859
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 13.56170811825434
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -1.11317254174397
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 1.898066783831283
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 17.65690376569038
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 11.91687871077184
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 25.30890498508735
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -3.874690849134378
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -4.043545878693624
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 1.077803974402156
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 14.16716064018969
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 5.482340537691091
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 13.68573497465605
+      },
+      {
+        "city": "Lahore",
+        "time_loss": -1.210855949895616
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 18.93939393939394
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 17.08706265256306
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 3.824362606232294
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 1.07469102632993
+      },
+      {
+        "city": "Lahore",
+        "time_loss": 29.46096654275093
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 19.9806013579
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 4.5238095238
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 2.8455284553
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 10.8564535585
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 4.0944123314
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 27.8388278388
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 1.8111254851
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 3.0628272251
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 68.0491551459
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 13.424437299
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 27.1059782609
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 19.4851309365
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": -1.2939001848
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 40.7791279485
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 21.3349968808
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 6.4713598601
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 41.8329177057
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 15.1466544455
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 14.5182578091
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 18.0674846626
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 16.1224489796
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 24.1106719368
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": -1.3253012048
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 8.5820895522
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 19.7589098532
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 12.9716133669
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 12.027972028
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 32.6802834514
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 11.032950759
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 49.0929081913
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 5.1785714286
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 18.3976972895
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 9.2944038929
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 5.3688950468
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 18.3801652893
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 42.6146010187
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 22.8925289652
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 5.1894563427
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 31.1572700297
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 14.7148988351
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 30.003233107
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 6.4285714286
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 6.6395663957
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 14.3546441496
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 6.9845857418
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 42.5722425722
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 5.0452781371
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 3.1151832461
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 71.8637992832
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 20.6189710611
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 42.2214673913
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 31.7798490901
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": -0.4313000616
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 58.1486776269
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 26.8870867124
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 15.7848710101
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 59.9750623441
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 22.4335472044
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 18.5217773867
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 25.5521472393
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 11.4285714286
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 45.6741326307
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 1.5662650602
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 11.7164179104
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 30.8438155136
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 8.3722601509
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 13.8927738928
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 44.9353897457
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 17.8822658275
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 69.708631116
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 7.6785714286
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 22.5713600384
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 11.6301703163
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 11.014894354
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 27.8347107438
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 48.5568760611
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 24.8501797843
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 5.9308072488
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 46.706231454
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 26.2722256284
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 26.6408018105
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 5.4761904762
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 6.8428184282
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 12.7261761158
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 5.2986512524
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 33.8624338624
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 2.6520051746
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 2.1989528796
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 66.2570404506
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 20.8199356913
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 35.9714673913
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 20.9054593875
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": -0.6161429452
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 48.2844889207
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 25.8889582034
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 10.8876257105
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 45.5112219451
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 15.8799266728
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 15.8820941487
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 20.5521472393
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 13.1972789116
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 38.1203337725
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 1.234939759
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 9.7014925373
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 27.3846960168
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 6.7553000359
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 12.2610722611
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 45.4772822009
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 16.5494261385
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 58.3837273227
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 8.2589285714
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 15.8311345646
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 10.3163017032
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 8.8673363353
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 19.5041322314
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 46.2648556876
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 22.4131042749
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 4.2833607908
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 33.649851632
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 19.7118332311
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 36.113805367
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 10.119047619
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 9.756097561
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 15.5609167672
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 6.2138728324
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 42.8571428571
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 2.1345407503
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 10.9162303665
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 70.7117255504
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 29.1398713826
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 42.4252717391
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 37.1948513094
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": -0.9858287123
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 63.6526090064
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 33.3749220212
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 16.6593790993
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 56.3591022444
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 26.099908341
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 19.1377034756
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 29.5398773006
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 20.9523809524
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 41.5458937198
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 4.2168674699
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 16.8656716418
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 37.4737945493
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 13.1872080489
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 10.9090909091
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 56.3568153397
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 19.8445020363
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 73.1170973062
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 9.6428571429
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 29.0717198369
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 12.603406326
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 14.7211638379
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 29.9504132231
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 51.1884550085
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 33.5996803835
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 5.3542009885
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 44.2729970326
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 31.6370324954
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 23.5046880052
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 3.0952380952
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 3.6585365854
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 11.8214716526
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 3.323699422
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 23.199023199
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 1.7464424321
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 3.8219895288
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 68.6379928315
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 20.6993569132
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 21.7391304348
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 18.1979582779
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": -0.4929143561
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 39.027877055
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 18.7772925764
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 10.8439003061
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 27.9301745636
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 17.0027497709
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 8.6669599648
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 17.6993865031
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 17.1428571429
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 25.8234519104
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": -0.9036144578
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 8.4328358209
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 14.7798742138
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 15.8821415738
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 11.2820512821
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 34.0975406419
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 10.8108108108
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 48.982957669
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 7.0535714286
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 19.0933077477
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 9.8783454988
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 7.0661586422
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 11.7355371901
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 35.1443123939
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 14.222932481
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 4.942339374
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 17.3887240356
+      },
+      {
+        "city": "Nairobi",
+        "time_loss": 18.1790312692
+      }
+]

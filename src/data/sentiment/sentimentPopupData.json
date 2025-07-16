@@ -1,0 +1,962 @@
+[
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Air Pollution",
+        "categoryTotal": 122,
+        "categoryPositive": 22,
+        "categoryNegative": 37
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Water Pollution",
+        "categoryTotal": 132,
+        "categoryPositive": 3,
+        "categoryNegative": 50
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Land Use and Waste",
+        "categoryTotal": 127,
+        "categoryPositive": 13,
+        "categoryNegative": 28
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Livability",
+        "categoryTotal": 2495,
+        "categoryPositive": 407,
+        "categoryNegative": 200
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Food Availability",
+        "categoryTotal": 321,
+        "categoryPositive": 36,
+        "categoryNegative": 59
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Energy Availability",
+        "categoryTotal": 167,
+        "categoryPositive": 19,
+        "categoryNegative": 17
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Wealth",
+        "categoryTotal": 212,
+        "categoryPositive": 31,
+        "categoryNegative": 27
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Safety",
+        "categoryTotal": 15758,
+        "categoryPositive": 1550,
+        "categoryNegative": 5135
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Inclusion",
+        "categoryTotal": 1435,
+        "categoryPositive": 178,
+        "categoryNegative": 493
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Transport",
+        "categoryTotal": 1721,
+        "categoryPositive": 211,
+        "categoryNegative": 294
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Accountability",
+        "categoryTotal": 57,
+        "categoryPositive": 4,
+        "categoryNegative": 3
+    },
+    {
+        "city": "Adoni",
+        "total": 1522098,
+        "positive": 239483,
+        "negative": 140656,
+        "category": "Public Services",
+        "categoryTotal": 172,
+        "categoryPositive": 13,
+        "categoryNegative": 58
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Air Pollution",
+        "categoryTotal": 333,
+        "categoryPositive": 29,
+        "categoryNegative": 59
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Water Pollution",
+        "categoryTotal": 166,
+        "categoryPositive": 8,
+        "categoryNegative": 42
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Land Use and Waste",
+        "categoryTotal": 478,
+        "categoryPositive": 20,
+        "categoryNegative": 174
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Livability",
+        "categoryTotal": 3373,
+        "categoryPositive": 813,
+        "categoryNegative": 262
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Food Availability",
+        "categoryTotal": 705,
+        "categoryPositive": 38,
+        "categoryNegative": 184
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Energy Availability",
+        "categoryTotal": 390,
+        "categoryPositive": 7,
+        "categoryNegative": 86
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Wealth",
+        "categoryTotal": 319,
+        "categoryPositive": 14,
+        "categoryNegative": 51
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Safety",
+        "categoryTotal": 33896,
+        "categoryPositive": 1200,
+        "categoryNegative": 10257
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Inclusion",
+        "categoryTotal": 3867,
+        "categoryPositive": 233,
+        "categoryNegative": 643
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Transport",
+        "categoryTotal": 3159,
+        "categoryPositive": 278,
+        "categoryNegative": 1213
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Accountability",
+        "categoryTotal": 196,
+        "categoryPositive": 7,
+        "categoryNegative": 24
+    },
+    {
+        "city": "Almaty",
+        "total": 2420780,
+        "positive": 349822,
+        "negative": 222442,
+        "category": "Public Services",
+        "categoryTotal": 1055,
+        "categoryPositive": 33,
+        "categoryNegative": 244
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Air Pollution",
+        "categoryTotal": 270,
+        "categoryPositive": 8,
+        "categoryNegative": 38
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Water Pollution",
+        "categoryTotal": 432,
+        "categoryPositive": 11,
+        "categoryNegative": 37
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Land Use and Waste",
+        "categoryTotal": 96,
+        "categoryPositive": 5,
+        "categoryNegative": 34
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Livability",
+        "categoryTotal": 4051,
+        "categoryPositive": 285,
+        "categoryNegative": 188
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Food Availability",
+        "categoryTotal": 898,
+        "categoryPositive": 80,
+        "categoryNegative": 300
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Energy Availability",
+        "categoryTotal": 485,
+        "categoryPositive": 15,
+        "categoryNegative": 134
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Wealth",
+        "categoryTotal": 757,
+        "categoryPositive": 61,
+        "categoryNegative": 110
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Safety",
+        "categoryTotal": 28173,
+        "categoryPositive": 1173,
+        "categoryNegative": 8644
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Inclusion",
+        "categoryTotal": 5461,
+        "categoryPositive": 138,
+        "categoryNegative": 897
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Transport",
+        "categoryTotal": 4094,
+        "categoryPositive": 118,
+        "categoryNegative": 1816
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Accountability",
+        "categoryTotal": 195,
+        "categoryPositive": 4,
+        "categoryNegative": 15
+    },
+    {
+        "city": "Brazzaville",
+        "total": 943759,
+        "positive": 105565,
+        "negative": 170373,
+        "category": "Public Services",
+        "categoryTotal": 1821,
+        "categoryPositive": 29,
+        "categoryNegative": 1400
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Air Pollution",
+        "categoryTotal": 4170,
+        "categoryPositive": 224,
+        "categoryNegative": 759
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Water Pollution",
+        "categoryTotal": 4142,
+        "categoryPositive": 128,
+        "categoryNegative": 683
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Land Use and Waste",
+        "categoryTotal": 3923,
+        "categoryPositive": 201,
+        "categoryNegative": 793
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Livability",
+        "categoryTotal": 44884,
+        "categoryPositive": 4288,
+        "categoryNegative": 2423
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Food Availability",
+        "categoryTotal": 8800,
+        "categoryPositive": 554,
+        "categoryNegative": 2894
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Energy Availability",
+        "categoryTotal": 6087,
+        "categoryPositive": 291,
+        "categoryNegative": 1029
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Wealth",
+        "categoryTotal": 18037,
+        "categoryPositive": 667,
+        "categoryNegative": 3315
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Safety",
+        "categoryTotal": 240901,
+        "categoryPositive": 13808,
+        "categoryNegative": 79836
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Inclusion",
+        "categoryTotal": 52704,
+        "categoryPositive": 4063,
+        "categoryNegative": 10878
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Transport",
+        "categoryTotal": 60095,
+        "categoryPositive": 4611,
+        "categoryNegative": 8637
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Accountability",
+        "categoryTotal": 1984,
+        "categoryPositive": 76,
+        "categoryNegative": 286
+    },
+    {
+        "city": "Dar es Salaam",
+        "total": 33891309,
+        "positive": 2812433,
+        "negative": 3373012,
+        "category": "Public Services",
+        "categoryTotal": 4439,
+        "categoryPositive": 156,
+        "categoryNegative": 704
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Air Pollution",
+        "categoryTotal": 12946,
+        "categoryPositive": 554,
+        "categoryNegative": 1609
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Water Pollution",
+        "categoryTotal": 17145,
+        "categoryPositive": 1005,
+        "categoryNegative": 6571
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Land Use and Waste",
+        "categoryTotal": 12265,
+        "categoryPositive": 667,
+        "categoryNegative": 2698
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Livability",
+        "categoryTotal": 113631,
+        "categoryPositive": 21820,
+        "categoryNegative": 6587
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Food Availability",
+        "categoryTotal": 20611,
+        "categoryPositive": 3327,
+        "categoryNegative": 5372
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Energy Availability",
+        "categoryTotal": 11687,
+        "categoryPositive": 682,
+        "categoryNegative": 970
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Wealth",
+        "categoryTotal": 15545,
+        "categoryPositive": 950,
+        "categoryNegative": 3376
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Safety",
+        "categoryTotal": 507830,
+        "categoryPositive": 39101,
+        "categoryNegative": 159507
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Inclusion",
+        "categoryTotal": 64265,
+        "categoryPositive": 3867,
+        "categoryNegative": 21840
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Transport",
+        "categoryTotal": 131349,
+        "categoryPositive": 13230,
+        "categoryNegative": 16305
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Accountability",
+        "categoryTotal": 8290,
+        "categoryPositive": 601,
+        "categoryNegative": 1398
+    },
+    {
+        "city": "Dubai",
+        "total": 13790920,
+        "positive": 1782914,
+        "negative": 1464116,
+        "category": "Public Services",
+        "categoryTotal": 17997,
+        "categoryPositive": 1383,
+        "categoryNegative": 3609
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Air Pollution",
+        "categoryTotal": 9,
+        "categoryPositive": 0,
+        "categoryNegative": 1
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Water Pollution",
+        "categoryTotal": 25,
+        "categoryPositive": 2,
+        "categoryNegative": 3
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Land Use and Waste",
+        "categoryTotal": 48,
+        "categoryPositive": 2,
+        "categoryNegative": 9
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Livability",
+        "categoryTotal": 969,
+        "categoryPositive": 135,
+        "categoryNegative": 12
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Food Availability",
+        "categoryTotal": 99,
+        "categoryPositive": 33,
+        "categoryNegative": 9
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Energy Availability",
+        "categoryTotal": 317,
+        "categoryPositive": 9,
+        "categoryNegative": 1
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Wealth",
+        "categoryTotal": 10,
+        "categoryPositive": 1,
+        "categoryNegative": 1
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Safety",
+        "categoryTotal": 536,
+        "categoryPositive": 69,
+        "categoryNegative": 35
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Inclusion",
+        "categoryTotal": 165,
+        "categoryPositive": 13,
+        "categoryNegative": 28
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Transport",
+        "categoryTotal": 1077,
+        "categoryPositive": 60,
+        "categoryNegative": 18
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Accountability",
+        "categoryTotal": 34,
+        "categoryPositive": 3,
+        "categoryNegative": 1
+    },
+    {
+        "city": "Expo City Dubai",
+        "total": 98696,
+        "positive": 22827,
+        "negative": 4137,
+        "category": "Public Services",
+        "categoryTotal": 49,
+        "categoryPositive": 3,
+        "categoryNegative": 2
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Air Pollution",
+        "categoryTotal": 2217,
+        "categoryPositive": 498,
+        "categoryNegative": 162
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Water Pollution",
+        "categoryTotal": 712,
+        "categoryPositive": 88,
+        "categoryNegative": 194
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Land Use and Waste",
+        "categoryTotal": 283,
+        "categoryPositive": 31,
+        "categoryNegative": 91
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Livability",
+        "categoryTotal": 5894,
+        "categoryPositive": 1075,
+        "categoryNegative": 1201
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Food Availability",
+        "categoryTotal": 4269,
+        "categoryPositive": 769,
+        "categoryNegative": 1910
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Energy Availability",
+        "categoryTotal": 2984,
+        "categoryPositive": 319,
+        "categoryNegative": 1018
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Wealth",
+        "categoryTotal": 234,
+        "categoryPositive": 17,
+        "categoryNegative": 111
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Safety",
+        "categoryTotal": 834360,
+        "categoryPositive": 90712,
+        "categoryNegative": 430134
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Inclusion",
+        "categoryTotal": 2639,
+        "categoryPositive": 186,
+        "categoryNegative": 897
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Transport",
+        "categoryTotal": 11757,
+        "categoryPositive": 1656,
+        "categoryNegative": 2091
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Accountability",
+        "categoryTotal": 90,
+        "categoryPositive": 12,
+        "categoryNegative": 23
+    },
+    {
+        "city": "Natal",
+        "total": 16883400,
+        "positive": 3276652,
+        "negative": 3625326,
+        "category": "Public Services",
+        "categoryTotal": 594,
+        "categoryPositive": 82,
+        "categoryNegative": 143
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Air Pollution",
+        "categoryTotal": 3549,
+        "categoryPositive": 55,
+        "categoryNegative": 1807
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Water Pollution",
+        "categoryTotal": 1123,
+        "categoryPositive": 15,
+        "categoryNegative": 353
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Land Use and Waste",
+        "categoryTotal": 582,
+        "categoryPositive": 37,
+        "categoryNegative": 196
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Livability",
+        "categoryTotal": 5956,
+        "categoryPositive": 568,
+        "categoryNegative": 681
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Food Availability",
+        "categoryTotal": 19361,
+        "categoryPositive": 1279,
+        "categoryNegative": 11886
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Energy Availability",
+        "categoryTotal": 3234,
+        "categoryPositive": 121,
+        "categoryNegative": 615
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Wealth",
+        "categoryTotal": 267,
+        "categoryPositive": 7,
+        "categoryNegative": 116
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Safety",
+        "categoryTotal": 908857,
+        "categoryPositive": 19850,
+        "categoryNegative": 555260
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Inclusion",
+        "categoryTotal": 10315,
+        "categoryPositive": 231,
+        "categoryNegative": 5460
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Transport",
+        "categoryTotal": 82155,
+        "categoryPositive": 2338,
+        "categoryNegative": 30100
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Accountability",
+        "categoryTotal": 146,
+        "categoryPositive": 5,
+        "categoryNegative": 49
+    },
+    {
+        "city": "Valparaiso",
+        "total": 14563529,
+        "positive": 1749774,
+        "negative": 4767136,
+        "category": "Public Services",
+        "categoryTotal": 638,
+        "categoryPositive": 59,
+        "categoryNegative": 167
+    }
+]

@@ -1,0 +1,123 @@
+import { makeStyles } from "tss-react/mui";
+
+export const usePopupStyles = makeStyles()({
+  backgroundWrapper: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    backgroundColor: "#0C1F68",
+    width: "100vw",
+    height: "100vh",
+    overflowY: "scroll",
+    "&::-webkit-scrollbar": {
+      width: "0em",
+    },
+    zIndex: "1200",
+  },
+  content: {
+    position: "relative",
+    width: "90%",
+    margin: "12vh 5% 5vh",
+    borderRadius: "3vh",
+    overflow: "hidden"
+  },
+  blueSection: {
+    position: "relative",
+    display: "box",
+    width: "100%",
+    height: "100vh",
+    float: "left",
+    background: "#1433AE"
+  },
+  whiteSection: {
+    position: "relative",
+    display: "box",
+    width: "100%",
+    height: "100vh",
+    float: "left",
+    background: "#ffffff"
+  },
+  blackSection: {
+    position: "relative",
+    display: "box",
+    width: "100%",
+    height: "100vh",
+    float: "left",
+    background: "#000000"
+  },
+  returnBack: {
+    position: "absolute",
+    top: "4vh",
+    left: "5%",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: "1vh",
+    cursor: "pointer"
+  },
+  returnBackIcon: {
+    height: "4vh",
+  },
+  returnBackText: {
+    fontFamily: "SuisseIntl-Light",
+    fontWeight: 400,
+    color: "#fff",
+    textTransform: "none",
+    fontSize: "1.8vh",
+    "&:hover": {
+      backgroundColor: "inherit",
+    },
+  },
+  title: {
+    fontFamily: "SuisseIntl-Regular",
+    fontWeight: 400,
+    lineHeight: "9vh",
+    letterSpacing: "-0.2vh",
+    fontSize: "8vh",
+    color: "#fff",
+    width: "100%",
+  },
+});
+
+
+export const useTopTextStyles = makeStyles()({
+  wrapper: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    width: "100%",
+    padding: "4vh 8vh",
+    boxSizing: "border-box"
+  },
+  titleWrapper: {
+    width: "50%",
+  },
+  title: {
+    fontFamily: "SuisseIntl-Regular",
+    fontWeight: 400,
+    lineHeight: "9vh",
+    letterSpacing: "-0.2vh",
+    fontSize: "8vh",
+    color: "#fff",
+    width: "100%",
+  },
+  subTitle: {
+    fontFamily: "SuisseIntl-Light",
+    fontWeight: 200,
+    lineHeight: "9vh",
+    letterSpacing: "-0.2vh",
+    fontSize: "6vh",
+    color: "#fff",
+    width: "100%",
+  },
+  text: {
+    fontFamily: "SuisseIntl-Light",
+    fontWeight: 400,
+    lineHeight: "3vh",
+    letterSpacing: "0vh",
+    fontSize: "2vh",
+    color: "#fff",
+    width: "55%",
+    paddingTop: "3vh",
+  }
+})

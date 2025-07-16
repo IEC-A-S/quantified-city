@@ -1,0 +1,846 @@
+[
+  {
+    "city": "Adoni",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 7.8
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 26.6
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.04
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 2,
+        "natural_value": 2.069
+      }
+    ]
+  },
+  {
+    "city": "Almaty",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 1,
+        "natural_value": 60.7
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 75.4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.04
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 3,
+        "natural_value": 0.0028
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 1,
+        "natural_value": 4.17
+      }
+    ]
+  },
+  {
+    "city": "Amman",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 2,
+        "natural_value": 37.7
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 29.1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 1.75
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 5,
+        "natural_value": 0.07
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 3,
+        "natural_value": 1.5
+      }
+    ]
+  },
+  {
+    "city": "Astana",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 1,
+        "natural_value": 68
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 5,
+        "natural_value": 87.7
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.027
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 3,
+        "natural_value": 0.003
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 2,
+        "natural_value": 2.9
+      }
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 1,
+        "natural_value": 64.59
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 55.1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 1,
+        "natural_value": 9.121
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 5,
+        "natural_value": 0.27
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 3,
+        "natural_value": 1.5
+      }
+    ]
+  },
+  {
+    "city": "Brazzaville",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 15.7
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 52.5
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.04
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 0.4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 4,
+        "natural_value": 0.94
+      }
+    ]
+  },
+  {
+    "city": "Cape Town",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 27.5
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 36.4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 2,
+        "natural_value": 6.538
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 5,
+        "natural_value": 0.03
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 3,
+        "natural_value": 1.5
+      }
+    ]
+  },
+  {
+    "city": "Colombo",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 22.4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 44.1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.04
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 3,
+        "natural_value": 1.5
+      }
+    ]
+  },
+  {
+    "city": "Dar es Salaam",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 22.9
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 48.2
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.04
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 3,
+        "natural_value": 1.47
+      }
+    ]
+  },
+  {
+    "city": "Dubai",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 12.9
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 41.8
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 8
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 4,
+        "natural_value": 1.08
+      }
+    ]
+  },
+  {
+    "city": "Expo City Dubai",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 5,
+        "natural_value": 0.5
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 69.5
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 8
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 5,
+        "natural_value": 0.27
+      }
+    ]
+  },
+  {
+    "city": "Jakarta",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 2,
+        "natural_value": 36.2
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 24.8
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.04
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 3,
+        "natural_value": 1.5
+      }
+    ]
+  },
+  {
+    "city": "Mexico City",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 1,
+        "natural_value": 66.5
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 43.9
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 2,
+        "natural_value": 5.993
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 7.86
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 3,
+        "natural_value": 1.5
+      }
+    ]
+  },
+  {
+    "city": "Natal",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 2,
+        "natural_value": 34.4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 77.3
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.04
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 4,
+        "natural_value": 0.81
+      }
+    ]
+  },
+  {
+    "city": "Panama City",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 2,
+        "natural_value": 39.2
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 68.2
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.04
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 3,
+        "natural_value": 1.5
+      }
+    ]
+  },
+  {
+    "city": "Valparaiso",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 2,
+        "natural_value": 34.79
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 5,
+        "natural_value": 90.2
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.04
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 1,
+        "natural_value": 4
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": 4,
+        "natural_value": 0.85
+      }
+    ]
+  },
+  {
+    "city": "Lahore",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 5,
+        "natural_value": 9
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 44.7
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 3.35
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 4,
+        "natural_value": 0.57
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": null
+      }
+    ]
+  },
+  {
+    "city": "Nairobi",
+    "data": [
+      {
+        "category": "Transport",
+        "indicator": "Time loss in traffic",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 17.54
+      },
+      {
+        "category": "Transport",
+        "indicator": "Share of the population in 1 km from public transport stop",
+        "unit": "%",
+        "value": 3,
+        "natural_value": 47.8
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "unit": "%",
+        "value": 4,
+        "natural_value": 0.23
+      },
+      {
+        "category": "Transport",
+        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+        "unit": "ratio",
+        "value": 5,
+        "natural_value": 0.03
+      },
+      {
+        "category": "Transport",
+        "indicator": "Public transport (excluding subway) operates by schedule",
+        "unit": "1 = Yes, 0 = No",
+        "value": 5,
+        "natural_value": 1
+      },
+      {
+        "category": "Transport",
+        "indicator": "Perception of transport index",
+        "unit": "index",
+        "value": null
+      }
+    ]
+  }
+]

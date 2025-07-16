@@ -1,0 +1,1066 @@
+[
+  {
+    "ID": 1,
+    "Indicator": "CO2 emissions",
+    "City": "Brazzaville",
+    "Value": "1.3",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 2,
+    "Indicator": "CO2 emissions (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "1.2",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 3,
+    "Indicator": "CO2 concentration",
+    "City": "Brazzaville",
+    "Value": "453.6",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 4,
+    "Indicator": "CO2 concentration (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "0.2",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 5,
+    "Indicator": "Annual average of SO2 concentration in ambient air",
+    "City": "Brazzaville",
+    "Value": "3.3",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 6,
+    "Indicator": "Annual Average of SO2 Concentration in Ambient Air (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "23.5",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 7,
+    "Indicator": "Annual Average of NO2 Concentration in Ambient Air",
+    "City": "Brazzaville",
+    "Value": "7.5",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 8,
+    "Indicator": "Annual Average of NO2 Concentration in Ambient Air (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "-1.9",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 9,
+    "Indicator": "Annual Average of O3 Concentration in Ambient Air",
+    "City": "Brazzaville",
+    "Value": "42.7",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 10,
+    "Indicator": "Annual Average of O3 Concentration in Ambient Air (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "-4.3",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 11,
+    "Indicator": "Annual Average of CO Concentration in Ambient Air",
+    "City": "Brazzaville",
+    "Value": "0.7",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 12,
+    "Indicator": "Annual Average of CO Concentration in Ambient Air (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "-1.8",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 13,
+    "Indicator": "Annual Average of Particulate Matter (PM10) Concentration in Ambient Air",
+    "City": "Brazzaville",
+    "Value": "85.2",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 14,
+    "Indicator": "Annual Average of Particulate Matter (PM10) Concentration in Ambient Air (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": 5,
+    "Assessment": "Average"
+  },
+  {
+    "ID": 15,
+    "Indicator": "Volatile organic compounds/reactive organic gases emissions",
+    "City": "Brazzaville",
+    "Value": "1.7",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 16,
+    "Indicator": "Perception of air pollution index",
+    "City": "Brazzaville",
+    "Value": "0.73",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 17,
+    "Indicator": "Paris Agreement (international agreement on climate change mitigation)",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 18,
+    "Indicator": "Annual average of dissolved oxygen (DO) concentration in water",
+    "City": "Brazzaville",
+    "Value": "4.5",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 19,
+    "Indicator": "Annual average of pH concentration in water",
+    "City": "Brazzaville",
+    "Value": "6.95",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 20,
+    "Indicator": "Annual average dissolved solids in drinking water",
+    "City": "Brazzaville",
+    "Value": "139",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 21,
+    "Indicator": "Water management strategy in a city",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 22,
+    "Indicator": "Perception of water pollution index",
+    "City": "Brazzaville",
+    "Value": "0.46",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 23,
+    "Indicator": "Share of devastated and degraded land area requiring reclamation",
+    "City": "Brazzaville",
+    "Value": "1.8",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 24,
+    "Indicator": "3-year average growth rate of devastated and degraded land area requiring reclamation",
+    "City": "Brazzaville",
+    "Value": "0.09",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 25,
+    "Indicator": "Waste deposits, % of total area",
+    "City": "Brazzaville",
+    "Value": "0.02",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 26,
+    "Indicator": "Collected and managed in dumps wastes (hazardous and non-hazardous) (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "1.090",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 27,
+    "Indicator": "Total recycled construction waste",
+    "City": "Brazzaville",
+    "Value": "0.02",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 28,
+    "Indicator": "Share of recycled construction and demolish waste in total generated construction and demolish waste",
+    "City": "Brazzaville",
+    "Value": "29.3",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 29,
+    "Indicator": "Total area of impervious surfaces and percentage to total city area",
+    "City": "Brazzaville",
+    "Value": "2",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 30,
+    "Indicator": "Waste management strategy",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 31,
+    "Indicator": "Perception of waste index",
+    "City": "Brazzaville",
+    "Value": "1.81",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 32,
+    "Indicator": "Green spaces, % city area",
+    "City": "Brazzaville",
+    "Value": "8.1",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 33,
+    "Indicator": "Green spaces, change in last 3 years",
+    "City": "Brazzaville",
+    "Value": "-5.5",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 34,
+    "Indicator": "NDVI (Normalized Difference Vegetation Index)",
+    "City": "Brazzaville",
+    "Value": "0.15",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 35,
+    "Indicator": "Share of total area with altitude above sea level less than 0,5 meters",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 36,
+    "Indicator": "Growth rate of freshwater mirror area",
+    "City": "Brazzaville",
+    "Value": "-0.3",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 37,
+    "Indicator": "Number of registered heavy rain, flood and thunderbolt (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "-3.19",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 38,
+    "Indicator": "Environmental/natural disasters’ risk mitigation",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 39,
+    "Indicator": "Strategy/policy/government officials’ statement on environmental issues",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 40,
+    "Indicator": "Total overall losses from natural disaster hazards",
+    "City": "Brazzaville",
+    "Value": "0.2",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 41,
+    "Indicator": "Number of days with average daily temperature above the threshold for 1990-2010",
+    "City": "Brazzaville",
+    "Value": "15",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 42,
+    "Indicator": "Water consumption per capita",
+    "City": "Brazzaville",
+    "Value": "0.2",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 43,
+    "Indicator": "Water tariff to disposable income ratio",
+    "City": "Brazzaville",
+    "Value": "0.006",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 44,
+    "Indicator": "Sanitary facilities tariff to disposable income ratio",
+    "City": "Brazzaville",
+    "Value": "0.004",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 45,
+    "Indicator": "Water consumption per capita (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "-0.02",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 46,
+    "Indicator": "Percentage of population with access to drinking water",
+    "City": "Brazzaville",
+    "Value": "73.59",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 47,
+    "Indicator": "Percentage of population with access to drinking water (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "0.2",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 48,
+    "Indicator": "Percentage of population with access to sanitary facilities",
+    "City": "Brazzaville",
+    "Value": "20.39",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 49,
+    "Indicator": "Percentage of population with access to sanitary facilities (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "0.3",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 50,
+    "Indicator": "Cereal import dependency ratio (5-years average)",
+    "City": "Brazzaville",
+    "Value": "93.9",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 51,
+    "Indicator": "Cereal import dependency ratio (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "1.43",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 52,
+    "Indicator": "Prevalence of undernourishment",
+    "City": "Brazzaville",
+    "Value": "5.6",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 53,
+    "Indicator": "Prevalence of undernourishment (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "2.299",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 54,
+    "Indicator": "Prevalence of undernourishment children",
+    "City": "Brazzaville",
+    "Value": "35.70",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 55,
+    "Indicator": "Prevalence of undernourishment children (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "-2.5",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 56,
+    "Indicator": "Prevalence of moderate or severe food insecurity in the population",
+    "City": "Brazzaville",
+    "Value": "88.4",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 57,
+    "Indicator": "Share of imports in food resources",
+    "City": "Brazzaville",
+    "Value": "36",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 58,
+    "Indicator": "Perception of food availability index",
+    "City": "Brazzaville",
+    "Value": "1.77",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 59,
+    "Indicator": "Percentage of urban population with access to electricity",
+    "City": "Brazzaville",
+    "Value": "48.7",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 60,
+    "Indicator": "Percentage of urban population with access to electricity (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "1.3",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 61,
+    "Indicator": "Consumption of electricity per capita",
+    "City": "Brazzaville",
+    "Value": "233.9",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 62,
+    "Indicator": "Consumption of electricity per capita (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "21.2",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 63,
+    "Indicator": "Electricity tariff to disposable income ratio",
+    "City": "Brazzaville",
+    "Value": "0.16",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 64,
+    "Indicator": "Share of renewable sources in electricity consumption",
+    "City": "Brazzaville",
+    "Value": "21",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 65,
+    "Indicator": "Perception of energy availability index",
+    "City": "Brazzaville",
+    "Value": "1.46",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 66,
+    "Indicator": "Child mortality rate (under 5 years-old)",
+    "City": "Brazzaville",
+    "Value": "3.131",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 67,
+    "Indicator": "City ambulance",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 68,
+    "Indicator": "Life expectancy at birth, years",
+    "City": "Brazzaville",
+    "Value": "63.4",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 69,
+    "Indicator": "Life expectancy at birth goals",
+    "City": "Brazzaville",
+    "Value": "1. No plans aimed at achieving any of components of Goal 3 or increasing LEaB",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 70,
+    "Indicator": "Number of hospital beds per 1,000 population",
+    "City": "Brazzaville",
+    "Value": "0.8",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 71,
+    "Indicator": "Number of doctors per 1,000 population",
+    "City": "Brazzaville",
+    "Value": "0.2",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 72,
+    "Indicator": "Maternal mortality ratio",
+    "City": "Brazzaville",
+    "Value": 490,
+    "Assessment": "Average"
+  },
+  {
+    "ID": 73,
+    "Indicator": "Ambulance arrival speed",
+    "City": "Brazzaville",
+    "Value": "70",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 74,
+    "Indicator": "Literacy rate among population (15-24 Years)",
+    "City": "Brazzaville",
+    "Value": "81.8",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 75,
+    "Indicator": "Literacy rate among population (15-24 Years) (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "0.6",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 76,
+    "Indicator": "Primary education engagement",
+    "City": "Brazzaville",
+    "Value": "84.4",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 77,
+    "Indicator": "Pupils per teacher rate",
+    "City": "Brazzaville",
+    "Value": "42.7",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 78,
+    "Indicator": "Proportion of population with post-secondary and higher education",
+    "City": "Brazzaville",
+    "Value": "37.70",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 79,
+    "Indicator": "Percentage of population with food expenditure is above 52% of total expenditure",
+    "City": "Brazzaville",
+    "Value": "15.7",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 80,
+    "Indicator": "Mean monthly salary",
+    "City": "Brazzaville",
+    "Value": 172,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 81,
+    "Indicator": "Mean monthly salary, change in last 3 years",
+    "City": "Brazzaville",
+    "Value": "-2.67",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 82,
+    "Indicator": "Disposable monthly income",
+    "City": "Brazzaville",
+    "Value": 130,
+    "Assessment": "Low"
+  },
+  {
+    "ID": 83,
+    "Indicator": "Disposable monthly income (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "8.710",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 84,
+    "Indicator": "Debt to salary ratio",
+    "City": "Brazzaville",
+    "Value": "8.1",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 85,
+    "Indicator": "Number of mobile phones per 1,000 population",
+    "City": "Brazzaville",
+    "Value": 957,
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 86,
+    "Indicator": "Decile income coefficient",
+    "City": "Brazzaville",
+    "Value": "21.1",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 87,
+    "Indicator": "Decile income coefficient (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "13.31",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 88,
+    "Indicator": "Poverty headcount ratio at national poverty lines",
+    "City": "Brazzaville",
+    "Value": "19.3",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 89,
+    "Indicator": "Working poverty rate (percentage of employed living below US$1.90 PPP), 15+ age (%)",
+    "City": "Brazzaville",
+    "Value": "1.100",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 90,
+    "Indicator": "Poverty headcount ratio at $2.15 PPP 2017 a day",
+    "City": "Brazzaville",
+    "Value": "1.9",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 91,
+    "Indicator": "Living spaces per capita, sq m (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "0.0002",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 92,
+    "Indicator": "Population living in slums (% of urban population)",
+    "City": "Brazzaville",
+    "Value": "17",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 93,
+    "Indicator": "Availability of finance (consumer loans)",
+    "City": "Brazzaville",
+    "Value": "50",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 94,
+    "Indicator": "Perception of wealth & poverty index",
+    "City": "Brazzaville",
+    "Value": "0.74",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 95,
+    "Indicator": "Road fatalities rate per 100,000 population",
+    "City": "Brazzaville",
+    "Value": "29.2",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 96,
+    "Indicator": "Road fatalities rate per 100,000 population (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "1.3",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 97,
+    "Indicator": "Violent crime rate per 100,000 population",
+    "City": "Brazzaville",
+    "Value": "34.79",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 98,
+    "Indicator": "Violent crime rate per 100,000 population (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "-0.2",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 99,
+    "Indicator": "Crime rate per 100,000 population",
+    "City": "Brazzaville",
+    "Value": "511.3",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 100,
+    "Indicator": "Crime rate per 100,000 population  (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "-0.2",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 101,
+    "Indicator": "Police arrival speed",
+    "City": "Brazzaville",
+    "Value": "31",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 102,
+    "Indicator": "Perception of safety index",
+    "City": "Brazzaville",
+    "Value": "1.72",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 103,
+    "Indicator": "Number of LEED certified green buildings",
+    "City": "Brazzaville",
+    "Value": "0.01",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 104,
+    "Indicator": "Number of CEEQUAL certified projects",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 105,
+    "Indicator": "Whether or not the city has ISO 37120 certification",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 106,
+    "Indicator": "Mobile connection coverage",
+    "City": "Brazzaville",
+    "Value": "54.8",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 107,
+    "Indicator": "Internet coverage",
+    "City": "Brazzaville",
+    "Value": "54.8",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 108,
+    "Indicator": "Perception of livability index",
+    "City": "Brazzaville",
+    "Value": "0.94",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 109,
+    "Indicator": "Share of population in 1 km from hospitals",
+    "City": "Brazzaville",
+    "Value": "98.6",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 110,
+    "Indicator": "Share of population in 1 km from parks",
+    "City": "Brazzaville",
+    "Value": "32.79",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 111,
+    "Indicator": "Time loss in traffic",
+    "City": "Brazzaville",
+    "Value": "15.7",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 112,
+    "Indicator": "Share of the population in 1 km from public transport stop",
+    "City": "Brazzaville",
+    "Value": "52.5",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 113,
+    "Indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+    "City": "Brazzaville",
+    "Value": "0.04",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 114,
+    "Indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
+    "City": "Brazzaville",
+    "Value": "0.4",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 115,
+    "Indicator": "Public transport (excluding subway) operates by schedule",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 116,
+    "Indicator": "Perception of transport index",
+    "City": "Brazzaville",
+    "Value": "0.94",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 117,
+    "Indicator": "Female-friendly city",
+    "City": "Brazzaville",
+    "Value": "2",
+    "Assessment": "Low"
+  },
+  {
+    "ID": 118,
+    "Indicator": "Number of refugees per 1,000 population",
+    "City": "Brazzaville",
+    "Value": "9.4",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 119,
+    "Indicator": "Homeless people per 1,000 population",
+    "City": "Brazzaville",
+    "Value": "73.28",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 120,
+    "Indicator": "Difference in number of years of schooling between woman and man, woman to man ratio",
+    "City": "Brazzaville",
+    "Value": "1.05",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 121,
+    "Indicator": "Slavery index",
+    "City": "Brazzaville",
+    "Value": "8",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 122,
+    "Indicator": "Percentage of women aged 25-34 years old that have successfully completed secondary education",
+    "City": "Brazzaville",
+    "Value": "54.2",
+    "Assessment": "Strong"
+  },
+  {
+    "ID": 123,
+    "Indicator": "Regulations for building construction and equipment, public transport for people with disabilities",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 124,
+    "Indicator": "Perception of inclusion index",
+    "City": "Brazzaville",
+    "Value": "0.85",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 125,
+    "Indicator": "City budget execution publication",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 126,
+    "Indicator": "City budget publication",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 127,
+    "Indicator": "Financial transparency on city government companies",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 128,
+    "Indicator": "ISO certification",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 129,
+    "Indicator": "City council checks and balances",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 130,
+    "Indicator": "Plans to obtain ISO certification",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 131,
+    "Indicator": "Perception of accountability index",
+    "City": "Brazzaville",
+    "Value": "0.33",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 132,
+    "Indicator": "Poor financial condition",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 133,
+    "Indicator": "Central/higher level government financial intervention taking place",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 134,
+    "Indicator": "Long-term financial planning",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 135,
+    "Indicator": "Central/higher level government financial intervention is considered",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 136,
+    "Indicator": "Prudent fiscal policy requirements",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 137,
+    "Indicator": "Medium-term planning",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 138,
+    "Indicator": "Number of SMEs per 100,000 population",
+    "City": "Brazzaville",
+    "Value": "44.4",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 139,
+    "Indicator": "Number of start-ups",
+    "City": "Brazzaville",
+    "Value": "2",
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 140,
+    "Indicator": "Global Startup Ecosystem Index",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 141,
+    "Indicator": "Number of SMEs per capita/100 000 population (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": "0.01",
+    "Assessment": "Average"
+  },
+  {
+    "ID": 142,
+    "Indicator": "Number of start-ups (change in last 3 years)",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 143,
+    "Indicator": "Free phone to call the police, ambulance, firefighters",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 144,
+    "Indicator": "Services for working with citizens' appeals and complaint",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 145,
+    "Indicator": "E-gov services",
+    "City": "Brazzaville",
+    "Value": "1",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 146,
+    "Indicator": "Perception of public services index: Public Services",
+    "City": "Brazzaville",
+    "Value": "0.69",
+    "Assessment": "Very strong"
+  },
+  {
+    "ID": 147,
+    "Indicator": "City ESG reporting",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 148,
+    "Indicator": "City ESG reporting verification",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 149,
+    "Indicator": "ESG planning",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 150,
+    "Indicator": "Plan with specific targets to develop and implement smart city principles",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 151,
+    "Indicator": "Rollout and status of ESG / UN SDG training across the municipal/asset workforce",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  },
+  {
+    "ID": 152,
+    "Indicator": "City municipality involved in network or partnership promoting sustainable development (for example, C40 Cities network)",
+    "City": "Brazzaville",
+    "Value": 0,
+    "Assessment": "Very low"
+  }
+]

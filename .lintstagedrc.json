@@ -1,0 +1,8 @@
+{
+  "*.md": "prettier --list-different",
+  "src/**/*.{ts,tsx}": [
+    "tsc-files --noEmit node_modules/@testing-library/jest-dom/types/vitest.d.ts src/@types/png.d.ts src/global.d.ts", 
+    "eslint --fix", 
+    "vitest related --run"
+  ]
+}

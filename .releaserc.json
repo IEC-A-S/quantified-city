@@ -1,0 +1,18 @@
+{
+  "branches": [
+    "main",
+    {
+      "name": "rc",
+      "prerelease": true
+    },
+    {
+      "name": "beta",
+      "prerelease": true
+    },
+    {
+      "name": "alpha",
+      "prerelease": true
+    }
+  ],
+  "extends": "@semantic-release/gitlab-config"
+}

@@ -1,0 +1,17 @@
+export const CITIES = {
+  DUBAI: "Dubai",
+  EXPO_CITY_DUBAI: "Expo City Dubai",
+  VALPARAISO: "Valparaiso",
+  DAR_ES_SALAAM: "Dar es Salaam",
+  ADONI: "Adoni",
+  NATAL: "Natal",
+  BRAZZAVILLE: "Brazzaville",
+  ALMATY: "Almaty",
+  CAPE_TOWN: "Cape Town",
+  MEXICO_CITY: "Mexico City",
+  JAKARTA: "Jakarta",
+  PANAMA: "Panama",
+  AMMAN: "Amman",
+  BANGKOK: "Bangkok",
+  COLOMBO: "Colombo",
+};

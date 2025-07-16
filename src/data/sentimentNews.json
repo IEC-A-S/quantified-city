@@ -1,0 +1,1080 @@
+[
+  {
+    "city": "Dubai",
+    "category": "Air Pollution",
+    "date": "2023-01-07",
+    "sentiment": "negative",
+    "article": "The 13n place of Dubai with air pollution at more than 4 times the level a human can live in"
+  },
+  {
+    "city": "Dubai",
+    "category": "Water Pollution",
+    "date": "2023-08-17",
+    "sentiment": "positive",
+    "article": "DEWA's Central Lab thousands of conducted water quality tests in 2022"
+  },
+  {
+    "city": "Dubai",
+    "category": "Land Use And Waste",
+    "date": "2023-07-04",
+    "sentiment": "positive",
+    "article": "The world’s largest and most efficient waste-to-energy facility in Warsan, a remarkable project that reinforces Dubai’s status as a global leader in sustainable infrastructure."
+  },
+  {
+    "city": "Dubai",
+    "category": "Natural Disaster Hazards",
+    "date": "2023-08-23",
+    "sentiment": "negative",
+    "article": "Dubai’s chaos after hurricane-force winds across the city."
+  },
+  {
+    "city": "Dubai",
+    "category": "Water Availability",
+    "date": "2022-03-26",
+    "sentiment": "positive",
+    "article": "Dubai-based company developed models to combat water scarcity in the UAE."
+  },
+  {
+    "city": "Dubai",
+    "category": "Food Availability",
+    "date": "2023-02-22",
+    "sentiment": "positive",
+    "article": "Guaranteed heat and high-quality food in Dubai."
+  },
+  {
+    "city": "Dubai",
+    "category": "Energy Availability",
+    "date": "2023-07-04",
+    "sentiment": "positive",
+    "article": "The world’s largest and most efficient waste-to-energy facility in Warsan, a remarkable project that reinforces Dubai’s status as a global leader in sustainable infrastructure."
+  },
+  {
+    "city": "Dubai",
+    "category": "Energy Availability",
+    "date": "2023-01-07",
+    "sentiment": "positive",
+    "article": "COP28 and many efforts made on renewable energy projects."
+  },
+  {
+    "city": "Dubai",
+    "category": "Health",
+    "date": "2023-07-03",
+    "sentiment": "positive",
+    "article": "The new Dubai Healthcare City vision for 2030."
+  },
+  {
+    "city": "Dubai",
+    "category": "Health",
+    "date": "2023-01-30",
+    "sentiment": "positive",
+    "article": "The first AI-powered Smart Hospital Platform to United Arab Emirates in Dubai."
+  },
+  {
+    "city": "Dubai",
+    "category": "Education",
+    "date": "2023-02-01",
+    "sentiment": "positive",
+    "article": "Dubai's Sheikh Hamdan scholarships, financial rewards to top high school students"
+  },
+  {
+    "city": "Dubai",
+    "category": "Education",
+    "date": "2023-02-09",
+    "sentiment": "positive",
+    "article": "The possibility to enroll and pay tuition fee with crypto currency at leading Dubai university"
+  },
+  {
+    "city": "Dubai",
+    "category": "Wealth",
+    "date": "2022-09-22",
+    "sentiment": "negative",
+    "article": "Significant differences in salaries in Dubai"
+  },
+  {
+    "city": "Dubai",
+    "category": "Safety",
+    "date": "2022-07-22",
+    "sentiment": "negative",
+    "article": "Texas TikToker trapped in Dubai and faced 2 years in prison for “screaming” at a car rental worker"
+  },
+  {
+    "city": "Dubai",
+    "category": "Livability",
+    "date": "2023-07-02",
+    "sentiment": "positive",
+    "article": "Dubai had become a climate-controlled city"
+  },
+  {
+    "city": "Dubai",
+    "category": "Transport",
+    "date": "2023-02-22",
+    "sentiment": "positive",
+    "article": "Driverless taxi in Dubai was launched"
+  },
+  {
+    "city": "Dubai",
+    "category": "Transport",
+    "date": "2023-01-13",
+    "sentiment": "positive",
+    "article": "Buses in Dubai arrived exactly at the time that is fixed and departed exactly at the time they have to depart"
+  },
+  {
+    "city": "Dubai",
+    "category": "Inclusion",
+    "date": "2022-10-08",
+    "sentiment": "negative",
+    "article": "Disrespectful actions towards Bobi Wine (Ugandan politician, singer, and actor) who landed in Dubai and which travel documents were confiscated"
+  },
+  {
+    "city": "Dubai",
+    "category": "Inclusion",
+    "date": "2022-08-15",
+    "sentiment": "positive",
+    "article": "The appearance of the Indian flag on its Independence Day at the Burj Khalifa"
+  },
+  {
+    "city": "Dubai",
+    "category": "Accountability",
+    "date": "2022-09-21",
+    "sentiment": "positive",
+    "article": "The launch of Dubaiverse as the metaverse to the United Arab Emirates"
+  },
+  {
+    "city": "Dubai",
+    "category": "City Budget",
+    "date": "2022-12-08",
+    "sentiment": "positive",
+    "article": "The approvement of Dubai’s budget for 2023-2025 with a total expenditure of Dh205 billion"
+  },
+  {
+    "city": "Dubai",
+    "category": "SME",
+    "date": "2023-01-07",
+    "sentiment": "positive",
+    "article": "Dubai had become a global financial and technology hub"
+  },
+  {
+    "city": "Dubai",
+    "category": "Public Services",
+    "date": "2022-09-29",
+    "sentiment": "positive",
+    "article": "Dubai’s 5th rank globally and 1st in the Arab World in the Local Online Service Index (LOSI) 2022"
+  },
+  {
+    "city": "Dubai",
+    "category": "Sustainability Commitment",
+    "date": "2022-10-06",
+    "sentiment": "positive",
+    "article": "Crypto Expo Dubai 2022 as the largest crypto event"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Air Pollution",
+    "date": "2022-12-15",
+    "sentiment": "positive",
+    "article": "Measuring and reporting GHG emissions with full transparency and accuracy"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Water Pollution",
+    "date": "2023-04-25",
+    "sentiment": "positive",
+    "article": "Circular buildings and less consumed water for construction of Expo City Dubai"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Land Use And Waste",
+    "date": "2022-11-23",
+    "sentiment": "positive",
+    "article": "Waste responsibility and better live in Expo City Dubai"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Natural Disaster Hazards",
+    "date": "2023-05-09",
+    "sentiment": "positive",
+    "article": "Preparing the city for any natural disaster emergency"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Water Availability",
+    "date": "2023-03-23",
+    "sentiment": "positive",
+    "article": "Technology transfer for sustainable water management"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Food Availability",
+    "date": "2023-02-05",
+    "sentiment": "positive",
+    "article": "New innovations, equipment, and techniques, as well as best practices in modern agriculture"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Energy Availability",
+    "date": "2023-02-17",
+    "sentiment": "positive",
+    "article": "Crypto Expo Dubai and Renewable Energy Token was one of the featured sponsors of the Dubai Crypto Expo"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Health",
+    "date": "2022-11-04",
+    "sentiment": "positive",
+    "article": "New agreements with global investors signed at Expo 2020 in investment in health care"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Health",
+    "date": "2023-05-29",
+    "sentiment": "positive",
+    "article": "The fastest ambulance unveiled by the Dubai Corporation for Ambulance Services (DCAS)"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Education",
+    "date": "2023-05-18",
+    "sentiment": "positive",
+    "article": "Delivering more and better funding to education to accelerate the transition to a greener world"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Wealth",
+    "date": "2022-09-03",
+    "sentiment": "positive",
+    "article": "Establishment of a new standard for accessibility and united people and places across the physical and digital divide"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Safety",
+    "date": "2022-09-22",
+    "sentiment": "negative",
+    "article": "Looking for ways to protect the Expo City Dubai from possible drone attacks from Iran-backed fighters"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Livability",
+    "date": "2022-11-28",
+    "sentiment": "positive",
+    "article": "47 construction contracts were awarded in with a total value of US$ 3 billion in Expo City Dubai "
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Transport",
+    "date": "2023-04-02",
+    "sentiment": "positive",
+    "article": "Autonomous transport and smart cities were designed and presented in the “Mobility Pavilion” of Expo City Dubai"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Inclusion",
+    "date": "2022-11-15",
+    "sentiment": "positive",
+    "article": "Events for people with disabilities organized in Expo City Dubai"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Accountability",
+    "date": "2022-09-26",
+    "sentiment": "positive",
+    "article": "Disclosed awarded SMEs contracts in Expo City Dubai"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "City Budget",
+    "date": "2022-12-08",
+    "sentiment": "positive",
+    "article": "Increase of the UAE’s budget revenue thanks to economic activity around Expo 2020 Dubai"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "SME",
+    "date": "2023-05-03",
+    "sentiment": "positive",
+    "article": "India's effective utilization of Expo 2020 Dubai to promote startups"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Public Services",
+    "date": "2023-05-21",
+    "sentiment": "negative",
+    "article": "The worst UAE government services provided for citizen were announced"
+  },
+  {
+    "city": "Expo City Dubai",
+    "category": "Sustainability Commitment",
+    "date": "2023-09-22",
+    "sentiment": "positive",
+    "article": "Revealing of Expo City Dubai decarbonization plan ahead of COP28"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Air Pollution",
+    "date": "2023-09-14",
+    "sentiment": "negative",
+    "article": "Unhealthy air quality in Valparaiso"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Water Pollution",
+    "date": "2023-02-13",
+    "sentiment": "negative",
+    "article": "Chemicals polluted water in the city"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Land Use And Waste",
+    "date": "2023-05-09",
+    "sentiment": "negative",
+    "article": "Unpleasant smell because of excessive amount of waste"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Natural Disaster Hazards",
+    "date": "2022-10-19",
+    "sentiment": "positive",
+    "article": "Pleasant weather and peaceful and comforting environment in the city"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Water Availability",
+    "date": "2022-09-06",
+    "sentiment": "negative",
+    "article": "Water scarcity and the necessity to reuse water for garden irrigation or street cleaning"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Food Availability",
+    "date": "2022-11-25",
+    "sentiment": "negative",
+    "article": "Citizens’ complaints about unattainable prices of food"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Energy Availability",
+    "date": "2023-02-23",
+    "sentiment": "positive",
+    "article": "Extending the network where people have been without a secure and permanent electricity supply for more than 20 years near Valparaiso"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Health",
+    "date": "2023-07-05",
+    "sentiment": "positive",
+    "article": "Voting on a constitution that recognizes healthcare, reproductive care, and safe climate as human rights in Chile"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Health",
+    "date": "2023-09-03",
+    "sentiment": "negative",
+    "article": "Different diseases were spreading in the public transport in Chile"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Education",
+    "date": "2023-08-13",
+    "sentiment": "negative",
+    "article": "Excessive number of sick children at schools in the city"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Wealth",
+    "date": "2023-01-18",
+    "sentiment": "positive",
+    "article": "Non-profit organization dedicated to improving the lives of Valparaiso residents by assisting qualifying homeowners in maintenance"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Safety",
+    "date": "2022-12-01",
+    "sentiment": "negative",
+    "article": "Killings the policeman in Valparaiso"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Safety",
+    "date": "2023-04-06",
+    "sentiment": "negative",
+    "article": "National Migration Service which did not constitute a security risk"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Livability",
+    "date": "2023-02-17",
+    "sentiment": "negative",
+    "article": "Necessity to recover the metro stations that was an architectural example for the world in the city"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Transport",
+    "date": "2023-01-11",
+    "sentiment": "positive",
+    "article": "Safe, clean and reliable means of transport in Valparaiso"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Inclusion",
+    "date": "2023-05-23",
+    "sentiment": "negative",
+    "article": "Violence and harassment against women in Chile"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Accountability",
+    "date": "2023-01-31",
+    "sentiment": "negative",
+    "article": "Civil servants paying trapped within their bureaucracy"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "City Budget",
+    "date": "2022-09-04",
+    "sentiment": "negative",
+    "article": "Stolen finance from the city budget of Valparaiso"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "SME",
+    "date": "2023-02-28",
+    "sentiment": "positive",
+    "article": "Small grants to manage projects benefiting micro, small and medium-sized enterprises"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Public Services",
+    "date": "2023-02-22",
+    "sentiment": "positive",
+    "article": "Fast contained and resolved situation about release of hazardous chemical materials thanks to public services"
+  },
+  {
+    "city": "Valparaiso",
+    "category": "Sustainability Commitment",
+    "date": "2023-07-06",
+    "sentiment": "positive",
+    "article": "Discussion of a new draft of  “ecological constitution”"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Air Pollution",
+    "date": "2023-10-29",
+    "sentiment": "positive",
+    "article": "Pollution-free environment in rural areas near Dar-es-Salaam."
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Water Pollution",
+    "date": "2022-11-22",
+    "sentiment": "negative",
+    "article": "Necessity to provide clean water in the city"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Land Use And Waste",
+    "date": "2023-01-06",
+    "sentiment": "positive",
+    "article": "Banned plastic bags in a bid to reduce plastic waste in Tanzania."
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Natural Disaster Hazards",
+    "date": "2022-09-04",
+    "sentiment": "negative",
+    "article": "The increased frequency and intensity of heavy rainfall events in Tanzania"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Water Availability",
+    "date": "2023-02-13",
+    "sentiment": "negative",
+    "article": "Necessity to ensure safe water and sanitation that helps to reduce poverty and promote economic growth in Tanzania"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Food Availability",
+    "date": "2022-12-14",
+    "sentiment": "negative",
+    "article": "Tanzanian food crisis which had been worsening from 2020."
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Energy Availability",
+    "date": "2023-06-21",
+    "sentiment": "positive",
+    "article": "Strengthened collaboration Tanzania's Energy Minister Makamba with China, focusing on renewable energy projects and investment opportunities, especially in Dar-es-Salaam."
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Health",
+    "date": "2022-10-11",
+    "sentiment": "positive",
+    "article": "Tanzania Health Summit and discussion about medical treatment progress"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Health",
+    "date": "2022-04-07",
+    "sentiment": "negative",
+    "article": "Detected sick people in Tanzania and the warning to monitor the health for three weeks after visiting the country"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Education",
+    "date": "2022-09-21",
+    "sentiment": "negative",
+    "article": "Citizens recommendation for Tanzanian universities to make reforms in higher education and to get rid of incompetent teachers"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Wealth",
+    "date": "2022-11-18",
+    "sentiment": "positive",
+    "article": "Dar es Salaam and other African cities were not technologically and financially backwards"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Safety",
+    "date": "2023-08-11",
+    "sentiment": "negative",
+    "article": "Arrests of activists called for a nationwide peaceful protest against Tanzania and DP world’s spurious contract"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Safety",
+    "date": "2023-03-15",
+    "sentiment": "positive",
+    "article": "Streetlights that had helped reduce road accidents in the city"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Livability",
+    "date": "2023-03-31",
+    "sentiment": "positive",
+    "article": "Tanzania and the US agreement on providing tech and 5G assistance to the country and boosting cyber security"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Transport",
+    "date": "2023-11-07",
+    "sentiment": "negative",
+    "article": "The crashed plane into Lake Victoria and at least 19 dead people"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Inclusion",
+    "date": "2023-03-28",
+    "sentiment": "negative",
+    "article": "Necessity to create a constitution where the human rights are protected and not limited"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Accountability",
+    "date": "2022-01-02",
+    "sentiment": "positive",
+    "article": "Open information sharing and transparent data on the city’s website"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "City Budget",
+    "date": "2022-10-15",
+    "sentiment": "negative",
+    "article": "Complaints about weak city financial power"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "SME",
+    "date": "2022-11-06",
+    "sentiment": "positive",
+    "article": "Dar es Salaam had become the financial hub of Tanzania"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Public Services",
+    "date": "2022-01-02",
+    "sentiment": "positive",
+    "article": "Citizens were kept more informed thanks to new public services"
+  },
+  {
+    "city": "Dar es Salaam",
+    "category": "Sustainability Commitment",
+    "date": "2023-07-19",
+    "sentiment": "positive",
+    "article": "Dar-es-Salaam collaboration with the African cities leading on climate about sharing best practice on the transition to renewable energy and waste treatment"
+  },
+  {
+    "city": "Adoni",
+    "category": "Air Pollution",
+    "date": "2022-12-26",
+    "sentiment": "negative",
+    "article": "Problems with greenhouse gas emissions in the city"
+  },
+  {
+    "city": "Adoni",
+    "category": "Water Pollution",
+    "date": "2022-09-22",
+    "sentiment": "negative",
+    "article": "Infected cows because of sprayed chemicals in water"
+  },
+  {
+    "city": "Adoni",
+    "category": "Water Pollution",
+    "date": "2023-08-01",
+    "sentiment": "negative",
+    "article": "Fewer water resources as the government delayed the drip irrigation subsidies for 2 years due to a lack of funds"
+  },
+  {
+    "city": "Adoni",
+    "category": "Land Use And Waste",
+    "date": "2022-10-12",
+    "sentiment": "negative",
+    "article": "Huge amount of garbage thrown daily in the city"
+  },
+  {
+    "city": "Adoni",
+    "category": "Land Use And Waste",
+    "date": "2023-05-27",
+    "sentiment": "positive",
+    "article": "Waste was collected for recycling in the city"
+  },
+  {
+    "city": "Adoni",
+    "category": "Natural Disaster Hazards",
+    "date": "2023-04-11",
+    "sentiment": "negative",
+    "article": "Heatwaves affected citizens in Adoni"
+  },
+  {
+    "city": "Adoni",
+    "category": "Water Availability",
+    "date": "2023-01-03",
+    "sentiment": "negative",
+    "article": "Water scarcity and excessive population growth influencing the migration process"
+  },
+  {
+    "city": "Adoni",
+    "category": "Food Availability",
+    "date": "2023-10-29",
+    "sentiment": "positive",
+    "article": "Volunteers freely distributed food in India"
+  },
+  {
+    "city": "Adoni",
+    "category": "2023-02-17",
+    "date": "Food Availability",
+    "sentiment": "negative",
+    "article": "People suffering from unemployment and hunger in Adoni"
+  },
+  {
+    "city": "Adoni",
+    "category": "Energy Availability",
+    "date": "2023-04-17",
+    "sentiment": "negative",
+    "article": "People's complaints about heating issues"
+  },
+  {
+    "city": "Adoni",
+    "category": "Health",
+    "date": "2023-07-06",
+    "sentiment": "positive",
+    "article": "Extension of quality healthcare in Andhra Pradesh thanks to opening a new hospital."
+  },
+  {
+    "city": "Adoni",
+    "category": "Health",
+    "date": "2023-08-12",
+    "sentiment": "negative",
+    "article": "A woman committed suicide in front of train due to year-long medical issues in Adoni"
+  },
+  {
+    "city": "Adoni",
+    "category": "Education",
+    "date": "2022-10-19",
+    "sentiment": "positive",
+    "article": "Media collaboration Adoni Arts and Science College with the Andhra Pradesh government."
+  },
+  {
+    "city": "Adoni",
+    "category": "Wealth",
+    "date": "2023-07-21",
+    "sentiment": "positive",
+    "article": "Implementing the distribution of land to economically weaker sections, thereby addressing the perpetuation of poverty and disparity in Andhra Pradesh."
+  },
+  {
+    "city": "Adoni",
+    "category": "Safety",
+    "date": "2023-03-18",
+    "sentiment": "negative",
+    "article": "Security problems during elections"
+  },
+  {
+    "city": "Adoni",
+    "category": "Livability",
+    "date": "2022-12-29",
+    "sentiment": "negative",
+    "article": "Heavy traffic, large number of people in means of public transport and on the roads."
+  },
+  {
+    "city": "Adoni",
+    "category": "Transport",
+    "date": "2023-05-02",
+    "sentiment": "positive",
+    "article": "Introduction of safer public transportation with new technology in India."
+  },
+  {
+    "city": "Adoni",
+    "category": "Inclusion",
+    "date": "2023-10-19",
+    "sentiment": "negative",
+    "article": "Safe and security problems for Muslims in India"
+  },
+  {
+    "city": "Adoni",
+    "category": "Inclusion",
+    "date": "2023-02-23",
+    "sentiment": "negative",
+    "article": "Safe and security problems for women at nights"
+  },
+  {
+    "city": "Adoni",
+    "category": "Accountability",
+    "date": "2023-10-19",
+    "sentiment": "negative",
+    "article": "Interdependence of regional parties in Andhra Pradesh and lack of internal democracy."
+  },
+  {
+    "city": "Adoni",
+    "category": "City Budget",
+    "date": "2022-10-18",
+    "sentiment": "positive",
+    "article": "Clear explanation of city income source, tax details and party funds."
+  },
+  {
+    "city": "Adoni",
+    "category": "SME",
+    "date": "2022-08-01",
+    "sentiment": "positive",
+    "article": "Achievement of top spot in “Ease of Doing Business” by Andhra Pradesh."
+  },
+  {
+    "city": "Adoni",
+    "category": "Public Services",
+    "date": "2022-08-01",
+    "sentiment": "positive",
+    "article": "Hiring new candidates for developing public services in Andhra Pradesh."
+  },
+  {
+    "city": "Adoni",
+    "category": "Sustainability Commitment",
+    "date": "2022-07-03",
+    "sentiment": "positive",
+    "article": "Launching green hydrogen and green ammonia policy-2023 to drive sustainable energy growth in Andhra Pradesh, including Adoni"
+  },
+  {
+    "city": "Natal",
+    "category": "Air Pollution",
+    "date": "2022-05-16",
+    "sentiment": "negative",
+    "article": "Volcanic ash generating respiratory diseases in Natal"
+  },
+  {
+    "city": "Natal",
+    "category": "Air Pollution",
+    "date": "2022-09-12",
+    "sentiment": "positive",
+    "article": "Necessity to update environmental policy to ensure high air quality in Natal"
+  },
+  {
+    "city": "Natal",
+    "category": "Water Pollution",
+    "date": "2023-05-15",
+    "sentiment": "positive",
+    "article": "A pulled out 984-foot net trapped in a sewage pipe threatening Natal’s marine biodiversity"
+  },
+  {
+    "city": "Natal",
+    "category": "Water Pollution",
+    "date": "2023-08-04",
+    "sentiment": "negative",
+    "article": "Necessity to clean rivers located near Natal"
+  },
+  {
+    "city": "Natal",
+    "category": "Land Use And Waste",
+    "date": "2023-02-13",
+    "sentiment": "negative",
+    "article": "Citizens’ complaints about prioritized waste incineration"
+  },
+  {
+    "city": "Natal",
+    "category": "Natural Disaster Hazards",
+    "date": "2022-07-04",
+    "sentiment": "negative",
+    "article": "Heavy rains damaged the city’s roads"
+  },
+  {
+    "city": "Natal",
+    "category": "Water Availability",
+    "date": "2022-08-07",
+    "sentiment": "positive",
+    "article": "Launch of water desalination technology"
+  },
+  {
+    "city": "Natal",
+    "category": "Food Availability",
+    "date": "2023-01-10",
+    "sentiment": "negative",
+    "article": "Citizens’ complaints about short food and water supply for elderly people and children in federal police shed"
+  },
+  {
+    "city": "Natal",
+    "category": "Energy Availability",
+    "date": "2023-03-22",
+    "sentiment": "positive",
+    "article": "Launch of the renewable complex integrating wind and solar energy to generate renewable energy"
+  },
+  {
+    "city": "Natal",
+    "category": "Health",
+    "date": "2022-12-15",
+    "sentiment": "positive",
+    "article": "Health program tours with professionals to treat people in Brazilian cities, including Natal."
+  },
+  {
+    "city": "Natal",
+    "category": "Education",
+    "date": "2022-09-27",
+    "sentiment": "positive",
+    "article": "Use of international education practices to promote economic growth in the city"
+  },
+  {
+    "city": "Natal",
+    "category": "Education",
+    "date": "2022-12-14",
+    "sentiment": "negative",
+    "article": "Citizens’ complaints about universities which were still struggling with no money to pay utility bills"
+  },
+  {
+    "city": "Natal",
+    "category": "Wealth",
+    "date": "2023-05-25",
+    "sentiment": "negative",
+    "article": "80% of people living below the poverty line were in rural areas, including areas near Natal"
+  },
+  {
+    "city": "Natal",
+    "category": "Safety",
+    "date": "2023-01-08",
+    "sentiment": "positive",
+    "article": "Expertise to identify those responsible for acts of vandalism in Natal, including with facial identification systems was completed"
+  },
+  {
+    "city": "Natal",
+    "category": "Livability",
+    "date": "2023-03-07",
+    "sentiment": "positive",
+    "article": "Newly built bike lanes in the city"
+  },
+  {
+    "city": "Natal",
+    "category": "Transport",
+    "date": "2023-03-07",
+    "sentiment": "positive",
+    "article": "Application of the social fare in the public transport system."
+  },
+  {
+    "city": "Natal",
+    "category": "Inclusion",
+    "date": "2022-12-07",
+    "sentiment": "positive",
+    "article": "Successful work of the center for people with disabilities"
+  },
+  {
+    "city": "Natal",
+    "category": "Accountability",
+    "date": "2023-03-23",
+    "sentiment": "positive",
+    "article": "Consistent access to organized city data in a robust, secure and decentralized way"
+  },
+  {
+    "city": "Natal",
+    "category": "City Budget",
+    "date": "2022-10-14",
+    "sentiment": "negative",
+    "article": "Budget corruption and disrespect for the laws"
+  },
+  {
+    "city": "Natal",
+    "category": "SME",
+    "date": "2023-07-17",
+    "sentiment": "positive",
+    "article": "The highest employment in small and medium companies in Natal."
+  },
+  {
+    "city": "Natal",
+    "category": "Public Services",
+    "date": "2022-03-20",
+    "sentiment": "negative",
+    "article": "Paralyzed public services due to criminal attacks"
+  },
+  {
+    "city": "Natal",
+    "category": "Sustainability Commitment",
+    "date": "2022-10-14",
+    "sentiment": "positive",
+    "article": "Organized events about entrepreneurship and sustainability in Natal."
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Air Pollution",
+    "date": "2022-11-06",
+    "sentiment": "positive",
+    "article": "Very little contribution to global greenhouse gas emissions from African cities"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Water Pollution",
+    "date": "2023-03-11",
+    "sentiment": "negative",
+    "article": "Damaged tanker on the Congo River and consequent water pollution"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Land Use And Waste",
+    "date": "2023-06-10",
+    "sentiment": "positive",
+    "article": "Organized march to fight plastic pollution in Brazzaville"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Natural Disaster Hazards",
+    "date": "2023-01-04",
+    "sentiment": "negative",
+    "article": "Overflowing of the Congo River and other rivers near Brazzaville."
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Water Availability",
+    "date": "2022-12-01",
+    "sentiment": "negative",
+    "article": "Lack of clean drinking water in Brazzaville"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Food Availability",
+    "date": "2023-01-31",
+    "sentiment": "negative",
+    "article": "Inflated prices for “intrenational” cuisine in Brazzaville for tourists."
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Energy Availability",
+    "date": "2023-01-05",
+    "sentiment": "negative",
+    "article": "Power cut and air conditioning problems at the airport"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Energy Availability",
+    "date": "2023-02-19",
+    "sentiment": "negative",
+    "article": "Lack of public lighting in the city leading to multiple negative accidents"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Health",
+    "date": "2023-12-05",
+    "sentiment": "positive",
+    "article": "Organized event about the contribution of women to the promotion of public health in Africa"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Health",
+    "date": "2023-01-29",
+    "sentiment": "positive",
+    "article": "Expert meeting in Brazzaville related to discuss training of primary health care providers for hearing care"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Education",
+    "date": "2022-10-22",
+    "sentiment": "positive",
+    "article": "Vulnerable refugee students were supported in order to improve their schooling conditions in Brazzaville"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Education",
+    "date": "2022-04-06",
+    "sentiment": "positive",
+    "article": "Proposed measures to fight against harmful practices at schools in Brazzaville"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Wealth",
+    "date": "2023-06-16",
+    "sentiment": "positive",
+    "article": "Official launch of the quality of basic social services for vulnerable citizens organized in Brazzaville"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Safety",
+    "date": "2023-04-01",
+    "sentiment": "negative",
+    "article": "Kidnapping happened in Brazzaville"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Livability",
+    "date": "2023-07-29",
+    "sentiment": "negative",
+    "article": "Lack of infrastructure for tourists in Brazzaville"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Transport",
+    "date": "2023-07-30",
+    "sentiment": "negative",
+    "article": "Public buses were in a state of decomposition in Brazzaville."
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Inclusion",
+    "date": "2023-03-08",
+    "sentiment": "positive",
+    "article": "Official launch of the Women's rights day in Congo-Brazzaville."
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Accountability",
+    "date": "2023-03-30",
+    "sentiment": "positive",
+    "article": "Development of the national financial social and inclusion strategy in the Republic of Congo"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "City Budget",
+    "date": "2023-09-01",
+    "sentiment": "negative",
+    "article": "Reduced expenditures on sportsmen travelled to the African Games"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "SME",
+    "date": "2023-03-08",
+    "sentiment": "positive",
+    "article": "Coming back of Turkish small and medium enterprises to Brazzaville"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Public Services",
+    "date": "2023-01-27",
+    "sentiment": "positive",
+    "article": "The Congo and World Bank launch of the digital acceleration project related to improving of universal public services"
+  },
+  {
+    "city": "Brazzaville",
+    "category": "Sustainability Commitment",
+    "date": "2023-03-10",
+    "sentiment": "positive",
+    "article": "Discussion of sustainable forest management in Brazzaville."
+  }
+]
