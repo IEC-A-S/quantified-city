@@ -32,5 +32,3 @@ dist-ssr
 # Build artifacts
 *.tgz
 package
-/public/assets/
-/public/city/
