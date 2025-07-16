@@ -11,7 +11,7 @@ interface BlueMapProps {
 export const BlueMap: FC<BlueMapProps> = ({ setMap, setSelectedCity }) => {
   //Init params for map
   mapboxgl.accessToken =
-    "pk.eyJ1Ijoic3RhbnJvbnpoaW4iLCJhIjoiY2xvaGF3ZmFzMWdodDJxbjByeHMzanE2dCJ9.3uz_EG8N_d7isS1h5wV46w";
+    "pk.eyJ1IjoidHNrbm9mZiIsImEiOiJjbGNxZDlxMnowNHV4M3JwZHp0ZTlvM2NiIn0.Tz-_y_F7EwR2NkPNA-Xlkw";
 
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map>(null);
@@ -28,7 +28,7 @@ export const BlueMap: FC<BlueMapProps> = ({ setMap, setSelectedCity }) => {
     map.current = new mapboxgl.Map({
       attributionControl: false,
       container: mapContainerRef.current,
-      style: "mapbox://styles/stanronzhin/clok1b9my006901o4gkfc25b2",
+      style: "mapbox://styles/tsknoff/cmd5xp0yv00jq01sdbavf476p",
       center: [30, 40],
       zoom: 2,
       pitch: 25,
@@ -103,9 +103,7 @@ export const BlueMap: FC<BlueMapProps> = ({ setMap, setSelectedCity }) => {
           source: "city_points",
           paint: {},
           layout: {
-            "icon-image": [
-              "esg_point_new",
-            ],
+            "icon-image": "svgviewer-output-2",
             "icon-size": [
               "interpolate",
               ["linear"],
@@ -162,7 +160,7 @@ export const BlueMap: FC<BlueMapProps> = ({ setMap, setSelectedCity }) => {
           "text-field": ["to-string", ["get", "City_Name"]],
         },
         paint: {
-          "text-color": "#ffffff",
+          "text-color": "#121212",
         },
       });
 

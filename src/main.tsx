@@ -28,7 +28,7 @@ export const App = () => {
     window.innerWidth < 1000 || window.innerHeight > window.innerWidth
   );
 
-  //console.log(md5("__PASSWORD__"));
+  // console.log(md5("__PASSWORD__"));
   const hash = "c91aa74c2296fe068fb55d9cc1952046";
 
   const user = localStorage.getItem("user");

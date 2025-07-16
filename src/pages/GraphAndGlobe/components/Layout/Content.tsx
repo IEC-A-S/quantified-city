@@ -59,22 +59,22 @@ export const Content: FC<ContentProps> = ({
             <span className={classes.bigTextBlue}>{t("score")}</span>
           </Typography>
 
-          <StyledToggleButtonGroup>
-            <StyledToggleButton
-              value="map"
-              selected={currentView === "map"}
-              onClick={onMapButtonClick}
-            >
-              {t("map")}
-            </StyledToggleButton>
-            <StyledToggleButton
-              value="graph"
-              selected={currentView === "graph"}
-              onClick={onGraphButtonClick}
-            >
-              {t("graph")}
-            </StyledToggleButton>
-          </StyledToggleButtonGroup>
+          {/*<StyledToggleButtonGroup>*/}
+          {/*  <StyledToggleButton*/}
+          {/*    value="map"*/}
+          {/*    selected={currentView === "map"}*/}
+          {/*    onClick={onMapButtonClick}*/}
+          {/*  >*/}
+          {/*    {t("map")}*/}
+          {/*  </StyledToggleButton>*/}
+          {/*  <StyledToggleButton*/}
+          {/*    value="graph"*/}
+          {/*    selected={currentView === "graph"}*/}
+          {/*    onClick={onGraphButtonClick}*/}
+          {/*  >*/}
+          {/*    {t("graph")}*/}
+          {/*  </StyledToggleButton>*/}
+          {/*</StyledToggleButtonGroup>*/}
           {!isZoomButtonsVisible && (
             <Typography className={classes.bigTextSubtitle}>
               {t("smallTextGraph1")} <br />
@@ -87,11 +87,11 @@ export const Content: FC<ContentProps> = ({
         </div>
       </div>
       <FilterButtons />
-      <img
-        className={classes.legendLine}
-        src="/assets/legendLine.svg"
-        alt="legend"
-      />
+      {/*<img*/}
+      {/*  className={classes.legendLine}*/}
+      {/*  src="/assets/legendLine.svg"*/}
+      {/*  alt="legend"*/}
+      {/*/>*/}
       <div className={classes.bottomWrapper}>
         <div
           className={classes.smallTextWrapper}
@@ -103,10 +103,10 @@ export const Content: FC<ContentProps> = ({
             link.click();
           }}
         >
-          <Typography className={classes.smallText}>
-            {t("howRatingWorks")}
-          </Typography>
-          <img src="/assets/hintQuestionIcon.svg" alt="hint" />
+          {/*<Typography className={classes.smallText}>*/}
+          {/*  {t("howRatingWorks")}*/}
+          {/*</Typography>*/}
+          {/*<img src="/assets/hintQuestionIcon.svg" alt="hint" />*/}
         </div>
         {isZoomButtonsVisible && <ZoomButtons map={map} />}
       </div>
