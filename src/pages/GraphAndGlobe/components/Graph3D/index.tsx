@@ -20,6 +20,7 @@ export const Graph3D: FC<{
         left: isMobile ? "0" : "8%",
       }}
     >
+      <h1>TEST TEST</h1>
       <Suspense fallback={null}>
         <Canvas
           style={{
