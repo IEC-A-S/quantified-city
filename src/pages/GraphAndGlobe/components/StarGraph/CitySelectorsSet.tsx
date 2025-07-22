@@ -46,7 +46,7 @@ export const CitySelectorsSet: FC<IProps> = ({
           ></div>
           <div
             style={{
-              fontFamily: "SuisseIntl-Regular",
+              
               fontSize: "3.1vh",
               fontWeight: 600,
               textAlign: "center",

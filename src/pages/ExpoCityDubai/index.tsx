@@ -126,7 +126,7 @@ export const ExpoCityDubai = () => {
                 borderRadius: 50,
                 padding: "1vh 2.5vh",
                 textTransform: "none",
-                fontFamily: "SuisseIntl-Light",
+                
                 fontSize: "1.7vh",
                 display: "flex",
                 flexDirection: "row",
@@ -161,7 +161,7 @@ export const ExpoCityDubai = () => {
               bottom: "12vh",
               width: "100%",
               textAlign: "center",
-              fontFamily: "SuisseIntl-Light",
+              
               fontWeight: 100,
               fontSize: "3vh",
               color: "#fff",
@@ -221,7 +221,7 @@ export const ExpoCityDubai = () => {
               right: "10vh",
               width: "45vw",
               height: "65vh",
-              fontFamily: "SuisseIntl-Light",
+              
               fontWeight: 100,
               fontSize: "2vh",
               border: "1.5px solid #FFB800",
@@ -290,7 +290,7 @@ export const ExpoCityDubai = () => {
               borderRadius: 50,
               padding: "1vh 2.5vh",
               textTransform: "none",
-              fontFamily: "SuisseIntl-Light",
+              
               fontSize: "1.7vh",
               display: "flex",
               flexDirection: "row",

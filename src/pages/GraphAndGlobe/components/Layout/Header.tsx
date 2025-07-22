@@ -53,7 +53,10 @@ export const Header: FC<IHeaderProps> = ({
           className={classes.menuIconWrapper}
         >
           <img
-            style={{ width: "4.7vh" }}
+            style={{ 
+              width: "4.7vh",
+              filter: "invert(1)"
+          }}
             src="/assets/menuIcon.svg"
             width={45}
             alt="logo"
@@ -61,18 +64,23 @@ export const Header: FC<IHeaderProps> = ({
           <Typography className={classes.whiteText}>{t("menu")}</Typography>
         </div>
       </div>
-      <img style={{ width: "7.8vh" }} src="/assets/logo.svg" alt="logo" />
+      <img style={{ 
+        position: "absolute",
+        left: "50%",
+        transform: "translateX(-50%)",
+        width: "10.5vh" 
+      }} src="/assets/logo.svg" alt="logo" />
       <div className={classes.buttonsWrapper}>
-        <Button className={classes.whiteText}>{t("login")}</Button>
-        <Button
-          className={classes.signUpButton}
-          style={{
-            backgroundColor: isCitySelected ? "#FFFFFF" : "#2D67FF",
-            color: isCitySelected ? "#1433AE" : "#FFFFFF",
-          }}
-        >
-          {t("signup")}
-        </Button>
+        {/*<Button className={classes.whiteText}>{t("login")}</Button>*/}
+        {/*<Button*/}
+        {/*  className={classes.signUpButton}*/}
+        {/*  style={{*/}
+        {/*    backgroundColor: isCitySelected ? "#FFFFFF" : "#2D67FF",*/}
+        {/*    color: isCitySelected ? "rgba(240, 234, 214, 1)" : "#FFFFFF",*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*  {t("signup")}*/}
+        {/*</Button>*/}
       </div>
     </div>
   );

@@ -40,7 +40,7 @@ export const CityMenu: FC<IProps> = ({ isMobile, cities, value, onChange }) => {
             minWidth: "0px",
             textWrap: "wrap",
             // fontSize: "2.5vh",
-            fontFamily: "SuisseIntl-Thin",
+            
             fontSize: isMobile ? "2vw" : "2.5vh",
             fontWeight: 400,
             background: "transparent",
@@ -59,7 +59,7 @@ export const CityMenu: FC<IProps> = ({ isMobile, cities, value, onChange }) => {
             textTransform: "none",
             color: "#fff",
             // fontSize: "2.5vh",
-            fontFamily: "SuisseIntl-Thin",
+            
             fontSize: isMobile ? "10px" : "2.5vh",
             fontWeight: 400,
             background: "transparent",

@@ -73,12 +73,12 @@ export const ImageSection: FC<IImageSection> = ({ setActiveSection }) => {
                 margin: "0 auto",
                 gap: "4vh",
                 textAlign: "center",
-                fontFamily: "SuisseIntl-Light",
+                
                 fontWeight: 300,
                 lineHeight: "9vh",
                 letterSpacing: "-0.5vh",
-                fontSize: "8vh",
-                color: "#fff",
+                fontSize: "6.5vh",
+                color: "#DCEEF9",
               }}
             >
               {cityData.City} in Pictures and Numbers
@@ -185,33 +185,34 @@ export const ImageSection: FC<IImageSection> = ({ setActiveSection }) => {
                   alignItems: "center",
                   gap: "10vh",
                   fontSize: "1.7vh",
-                  fontFamily: "SuisseIntl-Light",
+                  padding: "0 15%",
+                  
                 }}
               >
-                <a>
-                  <div
-                    style={{
-                      pointerEvents: "all",
-                      // background: "#000",
-                      color: "#fff",
-                      cursor: "pointer",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    Become our reporter
-                    <br />
-                    Suggest another image
-                  </div>
-                </a>
+                {/*<a>*/}
+                  {/*<div*/}
+                  {/*  style={{*/}
+                  {/*    pointerEvents: "all",*/}
+                  {/*    // background: "#000",*/}
+                  {/*    color: "#fff",*/}
+                  {/*    cursor: "pointer",*/}
+                  {/*    textDecoration: "underline",*/}
+                  {/*  }}*/}
+                  {/*>*/}
+                  {/*  Become our reporter*/}
+                  {/*  <br />*/}
+                  {/*  Suggest another image*/}
+                  {/*</div>*/}
+                {/*</a>*/}
                 <Button
                   style={{
                     pointerEvents: "all",
-                    color: "#fff",
-                    backgroundColor: "#2D67FF",
+                    color: "#121212",
+                    backgroundColor: "#00C8B5",
                     borderRadius: 50,
                     padding: "1vh 2.5vh",
                     textTransform: "none",
-                    fontFamily: "SuisseIntl-Light",
+                    
                     fontSize: "1.7vh",
                     display: "flex",
                     flexDirection: "row",

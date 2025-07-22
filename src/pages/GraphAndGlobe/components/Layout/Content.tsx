@@ -10,9 +10,9 @@ import type mapboxgl from "mapbox-gl";
 import { FilterButtons } from "./FilterButtons";
 
 const i18nObject = {
-  firstRow: "Choose a city and ",
-  secondRow: "view its ",
-  score: "score",
+  firstRow: "Choose a city",
+  secondRow: "to",
+  score: "explore",
   howRatingWorks: "How the rating works",
   map: "Map",
   graph: "Graph",
@@ -55,7 +55,7 @@ export const Content: FC<ContentProps> = ({
         <div className={classes.textAndToggleWrapper}>
           <Typography className={classes.bigText}>
             {t("firstRow")} <br />
-            {t("secondRow")}
+            {t("secondRow")}&nbsp;
             <span className={classes.bigTextBlue}>{t("score")}</span>
           </Typography>
 

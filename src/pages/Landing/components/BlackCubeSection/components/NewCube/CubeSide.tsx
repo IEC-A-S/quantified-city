@@ -41,7 +41,6 @@ export const CubeSide: FC<CubeSideProps> = ({ children, side }) => {
           position: "absolute",
           bottom: "2vh",
           right: "2vh",
-          fontFamily: "SuisseIntl-Light",
           fontSize: "2vh",
           opacity: isHovered ? 1 : 0.7,
         }}

@@ -1,8 +1,6 @@
 import { useFirstSectionStyles } from "./components/styles";
 import { Layout } from "./components/Layout";
 import { CityName } from "./components/CityName";
-import { BigStatItem } from "../../../GraphAndGlobe/components/BigStatItem";
-import { SmallStatItem } from "../../../GraphAndGlobe/components/SmallStatItem";
 import { BigSmallStatItem } from "./components/BigStatItem";
 import { Button, Typography } from "@mui/material";
 import type { FC } from "react";
@@ -42,80 +40,32 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
               transform: "scale(1.2)",
             }}
           >
-            <div
-              style={{
-                cursor: "pointer",
-              }}
-              onClick={() => {
-                const landing = document.getElementById("landing");
-                landing.scrollTo({
-                  top: landing.clientHeight * 2,
-                  behavior: "smooth",
-                });
-              }}
-            >
-              <BigStatItem
-                label="Urban resilience index"
-                status={cityData["Urban Resilience Index"]}
-                isFirst={true}
-              />
-            </div>
-            <div className={classes.smallItemsListWrapper}>
-              <SmallStatItem
-                label="Environmental"
-                status={cityData.Environmental}
-                style={{ fontSize: "2.1vh" }}
-              />
-              <SmallStatItem
-                label="Social"
-                status={cityData.Social}
-                style={{ fontSize: "2.1vh" }}
-              />
-              <SmallStatItem
-                label="Governmental"
-                status={cityData.Governmental}
-                style={{ fontSize: "2.1vh" }}
-              />
-            </div>
-            <div
-              className={classes.smallItemsListWrapper}
-              style={{
-                marginTop: "2.7vh",
-              }}
-            >
-              {/*<SmallStatItem label="Current state" status={cityData["Current state"]} />*/}
-              <SmallStatItem
-                label="Ability & Willingness"
-                status={cityData["Ability & Willingness"]}
-                style={{ fontSize: "2.1vh" }}
-              />
-            </div>
           </div>
           <div
             style={{
               position: "absolute",
               top: "27%",
-              right: "9vh",
+              right: "0vh",
               display: "flex",
               flexDirection: "column",
               gap: "3.2vh",
               height: "43.5vh",
             }}
           >
-            <div
-              style={{
-                fontFamily: "SuisseIntl-Light",
-                fontWeight: 100,
-                fontSize: "3vh",
-                textAlign: "center",
-              }}
-            >
-              Related indices
-            </div>
+            {/*<div*/}
+            {/*  style={{*/}
+            {/*    fontWeight: 100,*/}
+            {/*    fontSize: "3vh",*/}
+            {/*    textAlign: "center",*/}
+            {/*    color: "#121212",*/}
+            {/*  }}*/}
+            {/*>*/}
+            {/*  Related indices*/}
+            {/*</div>*/}
             <div>
               <BigSmallStatItem
                 isFirst={true}
-                label="Basic needs index"
+                label="Basic needs"
                 subLabel="Scope 0"
                 status={cityData["Basic needs Scope"]}
               />
@@ -184,16 +134,16 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
                 link.click();
               }}
             >
-              <Typography className={classes.smallText}>
-                How the rating works
-              </Typography>
-              <img
-                src="/assets/questionGray.svg"
-                alt="hint"
-                style={{
-                  opacity: 0.6,
-                }}
-              />
+              {/*<Typography className={classes.smallText}>*/}
+              {/*  How the rating works*/}
+              {/*</Typography>*/}
+              {/*<img*/}
+              {/*  src="/assets/questionGray.svg"*/}
+              {/*  alt="hint"*/}
+              {/*  style={{*/}
+              {/*    opacity: 0.6,*/}
+              {/*  }}*/}
+              {/*/>*/}
             </div>
 
             <div>
@@ -211,15 +161,18 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
                       });
                     }}
                     style={{
-                      marginBottom: "5vh",
-                      backgroundColor: "#3752BA",
-                      color: "#fff",
+                      position: "absolute",
+                      left: "50%",
+                      transform: "translateX(-50%)",
+                      bottom: "7vh",
+                      backgroundColor: "transparent",
+                      border: "1px solid #121212",
+                      color: "#121212",
                       borderRadius: 50,
                       padding: "1vh 2.5vh",
                       textTransform: "none",
                       pointerEvents: "all",
                       cursor: "pointer",
-                      fontFamily: "SuisseIntl-Light",
                       fontSize: "1.7vh",
                       alignItems: "center",
                     }}
@@ -237,9 +190,13 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
                   });
                 }}
                 style={{
+                  position: "absolute",
+                  left: "50%",
+                  transform: "translateX(-50%)",
+                  bottom: "0vh",
                   pointerEvents: "all",
                   cursor: "pointer",
-                  fontFamily: "SuisseIntl-Light",
+                  color: "#121212",
                   fontSize: "1.7vh",
                   display: "flex",
                   flexDirection: "column",
@@ -260,12 +217,11 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
             <Button
               style={{
                 pointerEvents: "all",
-                color: "#fff",
-                backgroundColor: "#2D67FF",
+                color: "#121212",
+                backgroundColor: "#00C8B5",
                 borderRadius: 50,
                 padding: "1vh 2.5vh",
                 textTransform: "none",
-                fontFamily: "SuisseIntl-Light",
                 fontSize: "1.7vh",
                 display: "flex",
                 flexDirection: "row",
@@ -287,11 +243,11 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
         <div
           style={{
             position: "absolute",
-            fontFamily: "SuisseIntl-Light",
-            fontWeight: 100,
+            
+            fontWeight: 400,
             fontSize: "1.4vh",
-            color: "rgba(255, 255, 255, 0.4)",
-            bottom: "22vh",
+            color: "#121212",
+            bottom: "18vh",
             right: "50%",
             transform: "translateX(65%)",
             width: "30%",
@@ -300,7 +256,7 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
           The height of a bar represents the total number of people in a grid
           cell.
         </div>
-        <ZoomButtons map={map} />
+        {/*<ZoomButtons map={map} />*/}
       </Layout>
     </div>
   );

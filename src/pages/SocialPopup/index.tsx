@@ -96,7 +96,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
             display: "flex",
             width: "100%",
             float: "left",
-            background: "#000000",
+            background: "#121212",
             flexDirection: "column",
             flexWrap: "nowrap",
             alignContent: "flex-start",
@@ -146,7 +146,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
           >
             <div className={cardClasses.header}>
               <div className={cardClasses.headerCategory}>
-                <span style={{ fontFamily: "SuisseIntl-Light" }}>
+                <span>
                   {data.city}:
                 </span>{" "}
                 <br />

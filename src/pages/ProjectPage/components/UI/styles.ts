@@ -5,7 +5,7 @@ export const useRatingBubblesStyles = makeStyles()({
         display: "flex",
         flexDirection: "row",
         alignItems: "center",
-        fontFamily: "SuisseIntl-Regular",
+        
         fontWeight: 400,
         fontSize: "2vh",
         color: "#000000",
@@ -36,7 +36,7 @@ export const useButtonStyles = makeStyles()({
         gap: "1vh",
     },
     title: {
-        fontFamily: "SuisseIntl-Light",
+        
         fontWeight: 400,
         fontSize: "2vh",
         color: "#FFFFFF",
@@ -71,7 +71,7 @@ export const useTitleStyles = makeStyles()({
         marginTop: "2vh",
     },
     title: {
-        fontFamily: "SuisseIntl-Medium",
+        
         fontWeight: 500,
         fontSize: "8vh",
         lineHeight: "9vh",
@@ -79,7 +79,7 @@ export const useTitleStyles = makeStyles()({
         margin: "0",
     },
     subtitle: {
-        fontFamily: "SuisseIntl-Light",
+        
         fontWeight: 400,
         fontSize: "4vh",
         color: "#000",
@@ -93,7 +93,7 @@ export const useTitleStyles = makeStyles()({
         cursor: "pointer",
     },
     location: {
-        fontFamily: "SuisseIntl-Light",
+        
         fontWeight: 400,
         fontSize: "2.5vh",
         color: "rgba(0, 0, 0, 0.2)",

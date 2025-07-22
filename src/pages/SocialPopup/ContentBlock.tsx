@@ -26,7 +26,7 @@ export const ContentBlock: FC<IProps> = ({ data }) => {
     >
       <div className={classes.header}>
         <div className={classes.headerCategory}>
-          <span style={{ fontFamily: "SuisseIntl-Light" }}>{data.city}:</span>{" "}
+          <span>{data.city}:</span>{" "}
           <br />
           {data.category}
         </div>

@@ -89,7 +89,7 @@ export const Header: FC<HeaderProps> = ({ invertColors, setMenuVisible }) => {
         {/*    borderRadius: 50,*/}
         {/*    padding: ".8vh 2vh",*/}
         {/*    textTransform: "none",*/}
-        {/*    fontFamily: "SuisseIntl-Regular",*/}
+        {/*    */}
         {/*    fontSize: "1.7vh",*/}
         {/*    border: "1px solid #CCCCCC",*/}
         {/*  }}*/}
@@ -99,7 +99,7 @@ export const Header: FC<HeaderProps> = ({ invertColors, setMenuVisible }) => {
         {!invertColors ? (
           <div
             style={{
-              fontFamily: "SuisseIntl-Light",
+              
               fontWeight: 600,
               color: "#fff",
               textTransform: "none",

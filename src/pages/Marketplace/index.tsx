@@ -84,7 +84,7 @@ export const Marketplace = () => {
             />
             <div
               style={{
-                fontFamily: "SuisseIntl-Regular",
+                
                 fontWeight: 100,
                 fontSize: "1.8vh",
               }}

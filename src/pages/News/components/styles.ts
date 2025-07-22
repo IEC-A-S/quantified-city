@@ -8,13 +8,12 @@ export const useNewsStyles = makeStyles()({
     height: "calc(100vh - 10.3vh)",
   },
   title: {
-    fontFamily: "SuisseIntl-Light",
     fontWeight: 400,
     fontSize: "6.8vh",
     margin: "2vh 0vh 4vh",
   },
   titleBold: {
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: "700",
   },
   filtersAndProjectsWrapper: {
@@ -55,7 +54,6 @@ export const useNewsStyles = makeStyles()({
     textWrap: "nowrap",
   },
   filterGroupHeader: {
-    fontFamily: "SuisseIntl-Light",
     fontWeight: 400,
     fontSize: "3.5vh",
     marginTop: "4vh",
@@ -69,7 +67,6 @@ export const useNewsStyles = makeStyles()({
     gap: "0",
   },
   filterRow: {
-    fontFamily: "SuisseIntl-Light",
     fontWeight: 400,
     fontSize: "2.1vh",
     display: "flex",
@@ -80,7 +77,6 @@ export const useNewsStyles = makeStyles()({
     textWrap: "nowrap",
   },
   moreFiltersBtn: {
-    fontFamily: "SuisseIntl-Light",
     fontWeight: 400,
     fontSize: "2.1vh",
     color: "#000",
@@ -102,7 +98,6 @@ export const useNewsStyles = makeStyles()({
     border: "1px solid #CCCCCC",
   },
   statItem: {
-    fontFamily: "SuisseIntl-Light",
     fontWeight: 800,
     color: "#35CB00",
     border: "1px solid rgba(53, 203, 0, 0.5)",
@@ -127,12 +122,11 @@ export const useNewsStyles = makeStyles()({
   },
   projectTitle: {
     cursor: "pointer",
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: 600,
     fontSize: "1.8vh",
   },
   projectSubTitle: {
-    fontFamily: "SuisseIntl-Light",
     fontWeight: 400,
     fontSize: "1.5vh",
     opacity: "0.5",
@@ -144,7 +138,7 @@ export const useNewsStyles = makeStyles()({
     gap: "1.5vh",
   },
   impactLabel: {
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: 100,
     fontSize: "1.5vh",
   },

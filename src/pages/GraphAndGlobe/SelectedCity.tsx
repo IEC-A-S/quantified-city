@@ -177,7 +177,7 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
           zIndex: 1000,
           background: "#2D67FF",
           color: "#fff",
-          fontFamily: "SuisseIntl-Regular",
+          
           fontSize: "3vh",
           fontWeight: 100,
           textTransform: "none",
@@ -218,7 +218,7 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
       <div
         style={{
           position: "absolute",
-          fontFamily: "SuisseIntl-Light",
+          
           fontWeight: 100,
           fontSize: "1.4vh",
           color: "rgba(255, 255, 255, 0.4)",

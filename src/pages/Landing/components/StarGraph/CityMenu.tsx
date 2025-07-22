@@ -98,11 +98,10 @@ export const CityMenu: FC<ICityItem> = ({
           ></div>
           <div
             style={{
-              fontFamily: "SuisseIntl-Light",
-              fontSize: "3.1vh",
+              fontSize: "2.5vh",
               fontWeight: 600,
               textAlign: "center",
-              color: "#000",
+              color: "#121212",
               textTransform: "none",
             }}
           >

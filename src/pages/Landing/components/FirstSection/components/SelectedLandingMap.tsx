@@ -12,10 +12,7 @@ export const SelectedLandingMap: FC<ISelectedMapProps> = ({
   selectedCityName,
   setMap,
 }) => {
-  //Init params for map
-  mapboxgl.accessToken =
-    "pk.eyJ1Ijoic3RhbnJvbnpoaW4iLCJhIjoiY2xvaGF3ZmFzMWdodDJxbjByeHMzanE2dCJ9.3uz_EG8N_d7isS1h5wV46w";
-
+  
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map>(null);
 
@@ -27,9 +24,10 @@ export const SelectedLandingMap: FC<ISelectedMapProps> = ({
     )?.properties;
 
     map.current = new mapboxgl.Map({
+      accessToken: "pk.eyJ1IjoidHNrbm9mZiIsImEiOiJjbGNxZDlxMnowNHV4M3JwZHp0ZTlvM2NiIn0.Tz-_y_F7EwR2NkPNA-Xlkw",
       attributionControl: true,
       container: mapContainerRef.current,
-      style: "mapbox://styles/stanronzhin/clvpk3tck01mn01qr797mg9mw",
+      style: "mapbox://styles/tsknoff/cmd8m8r45000601sahfyi9p6x",
       center: initData?.center,
       zoom: initData?.zoom - 0.5,
       bearing: initData?.bearing,
@@ -63,7 +61,7 @@ export const SelectedLandingMap: FC<ISelectedMapProps> = ({
           );
 
           map.current.setPaintProperty(
-            "bars-89e228",
+            "bars-2cl5je",
             "fill-extrusion-vertical-scale",
             count
           );
@@ -92,7 +90,6 @@ export const SelectedLandingMap: FC<ISelectedMapProps> = ({
         pointerEvents: "none",
         position: "absolute",
         top: "10vh",
-        right: "0",
         width: "100%",
         height: "90vh",
       }}

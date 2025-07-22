@@ -175,7 +175,7 @@ export const Landing = () => {
               ? "none"
               : "block",
           position: "absolute",
-          backgroundColor: "#203CBF",
+          // backgroundColor: "#203CBF",
           width: "100vw",
           height: "100vh",
         }}

@@ -30,7 +30,8 @@ export const CubeSide: FC<CubeSideProps> = ({
         position: "absolute",
         // backgroundColor:
         //   side === "top" ? "red" : side === "left" ? "blue" : "green",
-        backgroundImage: "url(/assets/cube_solid_bg.png)",
+        // backgroundImage: "url(/assets/cube_solid_bg.png)",
+        backgroundColor: "#183633",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -54,16 +55,15 @@ export const CubeSide: FC<CubeSideProps> = ({
           position: "absolute",
           bottom: "20px",
           right: "20px",
-          fontFamily: "SuisseIntl-Light",
           fontSize: "25px",
           opacity: isHovered ? 1 : 0.7,
           color: "#fff",
         }}
       >
         {side === "left"
-          ? "Environment"
+          ? "Economic"
           : side === "right"
-          ? "Governmental"
+          ? "Urban"
           : "Social"}
       </div>
     </div>

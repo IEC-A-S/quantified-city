@@ -6,7 +6,6 @@ import { makeStyles } from "tss-react/mui";
 
 export const useGovernanceStyles = makeStyles()({
   toggleButton: {
-    fontFamily: "SuisseIntl-Light",
     fontWeight: 400,
     fontSize: "3.5vh",
     color: "#000",
@@ -87,7 +86,7 @@ export const Governance = () => {
       >
         <div
           style={{
-            fontFamily: "SuisseIntl-Regular",
+            
             fontWeight: 400,
             fontSize: "6.8vh",
           }}
@@ -146,7 +145,6 @@ export const Governance = () => {
           <div
             style={{
               flex: 2,
-              fontFamily: "SuisseIntl-Light",
               fontWeight: 400,
               fontSize: "3vh",
             }}
@@ -154,7 +152,7 @@ export const Governance = () => {
             Scientific board strategically oversees{" "}
             <span
               style={{
-                fontFamily: "SuisseIntl-Regular",
+                
               }}
             >
               URI methodology and project assessment methodology
@@ -165,7 +163,7 @@ export const Governance = () => {
             with{" "}
             <span
               style={{
-                fontFamily: "SuisseIntl-Regular",
+                
                 color: "#2D67FF",
               }}
             >
@@ -215,7 +213,7 @@ export const PersonCard: FC<IPersonCard> = ({ img, name, position, tags }) => {
       />
       <div
         style={{
-          fontFamily: "SuisseIntl-Regular",
+          
           fontWeight: 400,
           fontSize: "1.5vh",
           color: "#000",
@@ -225,7 +223,6 @@ export const PersonCard: FC<IPersonCard> = ({ img, name, position, tags }) => {
       </div>
       <div
         style={{
-          fontFamily: "'SuisseIntl-Light'",
           fontWeight: "100",
           fontSize: "1.4vh",
           color: "rgb(0, 0, 0)",
@@ -235,7 +232,6 @@ export const PersonCard: FC<IPersonCard> = ({ img, name, position, tags }) => {
       </div>
       <div
         style={{
-          fontFamily: "'SuisseIntl-Light'",
           fontWeight: "100",
           fontSize: "1.4vh",
           color: "rgb(0, 0, 0)",

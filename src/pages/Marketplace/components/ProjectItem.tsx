@@ -112,7 +112,7 @@ export const ProjectItem: FC<ProjectItemProps> = ({
           flexDirection: "row",
           alignItems: "center",
           gap: "0.5vh",
-          fontFamily: "SuisseIntl-Light",
+          
           fontWeight: 600,
           fontSize: "1.4vh",
         }}
@@ -137,7 +137,7 @@ export const ProjectItem: FC<ProjectItemProps> = ({
       <div className={classes.projectInfoWrapper}>
         <div
           style={{
-            fontFamily: "SuisseIntl-Light",
+            
             fontWeight: 600,
             fontSize: "1.4vh",
             marginTop: "2vh",

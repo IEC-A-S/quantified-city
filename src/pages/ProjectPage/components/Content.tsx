@@ -69,7 +69,7 @@ const Content: React.FC<ContentProps> = ({
                 <Title country={projectData.Country} city={projectData.City} style={{
                     flex: 5,
                 }}>
-                    {projectData.Project}<span style={{ color: "#000", fontFamily: "SuisseIntl-Light", fontWeight: 400, }}>{projectData.TitleBlue}</span>
+                    {projectData.Project}<span style={{ color: "#000",  fontWeight: 400, }}>{projectData.TitleBlue}</span>
                 </Title>
                 <div style={{ flex: 1 }}></div>
                 <ProjectImage

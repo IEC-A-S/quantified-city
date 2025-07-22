@@ -30,7 +30,7 @@ export const NewsItem: FC<NewsItemProps> = ({ newsItem }) => {
         boxSizing: "border-box",
         padding: "2vh 3.5vw",
         gap: "2vw",
-        fontFamily: "SuisseIntl-Light",
+        
         fontWeight: 400,
         color: hovered ? "#fff" : "#000",
       }}
@@ -55,7 +55,7 @@ export const NewsItem: FC<NewsItemProps> = ({ newsItem }) => {
       <div
         style={{
           flex: 8,
-          fontFamily: "SuisseIntl-Regular",
+          
           fontWeight: 600,
           display: "flex",
           alignItems: "center",
@@ -74,7 +74,7 @@ export const NewsItem: FC<NewsItemProps> = ({ newsItem }) => {
       >
         <Button
           style={{
-            fontFamily: "SuisseIntl-Light",
+            
             textTransform: "none",
             border: "1px solid #BFBFBF",
             color: hovered ? "#fff" : "#000",
@@ -89,7 +89,7 @@ export const NewsItem: FC<NewsItemProps> = ({ newsItem }) => {
         </Button>
         <Button
           style={{
-            fontFamily: "SuisseIntl-Light",
+            
             textTransform: "none",
             color: hovered ? "#000" : "#fff",
             backgroundColor: hovered ? "#fff" : "#2D67FF",

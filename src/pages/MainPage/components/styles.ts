@@ -13,7 +13,7 @@ export const useMainPageStyles = makeStyles()({
     backgroundPosition: "center",
   },
   title: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     fontSize: "6vh",
     display: "flex",
@@ -28,7 +28,7 @@ export const useMainPageStyles = makeStyles()({
     flexDirection: "row",
     width: "100%",
     color: "#fff",
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     fontSize: "4.5vh",
     marginTop: "15vh",
@@ -55,7 +55,7 @@ export const useMainPageStyles = makeStyles()({
     alignSelf: "flex-end",
   },
   whiteButton: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 600,
     backgroundColor: "#fff",
     color: "#000",

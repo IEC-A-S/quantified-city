@@ -29,8 +29,6 @@ export const TextToggleButton: FC<TextToggleButtonProps> = ({
       onMouseOver={() => !isTitle && !disabled && setHovered(true)}
       style={{
         cursor: hovered ? "pointer" : "default",
-        fontFamily:
-          hovered || isActive ? "SuisseIntl-Regular" : "SuisseIntl-Light",
         fontWeight: hovered || isActive ? 600 : 400,
         backgroundColor: "#fff",
         color: isActive ? "#2D67FF" : "#000",

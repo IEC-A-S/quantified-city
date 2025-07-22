@@ -38,7 +38,7 @@ export const usePopupStyles = makeStyles()({
     },
   },
   blue: {
-    backgroundColor: "#1433AE",
+    backgroundColor: "rgba(240, 234, 214, 1)",
     color: "#FFF",
   },
   white: {

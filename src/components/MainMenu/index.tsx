@@ -165,7 +165,7 @@ const MenuItem: FC<MenuItemProps> = ({
         cursor: "pointer",
         fontFamily: "SuisseIntl-Light",
         fontWeight: 400,
-        color: hovered || isActive ? "#2D67FF" : "#FFFFFF",
+        color: hovered || isActive ? "rgba(0, 200, 181, 1)" : "#FFFFFF",
         fontSize: isMobile ? "24px" : "8vh",
         display: "flex",
         alignItems: "center",

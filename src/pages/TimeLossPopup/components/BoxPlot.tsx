@@ -104,12 +104,12 @@ export const BoxPlot: FC<IBoxPlotProps> = ({ city, isMobile }) => {
           // }}
           style={{
             pointerEvents: "all",
-            color: "#fff",
-            backgroundColor: "#2D67FF",
+            color: "#121212",
+            backgroundColor: "#00C8B5",
             borderRadius: 50,
             padding: "1vh 2.5vh",
             textTransform: "none",
-            fontFamily: "SuisseIntl-Light",
+            
             fontSize: "1.7vh",
             display: "flex",
             flexDirection: "row",

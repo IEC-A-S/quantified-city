@@ -45,7 +45,7 @@ export const CitySelectorsSet: FC<IProps> = ({
             color: "#fff",
             fontSize: isMobile ? "2vw" : "2.5vh",
             fontWeight: 400,
-            fontFamily: "SuisseIntl-Thin",
+            
           }}
         >
           {currentCity}

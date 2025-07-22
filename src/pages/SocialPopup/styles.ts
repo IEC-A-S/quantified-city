@@ -8,14 +8,14 @@ export const useCardStyles = tss.create({
     zIndex: 1,
 
     color: "#FFF",
-    fontFamily: "SuisseIntl-Light",
+    
     fontSize: "5vh",
     fontWeight: 300,
     lineHeight: "normal",
     letterSpacing: "-1.2",
   },
   headerCategory: {
-    fontFamily: "SuisseIntl-Medium",
+    
     fontWeight: 500,
   },
 
@@ -40,7 +40,7 @@ export const useCardStyles = tss.create({
   },
   dictionaryTitle: {
     color: "#FFF",
-    fontFamily: "SuisseIntl-Regular",
+    
     fontSize: "2vh",
     fontStyle: "normal",
     fontWeight: 400,
@@ -51,7 +51,7 @@ export const useCardStyles = tss.create({
   },
   dictionaryDescription: {
     color: "#FFF",
-    fontFamily: "SuisseIntl-Medium",
+    
     fontSize: "3vh",
     fontStyle: "normal",
     fontWeight: 500,

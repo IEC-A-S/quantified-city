@@ -53,7 +53,7 @@ export const useConetentRowStyles = makeStyles()({
   },
   name: {
     width: "10vw",
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: 400,
     fontSize: "4vh",
     color: "#000000",
@@ -61,7 +61,7 @@ export const useConetentRowStyles = makeStyles()({
     margin: "0",
   },
   text: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     fontSize: "4vh",
     color: "#000000",
@@ -80,7 +80,7 @@ export const useConetnsStyles = makeStyles()({
     gap: "6vh",
   },
   smallText: {
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: 400,
     fontSize: "2vh",
     color: "#000000",
@@ -92,7 +92,7 @@ export const useConetnsStyles = makeStyles()({
     alignItems: "center",
   },
   text: {
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: 400,
     fontSize: "4vh",
     color: "#000000",
@@ -141,7 +141,7 @@ export const useHeaderStyles = makeStyles()({
     alignItems: "center",
   },
   whiteText: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     color: "#fff",
     textTransform: "none",
@@ -151,7 +151,7 @@ export const useHeaderStyles = makeStyles()({
     },
   },
   signUpButton: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 600,
     color: "#fff",
     textTransform: "none",

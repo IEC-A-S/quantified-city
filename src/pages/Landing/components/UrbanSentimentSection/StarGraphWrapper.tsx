@@ -54,7 +54,7 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
         style={{
           position: "absolute",
           top: "15.5%",
-          left: "9vh",
+          left: "0vh",
           display: "flex",
           flexDirection: "column",
           zIndex: 1000,
@@ -62,215 +62,23 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
       >
         <div
           style={{
-            fontFamily: "SuisseIntl-Light",
-            fontSize: "6.25vh",
-            color: "#000",
+            fontSize: "5vh",
+            // fontSize: "48px",
+            color: "#121212",
           }}
         >
           {selectedCityData?.City}: <br />
-          <b>Social</b> sentiment
-          <br />
-          index
-          <span
-            style={{
-              paddingTop: "-1.5vh",
-              marginLeft: "1.2vh",
-              fontFamily: "SuisseIntl-Light",
-              fontSize: "3.1vh",
-              fontWeight: 400,
-              marginTop: "1.45vh",
-              textAlign: "center",
-              padding: "1.4vh 2vh",
-              verticalAlign: "middle",
-              // backgroundColor: Colors[
-              //   selectedCityData?.["Transport Resilience Index"].toUpperCase()
-              // ]
-              //   ? Colors[
-              //       selectedCityData?.[
-              //         "Transport Resilience Index"
-              //       ].toUpperCase()
-              //     ]
-              //   : "#A0DA8B",
-              backgroundColor:
-                Colors[
-                  selectedCityData?.["Urban Sentiment Index"]
-                    .toUpperCase()
-                    .replace(" ", "_")
-                ],
-
-              color: "#000",
-              borderRadius: 50,
-              width: "fit-content",
-            }}
-          >
-            {selectedCityData?.["Urban Sentiment Index"]}
-          </span>
-          {/*<HtmlTooltip*/}
-          {/*  title={*/}
-          {/*    <>*/}
-          {/*      <div*/}
-          {/*        style={{*/}
-          {/*          fontFamily: "SuisseIntl-Light",*/}
-          {/*          fontSize: "1.8vh",*/}
-          {/*        }}*/}
-          {/*      >*/}
-          {/*        The assessment is based on indicators in the 'transport'*/}
-          {/*        category from the URI, and it is supplemented with some other*/}
-          {/*        metrics: <br />*/}
-          {/*        <Grid*/}
-          {/*          container={true}*/}
-          {/*          style={{ marginTop: "1vh" }}*/}
-          {/*          spacing={2}*/}
-          {/*        >*/}
-          {/*          <Grid item={true} xs={hintHeader}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Efficiency*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintText}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Time loss in traffic, minutes*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintHeader}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Accessibility*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintText}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Share of population in 1km from public transport stops,*/}
-          {/*              %*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintHeader}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Safety*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintText}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Road fatalities rate per 100,000 population*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintHeader}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Affordability*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintText}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Ratio of the cost of monthly public transport usage (the*/}
-          {/*              cheapest option) to the average monthly income*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintHeader}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Environmental impact*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintText}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              NO2 concentration, μg/m3*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintHeader}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Satisfaction*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*          <Grid item={true} xs={hintText}>*/}
-          {/*            <div*/}
-          {/*              style={{*/}
-          {/*                fontFamily: "SuisseIntl-Light",*/}
-          {/*                fontSize: "1.8vh",*/}
-          {/*              }}*/}
-          {/*            >*/}
-          {/*              Ratio of the cost of a 1-kilometer taxi ride to average*/}
-          {/*              monthly income, %*/}
-          {/*            </div>*/}
-          {/*          </Grid>*/}
-          {/*        </Grid>*/}
-          {/*      </div>*/}
-          {/*    </>*/}
-          {/*  }*/}
-          {/*  placement="bottom-start"*/}
-          {/*>*/}
-          {/*  <img*/}
-          {/*    onMouseEnter={() => setHintHovered(true)}*/}
-          {/*    onMouseLeave={() => setHintHovered(false)}*/}
-          {/*    src={"/assets/infoIcon.svg"}*/}
-          {/*    alt="info"*/}
-          {/*    style={{*/}
-          {/*      filter: "invert(1)",*/}
-          {/*      marginLeft: "2vh",*/}
-          {/*      opacity: hintHovered ? 1 : 0.5,*/}
-          {/*      cursor: "pointer",*/}
-          {/*    }}*/}
-          {/*  />*/}
-          {/*</HtmlTooltip>*/}
+          <span style={{
+            color: "#00C8B5"
+          }}>Social Sentiment </span>
+          Index
         </div>
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             gap: ".5vh",
-            marginTop: "17vh",
+            marginTop: "30vh",
           }}
         >
           {children}
@@ -279,11 +87,10 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
       <Typography
         style={{
           position: "absolute",
-          top: "41vh",
-          left: "9.5vh",
-          width: "35vw",
-          color: "#000000",
-          fontFamily: "SuisseIntl-Light",
+          top: "35vh",
+          left: "0vh",
+          width: "20vw",
+          color: "#121212",
           fontSize: "1.8vh",
         }}
       >
@@ -310,18 +117,19 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
               }}
               style={{
                 pointerEvents: "all",
-                color: "#fff",
+                color: "#121212",
                 backgroundColor: "transparent",
-                border: "1px solid rgba(255, 255, 255, 0.3)",
+                border: "1px solid #121212",
                 borderRadius: 50,
                 padding: "1vh 2.5vh",
                 textTransform: "none",
-                fontFamily: "SuisseIntl-Light",
+                
                 fontSize: "1.7vh",
+                fontWeight: 400,
                 display: hideExploreTopics ? "none" : "flex",
                 flexDirection: "row",
                 gap: "1.2vh",
-                filter: "invert(1)",
+                // filter: "invert(1)",
                 zIndex: 2,
               }}
             >
@@ -330,12 +138,11 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
             <Button
               style={{
                 pointerEvents: "all",
-                color: "#fff",
-                backgroundColor: "#2D67FF",
+                color: "#121212",
+                backgroundColor: "#00C8B5",
                 borderRadius: 50,
                 padding: "1vh 2.5vh",
                 textTransform: "none",
-                fontFamily: "SuisseIntl-Light",
                 fontSize: "1.7vh",
                 display: "flex",
                 flexDirection: "row",

@@ -49,10 +49,10 @@ export const NewCube = ({
   const [scale, setScale] = useState(
     isMobile
       ? Math.min(
-          Math.min(window.innerHeight / 950, window.innerWidth / 650),
+          Math.min(window.innerHeight / 1150, window.innerWidth / 650),
           0.78
         )
-      : Math.min(window.innerHeight / 950, window.innerWidth / 650)
+      : Math.min(window.innerHeight / 1150, window.innerWidth / 650)
   );
 
   useEffect(() => {
@@ -70,7 +70,7 @@ export const NewCube = ({
       // const scale = windowHeight / 950; // 728
       // scale depends on the height and width of the window
       // min cube width is 650px
-      let scale = Math.min(windowHeight / 950, window.innerWidth / 650);
+      let scale = Math.min(windowHeight / 1150, window.innerWidth / 650);
       // top depends on the height of the window
       if (isMobile) {
         const maxScale = 0.78;
@@ -94,8 +94,8 @@ export const NewCube = ({
         height: "728px",
         position: "absolute",
         display: "flex",
-        top: "50%",
-        left: "50%",
+        top: "57%",
+        left: "32%",
         transform: isMobile
           ? "translate(-50%, -50%) scale(" + scale + ")"
           : "translate(-50%, -50%) scale(" + scale + ")",

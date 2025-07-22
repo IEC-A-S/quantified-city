@@ -41,7 +41,8 @@ export const StarGraph: FC<IProps> = ({
     <div
       style={{
         position: "relative",
-        backgroundColor: "#fff",
+        backgroundColor: "#F0EAD6",
+        padding: "0 15%",
       }}
     >
       <div className={classes.root}>
@@ -59,7 +60,7 @@ export const StarGraph: FC<IProps> = ({
             style={{
               position: "absolute",
               // top: "50%",
-              left: "4vw",
+              right: "15%",
               // transform: "translateY(-50%)",
               boxSizing: "border-box",
               display: "block",

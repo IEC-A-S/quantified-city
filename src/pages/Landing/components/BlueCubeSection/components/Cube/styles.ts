@@ -6,7 +6,6 @@ export const useCubeStyles = makeStyles()({
     flexDirection: "column",
     justifyContent: "center",
     height: "800px",
-    fontFamily: "sans-serif",
   },
   card: {
     padding: "20px",

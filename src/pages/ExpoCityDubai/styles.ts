@@ -26,7 +26,7 @@ export const useExpoCityStyles = makeStyles()({
     width: "100%",
   },
   title: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 100,
     fontSize: "6vh",
     color: "#fff",
@@ -39,7 +39,7 @@ export const useExpoCityStyles = makeStyles()({
   },
   description: {
     paddingTop: "4vh",
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 100,
     fontSize: "3vh",
     color: "#fff",

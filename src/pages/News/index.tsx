@@ -23,7 +23,7 @@ export const News = () => {
           <div className={classes.filtersWrapper}>
             <Button
               style={{
-                fontFamily: "SuisseIntl-Light",
+                
                 fontSize: "1.8vh",
                 textTransform: "none",
                 border: "1px solid #BFBFBF",
@@ -48,7 +48,7 @@ export const News = () => {
           <div className={classes.projectsWrapper}>
             <div
               style={{
-                fontFamily: "SuisseIntl-Light",
+                
                 fontSize: "1.8vh",
                 textTransform: "none",
                 border: "1px solid #BFBFBF",

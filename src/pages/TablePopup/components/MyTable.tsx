@@ -127,7 +127,7 @@ export const MyTable = ({ isMobile }) => {
   const [rows, setRows] = useState(rowsInit);
 
   const tableCellMobileStyle = {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 600,
     fontSize: isMobile ? "12px" : "2vh",
     textTransform: "none",

@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import { createHashRouter, RouterProvider } from "react-router-dom";
-import { theme } from "./pages/theme";
-import { ThemeProvider } from "@mui/material";
-import { routes } from "./router/routes";
+import { theme }              from "./pages/theme";
+import { Box, ThemeProvider } from "@mui/material";
+import { routes }             from "./router/routes";
 import { MobileApp } from "./mobile/MobileApp";
 import { md5 } from "js-md5";
 

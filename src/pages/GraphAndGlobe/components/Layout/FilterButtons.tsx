@@ -42,7 +42,11 @@ export const FilterButtons = () => {
   return (
     <div className={classes.filterButtonsWrapper}>
       {filtersOpen ? (
-        <div>
+        <div style={{
+          display: "flex",
+          flexDirection: "row",
+          gap: "8px",
+        }}>
           <div
             onClick={() => setFiltersOpen(false)}
             className={classes.blurAll}
@@ -86,7 +90,7 @@ export const FilterButtons = () => {
           <Button
             style={{
               color: "white",
-              background: "#2D67FF",
+              background: "transparent",
               gap: "10px",
             }}
             className={classes.filterButton}

@@ -63,7 +63,7 @@ export const ButtonWithMenu: FC<IButtonWithMenu> = ({
         aria-expanded={open ? "true" : undefined}
         onClick={disabled ? undefined : handleClick}
         style={{
-          fontFamily: "SuisseIntl-Light",
+          
           fontWeight: 600,
           fontSize: isMobile ? "12px" : "2vh",
           textTransform: "none",
@@ -101,7 +101,7 @@ export const ButtonWithMenu: FC<IButtonWithMenu> = ({
             style={
               isMobile
                 ? {
-                    fontFamily: "SuisseIntl-Light",
+                    
                     fontSize: "12px",
                     margin: "0",
                   }

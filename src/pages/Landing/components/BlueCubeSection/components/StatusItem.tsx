@@ -18,7 +18,6 @@ export const StatusItem: FC<IStatusItem> = ({ label, status }) => {
     >
       <div
         style={{
-          fontFamily: "SuisseIntl-Light",
           fontSize: "1.85vh",
           color: "#fff",
           marginRight: "1.5vh",
@@ -29,7 +28,6 @@ export const StatusItem: FC<IStatusItem> = ({ label, status }) => {
       </div>
       <div
         style={{
-          fontFamily: "SuisseIntl-Light",
           fontSize: "1.7vh",
           fontWeight: 600,
           textAlign: "center",

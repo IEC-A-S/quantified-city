@@ -26,7 +26,6 @@ export const CategoryItem: FC<ICategoryItem> = ({
       }}
       style={{
         cursor: "pointer",
-        fontFamily: "SuisseIntl-Light",
         fontSize: "21px",
         color: "#fff",
       }}
@@ -45,14 +44,14 @@ export const CategoryItem: FC<ICategoryItem> = ({
         }}
       >
         <div>{title}</div>
-        <div
-          style={{
-            width: "2vh",
-            height: "2vh",
-            backgroundColor: hovered ? "#fff" : color,
-            borderRadius: "50%",
-          }}
-        ></div>
+        {/*<div*/}
+        {/*  style={{*/}
+        {/*    width: "2vh",*/}
+        {/*    height: "2vh",*/}
+        {/*    backgroundColor: hovered ? "#fff" : color,*/}
+        {/*    borderRadius: "50%",*/}
+        {/*  }}*/}
+        {/*></div>*/}
       </div>
     </div>
   );

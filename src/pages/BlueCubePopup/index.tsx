@@ -123,7 +123,7 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
               top: "25vh",
               left: "8vh",
               color: "#fff",
-              fontFamily: "SuisseIntl-Regular",
+              
               fontSize: "4vh",
             }}
           >
@@ -149,11 +149,10 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
           >
             <div
               className={classes.title}
-              style={{ color: "#000000", fontFamily: "SuisseIntl-Light" }}
             >
               Indicators of{" "}
             </div>
-            <div className={classes.title} style={{ color: "#2D67FF" }}>
+            <div className={classes.title} style={{ color: "#00C8B5" }}>
               {category}
             </div>
           </div>
@@ -163,8 +162,8 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
               top: "27.5vh",
               left: "8vh",
               width: "30vw",
-              color: "#000000",
-              fontFamily: "SuisseIntl-Light",
+              color: "#121212",
+              
               fontSize: "2vh",
             }}
           >
@@ -225,7 +224,7 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
               position: "absolute",
               top: "5vh",
               left: "12vw",
-              fontFamily: "SuisseIntl-Regular",
+              
               fontSize: "2vh",
               color: "#fff",
               alignSelf: "center",
@@ -240,7 +239,10 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
               left: "8vh",
             }}
           >
-            <div className={classes.title} style={{ fontSize: "6vh" }}>
+            <div className={classes.title} style={{ 
+              color: "#fff",
+              fontSize: "6vh"
+            }}>
               {
                 indicatorsDataByCurrentCityAndCategory[currentIndicator]
                   .indicator
@@ -249,7 +251,7 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
               <span
                 style={{
                   fontSize: "3vh",
-                  fontFamily: "SuisseIntl-Light",
+                  
                   letterSpacing: "0",
                 }}
               >

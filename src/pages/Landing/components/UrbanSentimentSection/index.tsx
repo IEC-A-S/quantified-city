@@ -42,7 +42,8 @@ export const UrbanSentimentSection: FC<IProps> = ({
     <div
       style={{
         position: "relative",
-        backgroundColor: "#fff",
+        backgroundColor: "#F0EAD6",
+        margin: "0 15%",
       }}
     >
       <div className={classes.root}>

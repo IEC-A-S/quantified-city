@@ -9,7 +9,20 @@ export const theme = createTheme({
       main: "#959595",
     },
   },
+  typography: {
+    fontFamily: "Roboto, sans-serif !important",
+  },
   components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          fontFamily: "Roboto, sans-serif !important",
+        },
+        "*": {
+          fontFamily: "Roboto, sans-serif !important",
+        },
+      },
+    },
     MuiSwitch: {
       styleOverrides: {
         root: {
@@ -56,13 +69,13 @@ export const theme = createTheme({
       styleOverrides: {
         root: {
           "& .MuiTableCell-root": {
-            fontFamily: "SuisseIntl-Light",
+            fontFamily: "Roboto, sans-serif !important",
             fontWeight: 600,
             fontSize: "2vh",
             backgroundColor: "#fff",
           },
           "& .MuiTableCell-head": {
-            fontFamily: "SuisseIntl-Light",
+            fontFamily: "Roboto, sans-serif !important",
             fontWeight: 600,
             fontSize: "2vh",
             color: "#fff",

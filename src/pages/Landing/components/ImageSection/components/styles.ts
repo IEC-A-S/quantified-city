@@ -10,7 +10,7 @@ export const useImageSectionStyles = makeStyles()({
   root: {
     padding: 0,
     margin: 0,
-    color: "#fff",
+    color: "#121212",
     height: "100vh",
   },
   contentWrapper: {
@@ -35,7 +35,7 @@ export const useImageSectionStyles = makeStyles()({
   },
   bigText: {
     paddingTop: "18px",
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 300,
     lineHeight: "9vh",
     letterSpacing: "-0.5vh",
@@ -44,7 +44,7 @@ export const useImageSectionStyles = makeStyles()({
   },
   bigTextSubtitle: {
     paddingTop: "18px",
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     lineHeight: "2",
     letterSpacing: "0",
@@ -76,7 +76,7 @@ export const useImageSectionStyles = makeStyles()({
     gap: "10px",
   },
   smallText: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontSize: "1.8vh",
     color: "#fff",
     opacity: "0.6",

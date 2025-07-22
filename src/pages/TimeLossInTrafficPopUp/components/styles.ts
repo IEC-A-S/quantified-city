@@ -27,7 +27,7 @@ export const usePopupStyles = makeStyles()({
     width: "100%",
     height: "100vh",
     float: "left",
-    background: "#1433AE"
+    background: "rgba(240, 234, 214, 1)"
   },
   whiteSection: {
     position: "relative",
@@ -59,7 +59,7 @@ export const usePopupStyles = makeStyles()({
     height: "4vh",
   },
   returnBackText: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     color: "#fff",
     textTransform: "none",
@@ -69,7 +69,7 @@ export const usePopupStyles = makeStyles()({
     },
   },
   title: {
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: 400,
     lineHeight: "9vh",
     letterSpacing: "-0.2vh",
@@ -93,7 +93,7 @@ export const useTopTextStyles = makeStyles()({
     width: "50%",
   },
   title: {
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: 400,
     lineHeight: "9vh",
     letterSpacing: "-0.2vh",
@@ -102,7 +102,7 @@ export const useTopTextStyles = makeStyles()({
     width: "100%",
   },
   subTitle: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 200,
     lineHeight: "9vh",
     letterSpacing: "-0.2vh",
@@ -111,7 +111,7 @@ export const useTopTextStyles = makeStyles()({
     width: "100%",
   },
   text: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     lineHeight: "3vh",
     letterSpacing: "0vh",

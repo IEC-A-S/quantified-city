@@ -16,12 +16,13 @@ export const ZoomButtons: FC<IZoomButtons> = ({ map }) => {
         width: "4.7vh",
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "#fff",
+        backgroundColor: "transparent",
         borderRadius: "50px",
         overflow: "hidden",
         padding: 0,
         margin: 0,
         pointerEvents: "all",
+        border: "2px solid rgba(18, 18, 18, 1)",
       }}
     >
       <div
@@ -38,7 +39,7 @@ export const ZoomButtons: FC<IZoomButtons> = ({ map }) => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          backgroundColor: "#fff",
+          backgroundColor: "transparent",
           borderRadius: "50px",
           overflow: "hidden",
           padding: 0,
@@ -61,7 +62,7 @@ export const ZoomButtons: FC<IZoomButtons> = ({ map }) => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          backgroundColor: "#fff",
+          backgroundColor: "transparent",
           borderRadius: "50px",
           overflow: "hidden",
           padding: 0,

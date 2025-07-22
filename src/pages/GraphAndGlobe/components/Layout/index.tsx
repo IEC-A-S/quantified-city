@@ -9,7 +9,7 @@ interface LayoutProps {
 export const Layout = ({ children, backgroundColor }: LayoutProps) => {
   const { classes } = useAppStyles();
 
-  const defaultColor = "#1433AE";
+  const defaultColor = "rgba(240, 234, 214, 1)";
 
   return (
     <div

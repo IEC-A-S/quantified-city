@@ -18,7 +18,6 @@ export const CategoryItem: FC<ICategoryItem> = ({ title, color }) => {
       }}
       style={{
         cursor: "pointer",
-        fontFamily: "SuisseIntl-Light",
         fontSize: "2.1vh",
         color: "#fff",
       }}

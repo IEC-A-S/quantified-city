@@ -45,13 +45,13 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
       <div
         style={{
           position: "relative",
-          backgroundImage: "url(/assets/new_bg_cube.png)",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
+          padding: "0 15%",
+          background: "#F0EAD6",
         }}
       >
-        <div className={classes.root}>
+        <div className={classes.root} style={{
+          padding: 0,
+        }}>
           <NewCube
             setHoveredSide={setHoveredSide}
             setClickedCategory={setClickedCategory}
@@ -60,47 +60,27 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
             <div
               style={{
                 position: "absolute",
-                top: "15.5%",
-                left: "9vh",
+                // position: "relative",
+                top: "12%",
+                left: "15%",
                 display: "flex",
                 flexDirection: "column",
               }}
             >
               <div
                 style={{
-                  fontFamily: "SuisseIntl-Light",
-                  fontSize: "6.25vh",
-                  color: "#fff",
+                  fontSize: "5vh",
+                  fontWeight: 400,
+                  color: "#121212",
                   zIndex: 1,
                 }}
               >
                 {cityData.City}: {""}
                 <br />
-                Urban <b>resilience</b>
+                City <span style={{
+                  color: "#00C8B5"
+              }}>profile</span>
                 <br />
-                index
-                <span
-                  style={{
-                    paddingTop: "-1.5vh",
-                    verticalAlign: "middle",
-                    marginLeft: "1.2vh",
-                    fontFamily: "SuisseIntl-Light",
-                    fontSize: "3vh",
-                    fontWeight: 400,
-                    marginTop: "1.45vh",
-                    textAlign: "center",
-                    padding: "1vh 3vh",
-                    backgroundColor:
-                      STATUS_COLORS[
-                        cityData["Urban Resilience Index"].replace("-", "")
-                      ],
-                    color: "#fff",
-                    borderRadius: 50,
-                    width: "fit-content",
-                  }}
-                >
-                  {cityData["Urban Resilience Index"]}
-                </span>
               </div>
               <div
                 style={{
@@ -111,42 +91,25 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
                   transform: "scale(1.2)",
                 }}
               >
-                <div className={classes.smallItemsListWrapper}>
-                  <SmallStatItem
-                    label="Environmental"
-                    status={cityData.Environmental}
-                    style={{ fontSize: "2.1vh" }}
-                  />
-                  <SmallStatItem
-                    label="Social"
-                    status={cityData.Social}
-                    style={{ fontSize: "2.1vh" }}
-                  />
-                  <SmallStatItem
-                    label="Governmental"
-                    status={cityData.Governmental}
-                    style={{ fontSize: "2.1vh" }}
-                  />
-                </div>
               </div>
             </div>
             <div
               style={{
                 position: "absolute",
-                top: "25%",
+                top: "45%",
                 lineHeight: "1.5",
-                right: "5vh",
-                width: "30vh",
-                fontFamily: "SuisseIntl-Light",
-                fontSize: "2.1vh",
+                right: "20%",
+                width: "40vh",
+                fontSize: "1.8vh",
+                // fontSize: "18px",
               }}
             >
               {hoveredSide === "left"
-                ? "Policy hints"
+                ? "Key insights"
                 : hoveredSide === "top"
-                ? "Policy hints"
+                ? "Key insights"
                 : hoveredSide === "right"
-                ? "Policy hints"
+                ? "Key insights"
                 : ""}
               <br />
               <br />
@@ -168,30 +131,32 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
                     link.click();
                   }}
                 >
-                  <Typography className={classes.smallText}>
-                    How the rating works
-                  </Typography>
-                  <img
-                    src="/assets/questionGray.svg"
-                    alt="hint"
-                    style={{
-                      opacity: 0.6,
-                    }}
-                  />
+                  {/*<Typography className={classes.smallText}>*/}
+                  {/*  How the rating works*/}
+                  {/*</Typography>*/}
+                  {/*<img*/}
+                  {/*  src="/assets/questionGray.svg"*/}
+                  {/*  alt="hint"*/}
+                  {/*  style={{*/}
+                  {/*    opacity: 0.6,*/}
+                  {/*  }}*/}
+                  {/*/>*/}
                 </div>
                 <Button
                   onClick={() => {
                     setTablePopupOpen(true);
                   }}
                   style={{
+                    position: "absolute",
+                    left: "50%",
+                    transform: "translateX(-50%)",
                     pointerEvents: "all",
-                    color: "#fff",
+                    color: "#121212",
+                    border: "1px solid #121212",
                     backgroundColor: "transparent",
-                    border: "1px solid rgba(255, 255, 255, 0.3)",
                     borderRadius: 50,
                     padding: "1vh 2.5vh",
                     textTransform: "none",
-                    fontFamily: "SuisseIntl-Light",
                     fontSize: "1.7vh",
                     display: "flex",
                     flexDirection: "row",
@@ -203,12 +168,11 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
                 <Button
                   style={{
                     pointerEvents: "all",
-                    color: "#fff",
-                    backgroundColor: "#2D67FF",
+                    color: "#121212",
+                    backgroundColor: "#00C8B5",
                     borderRadius: 50,
                     padding: "1vh 2.5vh",
                     textTransform: "none",
-                    fontFamily: "SuisseIntl-Light",
                     fontSize: "1.7vh",
                     display: "flex",
                     flexDirection: "row",

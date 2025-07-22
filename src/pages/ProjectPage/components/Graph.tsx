@@ -54,7 +54,7 @@ export const Graph: FC<GraphProps> = ({ city }) => {
           position: "absolute",
           top: "5vh",
           left: "5vw",
-          fontFamily: "SuisseIntl-Light",
+          
           fontWeight: 400,
           fontSize: "8vh",
           lineHeight: "9vh",
@@ -169,7 +169,7 @@ export const Graph: FC<GraphProps> = ({ city }) => {
           position: "absolute",
           bottom: "5vh",
           right: "5vw",
-          fontFamily: "SuisseIntl-Light",
+          
           fontWeight: 400,
           fontSize: "8vh",
           lineHeight: "9vh",

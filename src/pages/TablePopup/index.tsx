@@ -106,7 +106,7 @@ export const TablePopup: FC<TablePopupProps> = ({
                 isMobile
                   ? mobileStyles.titleSpan
                   : {
-                      color: "#2D67FF",
+                      color: "#00C8B5",
                     }
               }
             >

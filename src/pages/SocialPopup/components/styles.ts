@@ -2,10 +2,11 @@ import { makeStyles } from "tss-react/mui";
 
 export const usePopupStyles = makeStyles()({
   backgroundWrapper: {
+    fontFamily: "Roboto, sans-serif !important",
     position: "absolute",
     top: 0,
     left: 0,
-    backgroundColor: "#0C1F68",
+    backgroundColor: "#F0EAD6",
     width: "100vw",
     height: "100vh",
     overflowY: "scroll",
@@ -27,7 +28,7 @@ export const usePopupStyles = makeStyles()({
     width: "100%",
     height: "100vh",
     float: "left",
-    background: "#1433AE"
+    background: "rgba(240, 234, 214, 1)"
   },
   whiteSection: {
     position: "relative",
@@ -59,9 +60,9 @@ export const usePopupStyles = makeStyles()({
     height: "4vh",
   },
   returnBackText: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
-    color: "#fff",
+    color: "#121212",
     textTransform: "none",
     fontSize: "1.8vh",
     "&:hover": {
@@ -69,7 +70,7 @@ export const usePopupStyles = makeStyles()({
     },
   },
   title: {
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: 400,
     lineHeight: "9vh",
     letterSpacing: "-0.2vh",
@@ -93,7 +94,7 @@ export const useTopTextStyles = makeStyles()({
     width: "50%",
   },
   title: {
-    fontFamily: "SuisseIntl-Regular",
+    
     fontWeight: 400,
     lineHeight: "9vh",
     letterSpacing: "-0.2vh",
@@ -102,7 +103,7 @@ export const useTopTextStyles = makeStyles()({
     width: "100%",
   },
   subTitle: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 200,
     lineHeight: "9vh",
     letterSpacing: "-0.2vh",
@@ -111,7 +112,7 @@ export const useTopTextStyles = makeStyles()({
     width: "100%",
   },
   text: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     lineHeight: "3vh",
     letterSpacing: "0vh",

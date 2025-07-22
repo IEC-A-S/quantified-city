@@ -66,7 +66,7 @@ export const TimeLossPopup: FC<TimeLossPopupProps> = ({
         <div
           className={classes.blueSection}
           style={{
-            backgroundColor: "#000",
+            backgroundColor: "#121212",
           }}
         >
           <div
@@ -105,7 +105,7 @@ export const TimeLossPopup: FC<TimeLossPopupProps> = ({
               position: "absolute",
               top: "5vh",
               left: "12vw",
-              fontFamily: "SuisseIntl-Regular",
+              
               fontSize: "2vh",
               color: "#fff",
               alignSelf: "center",
@@ -129,7 +129,7 @@ export const TimeLossPopup: FC<TimeLossPopupProps> = ({
               <span
                 style={{
                   fontSize: "3vh",
-                  fontFamily: "SuisseIntl-Light",
+                  
                   letterSpacing: "0",
                 }}
               >

@@ -8,7 +8,7 @@ export const Title = () => {
       <div>
         <span
           style={{
-            fontFamily: "SuisseIntl-Regular",
+            
             fontWeight: 600,
           }}
         >

@@ -6,14 +6,14 @@ export const useAppStyles = makeStyles()({
   root: {
     padding: 0,
     margin: 0,
-    backgroundColor: "#1433AE",
+    backgroundColor: "rgba(240, 234, 214, 1)",
     color: "#fff",
     height: "100vh",
   },
   contentWrapper: {
     maxWidth: "100%",
     margin: "0 auto",
-    padding: "0 5%",
+    padding: "0 15%",
   },
   gradient: {
     position: "absolute",
@@ -40,7 +40,6 @@ export const useSelectedCityStyles = makeStyles()({
   root: {
     position: "absolute",
     marginTop: "1.5vh",
-    zIndex: 1,
   },
   titleWrapper: {
     display: "flex",
@@ -54,19 +53,19 @@ export const useSelectedCityStyles = makeStyles()({
     flexDirection: "column",
   },
   cityName: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     fontSize: "10.8vh",
     marginLeft: "-1vh",
   },
   cityDescription: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     fontSize: "1.6vh",
     opacity: "0.5",
   },
   countryName: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 400,
     fontSize: "2vh",
     marginTop: "-0.95vh",
@@ -86,19 +85,18 @@ export const useSelectedCityStyles = makeStyles()({
     justifyContent: "flex-end",
   },
   statTitle: {
-    fontFamily: "SuisseIntl-Light",
     fontWeight: 100,
     fontSize: "1.40vh",
     opacity: "0.5",
   },
   statValue: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 200,
     fontSize: "1.95vh",
     marginTop: "-0.40vh",
   },
   statStatus: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 300,
     width: "fit-content",
     fontSize: "1.4vh",
@@ -117,7 +115,7 @@ export const useSelectedCityStyles = makeStyles()({
     borderLeft: "1px solid #fff",
   },
   statStatusBig: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 300,
     width: "fit-content",
     fontSize: "2vh",
@@ -139,19 +137,19 @@ export const useSelectedCityStyles = makeStyles()({
     alignItems: "center",
   },
   lowOpacityLabel: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 100,
     fontSize: "1.40vh",
     opacity: "0.5",
   },
   statsBigText: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 200,
     fontSize: "2.5vh",
     width: "22vh",
   },
   statsSmallText: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 100,
     fontSize: "1.5vh",
   },
@@ -179,7 +177,7 @@ export const useSelectedCityStyles = makeStyles()({
     gap: "10px",
   },
   smallText: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontSize: "1.8vh",
     color: "#fff",
     opacity: "0.6",
@@ -192,8 +190,8 @@ export const useHeaderStyles = makeStyles()({
     zIndex: 9998,
     position: "relative",
     display: "flex",
-    borderBottom: "1px solid #fff",
-    height: "10.3vh",
+    borderBottom: "2px solid rgba(18, 18, 18, 1)",
+    height: "10vh",
     justifyContent: "space-between",
     alignItems: "center",
   },
@@ -202,7 +200,7 @@ export const useHeaderStyles = makeStyles()({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    gap: "8px",
+    gap: "16px",
   },
   buttonsWrapper: {
     display: "flex",
@@ -211,17 +209,16 @@ export const useHeaderStyles = makeStyles()({
     alignItems: "center",
   },
   whiteText: {
-    fontFamily: "SuisseIntl-Light",
     fontWeight: 400,
-    color: "#fff",
+    color: "rgba(18, 18, 18, 1)",
     textTransform: "none",
-    fontSize: "1.8vh",
+    fontSize: "2vh",
     "&:hover": {
       backgroundColor: "inherit",
     },
   },
   signUpButton: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontWeight: 600,
     color: "#fff",
     textTransform: "none",
@@ -244,20 +241,18 @@ export const useContentStyles = makeStyles()({
     height: "90vh",
   },
   bigText: {
-    paddingTop: "18px",
-    fontFamily: "SuisseIntl-Light",
-    fontWeight: 300,
-    lineHeight: "9vh",
-    letterSpacing: "-0.5vh",
-    fontSize: "10.7vh",
-    color: "#fff",
+    paddingTop: "32px",
+    fontWeight: 400,
+    fontSize: "6vh",
+    lineHeight: "6vh",
+    color: "rgba(18, 18, 18, 1)",
   },
   bigTextSubtitle: {
     position: "absolute",
     top: "48%",
     width: "40%",
     paddingTop: "18px",
-    fontFamily: "SuisseIntl-Thin",
+    
     lineHeight: "3vh",
     letterSpacing: "0vh",
     fontSize: "2vh",
@@ -265,13 +260,7 @@ export const useContentStyles = makeStyles()({
     pointerEvents: "none",
   },
   bigTextBlue: {
-    paddingTop: "18px",
-    fontFamily: "SuisseIntl-Medium",
-    fontWeight: 500,
-    lineHeight: "9vh",
-    letterSpacing: "-0.5vh",
-    fontSize: "10.7vh",
-    color: "#2D67FF",
+    color: "rgba(0, 200, 181, 1)",
   },
   textAndToggleWrapper: {
     zIndex: 2,
@@ -294,7 +283,7 @@ export const useContentStyles = makeStyles()({
     background: "white",
     minWidth: "unset",
     minHeight: "unset",
-    height: "4.6vh",
+    height: "60px",
     fontSize: "1.8vh",
     padding: "0px 0px 0px 5px",
     "& .MuiSelect-select": {
@@ -307,20 +296,21 @@ export const useContentStyles = makeStyles()({
   filterButton: {
     minWidth: "unset",
     minHeight: "unset",
-    height: "4.6vh",
-    fontFamily: "SuisseIntl-Light",
+    height: "60px",
+    width: "133px",
     fontWeight: 400,
     color: "#000000",
     textTransform: "none",
-    fontSize: "1.8vh",
+    fontSize: "24px",
     zIndex: 2,
-    backgroundColor: "rgba(255, 255, 255, 1)",
+    backgroundColor: "transparent",
+    border: "2px solid rgba(18, 18, 18, 1)",
     borderRadius: "50px",
     padding: "0.5rem 1rem",
     opacity: "1",
-    "&:hover": {
-      backgroundColor: "rgba(255, 255, 255, 0.85)",
-    },
+    // "&:hover": {
+    //   backgroundColor: "rgba(255, 255, 255, 0.85)",
+    // },
   },
   topLineWrapper: {
     width: "100%",
@@ -347,7 +337,7 @@ export const useContentStyles = makeStyles()({
     zIndex: 9999,
   },
   smallText: {
-    fontFamily: "SuisseIntl-Light",
+    
     fontSize: "17px",
     color: "#7386CA",
     cursor: "pointer",
@@ -362,10 +352,12 @@ export const useContentStyles = makeStyles()({
     zIndex: "1",
   },
   filterButtonsWrapper: {
+    // position: "absolute",
+    // marginTop: "66px",
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-between",
-    marginTop: "-92vh",
+    // justifyContent: "space-between",
+    marginTop: "-73vh",
     alignSelf: "end",
   },
   blurAll: {
@@ -392,7 +384,7 @@ export const StyledToggleButtonGroup = styled(ToggleButtonGroup)(() => ({
 
 export const StyledToggleButton = styled(ToggleButton)({
   "&.MuiToggleButton-root": {
-    fontFamily: "SuisseIntl-Regular",
+    
     fontSize: "4vh",
     textTransform: "none",
     borderRadius: "50px",

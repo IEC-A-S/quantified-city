@@ -21,7 +21,7 @@ export const BigSmallStatItem: FC<IBigStatItemProps> = ({
 
   return (
     <>
-      {isFirst ? (
+      {
         <div
           style={{
             display: "flex",
@@ -31,61 +31,31 @@ export const BigSmallStatItem: FC<IBigStatItemProps> = ({
         >
           <div
             style={{
-              fontFamily: "SuisseIntl-Light",
-              fontWeight: 100,
-              fontSize: "2.4vh",
+              fontWeight: 400,
+              // fontSize: "18px",
+              fontSize: "2vh",
               textAlign: "center",
+              color: "#121212",
             }}
           >
             {label}
           </div>
+          {isFirst && subLabel && (
+              <div
+                style={{
+                  fontWeight: 200,
+                  // fontSize: "14px",
+                  fontSize: "1.5vh",
+                  opacity: 0.6,
+                  color: "#121212",
+
+                }}
+              >
+                {subLabel}
+              </div>
+            )}
           <div
             style={{
-              fontFamily: "SuisseIntl-Light",
-              fontWeight: 200,
-              fontSize: "1.8vh",
-              opacity: 0.6,
-            }}
-          >
-            {subLabel}
-          </div>
-          <div
-            style={{
-              fontFamily: "SuisseIntl-Light",
-              fontWeight: 200,
-              fontSize: "1.5vh",
-              border: "1px solid #fff",
-              borderRadius: 50,
-              padding: "1vh 3vh",
-              marginTop: "1.4vh",
-              color: STATUS_COLORS[statusNormalized],
-              borderColor: `${STATUS_COLORS[statusNormalized]}30`,
-            }}
-          >
-            {status}
-          </div>
-        </div>
-      ) : (
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
-          <div
-            style={{
-              fontFamily: "SuisseIntl-Light",
-              fontWeight: 100,
-              fontSize: "2.4vh",
-              textAlign: "center",
-            }}
-          >
-            {label}
-          </div>
-          <div
-            style={{
-              fontFamily: "SuisseIntl-Light",
               fontWeight: 200,
               fontSize: "1.8vh",
               border: "1px solid #fff",
@@ -107,7 +77,7 @@ export const BigSmallStatItem: FC<IBigStatItemProps> = ({
             {status}
           </div>
         </div>
-      )}
+      }
     </>
   );
 };

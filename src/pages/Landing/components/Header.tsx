@@ -32,10 +32,10 @@ export const Header: FC<HeaderProps> = ({
     <div
       className={classes.root}
       style={{
-        margin: invertColors ? "unset" : "0 10vh 0 10vh",
-        padding: invertColors ? "0 10vh 0 10vh" : "0",
-        borderBottom: invertColors ? "1px solid #000" : "1px solid #fff",
-        backgroundColor: invertColors ? "#fff" : "transparent",
+        margin: invertColors ? "unset" : "0 15% 0 15%",
+        padding: invertColors ? "0 15% 0 15%" : "0",
+        borderBottom: "2px solid #121212",
+        backgroundColor: "rgba(240, 234, 214, 1)",
       }}
     >
       <div
@@ -70,7 +70,7 @@ export const Header: FC<HeaderProps> = ({
               <Typography
                 className={classes.whiteText}
                 style={{
-                  color: invertColors ? "#000" : "#fff",
+                  color: "#121212",
                 }}
               >
                 {t("back")}
@@ -87,25 +87,16 @@ export const Header: FC<HeaderProps> = ({
               alignItems: "center",
             }}
           >
-            {!invertColors ? (
-              <img
-                style={{ width: "4.7vh" }}
-                src="/assets/menuIcon.svg"
-                width={45}
-                alt="logo"
-              />
-            ) : (
               <img
                 style={{ width: "4.7vh" }}
                 src="/assets/blackMenuIcon.svg"
                 width={45}
                 alt="logo"
               />
-            )}
             <Typography
               className={classes.whiteText}
               style={{
-                color: invertColors ? "#000" : "#fff",
+                color: "#121212",
               }}
             >
               {t("menu")}
@@ -113,19 +104,16 @@ export const Header: FC<HeaderProps> = ({
           </div>
         </div>
       </div>
-      {!invertColors ? (
-        <img
-          style={{ width: "7.8vh", marginLeft: marginLogo ? marginLogo : "0" }}
-          src="/assets/logo.svg"
-          alt="logo"
-        />
-      ) : (
-        <img
-          style={{ width: "7.8vh", marginLeft: marginLogo ? marginLogo : "0" }}
-          src="/assets/blackLogo.svg"
-          alt="logo"
-        />
-      )}
+      <img
+        style={{
+          // width: "7.8vh",
+          position: "absolute",
+          left: "50%",
+          transform: "translateX(-50%)",
+      }}
+        src="/assets/logo.svg"
+        alt="logo"
+      />
       <div className={classes.buttonsWrapper}>
         <div
           style={{
@@ -139,40 +127,39 @@ export const Header: FC<HeaderProps> = ({
         {/*    borderRadius: 50,*/}
         {/*    padding: ".8vh 2vh",*/}
         {/*    textTransform: "none",*/}
-        {/*    fontFamily: "SuisseIntl-Regular",*/}
+        {/*    */}
         {/*    fontSize: "1.7vh",*/}
         {/*  }}*/}
         {/*>*/}
         {/*  Dashboard*/}
         {/*</Button>*/}
-        {!invertColors ? (
-          <div
-            style={{
-              fontFamily: "SuisseIntl-Light",
-              fontWeight: 600,
-              color: "#fff",
-              textTransform: "none",
-              fontSize: "1.8vh",
-              height: "4.6vh",
-              width: "fit-content",
-              padding: "0 1.5vh",
-              backgroundColor: "#fff",
-              borderRadius: "50px",
-              display: "flex",
-              alignItems: "center",
-            }}
-          >
-            <img
-              src="/assets/avatarIcon.svg"
-              alt="user icon"
-              style={{
-                width: "2.5vh",
-              }}
-            />
-          </div>
-        ) : (
-          <img src="/assets/blackAvatarIcon.svg" alt="user icon" />
-        )}
+        {/*{!invertColors ? (*/}
+        {/*  <div*/}
+        {/*    style={{*/}
+        {/*      fontWeight: 600,*/}
+        {/*      color: "#fff",*/}
+        {/*      textTransform: "none",*/}
+        {/*      fontSize: "1.8vh",*/}
+        {/*      height: "4.6vh",*/}
+        {/*      width: "fit-content",*/}
+        {/*      padding: "0 1.5vh",*/}
+        {/*      backgroundColor: "#fff",*/}
+        {/*      borderRadius: "50px",*/}
+        {/*      display: "flex",*/}
+        {/*      alignItems: "center",*/}
+        {/*    }}*/}
+        {/*  >*/}
+        {/*    <img*/}
+        {/*      src="/assets/avatarIcon.svg"*/}
+        {/*      alt="user icon"*/}
+        {/*      style={{*/}
+        {/*        width: "2.5vh",*/}
+        {/*      }}*/}
+        {/*    />*/}
+        {/*  </div>*/}
+        {/*) : (*/}
+        {/*  <img src="/assets/blackAvatarIcon.svg" alt="user icon" />*/}
+        {/*)}*/}
       </div>
     </div>
   );

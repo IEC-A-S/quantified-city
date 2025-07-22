@@ -2,11 +2,13 @@ import { makeStyles } from "tss-react/mui";
 
 export const useLandingStyles = makeStyles()({
   root: {
+    fontFamily: "Roboto, sans-serif !important",
     position: "absolute",
     overflowY: "scroll",
-    backgroundColor: "#203CBF",
+    backgroundColor: "#F0EAD6",
     width: "100vw",
     height: "100vh",
+    color: "#121212 !important",
     "&::-webkit-scrollbar": {
       width: "0em",
     },

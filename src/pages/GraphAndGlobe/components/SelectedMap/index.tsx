@@ -232,7 +232,8 @@ export const initCitiesData = [
     properties: {
       fid: 14,
       City_Name: "Dubai",
-      center: [55.33641246251963, 25.078748811928463],
+      //coordinates: [55.03468568314278, 25.177065811310452]
+      center: [55.73641246251963, 25.078748811928463],
       bounds: [
         [54.81771552997702, 24.732838199154443],
         [55.80973875103086, 25.635531983122043],
@@ -387,7 +388,7 @@ export const SelectedMap: FC<ISelectedMapProps> = ({
 }) => {
   //Init params for map
   mapboxgl.accessToken =
-    "pk.eyJ1Ijoic3RhbnJvbnpoaW4iLCJhIjoiY2xvaGF3ZmFzMWdodDJxbjByeHMzanE2dCJ9.3uz_EG8N_d7isS1h5wV46w";
+    "pk.eyJ1IjoidHNrbm9mZiIsImEiOiJjbGNxZDlxMnowNHV4M3JwZHp0ZTlvM2NiIn0.Tz-_y_F7EwR2NkPNA-Xlkw";
 
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map>(null);
@@ -402,7 +403,7 @@ export const SelectedMap: FC<ISelectedMapProps> = ({
     map.current = new mapboxgl.Map({
       attributionControl: false,
       container: mapContainerRef.current,
-      style: "mapbox://styles/stanronzhin/clvpk3tck01mn01qr797mg9mw",
+      style: "mapbox://styles/tsknoff/cmd7fpvgl00ug01qufqmm09ze",
       bounds: initData?.bounds,
       fitBoundsOptions: {
         pitch: initData?.pitch,
@@ -451,7 +452,7 @@ export const SelectedMap: FC<ISelectedMapProps> = ({
           );
 
           map.current.setPaintProperty(
-            "bars-89e228",
+            "bars-2cl5je",
             "fill-extrusion-vertical-scale",
             count
           );

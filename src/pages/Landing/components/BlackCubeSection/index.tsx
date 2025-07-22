@@ -36,7 +36,6 @@ export const BlackCubeSection = () => {
           >
             <div
               style={{
-                fontFamily: "SuisseIntl-Light",
                 fontSize: "6.25vh",
                 color: "#fff",
               }}
@@ -49,7 +48,6 @@ export const BlackCubeSection = () => {
                   paddingTop: "-1.5vh",
                   verticalAlign: "middle",
                   marginLeft: "1.2vh",
-                  fontFamily: "SuisseIntl-Light",
                   fontSize: "3vh",
                   fontWeight: 400,
                   marginTop: "1.45vh",
@@ -93,7 +91,6 @@ export const BlackCubeSection = () => {
               lineHeight: "1.5",
               right: "5vh",
               width: "30vh",
-              fontFamily: "SuisseIntl-Light",
               fontSize: "1.9vh",
             }}
           >
@@ -152,7 +149,7 @@ export const BlackCubeSection = () => {
               {/*    borderRadius: 50,*/}
               {/*    padding: "1vh 2.5vh",*/}
               {/*    textTransform: "none",*/}
-              {/*    fontFamily: "SuisseIntl-Light",*/}
+              {/*    */}
               {/*    fontSize: "1.7vh",*/}
               {/*    display: "flex",*/}
               {/*    flexDirection: "row",*/}
@@ -169,7 +166,6 @@ export const BlackCubeSection = () => {
                   borderRadius: 50,
                   padding: "1vh 2.5vh",
                   textTransform: "none",
-                  fontFamily: "SuisseIntl-Light",
                   fontSize: "1.7vh",
                   display: "flex",
                   flexDirection: "row",

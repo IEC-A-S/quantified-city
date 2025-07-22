@@ -40,7 +40,7 @@ export const CityMenu: FC<ICityItem> = ({ value, cities, color, onChange }) => {
           ></div>
           <div
             style={{
-              fontFamily: "SuisseIntl-Light",
+              
               fontSize: "3.1vh",
               fontWeight: 600,
               textAlign: "center",

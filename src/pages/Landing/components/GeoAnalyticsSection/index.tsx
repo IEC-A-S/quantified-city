@@ -81,7 +81,7 @@ export const GeoAnalyticsSection = () => {
           legend && (
             <div
               style={{
-                fontFamily: "SuisseIntl-Light",
+                
                 fontSize: "1.8vh",
                 width: "10vw",
               }}

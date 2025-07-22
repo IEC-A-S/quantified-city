@@ -83,7 +83,7 @@ export const TimeLossInTrafficPopUp: FC<ITimeLossInTrafficPopUpProps> = ({
             {city}: Time loss in traffic <br />
             <span style={{
               color: "#fff",
-              fontFamily: "SuisseIntl-Light",
+              
               fontSize: "3vh",
               lineHeight: "4vh",
               letterSpacing: "0",
@@ -129,7 +129,7 @@ export const TimeLossInTrafficPopUp: FC<ITimeLossInTrafficPopUpProps> = ({
                 borderRadius: 50,
                 padding: "1vh 2.5vh",
                 textTransform: "none",
-                fontFamily: "SuisseIntl-Light",
+                
                 fontSize: "1.7vh",
                 display: "flex",
                 flexDirection: "row",
