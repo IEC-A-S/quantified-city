@@ -32,3 +32,6 @@ dist-ssr
 # Build artifacts
 *.tgz
 package
+
+#tmp folder
+ru_translations

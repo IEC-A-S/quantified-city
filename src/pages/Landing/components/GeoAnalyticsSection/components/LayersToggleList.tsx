@@ -6,6 +6,7 @@ import { useSelectedCityData } from "../../../../../hooks/useSelectedCityData";
 import { getLayerData, getMapLayers } from "../helpers";
 import type { Mode } from "../interfaces";
 import { Switch } from "@mui/material";
+import { getCityId } from "../../../../../constants";
 
 interface ToggleButtonListProps {
   map: Map | null;
@@ -19,7 +20,7 @@ export const LayersToggleList: FC<ToggleButtonListProps> = ({
   setLegend,
 }) => {
   const cityData = useSelectedCityData();
-  const layers = getMapLayers(cityData.City);
+  const layers = getMapLayers(getCityId(cityData.City));
   const { classes } = useToggleButtonListStyles();
   const [mode, setMode] = useState<Mode>("2d");
   const [activeLayer, setActiveLayer] = useState<string | undefined>();

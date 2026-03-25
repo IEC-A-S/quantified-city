@@ -88,11 +88,11 @@ export const GallerySection = () => {
             paddingTop: "8px",
           }}
         >
-          in Pictures and Numbers
+          В фотографиях и цифрах
         </Typography>
         <div className={classes.itemsRow}>
           <div className={classes.itemColumn}>
-            <Typography variant={"h5"}>Population in urban cluster </Typography>
+            <Typography variant={"h5"}>Население городской агломерации</Typography>
             <Typography variant={"h4"}>{numberWithSpaces(cityData?.Population)}</Typography>
             <StatusBubble
               text={cityData?.["Population description"]}
@@ -101,7 +101,7 @@ export const GallerySection = () => {
             />
           </div>
           <div className={classes.itemColumn}>
-            <Typography variant={"h5"}>Population city proper</Typography>
+            <Typography variant={"h5"}>Население в административных границах</Typography>
             <Typography variant={"h4"}>
               {numberWithSpaces(cityData?.["Population city proper"])}
             </Typography>
@@ -112,9 +112,9 @@ export const GallerySection = () => {
             />
           </div>
           <div className={classes.itemColumn}>
-            <Typography variant={"h5"}>Population density</Typography>
+            <Typography variant={"h5"}>Плотность населения</Typography>
             <Typography variant={"h4"}>
-              {cityData["Population density"] + " people/ha"}
+              {cityData["Population density"] + " чел./га"}
             </Typography>
             <StatusBubble
               text={cityData["Population density description"]}
@@ -123,7 +123,7 @@ export const GallerySection = () => {
             />
           </div>
           <div className={classes.itemColumn}>
-            <Typography variant={"h5"}>Mean salary</Typography>
+            <Typography variant={"h5"}>Средняя зарплата</Typography>
             <Typography variant={"h4"}>
               {cityData["Mean salary"] + " PPP$"}
             </Typography>
@@ -136,9 +136,9 @@ export const GallerySection = () => {
           <div className={classes.itemColumn}>
             <Typography variant={"h5"}>
               {" "}
-              Poverty headcount ratio at national poverty lines
+              Доля населения за национальной чертой бедности
             </Typography>
-            <Typography variant={"h4"}>{proverty + "of population"}</Typography>
+            <Typography variant={"h4"}>{proverty + "населения"}</Typography>
             <StatusBubble
               text={
                 cityData[
@@ -151,7 +151,7 @@ export const GallerySection = () => {
           </div>
           <div className={classes.itemColumn}>
             <Typography variant={"h5"}>
-              Literacy rate among population (15-24 Years)
+              Уровень грамотности населения (15-24 лет)
             </Typography>
             <Typography variant={"h4"}>{litercyRate}</Typography>
             <StatusBubble
@@ -161,7 +161,7 @@ export const GallerySection = () => {
             />
           </div>
           <div className={classes.itemColumn}>
-            <Typography variant={"h5"}>Climate</Typography>
+            <Typography variant={"h5"}>Климат</Typography>
             <Typography variant={"h4"}>{climate}</Typography>
             <StatusBubble
               text={cityData["Climate description"]}
@@ -191,8 +191,8 @@ export const GallerySection = () => {
             textAlign: "center",
           }}
         >
-          Become our reporter <br />
-          Suggest another image
+          Станьте нашим корреспондентом <br />
+          Предложите другое изображение
         </Typography>
         <Button
           onClick={() => {
@@ -204,7 +204,7 @@ export const GallerySection = () => {
           }}
           variant="contained"
         >
-          Download report
+          Скачать отчет
         </Button>
       </div>
       <div

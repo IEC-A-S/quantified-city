@@ -3,6 +3,7 @@ import React from 'react';
 import { Typography } from '@mui/material';
 import { useConetnsStyles } from '../styles';
 import { RaitingBubble } from './UI/RatingBubble';
+import { getAssessmentColor } from '../../../utils/assessment';
 
 interface IRatingBubleObject {
     title: string;
@@ -24,29 +25,7 @@ export const ProjectStatus: React.FC<ProjectStatusProps> = ({
 }) => {
 
     const { classes } = useConetnsStyles();
-
-    let bubbleColor = "#000";
-
-    switch (resilienceImpact) {
-        case "Very strong":
-            bubbleColor = "#35CB00";
-            break;
-        case "Strong":
-            bubbleColor = "#A0DA8B";
-            break;
-        case "Average":
-            bubbleColor = "#FF9B3F";
-            break;
-        case "Low":
-            bubbleColor = "#FF632F";
-            break;
-        case "Very low":
-            bubbleColor = "#FF3B29";
-            break;
-        default:
-            bubbleColor = "#000";
-            break;
-    }
+    const bubbleColor = getAssessmentColor(resilienceImpact);
 
     return (
         <div style={{

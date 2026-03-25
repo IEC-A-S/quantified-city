@@ -41,7 +41,7 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
           marginTop: "8px",
         }}
       >
-        in indices
+        в индексах
       </Typography>
       <div
         style={{
@@ -53,8 +53,8 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
         }}
       >
         <Typography variant={"h3"}>
-          Urban <br />
-          resilience index
+          Индекс <br />
+          городской устойчивости
         </Typography>
         <RatingBubble rating={URI} />
       </div>
@@ -65,23 +65,23 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
         }}
       >
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Environmental</Typography>
+          <Typography variant={"h4"}>Экологический</Typography>
           <StatusBubble status={cityData?.Environmental} variant="outlined" />
         </div>
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Social</Typography>
+          <Typography variant={"h4"}>Социальный</Typography>
           <StatusBubble status={cityData?.Social} variant="outlined" />
         </div>
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Governmental</Typography>
+          <Typography variant={"h4"}>Управленческий</Typography>
           <StatusBubble status={cityData.Governmental} variant="outlined" />
         </div>
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Current state</Typography>
+          <Typography variant={"h4"}>Текущее состояние</Typography>
           <StatusBubble status={cityData["Current state"]} variant="outlined" />
         </div>
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Ability & Willingness</Typography>
+          <Typography variant={"h4"}>Способность и готовность</Typography>
           <StatusBubble status={cityData["Ability & Willingness"]} />
         </div>
       </div>
@@ -93,8 +93,7 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
           textAlign: "center",
         }}
       >
-        The height of a bar represents the total number of people in a grid
-        cell.
+        Высота столбца отражает общее число людей в ячейке сетки.
       </Typography>
       <div
         style={{
@@ -113,7 +112,7 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
         }}
       >
         <Button variant="contained">
-          Download report
+          Скачать отчет
           <img
             src={"./assets/downloadIcon.svg"}
             alt="arrow"
@@ -133,7 +132,7 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
             marginTop: "32px",
           }}
         >
-          <Typography variant={"h3"}>Basic needs</Typography>
+          <Typography variant={"h3"}>Базовые потребности</Typography>
           <RatingBubble
             rating={cityData["Basic needs Scope"].replace("-", "")}
             size={"small"}
@@ -148,7 +147,7 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
             marginTop: "16px",
           }}
         >
-          <Typography variant={"h3"}>Natural risk exposure</Typography>
+          <Typography variant={"h3"}>Подверженность природным рискам</Typography>
           <StatusBubble
             status={cityData["Natural Risk Exposure"]}
             variant={"opacity"}
@@ -163,7 +162,7 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
             marginTop: "16px",
           }}
         >
-          <Typography variant={"h3"}>Transport resilience index</Typography>
+          <Typography variant={"h3"}>Индекс транспортной устойчивости</Typography>
           <StatusBubble
             status={cityData["Transport Resilience Index"]}
             variant={"opacity"}
@@ -178,7 +177,7 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
             marginTop: "16px",
           }}
         >
-          <Typography variant={"h3"}>Urban sentiment index</Typography>
+          <Typography variant={"h3"}>Индекс городских настроений</Typography>
           <StatusBubble
             status={cityData["Urban Sentiment Index"]}
             variant={"opacity"}
@@ -208,7 +207,7 @@ export const FirstSection = ({ setFirstSectionHeight }) => {
             fontFamily: "SuisseIntl-Thin",
           }}
         >
-          Geoanalytics
+          Геоаналитика
         </Button>
       </div>
     </div>

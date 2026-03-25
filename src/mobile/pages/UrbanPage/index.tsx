@@ -1,7 +1,6 @@
 import { Header } from "../../components/Header";
 import { useEffect, useState } from "react";
 import { makeStyles } from "tss-react/mui";
-import { MainMenu } from "../../../components/MainMenu";
 import { Content } from "./components/Content";
 import type mapboxgl from "mapbox-gl";
 import { SelectedCity } from "./components/SelectedCity";
@@ -87,7 +86,6 @@ export const UrbanPage = () => {
   const { classes } = useUrbanStyles();
   const [currentView, setCurrentView] = useState<"graph" | "map">("map");
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
-  const [menuVisible, setMenuVisible] = useState<boolean>(false);
   const [map, setMap] = useState<mapboxgl.Map | null>(null);
   const [invertColors, setInvertColors] = useState(false);
 
@@ -109,7 +107,6 @@ export const UrbanPage = () => {
 
   return (
     <div>
-      {menuVisible && <MainMenu setVisible={setMenuVisible} isMobile={true} />}
       <div
         id={"selectedCity"}
         className={classes.root}
@@ -132,7 +129,6 @@ export const UrbanPage = () => {
           }}
         >
           <Header
-            setMenuVisible={setMenuVisible}
             isBackArrowShown={!!selectedCity}
             onBackClick={() => setSelectedCity(null)}
           />

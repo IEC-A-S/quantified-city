@@ -1,12 +1,7 @@
 import type { FC } from "react";
+import { getAssessmentColor, ASSESSMENT_COLORS } from "../../utils/assessment";
 
-export enum STATUS_COLORS_ENUM {
-  VERY_LOW = "#FF3B29",
-  LOW = "#FF632F",
-  AVERAGE = "#FF9B3F",
-  STRONG = "#A0DA8B",
-  VERY_STRONG = "#35CB00",
-}
+export const STATUS_COLORS_ENUM = ASSESSMENT_COLORS;
 interface StatusBubbleProps {
   status?: string;
   text?: string;
@@ -47,9 +42,7 @@ export const StatusBubble: FC<StatusBubbleProps> = ({
     );
   }
   if (variant === "outlined") {
-    const normStatus = status.replace(/\s/g, "_").toUpperCase();
-    const color =
-      STATUS_COLORS_ENUM[normStatus as keyof typeof STATUS_COLORS_ENUM];
+    const color = getAssessmentColor(status);
     return (
       <div
         style={{
@@ -72,9 +65,7 @@ export const StatusBubble: FC<StatusBubbleProps> = ({
     );
   }
   if (variant === "opacity") {
-    const normStatus = status.replace(/\s/g, "_").toUpperCase();
-    const color =
-      STATUS_COLORS_ENUM[normStatus as keyof typeof STATUS_COLORS_ENUM];
+    const color = getAssessmentColor(status);
     return (
       <div
         style={{
@@ -97,9 +88,7 @@ export const StatusBubble: FC<StatusBubbleProps> = ({
     );
   }
   if (variant === "solid") {
-    const normStatus = status.replace(/\s/g, "_").toUpperCase();
-    const color =
-      STATUS_COLORS_ENUM[normStatus as keyof typeof STATUS_COLORS_ENUM];
+    const color = getAssessmentColor(status);
     return (
       <div
         style={{
@@ -121,4 +110,6 @@ export const StatusBubble: FC<StatusBubbleProps> = ({
       </div>
     );
   }
+
+  return null;
 };

@@ -30,13 +30,13 @@ export const ContentBlock: FC<IProps> = ({ data }) => {
           <br />
           {data.category}
         </div>
-        <div>perception index</div>
+        <div>индекс восприятия</div>
       </div>
       <div className={classes.dictionaryListWrapper}>
         <div className={classes.dictionaryContainer}>
           <dl className={classes.dictionaryList}>
             <dt className={classes.dictionaryTitle}>
-              Total posts on{" "}
+              Публикации по теме{" "}
               <span className={classes.dictionaryCategoryColor}>
                 {data.category.toLowerCase()}
               </span>
@@ -47,7 +47,7 @@ export const ContentBlock: FC<IProps> = ({ data }) => {
           </dl>
           <dl className={classes.dictionaryList}>
             <dt className={classes.dictionaryTitle}>
-              Share of positive posts on{" "}
+              Доля позитивных публикаций по теме{" "}
               <span>{data.category.toLowerCase()}</span>
             </dt>
             <dd className={classes.dictionaryDescription}>
@@ -56,7 +56,7 @@ export const ContentBlock: FC<IProps> = ({ data }) => {
           </dl>
           <dl className={classes.dictionaryList}>
             <dt className={classes.dictionaryTitle}>
-              Share of negative post on
+              Доля негативных публикаций по теме
               <span>{data.category.toLowerCase()}</span>
             </dt>
             <dd className={classes.dictionaryDescription}>
@@ -66,12 +66,12 @@ export const ContentBlock: FC<IProps> = ({ data }) => {
         </div>
         <div className={classes.dictionaryContainer}>
           <dl className={classes.dictionaryList}>
-            <dt className={classes.dictionaryTitle}>Posts total, thous</dt>
+            <dt className={classes.dictionaryTitle}>Всего публикаций</dt>
             <dd className={classes.dictionaryDescription}>{data.total}</dd>
           </dl>
           <dl className={classes.dictionaryList}>
             <dt className={classes.dictionaryTitle}>
-              Share of positive posts total
+              Доля позитивных публикаций
             </dt>
             <dd className={classes.dictionaryDescription}>
               {((data.positive * 100) / data.total).toFixed(1)}%
@@ -79,7 +79,7 @@ export const ContentBlock: FC<IProps> = ({ data }) => {
           </dl>
           <dl className={classes.dictionaryList}>
             <dt className={classes.dictionaryTitle}>
-              Share of negative post total
+              Доля негативных публикаций
             </dt>
             <dd className={classes.dictionaryDescription}>
               {((data.negative * 100) / data.total).toFixed(1)}%

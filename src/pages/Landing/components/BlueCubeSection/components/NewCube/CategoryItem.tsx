@@ -3,11 +3,13 @@ import { useState } from "react";
 
 interface ICategoryItem {
   title: string;
+  categoryKey: string;
   color: string;
   setClickedCategory: (category: string | null) => void;
 }
 export const CategoryItem: FC<ICategoryItem> = ({
   title,
+  categoryKey,
   color,
   setClickedCategory,
 }) => {
@@ -16,7 +18,7 @@ export const CategoryItem: FC<ICategoryItem> = ({
   return (
     <div
       onClick={() => {
-        setClickedCategory(title);
+        setClickedCategory(categoryKey);
       }}
       onMouseOver={() => {
         setHovered(true);

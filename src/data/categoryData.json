@@ -1,7 +1,7 @@
 [
   {
-    "City": "Dubai",
-    "Country": "UAE",
+    "City": "Дубай",
+    "Country": "ОАЭ",
     "Urban Resilience Index": "A-3",
     "Environmental": 4,
     "Social": 4,
@@ -27,8 +27,8 @@
     "Sustainability commitment": 5
   },
   {
-    "City": "Expo City Dubai",
-    "Country": "UAE",
+    "City": "Экспо-сити Дубай",
+    "Country": "ОАЭ",
     "Urban Resilience Index": "A-2",
     "Environmental": 4,
     "Social": 4,
@@ -54,8 +54,8 @@
     "Sustainability commitment": 5
   },
   {
-    "City": "Valparaiso",
-    "Country": "Chile",
+    "City": "Вальпараисо",
+    "Country": "Чили",
     "Urban Resilience Index": "C-1",
     "Environmental": 2,
     "Social": 2,
@@ -81,8 +81,8 @@
     "Sustainability commitment": 5
   },
   {
-    "City": "Dar es Salaam",
-    "Country": "Tanzania",
+    "City": "Дар-эс-Салам",
+    "Country": "Танзания",
     "Urban Resilience Index": "C-2",
     "Environmental": 2,
     "Social": 2,
@@ -108,8 +108,8 @@
     "Sustainability commitment": 3
   },
   {
-    "City": "Adoni",
-    "Country": "India",
+    "City": "Адони",
+    "Country": "Индия",
     "Urban Resilience Index": "C-2",
     "Environmental": 2,
     "Social": 1,
@@ -135,8 +135,8 @@
     "Sustainability commitment": 5
   },
   {
-    "City": "Natal",
-    "Country": "Brazil",
+    "City": "Натал",
+    "Country": "Бразилия",
     "Urban Resilience Index": "B-2",
     "Environmental": 3,
     "Social": 3,
@@ -162,8 +162,8 @@
     "Sustainability commitment": 3
   },
   {
-    "City": "Brazzaville",
-    "Country": "Congo",
+    "City": "Браззавиль",
+    "Country": "Конго",
     "Urban Resilience Index": "C-1",
     "Environmental": 3,
     "Social": 1,
@@ -189,8 +189,8 @@
     "Sustainability commitment": 3
   },
   {
-    "City": "Almaty",
-    "Country": "Kazakhstan",
+    "City": "Алматы",
+    "Country": "Казахстан",
     "Urban Resilience Index": "B-1",
     "Environmental": 3,
     "Social": 4,
@@ -216,8 +216,8 @@
     "Sustainability commitment": 5
   },
   {
-    "City": "Cape Town",
-    "Country": "South Africa",
+    "City": "Кейптаун",
+    "Country": "Южно-Африканская Республика",
     "Urban Resilience Index": "B-2",
     "Environmental": 3,
     "Social": 3,
@@ -243,8 +243,8 @@
     "Sustainability commitment": 5
   },
   {
-    "City": "Mexico City",
-    "Country": "Mexico",
+    "City": "Мехико",
+    "Country": "Мексика",
     "Urban Resilience Index": "C-2",
     "Environmental": 2,
     "Social": 2,
@@ -270,8 +270,8 @@
     "Sustainability commitment": 2
   },
   {
-    "City": "Jakarta",
-    "Country": "Indonesia",
+    "City": "Джакарта",
+    "Country": "Индонезия",
     "Urban Resilience Index": "B-3",
     "Environmental": 2,
     "Social": 3,
@@ -297,8 +297,8 @@
     "Sustainability commitment": 3
   },
   {
-    "City": "Panama City",
-    "Country": "Panama",
+    "City": "Панама",
+    "Country": "Панама",
     "Urban Resilience Index": "B-1",
     "Environmental": 3,
     "Social": 4,
@@ -324,8 +324,8 @@
     "Sustainability commitment": 4
   },
   {
-    "City": "Amman",
-    "Country": "Jordan",
+    "City": "Амман",
+    "Country": "Иордания",
     "Urban Resilience Index": "B-1",
     "Environmental": 2,
     "Social": 4,
@@ -351,8 +351,8 @@
     "Sustainability commitment": 3
   },
   {
-    "City": "Bangkok",
-    "Country": "Thailand",
+    "City": "Бангкок",
+    "Country": "Тайланд",
     "Urban Resilience Index": "B-3",
     "Environmental": 2,
     "Social": 3,
@@ -378,8 +378,8 @@
     "Sustainability commitment": 4
   },
   {
-    "City": "Colombo",
-    "Country": "Sri Lanka",
+    "City": "Коломбо",
+    "Country": "Шри-Ланка",
     "Urban Resilience Index": "B-2",
     "Environmental": 3,
     "Social": 3,
@@ -405,8 +405,8 @@
     "Sustainability commitment": 2
   },
   {
-    "City": "Astana",
-    "Country": "Kazakhstan",
+    "City": "Астана",
+    "Country": "Казахстан",
     "Urban Resilience Index": "B-1",
     "Environmental": 3,
     "Social": 4,
@@ -432,8 +432,8 @@
     "Sustainability commitment": 5
   },
   {
-    "City": "Lahore",
-    "Country": "Pakistan",
+    "City": "Лахор",
+    "Country": "Пакистан",
     "Urban Resilience Index": "C-2",
     "Environmental": 1,
     "Social": 2,
@@ -459,8 +459,8 @@
     "Sustainability commitment": 1
   },
   {
-    "City": "Nairobi",
-    "Country": "Kenya",
+    "City": "Найроби",
+    "Country": "Кения",
     "Urban Resilience Index": "C-3",
     "Environmental": 3,
     "Social": 1,

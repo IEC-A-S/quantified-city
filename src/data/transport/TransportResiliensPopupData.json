@@ -1,844 +1,844 @@
 [
   {
-    "city": "Adoni",
+    "city": "Адони",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 4,
         "natural_value": 7.8
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 26.6
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.04
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 4
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 2,
         "natural_value": 2.069
       }
     ]
   },
   {
-    "city": "Almaty",
+    "city": "Алматы",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 1,
         "natural_value": 60.7
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 4,
         "natural_value": 75.4
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.04
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 3,
         "natural_value": 0.0028
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 1,
         "natural_value": 4.17
       }
     ]
   },
   {
-    "city": "Amman",
+    "city": "Амман",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 2,
         "natural_value": 37.7
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 29.1
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 3,
         "natural_value": 1.75
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 5,
         "natural_value": 0.07
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 3,
         "natural_value": 1.5
       }
     ]
   },
   {
-    "city": "Astana",
+    "city": "Астана",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 1,
         "natural_value": 68
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 5,
         "natural_value": 87.7
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.027
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 3,
         "natural_value": 0.003
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 2,
         "natural_value": 2.9
       }
     ]
   },
   {
-    "city": "Bangkok",
+    "city": "Бангкок",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 1,
         "natural_value": 64.59
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 55.1
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 1,
         "natural_value": 9.121
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 5,
         "natural_value": 0.27
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 3,
         "natural_value": 1.5
       }
     ]
   },
   {
-    "city": "Brazzaville",
+    "city": "Браззавиль",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 3,
         "natural_value": 15.7
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 52.5
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.04
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 0.4
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 4,
         "natural_value": 0.94
       }
     ]
   },
   {
-    "city": "Cape Town",
+    "city": "Кейптаун",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 3,
         "natural_value": 27.5
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 36.4
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 2,
         "natural_value": 6.538
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 5,
         "natural_value": 0.03
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 3,
         "natural_value": 1.5
       }
     ]
   },
   {
-    "city": "Colombo",
+    "city": "Коломбо",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 3,
         "natural_value": 22.4
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 44.1
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.04
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 4
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 3,
         "natural_value": 1.5
       }
     ]
   },
   {
-    "city": "Dar es Salaam",
+    "city": "Дар-эс-Салам",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 3,
         "natural_value": 22.9
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 48.2
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.04
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 4
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 3,
         "natural_value": 1.47
       }
     ]
   },
   {
-    "city": "Dubai",
+    "city": "Дубай",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 4,
         "natural_value": 12.9
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 41.8
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 3,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 8
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 4,
         "natural_value": 1.08
       }
     ]
   },
   {
-    "city": "Expo City Dubai",
+    "city": "Эксмо Сити Дубай",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 5,
         "natural_value": 0.5
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 4,
         "natural_value": 69.5
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 3,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 8
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 5,
         "natural_value": 0.27
       }
     ]
   },
   {
-    "city": "Jakarta",
+    "city": "Джакарта",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 2,
         "natural_value": 36.2
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 24.8
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.04
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 4
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 3,
         "natural_value": 1.5
       }
     ]
   },
   {
-    "city": "Mexico City",
+    "city": "Мехико",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 1,
         "natural_value": 66.5
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 43.9
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 2,
         "natural_value": 5.993
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 7.86
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 3,
         "natural_value": 1.5
       }
     ]
   },
   {
-    "city": "Natal",
+    "city": "Натал",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 2,
         "natural_value": 34.4
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 4,
         "natural_value": 77.3
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.04
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 4
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 4,
         "natural_value": 0.81
       }
     ]
   },
   {
-    "city": "Panama City",
+    "city": "Панама",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 2,
         "natural_value": 39.2
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 68.2
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.04
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 4
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 3,
         "natural_value": 1.5
       }
     ]
   },
   {
-    "city": "Valparaiso",
+    "city": "Вальпараисо",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 2,
         "natural_value": 34.79
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 5,
         "natural_value": 90.2
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.04
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 1,
         "natural_value": 4
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": 4,
         "natural_value": 0.85
       }
     ]
   },
   {
-    "city": "Lahore",
+    "city": "Лахор",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 5,
         "natural_value": 9
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 44.7
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 3,
         "natural_value": 3.35
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 4,
         "natural_value": 0.57
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": null
       }
     ]
   },
   {
-    "city": "Nairobi",
+    "city": "Найроби",
     "data": [
       {
-        "category": "Transport",
-        "indicator": "Time loss in traffic",
+        "category": "Транспорт",
+        "indicator": "Потеря времени в пробках",
         "unit": "%",
         "value": 3,
         "natural_value": 17.54
       },
       {
-        "category": "Transport",
-        "indicator": "Share of the population in 1 km from public transport stop",
+        "category": "Транспорт",
+        "indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
         "unit": "%",
         "value": 3,
         "natural_value": 47.8
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
         "unit": "%",
         "value": 4,
         "natural_value": 0.23
       },
       {
-        "category": "Transport",
-        "indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-        "unit": "ratio",
+        "category": "Транспорт",
+        "indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+        "unit": "коэффициент",
         "value": 5,
         "natural_value": 0.03
       },
       {
-        "category": "Transport",
-        "indicator": "Public transport (excluding subway) operates by schedule",
-        "unit": "1 = Yes, 0 = No",
+        "category": "Транспорт",
+        "indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+        "unit": "1 = Да, 0 = Нет",
         "value": 5,
         "natural_value": 1
       },
       {
-        "category": "Transport",
-        "indicator": "Perception of transport index",
-        "unit": "index",
+        "category": "Транспорт",
+        "indicator": "Индекс восприятия транспорта",
+        "unit": "индекс",
         "value": null
       }
     ]

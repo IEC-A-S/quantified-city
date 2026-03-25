@@ -22,18 +22,14 @@ export const CustomPopup: FC = () => {
             style={{ height: 805 }}
           >
             <Typography component="h2" className={classes.fat}>
-              Water availability
+              Доступность воды
             </Typography>
             <Typography className={classes.text}>
-              The Wealth category assesses a city’s economic well-being, and
-              income distribution. This issue is crucial for the growing
-              economies in the Global South facing vast disparities and poverty
-              challenges. We capture and measure data on income distribution,
-              poverty rates, and economic opportunities based on the
-              international practices . This assessment aims to evaluate the
-              cities' capacity to address economic disparities, reduce poverty,
-              and enhance economic well-being for their residents while
-              considering their unique economic challenges
+              Категория оценивает обеспеченность города водными ресурсами и
+              устойчивость соответствующей инфраструктуры. В анализе учитываются
+              доступ населения к воде, надежность систем водоснабжения и
+              способность города поддерживать базовые потребности жителей в
+              условиях роста нагрузки и внешних рисков.
             </Typography>
 
             <CategoryChart
@@ -47,9 +43,9 @@ export const CustomPopup: FC = () => {
             style={{ height: 805 }}
           >
             <Typography component="h2">
-              <div>Indicators of </div>
+              <div>Индикаторы категории</div>
               <div className={classes.fat} style={{ color: "#2D67FF" }}>
-                Water availability
+                Доступность воды
               </div>
             </Typography>
 
@@ -64,16 +60,15 @@ export const CustomPopup: FC = () => {
             style={{ height: 860 }}
           >
             <Typography component="h2">
-              <div className={classes.fat}>Disposable income</div>
-              <div>$ per capita per month</div>
+              <div className={classes.fat}>Располагаемый доход</div>
+              <div>долл. США на человека в месяц</div>
             </Typography>
             <Typography className={classes.text}>
-              Household disposable income consists of earnings, self-employment,
-              capital income and public cash transfers; income taxes and social
-              security contributions paid by households are deducted. The income
-              of the household is attributed to each of its members, with an
-              adjustment to reflect differences in needs for households of
-              different sizes. Based on OECD factbook 2015
+              Располагаемый доход домохозяйства включает заработок, доход от
+              самозанятости, доход от капитала и государственные денежные
+              трансферты за вычетом подоходных налогов и социальных взносов.
+              Показатель пересчитывается на каждого члена домохозяйства с
+              учетом различий в потребностях семей разного размера.
             </Typography>
 
             <IndicatorChart

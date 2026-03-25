@@ -2,6 +2,7 @@ import { FC, useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { initCitiesData } from "../../../../GraphAndGlobe/components/SelectedMap";
+import { getCityId } from "../../../../../constants";
 
 interface ISelectedMapProps {
   selectedCityName: string;
@@ -19,8 +20,9 @@ export const SelectedLandingMap: FC<ISelectedMapProps> = ({
   useEffect(() => {
     if (map.current || !mapContainerRef.current) return; // initialize map only once
 
+    const cityId = getCityId(selectedCityName);
     const initData = initCitiesData.find(
-      (city) => city.properties.City_Name === selectedCityName
+      (city) => city.properties.City_Name === cityId
     )?.properties;
 
     map.current = new mapboxgl.Map({

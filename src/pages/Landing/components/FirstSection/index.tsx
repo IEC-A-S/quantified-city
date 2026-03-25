@@ -8,6 +8,7 @@ import { useSelectedCityData } from "../../../../hooks/useSelectedCityData";
 import { SelectedLandingMap } from "./components/SelectedLandingMap";
 import { useState } from "react";
 import { ZoomButtons } from "./components/ZoomButtons";
+import { getCityId } from "../../../../constants";
 
 interface IFirstSection {
   setActiveSection(sectionIndex: number): void;
@@ -18,6 +19,7 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
   const [map, setMap] = useState<mapboxgl.Map | null>(null); // [1
 
   const cityData = useSelectedCityData();
+  const cityId = getCityId(cityData.City);
 
   return (
     <div
@@ -65,12 +67,12 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
             <div>
               <BigSmallStatItem
                 isFirst={true}
-                label="Basic needs"
-                subLabel="Scope 0"
+                label="Базовые потребности"
+                subLabel="Охват 0"
                 status={cityData["Basic needs Scope"]}
               />
             </div>
-            {(cityData.City !== "Lahore") ? (
+            {cityId !== "Lahore" ? (
               <div
                 onClick={() => {
                   const landing = document.getElementById("landing");
@@ -84,20 +86,20 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
                 }}
               >
                 <BigSmallStatItem
-                  label="Social sentiment index"
+                  label="Индекс социальных настроений"
                   status={cityData["Urban Sentiment Index"]}
                   filled={true}
                 />
               </div>
               ) : (
             <BigSmallStatItem
-              label="Social sentiment index"
+              label="Индекс социальных настроений"
               status={cityData["Urban Sentiment Index"]}
               filled={true}
             />
             )}
             <BigSmallStatItem
-              label="Natural risk exposure index"
+              label="Индекс подверженности природным рискам"
               status={cityData["Natural Risk Exposure"]}
             />
             <div
@@ -113,7 +115,7 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
               }}
             >
               <BigSmallStatItem
-                label="Transport resilience index"
+                label="Индекс транспортной устойчивости"
                 status={cityData["Transport Resilience Index"]}
                 filled={true}
               />
@@ -147,10 +149,10 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
             </div>
 
             <div>
-              {(cityData.City === "Dubai" ||
-                cityData.City === "Dar es Salaam" ||
-                cityData.City === "Astana" ||
-                cityData.City === "Lahore") && (
+              {(cityId === "Dubai" ||
+                cityId === "Dar es Salaam" ||
+                cityId === "Astana" ||
+                cityId === "Lahore") && (
                   <Button
                     onClick={() => {
                       const landing = document.getElementById("landing");
@@ -177,7 +179,7 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
                       alignItems: "center",
                     }}
                   >
-                    Geoanalytics
+                    Геоаналитика
                   </Button>
                 )}
               <div
@@ -204,7 +206,7 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
                   alignItems: "center",
                 }}
               >
-                <div>Scroll down</div>
+                <div>Прокрутите вниз</div>
                 <img
                   src="/assets/arrowDown.svg"
                   alt="arrow down"
@@ -235,7 +237,7 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
                 link.click();
               }}
             >
-              <div>Download report</div>
+              <div>Скачать отчет</div>
               <img src="/assets/downloadIcon.svg" alt="arrow down" />
             </Button>
           </div>
@@ -253,8 +255,7 @@ export const FirstSection: FC<IFirstSection> = ({ setActiveSection }) => {
             width: "30%",
           }}
         >
-          The height of a bar represents the total number of people in a grid
-          cell.
+          Высота столбца отражает общее число людей в ячейке сетки.
         </div>
         {/*<ZoomButtons map={map} />*/}
       </Layout>

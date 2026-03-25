@@ -1,12 +1,10 @@
-import { Button, Grid, styled } from "@mui/material";
+import { Button, Typography, styled } from "@mui/material";
 import { useImageSectionStyles } from "../ImageSection/components/styles";
 import { useSelectedCityData } from "../../../../hooks/useSelectedCityData";
-import { Colors } from "../../../GraphAndGlobe/components/SmallStatItem";
-import { Typography } from "@mui/material";
-import type { ReactNode } from "react";
+import type { ReactNode, FC } from "react";
 import { useState } from "react";
-import type { FC } from "react";
 import Tooltip, { tooltipClasses, TooltipProps } from "@mui/material/Tooltip";
+import { getCityId } from "../../../../constants";
 
 const HtmlTooltip = styled(({ className, ...props }: TooltipProps) => (
   <Tooltip {...props} classes={{ popper: className }} />
@@ -32,21 +30,23 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
   const { classes } = useImageSectionStyles();
   const selectedCityData = useSelectedCityData();
   const [hintHovered, setHintHovered] = useState(false);
+  const cityId = getCityId(selectedCityData?.City);
 
   const hideExploreTopics =
-    selectedCityData?.City === "Mexico City" ||
-    selectedCityData?.City === "Panama City" ||
-    selectedCityData?.City === "Cape Town" ||
-    selectedCityData?.City === "Amman" ||
-    selectedCityData?.City === "Colombo" ||
-    selectedCityData?.City === "Bangkok" ||
-    selectedCityData?.City === "Jakarta" ||
-    selectedCityData?.City === "Astana" ||
-    selectedCityData?.City === "Lahore" ||
-    selectedCityData?.City === "Nairobi";
+    cityId === "Mexico City" ||
+    cityId === "Panama City" ||
+    cityId === "Cape Town" ||
+    cityId === "Amman" ||
+    cityId === "Colombo" ||
+    cityId === "Bangkok" ||
+    cityId === "Jakarta" ||
+    cityId === "Astana" ||
+    cityId === "Lahore" ||
+    cityId === "Nairobi";
 
-  const hintHeader = 5;
-  const hintText = 7;
+  void HtmlTooltip;
+  void hintHovered;
+  void setHintHovered;
 
   return (
     <div className={classes.contentWrapper}>
@@ -63,15 +63,17 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
         <div
           style={{
             fontSize: "5vh",
-            // fontSize: "48px",
             color: "#121212",
           }}
         >
           {selectedCityData?.City}: <br />
-          <span style={{
-            color: "#00C8B5"
-          }}>Social Sentiment </span>
-          Index
+          <span
+            style={{
+              color: "#00C8B5",
+            }}
+          >
+            Индекс социальных настроений
+          </span>
         </div>
         <div
           style={{
@@ -94,11 +96,10 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
           fontSize: "1.8vh",
         }}
       >
-        The graph highlights the perception of different topics by citizens and
-        visitors. The further the vertices of the shape are from the center of
-        the diagram, the better the topic perception is in the city. The larger
-        the area of the shape, the higher the overall perception of city's
-        resilience.
+        График показывает восприятие разных тем жителями и посетителями.
+        Чем дальше вершины фигуры от центра диаграммы, тем лучше
+        воспринимается соответствующая тема в городе. Чем больше площадь
+        фигуры, тем выше общее восприятие устойчивости города.
       </Typography>
       <div className={classes.pageContainer}>
         <div className={classes.bottomWrapper}>
@@ -123,17 +124,15 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
                 borderRadius: 50,
                 padding: "1vh 2.5vh",
                 textTransform: "none",
-                
                 fontSize: "1.7vh",
                 fontWeight: 400,
                 display: hideExploreTopics ? "none" : "flex",
                 flexDirection: "row",
                 gap: "1.2vh",
-                // filter: "invert(1)",
                 zIndex: 2,
               }}
             >
-              <div>Explore topics</div>
+              <div>Изучить темы</div>
             </Button>
             <Button
               style={{
@@ -156,7 +155,7 @@ export const StarGraphWrapper: FC<StarGraphWrapperProps> = ({
                 link.click();
               }}
             >
-              <div>Download report</div>
+              <div>Скачать отчет</div>
               <img src="/assets/downloadIcon.svg" alt="arrow down" />
             </Button>
           </div>

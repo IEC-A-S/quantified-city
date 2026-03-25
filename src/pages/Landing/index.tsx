@@ -10,7 +10,6 @@ import { CITY_DATA } from "../../data";
 import { CityDataProvider } from "../../providers/CityDataProvider";
 import { GeoAnalyticsSection } from "./components/GeoAnalyticsSection";
 import { BlueCubePopup } from "../BlueCubePopup";
-import { MainMenu } from "../../components/MainMenu";
 import { TablePopup } from "../TablePopup";
 import { StarGraph } from "./components/StarGraph";
 import type {
@@ -25,6 +24,12 @@ import { SocialPopup } from "../SocialPopup";
 import { GeoMapDeSalam } from "./components/GeoAnalyticsSection/components/GeoMap/GeoMapDeSalam";
 import { TimeLossInTrafficPopUp } from "../TimeLossInTrafficPopUp";
 import { TimeLossPopup } from "../TimeLossPopup";
+import { getCityId, getCityLabel } from "../../constants";
+import { getV2CityBySlug } from "../../v2/data/selectors";
+import {
+  getCompatibleCityData,
+  getCompatibleCityLabel,
+} from "../../v2/data/compat";
 
 export const getCityDataForStarGraph = (cityDataArr: ICityDTO[]): ICityData[] =>
   cityDataArr.map((cityData) => ({
@@ -50,13 +55,18 @@ export const Landing = () => {
   const [timeLossInTrafficPopupOpen, setTimeLossInTrafficPopupOpen] =
     useState(false);
 
-  const [menuVisible, setMenuVisible] = useState(false);
-
   // url is /city/:cityName
   //get cityName from url
   const navigate = useNavigate();
   const { cityName } = useParams();
-  const cityData = CITY_DATA.find((city) => city.City === cityName)!;
+  const currentCity = getV2CityBySlug(cityName) ?? getV2CityBySlug(getCityId(cityName));
+  const cityLabel = getCompatibleCityLabel(currentCity?.id ?? cityName);
+  const cityId = currentCity?.id ?? getCityId(cityName);
+  const cityData = getCompatibleCityData(cityId) ?? getCompatibleCityData(cityLabel);
+
+  if (!cityData) {
+    throw new Error(`Unknown city: ${cityName}`);
+  }
 
   // =================================================================
   // Временная заглушка для разработки геоаналитики для Астаны
@@ -156,7 +166,6 @@ export const Landing = () => {
 
   return (
     <CityDataProvider cityData={cityData}>
-      {menuVisible && <MainMenu setVisible={setMenuVisible} />}
       {tablePopupOpen && <TablePopup setTablePopupOpen={setTablePopupOpen} />}
       {sentimentPopupOpen && (
         <SocialPopup
@@ -185,7 +194,6 @@ export const Landing = () => {
           //   activeSection === 3 || activeSection === 4 || activeSection === 5
           // }
           invertColors={invertColors}
-          setMenuVisible={setMenuVisible}
         />
       </div>
       <div className={classes.root} id="landing">
@@ -205,7 +213,7 @@ export const Landing = () => {
         {/*<SectionWrapper isActive={activeSection === 3} sectionIndex={3} key={3}>*/}
         {/*  <BlackCubeSection />*/}
         {/*</SectionWrapper>*/}
-        {cityData?.City !== "Lahore" && cityData?.City !== "Nairobi" && (
+        {cityId !== "Lahore" && cityId !== "Nairobi" && (
           <SectionWrapper
             isActive={activeSection === 4}
             sectionIndex={4}
@@ -243,11 +251,11 @@ export const Landing = () => {
             ]}
           />
         </SectionWrapper>
-        {(cityData?.City === "Dubai" ||
-          cityData?.City === "Dar es Salaam" ||
-          cityData?.City === "Astana" ||
-          cityData?.City === "Lahore" ||
-          cityData?.City === "Nairobi") && (
+        {(cityId === "Dubai" ||
+          cityId === "Dar es Salaam" ||
+          cityId === "Astana" ||
+          cityId === "Lahore" ||
+          cityId === "Nairobi") && (
           <SectionWrapper
             isActive={activeSection === 5}
             sectionIndex={5}

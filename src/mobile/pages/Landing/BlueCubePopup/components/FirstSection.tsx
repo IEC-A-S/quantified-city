@@ -4,8 +4,15 @@ import categoryDataArr from "../../../../../data/categoryData.json";
 import { usePopupStyles } from "../index";
 import type { FC } from "react";
 import { CategoryDescription } from "../../../../../pages/BlueCubePopup/data";
+import { getCategoryKey, getCategoryLabel } from "../../../../../utils/categories";
 
-const yLabels = ["Very low", "Low", "Average", "Strong", "Very strong"];
+const yLabels = [
+  "Очень низкий",
+  "Низкий",
+  "Средний",
+  "Высокий",
+  "Очень высокий",
+];
 const yColors = ["#FF3B29", "#FF632F", "#FF9B3F", "#A0DA8B", "#35CB00"];
 
 interface FirstSectionProps {
@@ -14,8 +21,10 @@ interface FirstSectionProps {
 }
 export const FirstSection: FC<FirstSectionProps> = ({ city, category }) => {
   const { classes } = usePopupStyles();
+  const categoryKey = getCategoryKey(category);
+  const categoryLabel = getCategoryLabel(category);
 
-  const normalizedCategory = category.replace(" ", "_");
+  const normalizedCategory = categoryKey.replace(" ", "_");
   const description = Object.keys(CategoryDescription).includes(
     normalizedCategory
   )
@@ -39,10 +48,10 @@ export const FirstSection: FC<FirstSectionProps> = ({ city, category }) => {
           marginBottom: "16px",
         }}
       >
-        <Typography variant={"h3"}>{category}</Typography>
+        <Typography variant={"h3"}>{categoryLabel}</Typography>
         <Typography variant={"h6"}>{description}</Typography>
         <Typography variant={"h4"}>
-          Choose cities and compare to peers
+          Выберите города и сравните с сопоставимыми
         </Typography>
       </div>
       <div
@@ -54,7 +63,7 @@ export const FirstSection: FC<FirstSectionProps> = ({ city, category }) => {
           isMobile={true}
           categoryDataArr={categoryDataArr}
           currentCity={city}
-          category={category}
+          category={categoryKey}
           yLabels={yLabels}
           yColors={yColors}
         />

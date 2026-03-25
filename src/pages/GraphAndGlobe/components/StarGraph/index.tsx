@@ -19,17 +19,17 @@ export const StarGraph: FC<IProps> = ({
   category,
   colors,
 }) => {
-  const cities = indicatorDataByCitiesArr.map((cityData) => cityData.city);
-  const currentCityData = getRadarData(
-    indicatorDataByCitiesArr.find(
-      (cityData: IIndicatorsDataByCities) => cityData.city === currentCity
-    )!,
-    category
-  );
+  const radarDataArr: ICityIndicatorData[][] = indicatorDataByCitiesArr
+    .map((cityData: IIndicatorsDataByCities) => getRadarData(cityData, category))
+    .filter((cityData) => cityData.length > 0);
 
-  const radarDataArr: ICityIndicatorData[][] = indicatorDataByCitiesArr.map(
-    (cityData: IIndicatorsDataByCities) => getRadarData(cityData, category)
-  );
+  const cities = radarDataArr.map((cityData) => cityData[0].city);
+  const currentCityData =
+    radarDataArr.find((cityData) => cityData[0].city === currentCity) ?? [];
+
+  if (currentCityData.length === 0) {
+    return null;
+  }
 
   const [selectedCityDataArr, onSelectedCitiesChange] = useSelectedCities(
     currentCity,

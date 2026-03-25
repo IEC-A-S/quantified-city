@@ -42,8 +42,8 @@ export const Content: FC<IContentProps> = ({
           marginTop: "14px",
         }}
       >
-        Choose a city and <br /> view its{" "}
-        <span className={classes.span}>score</span>
+        Выберите город и <br /> посмотрите его{" "}
+        <span className={classes.span}>оценку</span>
       </Typography>
       <div className={classes.toggleButtonGroupWrapper}>
         <StyledToggleButtonGroup>
@@ -52,14 +52,14 @@ export const Content: FC<IContentProps> = ({
             selected={currentView === "map"}
             onClick={onMapButtonClick}
           >
-            Map
+            Карта
           </StyledToggleButton>
           <StyledToggleButton
             value="graph"
             selected={currentView === "graph"}
             onClick={onGraphButtonClick}
           >
-            Graph
+            График
           </StyledToggleButton>
         </StyledToggleButtonGroup>
         <div className={classes.bottomRatingLegend}>
@@ -80,7 +80,7 @@ export const Content: FC<IContentProps> = ({
       <div className={classes.filterButtonsWrapper}>
         {!isFilterVisible ? (
           <Button variant="text" onClick={() => setIsFilterVisible(true)}>
-            Filter by
+            Фильтр
           </Button>
         ) : (
           <>
@@ -89,28 +89,28 @@ export const Content: FC<IContentProps> = ({
               onClick={() => setIsFilterVisible(false)}
               variant="contained"
             >
-              Close <img src={"./assets/closeIcon.svg"} alt="arrow" />
+              Закрыть <img src={"./assets/closeIcon.svg"} alt="arrow" />
             </Button>
             <Button variant="text">
-              Country <img src={"./assets/arrowDownIcon.svg"} alt="arrow" />
+              Страна <img src={"./assets/arrowDownIcon.svg"} alt="arrow" />
             </Button>
             <Button variant="text">
-              Climate <img src={"./assets/arrowDownIcon.svg"} alt="arrow" />
+              Климат <img src={"./assets/arrowDownIcon.svg"} alt="arrow" />
             </Button>
             <Button variant="text">
-              Risk exposure{" "}
+              Риск{" "}
               <img src={"./assets/arrowDownIcon.svg"} alt="arrow" />
             </Button>
             <Button variant="text">
-              Income group{" "}
+              Доход{" "}
               <img src={"./assets/arrowDownIcon.svg"} alt="arrow" />
             </Button>
             <Button variant="text">
-              Population group{" "}
+              Население{" "}
               <img src={"./assets/arrowDownIcon.svg"} alt="arrow" />
             </Button>
             <Button variant="text">
-              Rating <img src={"./assets/arrowDownIcon.svg"} alt="arrow" />
+              Рейтинг <img src={"./assets/arrowDownIcon.svg"} alt="arrow" />
             </Button>
           </>
         )}

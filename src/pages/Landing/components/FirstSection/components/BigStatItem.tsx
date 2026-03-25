@@ -1,6 +1,5 @@
 import type { FC } from "react";
-import { Colors } from "../../../../GraphAndGlobe/components/SmallStatItem";
-import { STATUS_COLORS } from "../../../../GraphAndGlobe/components/BigStatItem";
+import { getAssessmentColor } from "../../../../../utils/assessment";
 
 interface IBigStatItemProps {
   label: string;
@@ -17,7 +16,7 @@ export const BigSmallStatItem: FC<IBigStatItemProps> = ({
   isFirst,
   filled,
 }) => {
-  const statusNormalized = status.replace("-", "");
+  const color = getAssessmentColor(status);
 
   return (
     <>
@@ -62,16 +61,10 @@ export const BigSmallStatItem: FC<IBigStatItemProps> = ({
               borderRadius: 50,
               padding: "1vh 3vh",
               marginTop: "1.4vh",
-              //color: Colors[status.toUpperCase().replace(" ", "_")],
-              color: Colors[status.toUpperCase()],
-              borderColor: `${
-                //Colors[status.toUpperCase().replace(" ", "_")]
-                Colors[status.toUpperCase()]
-              }30`,
+              color,
+              borderColor: `${color}30`,
               borderWidth: filled ? 1 : 1,
-              backgroundColor: filled
-                ? `${Colors[status.toUpperCase()]}30`
-                : "transparent",
+              backgroundColor: filled ? `${color}30` : "transparent",
             }}
           >
             {status}

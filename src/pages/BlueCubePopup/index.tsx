@@ -7,11 +7,19 @@ import { StarGraph } from "../GraphAndGlobe/components/StarGraph";
 import { IndicatorChart } from "../GraphAndGlobe/components/IndicatorChart";
 import { CategoryDescription } from "./data";
 import categoryDataArr from "../../data/categoryData.json";
-import indicatorDataByCitiesArr from "../../data/indicatorsData.json";
-import newValuesForIndicators from "../../data/indeicatorsData_newValues.json";
-import newIndicatorsDescription from "../../data/indicatorDescriptionData.json";
+import { getCategoryKey, getCategoryLabel } from "../../utils/categories";
+import {
+  getCompatibleIndicatorDataset,
+  getCompatibleIndicatorsByCategory,
+} from "../../v2/data/compat";
 
-const yLabels = ["Very low", "Low", "Average", "Strong", "Very strong"];
+const yLabels = [
+  "Очень низкий",
+  "Низкий",
+  "Средний",
+  "Высокий",
+  "Очень высокий",
+];
 const yColors = ["#FF3B29", "#FF632F", "#FF9B3F", "#A0DA8B", "#35CB00"];
 
 interface BlueCubePopupProps {
@@ -27,48 +35,17 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
   setClickedCategory,
 }) => {
   const { classes } = usePopupStyles();
-
-  const indicatorsDataNewValues = indicatorDataByCitiesArr.map((cityData) => {
-    const indicatorsData = cityData.data.map((indicator) => {
-      const newValues = newValuesForIndicators.find(
-        (newValues) =>
-          newValues.City === cityData.city &&
-          newValues.Indicator === indicator.indicator
-      );
-      const newDescription = newIndicatorsDescription.find(
-        (newDescription) =>
-          newDescription.City === cityData.city &&
-          newDescription.Indicator === indicator.indicator
-      );
-      if (newValues?.Value === 0) {
-        return {
-          ...indicator,
-          value: newValues?.Assessment ? newValues.Assessment : indicator.value,
-          natural_value: 0,
-          unit: newDescription?.Unit ? newDescription.Unit : indicator.unit,
-        };
-      } else {
-        return {
-          ...indicator,
-          value: newValues?.Assessment ? newValues.Assessment : indicator.value,
-          natural_value: newValues?.Value ? newValues.Value : indicator.natural_value,
-          unit: newDescription?.Unit ? newDescription.Unit : indicator.unit,
-        };
-      }
-    });
-    return {
-      ...cityData,
-      data: indicatorsData,
-    };
-  }
+  const categoryKey = getCategoryKey(category);
+  const categoryLabel = getCategoryLabel(category);
+  const indicatorsDataByCitiesArr = getCompatibleIndicatorDataset();
+  const indicatorsDataByCurrentCityAndCategory = getCompatibleIndicatorsByCategory(
+    city,
+    categoryKey
   );
 
-
-  const indicatorsDataByCurrentCityAndCategory = indicatorsDataNewValues
-    .find((cityData) => cityData.city === city)!
-    .data.filter((indicator) => indicator.category === category);
-
   const [currentIndicator, setCurrentIndicator] = useState(0);
+  const activeIndicator =
+    indicatorsDataByCurrentCityAndCategory[currentIndicator] ?? null;
 
   const handleClickOnToggler = (direction: boolean) => {
     if (
@@ -86,7 +63,7 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
   };
 
   //get description of category from CategoryDescription using category from props
-  const normalizedCategory = category.replace(" ", "_");
+  const normalizedCategory = categoryKey.replace(" ", "_");
   const description = Object.keys(CategoryDescription).includes(
     normalizedCategory
   )
@@ -111,12 +88,12 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
           alt="return back"
         />
         <Typography className={classes.returnBackText}>
-          Back to Urban resilience index
+          Назад
         </Typography>
       </div>
       <div className={classes.content}>
         <div className={classes.blueSection}>
-          <TopText title={category} text={description} />
+          <TopText title={categoryLabel} text={description} />
           <Typography
             style={{
               position: "absolute",
@@ -127,14 +104,14 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
               fontSize: "4vh",
             }}
           >
-            Chose cities <br />
-            and compare to peers
+            Выберите города <br />
+            и сравните с сопоставимыми
           </Typography>
           <CategoryChart
             isMobile={isMobile}
             categoryDataArr={categoryDataArr}
             currentCity={city}
-            category={category}
+            category={categoryKey}
             yLabels={yLabels}
             yColors={yColors}
           />
@@ -150,10 +127,10 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
             <div
               className={classes.title}
             >
-              Indicators of{" "}
+              Индикаторы категории{" "}
             </div>
             <div className={classes.title} style={{ color: "#00C8B5" }}>
-              {category}
+              {categoryLabel}
             </div>
           </div>
           <Typography
@@ -167,16 +144,16 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
               fontSize: "2vh",
             }}
           >
-            The graph highlights the strengths and weaknesses of cities across
-            various aspects of {category} category. The further the vertices of
-            the shape are from the center of the diagram, the better the city's
-            performance in that particular indicator. The larger the area of the
-            shape, the higher the overall assessment in the {category} category.
+            График показывает сильные и слабые стороны городов по различным
+            аспектам категории {categoryLabel}. Чем дальше вершины фигуры от
+            центра диаграммы, тем лучше результат города по соответствующему
+            индикатору. Чем больше площадь фигуры, тем выше общая оценка по
+            категории {categoryLabel}.
           </Typography>
           <StarGraph
-            indicatorDataByCitiesArr={indicatorsDataNewValues}
+            indicatorDataByCitiesArr={indicatorsDataByCitiesArr}
             currentCity={city}
-            category={category}
+            category={categoryLabel}
             colors={[
               "#2D67FF",
               "#00BCF8",
@@ -230,7 +207,7 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
               alignSelf: "center",
             }}
           >
-            Browse indicators for the {category} category
+            Просмотр индикаторов категории {categoryLabel}
           </Typography>
           <div
             style={{
@@ -243,10 +220,7 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
               color: "#fff",
               fontSize: "6vh"
             }}>
-              {
-                indicatorsDataByCurrentCityAndCategory[currentIndicator]
-                  .indicator
-              }
+              {activeIndicator?.indicator ?? categoryLabel}
               <br />
               <span
                 style={{
@@ -255,20 +229,20 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
                   letterSpacing: "0",
                 }}
               >
-                {indicatorsDataByCurrentCityAndCategory[currentIndicator].unit}
+                {activeIndicator?.unit ?? ""}
               </span>
             </div>
           </div>
-          <IndicatorChart
-            indicatorDataByCitiesArr={indicatorsDataNewValues}
-            currentCity={city}
-            category={category}
-            indicator={
-              indicatorsDataByCurrentCityAndCategory[currentIndicator].indicator
-            }
-            yLabels={yLabels}
-            yColors={yColors}
-          />
+          {activeIndicator && (
+            <IndicatorChart
+              indicatorDataByCitiesArr={indicatorsDataByCitiesArr}
+              currentCity={city}
+              category={categoryLabel}
+              indicator={activeIndicator.indicator}
+              yLabels={yLabels}
+              yColors={yColors}
+            />
+          )}
         </div>
       </div>
     </div>

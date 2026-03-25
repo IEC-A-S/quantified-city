@@ -41,12 +41,12 @@ export const getData =
 
     return {
       labels: [
-        "Efficiency",
-        "Accessibility",
-        "Safety",
-        "Affordability",
-        "Environmental impact",
-        "Satisfaction",
+        "Эффективность",
+        "Доступность",
+        "Безопасность",
+        "Ценовая доступность",
+        "Воздействие на среду",
+        "Удовлетворенность",
       ],
       datasets: cityDataArr.map((cityData, index) => ({
         label: cityData.City,

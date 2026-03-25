@@ -1,7 +1,5 @@
 import { Button, Typography } from "@mui/material";
 import { useSelectedCityData } from "../../../hooks/useSelectedCityData";
-import { RATING_COLORS_ENUM } from "../../components/RatingBubble";
-import { STATUS_COLORS_ENUM } from "../../components/StatusBubble";
 import { getCityDataForStarGraph } from "../../../pages/Landing";
 import { CITY_DATA } from "../../../data";
 import type { ICityData } from "../../../pages/Landing/components/StarGraph/interfaces";
@@ -9,6 +7,7 @@ import { useSelectedCities } from "../../../pages/Landing/components/StarGraph/u
 import { Radar } from "react-chartjs-2";
 import { CitySelectorsSet } from "../../../pages/Landing/components/StarGraph/CitySelectorsSet";
 import type { ChartData, ChartOptions } from "chart.js";
+import { getAssessmentColor } from "../../../utils/assessment";
 
 export const colors = [
   "#2D67FF",
@@ -88,11 +87,7 @@ export const getData =
   };
 export const GraphSection = () => {
   const cityData = useSelectedCityData();
-  const normStatus = cityData["Transport Resilience Index"]
-    .replace(/\s/g, "_")
-    .toUpperCase();
-  const color =
-    STATUS_COLORS_ENUM[normStatus as keyof typeof STATUS_COLORS_ENUM];
+  const color = getAssessmentColor(cityData["Transport Resilience Index"]);
 
   const cityDataArr = getCityDataForStarGraph(CITY_DATA);
   const cities = cityDataArr.map((cityData) => cityData.City);
@@ -139,9 +134,9 @@ export const GraphSection = () => {
             fontFamily: "SuisseIntl-Light",
           }}
         >
-          Transport
+          Транспортная
         </span>{" "}
-        resilience index
+        устойчивость
         <span
           style={{
             verticalAlign: "middle",
@@ -170,11 +165,10 @@ export const GraphSection = () => {
           color: "#000",
         }}
       >
-        The graph highlights the strengths and weaknesses of cities across
-        various aspects of transport system. The further the vertices of the
-        shape are from the center of the diagram, the better the city's
-        performance in that particular metrics. The larger the area of the
-        shape, the higher the overall assessment in Transport resilience.
+        График показывает сильные и слабые стороны городов по различным
+        аспектам транспортной системы. Чем дальше вершины фигуры от центра,
+        тем лучше город выглядит по соответствующему показателю. Чем больше
+        площадь фигуры, тем выше общая оценка транспортной устойчивости.
       </Typography>
       <div
         style={{
@@ -245,7 +239,7 @@ export const GraphSection = () => {
             link.click();
           }}
         >
-          Download report
+          Скачать отчет
           <img
             src={"./assets/downloadIcon.svg"}
             alt="arrow"

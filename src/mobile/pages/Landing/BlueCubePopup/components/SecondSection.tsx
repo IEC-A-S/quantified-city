@@ -10,6 +10,7 @@ import { getRadarData } from "../../../../../pages/GraphAndGlobe/components/Star
 import { useSelectedCities } from "../../../../../pages/GraphAndGlobe/components/StarGraph/useSelectedCities";
 import type { ChartData, ChartOptions } from "chart.js";
 import { CitySelectorsSet } from "../../../../../pages/Landing/components/StarGraph/CitySelectorsSet";
+import { getCategoryLabel } from "../../../../../utils/categories";
 const colors = [
   "#2D67FF",
   "#00BCF8",
@@ -71,7 +72,7 @@ export const getData =
         pointHoverBackgroundColor: "#fff",
         pointHoverBorderColor: "rgba(34, 202, 236, 1)",
         pointRadius: 2,
-        data: cityData.map((cityData) => cityData.value),
+        data: cityData.map((cityData) => cityData.natural_value),
       })),
     };
   };
@@ -104,17 +105,18 @@ export const SecondSection: FC<SecondSectionProps> = ({
   category,
 }) => {
   const { classes } = usePopupStyles();
+  const categoryLabel = getCategoryLabel(category);
 
   const cities = indicatorDataByCitiesArr.map((cityData) => cityData.city);
   const currentCityData = getRadarData(
     indicatorDataByCitiesArr.find(
       (cityData: IIndicatorsDataByCities) => cityData.city === currentCity
     )!,
-    category
+    categoryLabel
   );
 
   const radarDataArr: ICityIndicatorData[][] = indicatorDataByCitiesArr.map(
-    (cityData: IIndicatorsDataByCities) => getRadarData(cityData, category)
+    (cityData: IIndicatorsDataByCities) => getRadarData(cityData, categoryLabel)
   );
 
   const [selectedCityDataArr, onSelectedCitiesChange] = useSelectedCities(
@@ -143,14 +145,14 @@ export const SecondSection: FC<SecondSectionProps> = ({
             color: "#000000",
           }}
         >
-          Indicators of{" "}
+          Индикаторы категории{" "}
           <span
             style={{
               fontFamily: "SuisseIntl-Regular",
               color: "#2D67FF",
             }}
           >
-            {category}
+            {categoryLabel}
           </span>
         </Typography>
         <Typography
@@ -159,11 +161,11 @@ export const SecondSection: FC<SecondSectionProps> = ({
             color: "#000000",
           }}
         >
-          The graph highlights the strengths and weaknesses of cities across
-          various aspects of {category} category. The further the vertices of
-          the shape are from the center of the diagram, the better the city's
-          performance in that particular indicator. The larger the area of the
-          shape, the higher the overall assessment in the {category} category.
+          График показывает сильные и слабые стороны городов по различным
+          аспектам категории «{categoryLabel}». Чем дальше вершины фигуры от
+          центра диаграммы, тем лучше показатели города по соответствующему
+          индикатору. Чем больше площадь фигуры, тем выше общая оценка по
+          категории «{categoryLabel}».
         </Typography>
       </div>
       <div

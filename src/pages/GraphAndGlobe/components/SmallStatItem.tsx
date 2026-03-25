@@ -1,13 +1,8 @@
 import type { FC } from "react";
 import { useSelectedCityStyles } from "./styles";
+import { ASSESSMENT_COLORS, getAssessmentColor } from "../../../utils/assessment";
 
-export const Colors = {
-  "VERY LOW": "#FF3B29",
-  LOW: "#FF632F",
-  AVERAGE: "#FF9B3F",
-  STRONG: "#A0DA8B",
-  "VERY STRONG": "#35CB00",
-};
+export const Colors = ASSESSMENT_COLORS;
 
 interface ISmallStatItemProps {
   label: string;
@@ -24,6 +19,7 @@ export const SmallStatItem: FC<ISmallStatItemProps> = ({
   if (!status) {
     return null;
   }
+  const color = getAssessmentColor(status);
 
   return (
     <div className={classes.smallRowWrapper}>
@@ -53,8 +49,8 @@ export const SmallStatItem: FC<ISmallStatItemProps> = ({
         <div
           className={classes.statStatus}
           style={{
-            color: Colors[status.toUpperCase()],
-            borderColor: `${Colors[status.toUpperCase()]}30`,
+            color,
+            borderColor: `${color}30`,
           }}
         >
           {status}

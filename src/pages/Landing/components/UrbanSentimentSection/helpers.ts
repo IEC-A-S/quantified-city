@@ -1,5 +1,6 @@
 import type { ChartData, ChartOptions } from "chart.js";
 import type { ICityData } from "./interfaces";
+import { getCategoryLabel } from "../../../../utils/categories";
 
 export const getOptions = (): ChartOptions<"radar"> => {
   return {
@@ -41,24 +42,24 @@ export const getData =
 
     return {
       labels: [
-        "Air pollution",
-        "Water pollution",
-        "Land use and waste",
+        getCategoryLabel("Air pollution"),
+        getCategoryLabel("Water pollution"),
+        getCategoryLabel("Land use and waste"),
         //"Natural disaster hazards",
         //"Water availability",
-        "Food availability",
-        "Energy availability",
+        getCategoryLabel("Food availability"),
+        getCategoryLabel("Energy availability"),
         //"Health",
         //"Education",
-        "Wealth",
-        "Safety",
-        "Livability",
-        "Transport",
-        "Inclusion",
-        "Accountability",
+        getCategoryLabel("Wealth"),
+        getCategoryLabel("Safety"),
+        getCategoryLabel("Livability"),
+        getCategoryLabel("Transport"),
+        getCategoryLabel("Inclusion"),
+        getCategoryLabel("Accountability"),
         //"City budget",
         //"SME",
-        "Public services",
+        getCategoryLabel("Public services"),
         //"Sustainability commitment",
       ],
       datasets: cityDataArr.map((cityData, index) => ({

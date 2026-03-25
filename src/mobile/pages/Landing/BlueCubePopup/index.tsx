@@ -4,9 +4,8 @@ import { BackToUrban } from "./components/BackToUrban";
 import { FirstSection } from "./components/FirstSection";
 import { SecondSection } from "./components/SecondSection";
 import { ThirdSection } from "./components/ThirdSection";
-import indicatorDataByCitiesArr from "../../../../data/indicatorsData.json";
-import newValuesForIndicators from "../../../../data/indeicatorsData_newValues.json";
-import newIndicatorsDescription from "../../../../data/indicatorDescriptionData.json";
+import { getCategoryLabel } from "../../../../utils/categories";
+import { getCompatibleIndicatorDataset } from "../../../../v2/data/compat";
 
 interface BlueCubePopupProps {
   city: string;
@@ -88,40 +87,8 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
   setClickedCategory,
 }) => {
   const { classes } = usePopupStyles();
-
-  const indicatorsDataNewValues = indicatorDataByCitiesArr.map((cityData) => {
-    const indicatorsData = cityData.data.map((indicator) => {
-      const newValues = newValuesForIndicators.find(
-        (newValues) =>
-          newValues.City === cityData.city &&
-          newValues.Indicator === indicator.indicator
-      );
-      const newDescription = newIndicatorsDescription.find(
-        (newDescription) =>
-          newDescription.City === cityData.city &&
-          newDescription.Indicator === indicator.indicator
-      );
-      if (newValues?.Value === 0) {
-        return {
-          ...indicator,
-          value: newValues?.Assessment ? newValues.Assessment : indicator.value,
-          natural_value: 0,
-          unit: newDescription?.Unit ? newDescription.Unit : indicator.unit,
-        };
-      } else {
-        return {
-          ...indicator,
-          value: newValues?.Assessment ? newValues.Assessment : indicator.value,
-          natural_value: newValues?.Value ? newValues.Value : indicator.natural_value,
-          unit: newDescription?.Unit ? newDescription.Unit : indicator.unit,
-        };
-      }
-    });
-    return {
-      ...cityData,
-      data: indicatorsData,
-    };
-  });
+  const categoryLabel = getCategoryLabel(category);
+  const indicatorsDataNewValues = getCompatibleIndicatorDataset();
 
   return (
     <div className={classes.backgroundWrapper}>
@@ -131,9 +98,9 @@ export const BlueCubePopup: FC<BlueCubePopupProps> = ({
         <SecondSection
           indicatorDataByCitiesArr={indicatorsDataNewValues}
           currentCity={city}
-          category={category}
+          category={categoryLabel}
         />
-        <ThirdSection city={city} category={category} />
+        <ThirdSection city={city} category={categoryLabel} />
       </div>
     </div>
   );

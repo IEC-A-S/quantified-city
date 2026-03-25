@@ -1,6 +1,5 @@
 import { Button, Typography } from "@mui/material";
 import { useSelectedCityData } from "../../../hooks/useSelectedCityData";
-import { STATUS_COLORS_ENUM } from "../../components/StatusBubble";
 import type {
   ICityData,
   ISentimentDTO,
@@ -10,6 +9,10 @@ import { Radar } from "react-chartjs-2";
 import { CitySelectorsSet } from "../../../pages/Landing/components/StarGraph/CitySelectorsSet";
 import type { ChartData, ChartOptions } from "chart.js";
 import SENTIMENT_DATA from "../../../data/sentimentGraph.json";
+import { getCityId } from "../../../constants";
+import { getAssessmentColor } from "../../../utils/assessment";
+import { getCategoryLabel } from "../../../utils/categories";
+
 const getCityDataForSentimentGraph = (
   cityDataArr: ISentimentDTO[]
 ): ISentimentDTO[] =>
@@ -17,6 +20,7 @@ const getCityDataForSentimentGraph = (
     ...cityData,
     City: cityData.City,
   }));
+
 export const colors = [
   "#2D67FF",
   "#00BCF8",
@@ -25,6 +29,7 @@ export const colors = [
   "#AD00FF",
   "#FF7AE2",
 ];
+
 const getOptions = (): ChartOptions<"radar"> => {
   return {
     responsive: true,
@@ -54,8 +59,9 @@ const getOptions = (): ChartOptions<"radar"> => {
     },
   };
 };
+
 const getData =
-  (colors: string[]) =>
+  (chartColors: string[]) =>
   (
     currentCityData: ICityData,
     selectedCityDataArr: ICityData[]
@@ -64,33 +70,26 @@ const getData =
 
     return {
       labels: [
-        "Air pollution",
-        "Water pollution",
-        "Land use and waste",
-        //"Natural disaster hazards",
-        //"Water availability",
-        "Food availability",
-        "Energy availability",
-        //"Health",
-        //"Education",
-        "Wealth",
-        "Safety",
-        "Livability",
-        "Transport",
-        "Inclusion",
-        "Accountability",
-        //"City budget",
-        //"SME",
-        "Public services",
-        //"Sustainability commitment",
+        getCategoryLabel("Air pollution"),
+        getCategoryLabel("Water pollution"),
+        getCategoryLabel("Land use and waste"),
+        getCategoryLabel("Food availability"),
+        getCategoryLabel("Energy availability"),
+        getCategoryLabel("Wealth"),
+        getCategoryLabel("Safety"),
+        getCategoryLabel("Livability"),
+        getCategoryLabel("Transport"),
+        getCategoryLabel("Inclusion"),
+        getCategoryLabel("Accountability"),
+        getCategoryLabel("Public services"),
       ],
       datasets: cityDataArr.map((cityData, index) => ({
         label: cityData.City,
         backgroundColor: "transparent",
         borderWidth: index === 0 ? 4 : 1,
-        borderColor: colors[index],
-        pointBackgroundColor: colors[index],
-        pointBorderColor: colors[index],
+        borderColor: chartColors[index],
+        pointBackgroundColor: chartColors[index],
+        pointBorderColor: chartColors[index],
         pointHoverBackgroundColor: "#fff",
         pointHoverBorderColor: "rgba(34, 202, 236, 1)",
         pointRadius: 2,
@@ -98,67 +97,52 @@ const getData =
           cityData["Air pollution"],
           cityData["Water pollution"],
           cityData["Land use and waste"],
-          //cityData["Natural disaster hazards"],
-          //cityData["Water availability"],
           cityData["Food availability"],
           cityData["Energy availability"],
-          //cityData["Health"],
-          //cityData["Education"],
           cityData["Wealth"],
           cityData["Safety"],
           cityData["Livability"],
           cityData["Transport"],
           cityData["Inclusion"],
           cityData["Accountability"],
-          //cityData["City budget"],
-          //cityData["SME"],
           cityData["Public services"],
-          //cityData["Sustainability commitment"],
         ],
       })),
     };
   };
+
 export const SentimentGraphSection = ({ setSocialPopupOpen }) => {
   const cityData = useSelectedCityData();
+  const cityId = getCityId(cityData?.City);
   const hideExploreTopics =
-    cityData?.City === "Mexico City" ||
-    cityData?.City === "Panama City" ||
-    cityData?.City === "Cape Town" ||
-    cityData?.City === "Amman" ||
-    cityData?.City === "Colombo" ||
-    cityData?.City === "Bangkok" ||
-    cityData?.City === "Jakarta" ||
-    cityData?.City === "Astana" ||
-    cityData?.City === "Lahore" ||
-    cityData?.City === "Nairobi";
-  const normStatus = cityData["Urban Sentiment Index"]
-    .replace(/\s/g, "_")
-    .toUpperCase();
-  const color =
-    STATUS_COLORS_ENUM[normStatus as keyof typeof STATUS_COLORS_ENUM];
+    cityId === "Mexico City" ||
+    cityId === "Panama City" ||
+    cityId === "Cape Town" ||
+    cityId === "Amman" ||
+    cityId === "Colombo" ||
+    cityId === "Bangkok" ||
+    cityId === "Jakarta" ||
+    cityId === "Astana" ||
+    cityId === "Lahore" ||
+    cityId === "Nairobi";
+  const color = getAssessmentColor(cityData["Urban Sentiment Index"]);
 
   const cityDataArr = getCityDataForSentimentGraph(
     SENTIMENT_DATA as unknown as ISentimentDTO[]
   );
-  const cities = cityDataArr.map((cityData) => cityData.City);
+  const cities = cityDataArr.map((item) => item.City);
   const currentCity = cityData.City;
   const currentCityData = cityDataArr.find(
-    (cityData: ICityData) => cityData.City === currentCity
+    (item: ICityData) => item.City === currentCity
   )!;
   const [selectedCityDataArr, onSelectedCitiesChange] = useSelectedCities(
     currentCity,
     cities,
     cityDataArr
   );
+
   const options = getOptions();
-  let data = getData([
-    "#2D67FF",
-    "#00BCF8",
-    "#00DDD0",
-    "#8490FF",
-    "#AD00FF",
-    "#FF7AE2",
-  ])(currentCityData, selectedCityDataArr);
+  const data = getData(colors)(currentCityData, selectedCityDataArr);
 
   return (
     <div
@@ -184,9 +168,9 @@ export const SentimentGraphSection = ({ setSocialPopupOpen }) => {
             fontFamily: "SuisseIntl-Light",
           }}
         >
-          Urban
+          Индекс социальных
         </span>{" "}
-        sentiment index
+        настроений
         <span
           style={{
             verticalAlign: "middle",
@@ -208,19 +192,6 @@ export const SentimentGraphSection = ({ setSocialPopupOpen }) => {
           {cityData["Urban Sentiment Index"].replace("-", "")}
         </span>
       </Typography>
-      {/*<Typography*/}
-      {/*  variant={"h3"}*/}
-      {/*  style={{*/}
-      {/*    marginTop: "16px",*/}
-      {/*    color: "#000",*/}
-      {/*  }}*/}
-      {/*>*/}
-      {/*  The graph highlights the strengths and weaknesses of cities across*/}
-      {/*  various aspects of transport system. The further the vertices of the*/}
-      {/*  shape are from the center of the diagram, the better the city's*/}
-      {/*  performance in that particular metrics. The larger the area of the*/}
-      {/*  shape, the higher the overall assessment in Transport resilience.*/}
-      {/*</Typography>*/}
       <div
         style={{
           display: "flex",
@@ -260,7 +231,7 @@ export const SentimentGraphSection = ({ setSocialPopupOpen }) => {
       >
         <CitySelectorsSet
           currentCity={currentCity}
-          selectedCities={selectedCityDataArr.map((cityData) => cityData.City)}
+          selectedCities={selectedCityDataArr.map((item) => item.City)}
           cities={cities}
           colors={colors}
           onChange={onSelectedCitiesChange}
@@ -291,10 +262,10 @@ export const SentimentGraphSection = ({ setSocialPopupOpen }) => {
             fontFamily: "SuisseIntl-Thin",
           }}
         >
-          Explore indicators
+          Изучить темы
         </Button>
         <Button variant="contained">
-          Download report
+          Скачать отчет
           <img
             src={"./assets/downloadIcon.svg"}
             alt="arrow"

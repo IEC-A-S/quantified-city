@@ -28,7 +28,7 @@ export const VisualData: FC<IVisualData> = ({
       {data.map((item) => (
         <Item
           item={item}
-          key={item.label}
+          key={item.id}
           color={item.color}
           setSelectedCity={setSelectedCity}
         />

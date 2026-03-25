@@ -6,6 +6,7 @@ import { usePopupStyles } from "../../BlueCubePopup/components/styles";
 import { useSelectedCityData } from "../../../hooks/useSelectedCityData";
 import { CITY_DATA } from "../../../data";
 import type { FC } from "react";
+import { SCORE_TO_RU_ASSESSMENT } from "../../../utils/assessment";
 
 interface IBoxPlotProps {
   city: string;
@@ -17,25 +18,18 @@ export const BoxPlot: FC<IBoxPlotProps> = ({ city, isMobile }) => {
   const cityData = useSelectedCityData();
 
   const statusChangeNumberToString = (status: number) => {
-    switch (status) {
-      case 1:
-        return "Very low";
-      case 2:
-        return "Low";
-      case 3:
-        return "Average";
-      case 4:
-        return "Strong";
-      case 5:
-        return "Very strong";
-      default:
-        throw new Error("Invalid status index");
+    const assessment = SCORE_TO_RU_ASSESSMENT[status];
+
+    if (!assessment) {
+      throw new Error("Invalid status index");
     }
-  }
+
+    return assessment;
+  };
 
   const statuses = timeLossInTrafficStatuses.map((item) => ({
     city: item.city,
-    status: statusChangeNumberToString(item.data[0].value)
+    status: statusChangeNumberToString(item.data[0].value),
   }));
   // const statuses = CITY_DATA.map((item) => ({
   //   city: item.City,
@@ -125,7 +119,7 @@ export const BoxPlot: FC<IBoxPlotProps> = ({ city, isMobile }) => {
               whiteSpace: "nowrap",
             }}
           >
-            Download report
+            Скачать отчет
           </div>
           <img src="/assets/downloadIcon.svg" alt="arrow down" />
         </Button>

@@ -10,19 +10,19 @@ import type mapboxgl from "mapbox-gl";
 import { FilterButtons } from "./FilterButtons";
 
 const i18nObject = {
-  firstRow: "Choose a city",
-  secondRow: "to",
-  score: "explore",
-  howRatingWorks: "How the rating works",
-  map: "Map",
-  graph: "Graph",
-  filterBy: "Filter by",
+  firstRow: "Выберите город",
+  secondRow: "для",
+  score: "изучения",
+  howRatingWorks: "Как работает рейтинг",
+  map: "Карта",
+  graph: "График",
+  filterBy: "Фильтр",
   smallTextGraph1:
-    "Urban Resilience Index (URI) is a tool to measure environmental (E), social (S), and governmental (G) performance of urban areas as well as their ability & willingness to achieve better practices.",
+    "Индекс городской устойчивости (URI) измеряет экологические (E), социальные (S) и управленческие (G) показатели городских территорий, а также их способность и готовность внедрять лучшие практики.",
   smallTextGraph2:
-    "URI shows whether the basic needs of residents are satisfied, how vulnerable the place is to crises and how it impacts the world around.",
+    "URI показывает, удовлетворены ли базовые потребности жителей, насколько территория уязвима к кризисам и как она влияет на окружающий мир.",
   smallTextGraph3:
-    "At the graph color represents the cities' overall ratings (see right scale) while position against E, S and G axes reflects respective component scoring.",
+    "На графике цвет показывает общий рейтинг города, а положение относительно осей E, S и G отражает оценки по соответствующим компонентам.",
 };
 
 interface ContentProps {

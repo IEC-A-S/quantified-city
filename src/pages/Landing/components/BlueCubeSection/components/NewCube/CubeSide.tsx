@@ -61,10 +61,10 @@ export const CubeSide: FC<CubeSideProps> = ({
         }}
       >
         {side === "left"
-          ? "Economic"
+          ? "Экономика"
           : side === "right"
-          ? "Urban"
-          : "Social"}
+          ? "Город"
+          : "Социальная сфера"}
       </div>
     </div>
   );

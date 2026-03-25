@@ -3,6 +3,8 @@ import { CategoryItem } from "./CategoryItem";
 import { useSelectedCityData } from "../../../../../../hooks/useSelectedCityData";
 import { CATEGORY_DATA } from "../Cube/data";
 import { useEffect, useState } from "react";
+import { getCityId } from "../../../../../../constants";
+import { getCategoryLabel } from "../../../../../../utils/categories";
 const colorsIndexMap = ["#FF3B29", "#FF632F", "#FF9B3F", "#A0DA8B", "#35CB00"];
 
 export const categories: Record<string, string[]> = {
@@ -46,6 +48,8 @@ export const NewCube = ({
   isMobile,
   setCubeHeight,
 }: NewCubeProps) => {
+  const cityData = useSelectedCityData();
+  const cityId = getCityId(cityData.City);
   const [scale, setScale] = useState(
     isMobile
       ? Math.min(
@@ -111,13 +115,13 @@ export const NewCube = ({
           }}
         >
           {categories.left.map((category) => {
-            const cityData = useSelectedCityData();
-            const cityName = cityData.City;
             const categoryData = CATEGORY_DATA.find(
-              (item) => item.City === cityName
+              (item) => item.City === cityId
             );
-            const categoryValue =
-              categoryData[category as keyof typeof categoryData];
+            if (!categoryData) {
+              return null;
+            }
+            const categoryValue = categoryData[category as keyof typeof categoryData];
 
             const color = colorsIndexMap[categoryValue - 1]
               ? colorsIndexMap[categoryValue - 1]
@@ -125,7 +129,8 @@ export const NewCube = ({
 
             return (
               <CategoryItem
-                title={category}
+                title={getCategoryLabel(category)}
+                categoryKey={category}
                 color={color}
                 key={category}
                 setClickedCategory={setClickedCategory}
@@ -147,17 +152,18 @@ export const NewCube = ({
           }}
         >
           {categories.right.map((category) => {
-            const cityData = useSelectedCityData();
-            const cityName = cityData.City;
             const categoryData = CATEGORY_DATA.find(
-              (item) => item.City === cityName
+              (item) => item.City === cityId
             );
-            const categoryValue =
-              categoryData[category as keyof typeof categoryData];
+            if (!categoryData) {
+              return null;
+            }
+            const categoryValue = categoryData[category as keyof typeof categoryData];
 
             return (
               <CategoryItem
-                title={category}
+                title={getCategoryLabel(category)}
+                categoryKey={category}
                 color={colorsIndexMap[categoryValue - 1]}
                 key={category}
                 setClickedCategory={setClickedCategory}
@@ -179,17 +185,18 @@ export const NewCube = ({
           }}
         >
           {categories.top.map((category) => {
-            const cityData = useSelectedCityData();
-            const cityName = cityData.City;
             const categoryData = CATEGORY_DATA.find(
-              (item) => item.City === cityName
+              (item) => item.City === cityId
             );
-            const categoryValue =
-              categoryData[category as keyof typeof categoryData];
+            if (!categoryData) {
+              return null;
+            }
+            const categoryValue = categoryData[category as keyof typeof categoryData];
 
             return (
               <CategoryItem
-                title={category}
+                title={getCategoryLabel(category)}
+                categoryKey={category}
                 color={colorsIndexMap[categoryValue - 1]}
                 key={category}
                 setClickedCategory={setClickedCategory}

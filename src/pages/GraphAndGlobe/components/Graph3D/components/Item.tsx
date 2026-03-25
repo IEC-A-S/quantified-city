@@ -114,7 +114,7 @@ export const Item: FC<IItemProps> = ({ item, color, setSelectedCity }) => {
   });
 
   return (
-    <group ref={itemRef} position={item.position} key={item.label}>
+    <group ref={itemRef} position={item.position} key={item.id}>
       {/*draw a circle around the item with void*/}
       <mesh ref={circleRef}>
         {/*<circleGeometry*/}
@@ -130,7 +130,7 @@ export const Item: FC<IItemProps> = ({ item, color, setSelectedCity }) => {
       <mesh
         onClick={() => {
           setClicked(true);
-          setSelectedCity(item.label);
+          setSelectedCity(item.id);
         }}
         onPointerMissed={() => {
           setClicked(false);

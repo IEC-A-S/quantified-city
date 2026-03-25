@@ -1,7 +1,14 @@
 import { Button, Menu, MenuItem } from "@mui/material";
 import type { FC } from "react";
 import { useState } from "react";
-import { TABLE_DATA } from "../data";
+
+const TABLE_VALUE_LABELS: Record<string, string> = {
+  "Current state": "Текущее состояние",
+  "Ability & willingness": "Способность и готовность",
+  "Ability & Willingness": "Способность и готовность",
+};
+
+const getTableLabel = (value: string) => TABLE_VALUE_LABELS[value] ?? value;
 
 interface IButtonWithMenu {
   title: string;
@@ -108,7 +115,7 @@ export const ButtonWithMenu: FC<IButtonWithMenu> = ({
                 : {}
             }
           >
-            {item}
+            {getTableLabel(item)}
           </MenuItem>
         ))}
       </Menu>

@@ -1,13 +1,11 @@
 import { usePopupStyles } from "./components/styles";
 import { Typography } from "@mui/material";
-import socialGraphDataByCitiesArr from "../../data/socialGraphData.json";
 import sentimentNewsByCitiesArr from "../../data/sentimentNews.json";
 import GraphData from "../../data/sentiment/sentimentGraphAllData.json";
 import PopupData from "../../data/sentiment/sentimentPopupData.json";
 import type { FC } from "react";
 import { useState } from "react";
 import { SocialChart } from "./SocialChart";
-import { ContentBlock } from "./ContentBlock";
 import { useCardStyles } from "./styles";
 
 interface SocialPopupProps {
@@ -15,35 +13,28 @@ interface SocialPopupProps {
   setSentimentPopupOpen: (value: boolean) => void;
 }
 
-const currentCategory = "Health";
-
 export const SocialPopup: FC<SocialPopupProps> = ({
   city,
   setSentimentPopupOpen,
 }) => {
   const { classes } = usePopupStyles();
-  const { classes: cardClasses, cx } = useCardStyles();
-  // const data = socialGraphDataByCitiesArr.find((item) => item.city === city)!;
-
-  //get all existing unique categories
+  const { classes: cardClasses } = useCardStyles();
   const categoriesList = [...new Set(PopupData.map((item) => item.category))];
-
-  const [currentCategory, setcurrentCategory] = useState(0);
+  const [currentCategory, setCurrentCategory] = useState(0);
 
   const handleClickOnToggler = (direction: boolean) => {
     if (direction && currentCategory + 1 === categoriesList.length) {
-      setcurrentCategory(0);
+      setCurrentCategory(0);
     } else if (direction) {
-      setcurrentCategory(currentCategory + 1);
+      setCurrentCategory(currentCategory + 1);
     } else if (!direction && currentCategory - 1 < 0) {
-      setcurrentCategory(categoriesList.length - 1);
+      setCurrentCategory(categoriesList.length - 1);
     } else {
-      setcurrentCategory(currentCategory - 1);
+      setCurrentCategory(currentCategory - 1);
     }
   };
 
-  //console.log(GraphData[0].city)
-  const graphData = GraphData.find((item) => item.city === city).data.filter(
+  const graphData = GraphData.find((item) => item.city === city)!.data.filter(
     (item) => item.category === categoriesList[currentCategory]
   );
   const data = PopupData.find(
@@ -60,7 +51,6 @@ export const SocialPopup: FC<SocialPopupProps> = ({
       const graphDataByDate = graphData.find((i) => i.days === item.date);
 
       if (!graphDataByDate || !graphDataByDate[item.sentiment]) {
-        // console.log("no data for", item);
         return;
       }
 
@@ -85,7 +75,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
           alt="return back"
         />
         <Typography className={classes.returnBackText}>
-          Back to Urban resilience index
+          Назад
         </Typography>
       </div>
       <div className={classes.content}>
@@ -146,13 +136,10 @@ export const SocialPopup: FC<SocialPopupProps> = ({
           >
             <div className={cardClasses.header}>
               <div className={cardClasses.headerCategory}>
-                <span>
-                  {data.city}:
-                </span>{" "}
-                <br />
+                <span>{data.city}:</span> <br />
                 {data.category}
               </div>
-              <div>perception index</div>
+              <div>индекс восприятия</div>
             </div>
             <div className={cardClasses.dictionaryListWrapper}>
               <div className={cardClasses.dictionaryContainer}>
@@ -162,18 +149,14 @@ export const SocialPopup: FC<SocialPopupProps> = ({
                     textAlign: "center",
                   }}
                 >
-                  Topic{" "}
+                  Тема{" "}
                   <span className={cardClasses.dictionaryCategoryColor}>
                     {data.category.toLowerCase()}
                   </span>
                 </dt>
                 <dl className={cardClasses.dictionaryList}>
                   <dt className={cardClasses.dictionaryTitle}>
-                    {/*Total posts on{" "}*/}
-                    {/*<span className={cardClasses.dictionaryCategoryColor}>*/}
-                    {/*  {data.category.toLowerCase()}*/}
-                    {/*</span>*/}
-                    Number of posts
+                    Количество публикаций
                   </dt>
                   <dd className={cardClasses.dictionaryDescription}>
                     {data.categoryTotal}
@@ -181,9 +164,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
                 </dl>
                 <dl className={cardClasses.dictionaryList}>
                   <dt className={cardClasses.dictionaryTitle}>
-                    {/*Share of positive posts on{" "}*/}
-                    {/*<span>{data.category.toLowerCase()}</span>*/}
-                    Positive posts, share
+                    Доля позитивных публикаций
                   </dt>
                   <dd className={cardClasses.dictionaryDescription}>
                     {(
@@ -195,9 +176,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
                 </dl>
                 <dl className={cardClasses.dictionaryList}>
                   <dt className={cardClasses.dictionaryTitle}>
-                    {/*Share of negative post on*/}
-                    {/*<span>{data.category.toLowerCase()}</span>*/}
-                    Negative posts, share
+                    Доля негативных публикаций
                   </dt>
                   <dd className={cardClasses.dictionaryDescription}>
                     {(
@@ -215,12 +194,11 @@ export const SocialPopup: FC<SocialPopupProps> = ({
                     textAlign: "center",
                   }}
                 >
-                  All topics
+                  Все темы
                 </dt>
                 <dl className={cardClasses.dictionaryList}>
                   <dt className={cardClasses.dictionaryTitle}>
-                    {/*Posts total, thous*/}
-                    Number of posts
+                    Количество публикаций
                   </dt>
                   <dd className={cardClasses.dictionaryDescription}>
                     {data.total}
@@ -228,8 +206,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
                 </dl>
                 <dl className={cardClasses.dictionaryList}>
                   <dt className={cardClasses.dictionaryTitle}>
-                    {/*Share of positive posts total*/}
-                    Positive posts, share
+                    Доля позитивных публикаций
                   </dt>
                   <dd className={cardClasses.dictionaryDescription}>
                     {((data.positive * 100) / data.total).toFixed(1)}%
@@ -237,8 +214,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
                 </dl>
                 <dl className={cardClasses.dictionaryList}>
                   <dt className={cardClasses.dictionaryTitle}>
-                    {/*Share of negative post total*/}
-                    Negative posts, share
+                    Доля негативных публикаций
                   </dt>
                   <dd className={cardClasses.dictionaryDescription}>
                     {((data.negative * 100) / data.total).toFixed(1)}%

@@ -57,8 +57,8 @@ export const StarGraphWrapper = ({
           {selectedCityData?.City}: <br />
           <span style={{
             color: "#00C8B5"
-          }}>Transport Resilience </span>
-          Index
+          }}>Транспортная устойчивость </span>
+          города
         </div>
         <div
           style={{
@@ -81,11 +81,10 @@ export const StarGraphWrapper = ({
           fontSize: "1.8vh",
         }}
       >
-        The graph highlights the strengths and weaknesses of cities across
-        various aspects of transport system. The further the vertices of the
-        shape are from the center of the diagram, the better the city's
-        performance in that particular metrics. The larger the area of the
-        shape, the higher the overall assessment in Transport resilience.
+        График показывает сильные и слабые стороны городов по различным
+        аспектам транспортной системы. Чем дальше вершины фигуры от центра,
+        тем лучше город выглядит по соответствующему показателю. Чем больше
+        площадь фигуры, тем выше общая оценка транспортной устойчивости.
       </Typography>
       <div className={classes.pageContainer}>
         <div className={classes.bottomWrapper}>
@@ -118,7 +117,7 @@ export const StarGraphWrapper = ({
                 zIndex: 2,
               }}
             >
-              <div>Explore indicators</div>
+              <div>Изучить индикаторы</div>
             </Button>
             <Button
               style={{
@@ -142,7 +141,7 @@ export const StarGraphWrapper = ({
                 link.click();
               }}
             >
-              <div>Download report</div>
+              <div>Скачать отчет</div>
               <img src="/assets/downloadIcon.svg" alt="arrow down" />
             </Button>
           </div>

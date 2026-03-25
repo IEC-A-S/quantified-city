@@ -1,6 +1,7 @@
 import type { ChartData, ChartOptions } from "chart.js";
 import type { ICityIndicatorData } from "./interfaces";
 import type { IIndicatorsDataByCities } from "./interfaces";
+import { getAssessmentColorByScore } from "../../../../utils/assessment";
 
 const getCanvas = (color: string): HTMLCanvasElement => {
   const canvas = document.createElement("canvas");
@@ -32,6 +33,13 @@ const getCanvas = (color: string): HTMLCanvasElement => {
   return canvas;
 };
 
+const isBinaryIndicator = (cityDataArr: ICityIndicatorData[]) =>
+  cityDataArr.every(
+    (cityData) => cityData.value === 0 || cityData.value === 1
+  );
+
+const getBinaryColor = (value: number) => (value === 1 ? "#35CB00" : "#FF3B29");
+
 export const getCitiIndicatorData = (
   cityData: IIndicatorsDataByCities,
   category: string,
@@ -49,7 +57,7 @@ export const getMobileOptions = (
 ): ChartOptions<"line"> => {
   const cityDataArr = [currentCityData, ...selectedCityDataArr];
   const minNaturalValue = Math.min(
-    ...cityDataArr.map((cityData) => cityData.natural_value)
+    ...cityDataArr.map((cityData) => cityData.value)
   );
   const cities = cityDataArr.map((cityData) => cityData.city);
 
@@ -113,7 +121,7 @@ export const getOptions = (
 ): ChartOptions<"line"> => {
   const cityDataArr = [currentCityData, ...selectedCityDataArr];
   const minNaturalValue = Math.min(
-    ...cityDataArr.map((cityData) => cityData.natural_value)
+    ...cityDataArr.map((cityData) => cityData.value)
   );
   const cities = cityDataArr.map((cityData) => cityData.city);
 
@@ -177,10 +185,7 @@ export const getData =
     selectedCityDataArr: ICityIndicatorData[]
   ): ChartData<"line", (number | null)[]> => {
     const cityDataArr = [currentCityData, ...selectedCityDataArr];
-
-    const getBackgroundColor = (index: number) => {
-      return yColors[index - 1];
-    };
+    const useBinaryColors = isBinaryIndicator(cityDataArr);
 
     return {
       xLabels: cityDataArr.map((cityData) => cityData.city),
@@ -189,8 +194,15 @@ export const getData =
         label: cityData.city,
         data: new Array(cityDataArr.length)
           .fill(null)
-          .map((_, i) => (index === i ? cityData.natural_value : null)),
-        pointStyle: getCanvas(getBackgroundColor(cityData.value)),
+          .map((_, i) => (index === i ? cityData.value : null)),
+        pointStyle: getCanvas(
+          useBinaryColors
+            ? getBinaryColor(cityData.value)
+            : getAssessmentColorByScore(
+                cityData.natural_value,
+                yColors[0] ?? "#000"
+              )
+        ),
         showLine: false,
       })),
     };

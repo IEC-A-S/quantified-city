@@ -16,7 +16,7 @@ export const TablePopup: FC<TablePopupProps> = ({
   const selectedCity = useSelectedCityData();
   const city = selectedCity.City;
 
-  const category = "Urban resilience index";
+  const category = "Индекс городской устойчивости";
 
   const mobileStyles = {
     backToUrban: {
@@ -75,10 +75,10 @@ export const TablePopup: FC<TablePopupProps> = ({
           alt="return back"
         />
         {isMobile ? (
-          <Typography variant={"h4"}>Back to Urban resilience index</Typography>
+          <Typography variant={"h4"}>Назад</Typography>
         ) : (
           <Typography className={classes.returnBackText}>
-            Back to Urban resilience index
+            Назад
           </Typography>
         )}
       </div>
@@ -98,7 +98,7 @@ export const TablePopup: FC<TablePopupProps> = ({
               className={classes.title}
               style={isMobile ? mobileStyles.title : {}}
             >
-              {city}: Indicators of{" "}
+              {city}: Индикаторы{" "}
             </div>
             <div
               className={classes.title}

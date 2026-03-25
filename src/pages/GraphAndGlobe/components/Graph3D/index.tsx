@@ -2,14 +2,15 @@ import { FC, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { VisualData } from "./components/VisualData";
-import { mockData } from "./data";
 import { useAppStyles } from "../styles";
+import { getV2Graph3DData } from "../../../../v2/data/graph3d";
 
 export const Graph3D: FC<{
   setSelectedCity: (city: string) => void;
   isMobile?: boolean;
 }> = ({ setSelectedCity, isMobile = false }) => {
   const { classes } = useAppStyles();
+  const graphData = getV2Graph3DData();
 
   return (
     <div
@@ -36,7 +37,7 @@ export const Graph3D: FC<{
             position={[10, 10, 0]}
             castShadow={true}
           />
-          <VisualData data={mockData} setSelectedCity={setSelectedCity} />
+          <VisualData data={graphData} setSelectedCity={setSelectedCity} />
           <OrbitControls
             enableZoom={false}
             makeDefault={true}

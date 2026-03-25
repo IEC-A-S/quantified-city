@@ -5,7 +5,13 @@ import { IndicatorChart } from "../GraphAndGlobe/components/IndicatorChart";
 import triLine from "../../data/transport/TransportResiliensPopupData.json";
 import { BoxPlot } from "./components/BoxPlot";
 
-const yLabels = ["Very low", "Low", "Average", "Strong", "Very strong"];
+const yLabels = [
+  "Очень низкий",
+  "Низкий",
+  "Средний",
+  "Высокий",
+  "Очень высокий",
+];
 const yColors = ["#FF3B29", "#FF632F", "#FF9B3F", "#A0DA8B", "#35CB00"];
 
 interface TimeLossPopupProps {
@@ -19,8 +25,16 @@ export const TimeLossPopup: FC<TimeLossPopupProps> = ({
   onClose,
 }) => {
   const { classes } = usePopupStyles();
+  const normalizedTransportData = triLine.map((cityData) => ({
+    ...cityData,
+    data: cityData.data.map((indicator) => ({
+      ...indicator,
+      value: indicator.natural_value,
+      natural_value: indicator.value,
+    })),
+  }));
 
-  const indicatorsDataByCurrentCityAndCategory = triLine.find(
+  const indicatorsDataByCurrentCityAndCategory = normalizedTransportData.find(
     (cityData) => cityData.city === city
   )!.data;
 
@@ -59,7 +73,7 @@ export const TimeLossPopup: FC<TimeLossPopupProps> = ({
           alt="return back"
         />
         <Typography className={classes.returnBackText}>
-          Back to Urban resilience index
+          Назад
         </Typography>
       </div>
       <div className={classes.content}>
@@ -141,9 +155,9 @@ export const TimeLossPopup: FC<TimeLossPopupProps> = ({
             <BoxPlot city={city} isMobile={false} />
           ) : (
             <IndicatorChart
-              indicatorDataByCitiesArr={triLine}
+              indicatorDataByCitiesArr={normalizedTransportData}
               currentCity={city}
-              category={"Transport"}
+              category={"Транспорт"}
               indicator={
                 indicatorsDataByCurrentCityAndCategory[currentIndicator]
                   .indicator

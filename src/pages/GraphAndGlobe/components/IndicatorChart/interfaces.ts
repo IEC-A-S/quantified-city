@@ -7,7 +7,7 @@ export interface IIndicatorData {
   category: string;
   indicator: string;
   value: number;
-  natural_value: number;
+  natural_value?: number;
 }
 
 export interface ICityIndicatorData

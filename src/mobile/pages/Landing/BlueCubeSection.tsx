@@ -52,11 +52,11 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
             fontFamily: "SuisseIntl-Light",
           }}
         >
-          Urban
+          Городская
         </span>{" "}
-        resilience
+        устойчивость
         <br />
-        index
+        города
         <span
           style={{
             textTransform: "none",
@@ -92,19 +92,19 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
       >
         <div className={classes.itemColumn}>
           <Typography variant="h3" style={{ marginTop: "32px" }}>
-            Environmental
+            Экологический
           </Typography>
           <StatusBubble status={cityData?.Environmental} variant="outlined" />
         </div>
         <div className={classes.itemColumn}>
           <Typography variant="h3" style={{ marginTop: "32px" }}>
-            Social
+            Социальный
           </Typography>
           <StatusBubble status={cityData?.Social} variant="outlined" />
         </div>
         <div className={classes.itemColumn}>
           <Typography variant="h3" style={{ marginTop: "32px" }}>
-            Governmental
+            Управленческий
           </Typography>
           <StatusBubble status={cityData?.Governmental} variant="outlined" />
         </div>
@@ -155,7 +155,7 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
               fontFamily: "SuisseIntl-Thin",
             }}
           >
-            Table view
+            Таблица
           </Button>
           <Button
             onClick={() => {
@@ -167,7 +167,7 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
             }}
             variant="contained"
           >
-            Download report
+            Скачать отчет
             <img
               src={"./assets/downloadIcon.svg"}
               alt="arrow"

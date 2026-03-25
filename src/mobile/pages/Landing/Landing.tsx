@@ -3,7 +3,6 @@ import { CITY_DATA } from "../../../data";
 import { useNavigate, useParams } from "react-router-dom";
 import { Header } from "../../components/Header";
 import { useEffect, useState } from "react";
-import { MainMenu } from "../../../components/MainMenu";
 import { CityDataProvider } from "../../../providers/CityDataProvider";
 import { FirstSection } from "./FirstSection";
 import { GallerySection } from "./GallerySection";
@@ -14,6 +13,8 @@ import { SentimentGraphSection } from "./SentimentGraphSection";
 import { TablePopup } from "../../../pages/TablePopup";
 import { BlueCubePopup } from "./BlueCubePopup";
 import { SocialPopup } from "../../SocialPopup";
+import { getCityId } from "../../../constants";
+import { getCompatibleCityData } from "../../../v2/data/compat";
 
 export const useLandingStyles = makeStyles()({
   root: {
@@ -45,8 +46,12 @@ export const Landing = () => {
   const navigate = useNavigate();
   const { classes } = useLandingStyles();
   const { cityName } = useParams();
-  const cityData = CITY_DATA.find((city) => city.City === cityName);
-  const [menuVisible, setMenuVisible] = useState<boolean>(false);
+  const cityId = getCityId(cityName);
+  const cityData = getCompatibleCityData(cityId) ?? getCompatibleCityData(cityName);
+
+  if (!cityData) {
+    throw new Error(`Unknown city: ${cityName}`);
+  }
 
   const [clickedCategory, setClickedCategory] = useState<string | null>(null);
   const [tablePopupOpen, setTablePopupOpen] = useState(false);
@@ -89,9 +94,6 @@ export const Landing = () => {
   return (
     <CityDataProvider cityData={cityData}>
       <div>
-        {menuVisible && (
-          <MainMenu setVisible={setMenuVisible} isMobile={true} />
-        )}
         {tablePopupOpen && (
           <TablePopup setTablePopupOpen={setTablePopupOpen} isMobile={true} />
         )}
@@ -114,7 +116,6 @@ export const Landing = () => {
           >
             <div>
               <Header
-                setMenuVisible={setMenuVisible}
                 isBackArrowShown={true}
                 isUserLoggedIn={true}
                 isInverted={invertColors}
@@ -129,21 +130,21 @@ export const Landing = () => {
             setClickedCategory={setClickedCategory}
             setTablePopupOpen={setTablePopupOpen}
           />
-          {cityData?.City !== "Lahore" && cityData?.City !== "Nairobi" && (
+          {cityId !== "Lahore" && cityId !== "Nairobi" && (
             <SentimentGraphSection setSocialPopupOpen={setSocialPopupOpen} />
           )}
           <GraphSection />
-          {(cityName === "Dubai" ||
-            cityName === "Dar es Salaam" ||
-            cityName === "Astana" ||
-            cityName === "Lahore" ||
-            cityName === "Nairobi") && <GeoAnalytics />}
+          {(cityId === "Dubai" ||
+            cityId === "Dar es Salaam" ||
+            cityId === "Astana" ||
+            cityId === "Lahore" ||
+            cityId === "Nairobi") && <GeoAnalytics />}
         </div>
       </div>
       {clickedCategory && (
         <BlueCubePopup
           category={clickedCategory}
-          city={cityName}
+          city={cityData.City}
           setClickedCategory={setClickedCategory}
         />
       )}

@@ -84,13 +84,13 @@ export const usePopupStyles = makeStyles()({
     width: "100%",
   },
 });
+
 export const useCardStyles = tss.create({
   header: {
     position: "absolute",
     top: "5vh",
     left: "2vw",
     zIndex: 1,
-
     color: "#FFF",
     fontFamily: "SuisseIntl-Light",
     fontSize: "5vh",
@@ -102,7 +102,6 @@ export const useCardStyles = tss.create({
     fontFamily: "SuisseIntl-Medium",
     fontWeight: 500,
   },
-
   dictionaryListWrapper: {
     position: "absolute",
     top: 50,
@@ -153,26 +152,22 @@ export const SocialPopup: FC<SocialPopupProps> = ({
   setSocialPopupOpen,
 }) => {
   const { classes } = usePopupStyles();
-  const { classes: cardClasses, cx } = useCardStyles();
-
   const categoriesList = [...new Set(PopupData.map((item) => item.category))];
-
-  const [currentCategory, setcurrentCategory] = useState(0);
+  const [currentCategory, setCurrentCategory] = useState(0);
 
   const handleClickOnToggler = (direction: boolean) => {
     if (direction && currentCategory + 1 === categoriesList.length) {
-      setcurrentCategory(0);
+      setCurrentCategory(0);
     } else if (direction) {
-      setcurrentCategory(currentCategory + 1);
+      setCurrentCategory(currentCategory + 1);
     } else if (!direction && currentCategory - 1 < 0) {
-      setcurrentCategory(categoriesList.length - 1);
+      setCurrentCategory(categoriesList.length - 1);
     } else {
-      setcurrentCategory(currentCategory - 1);
+      setCurrentCategory(currentCategory - 1);
     }
   };
 
-  //console.log(GraphData[0].city)
-  const graphData = GraphData.find((item) => item.city === city).data.filter(
+  const graphData = GraphData.find((item) => item.city === city)!.data.filter(
     (item) => item.category === categoriesList[currentCategory]
   );
   const data = PopupData.find(
@@ -214,7 +209,9 @@ export const SocialPopup: FC<SocialPopupProps> = ({
           width={32}
           alt="return back"
         />
-        <Typography variant={"h4"}>Back to Urban resilience index</Typography>
+        <Typography variant={"h4"}>
+          Назад
+        </Typography>
       </div>
       <div className={classes.content}>
         <div
@@ -286,10 +283,10 @@ export const SocialPopup: FC<SocialPopupProps> = ({
               <span style={{ fontFamily: "SuisseIntl-Regular" }}>
                 {data.category}
               </span>{" "}
-              perception index
+              индекс восприятия
             </Typography>
             <Typography variant={"h3"} style={{ paddingLeft: "16px" }}>
-              Topic{" "}
+              Тема{" "}
               <span
                 style={{
                   fontFamily: "SuisseIntl-Regular",
@@ -299,7 +296,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
               </span>
             </Typography>
             <Typography variant={"h5"} style={{ paddingLeft: "16px" }}>
-              Number of posts
+              Количество публикаций
               <span
                 style={{
                   fontFamily: "SuisseIntl-Thin",
@@ -311,7 +308,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
               </span>
             </Typography>
             <Typography variant={"h5"} style={{ paddingLeft: "16px" }}>
-              Positive posts, share
+              Доля позитивных публикаций
               <span
                 style={{
                   fontFamily: "SuisseIntl-Thin",
@@ -326,7 +323,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
               </span>
             </Typography>
             <Typography variant={"h5"} style={{ paddingLeft: "16px" }}>
-              Negative posts, share
+              Доля негативных публикаций
               <span
                 style={{
                   fontFamily: "SuisseIntl-Thin",
@@ -341,10 +338,10 @@ export const SocialPopup: FC<SocialPopupProps> = ({
               </span>
             </Typography>
             <Typography variant={"h3"} style={{ paddingLeft: "16px" }}>
-              All topics
+              Все темы
             </Typography>
             <Typography variant={"h5"} style={{ paddingLeft: "16px" }}>
-              Number of posts
+              Количество публикаций
               <span
                 style={{
                   fontFamily: "SuisseIntl-Thin",
@@ -356,7 +353,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
               </span>
             </Typography>
             <Typography variant={"h5"} style={{ paddingLeft: "16px" }}>
-              Positive posts, share
+              Доля позитивных публикаций
               <span
                 style={{
                   fontFamily: "SuisseIntl-Thin",
@@ -368,7 +365,7 @@ export const SocialPopup: FC<SocialPopupProps> = ({
               </span>
             </Typography>
             <Typography variant={"h5"} style={{ paddingLeft: "16px" }}>
-              Negative posts, share
+              Доля негативных публикаций
               <span
                 style={{
                   fontFamily: "SuisseIntl-Thin",

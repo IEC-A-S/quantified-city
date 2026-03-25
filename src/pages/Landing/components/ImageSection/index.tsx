@@ -81,7 +81,7 @@ export const ImageSection: FC<IImageSection> = ({ setActiveSection }) => {
                 color: "#DCEEF9",
               }}
             >
-              {cityData.City} in Pictures and Numbers
+              {cityData.City} в фотографиях и цифрах
             </div>
             <div
               style={{
@@ -96,27 +96,27 @@ export const ImageSection: FC<IImageSection> = ({ setActiveSection }) => {
               }}
             >
               <StatusItem
-                label={<div>Population in urban cluster </div>}
+                label={<div>Население городской агломерации</div>}
                 // value={cityData["Population"]} // cityData["Population"] is 0.193 should be percentage like 19.3%
                 value={numberWithSpaces(cityData["Population"])}
                 status={cityData["Population description"]}
                 color="#FF3B29"
               />
               <StatusItem
-                label={<div>Population city proper</div>}
+                label={<div>Население города</div>}
                 // value={cityData["Population"]} // cityData["Population"] is 0.193 should be percentage like 19.3%
                 value={numberWithSpaces(cityData["Population city proper"])}
                 status={cityData["Population description"]}
                 color="#FF3B29"
               />
               <StatusItem
-                label={<div>Population density</div>}
-                value={cityData["Population density"] + " people/ha"}
+                label={<div>Плотность населения</div>}
+                value={cityData["Population density"] + " чел./га"}
                 status={cityData["Population density description"]}
                 color="#FF3B29"
               />
               <StatusItem
-                label={<div>Mean salary</div>}
+                label={<div>Средняя зарплата</div>}
                 value={cityData["Mean salary"] + " PPP$"}
                 status={cityData["Mean salary description"]}
                 color="#FF3B29"
@@ -124,10 +124,10 @@ export const ImageSection: FC<IImageSection> = ({ setActiveSection }) => {
               <StatusItem
                 label={
                   <div>
-                    Poverty headcount ratio <br /> at national poverty lines
+                    Доля населения за <br /> национальной чертой бедности
                   </div>
                 }
-                value={proverty + "of population"}
+                value={proverty + "населения"}
                 status={
                   cityData[
                   "Poverty headcount ratio at national poverty lines description"
@@ -138,8 +138,8 @@ export const ImageSection: FC<IImageSection> = ({ setActiveSection }) => {
               <StatusItem
                 label={
                   <div>
-                    Literacy rate among <br />
-                    population (15-24 Years)
+                    Уровень грамотности <br />
+                    населения (15-24 лет)
                   </div>
                 }
                 value={litercyRate}
@@ -147,7 +147,7 @@ export const ImageSection: FC<IImageSection> = ({ setActiveSection }) => {
                 color="#A0DA8B"
               />
               <StatusItem
-                label={<div>Climate</div>}
+                label={<div>Климат</div>}
                 //value={cityData["Climate"]}
                 value={climate}
                 status={cityData["Climate description"]}
@@ -227,7 +227,7 @@ export const ImageSection: FC<IImageSection> = ({ setActiveSection }) => {
                     link.click();
                   }}
                 >
-                  <div>Download report</div>
+                  <div>Скачать отчет</div>
                   <img src="/assets/downloadIcon.svg" alt="arrow down" />
                 </Button>
               </div>

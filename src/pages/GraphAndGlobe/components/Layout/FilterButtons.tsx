@@ -8,12 +8,12 @@ export const FilterButtons = () => {
   const { classes } = useContentStyles();
 
   const [filtersOpen, setFiltersOpen] = useState(false);
-  const [country, setCountry] = useState("Country");
-  const [climate, setClimate] = useState("Climate");
-  const [riskExposure, setRiskExposure] = useState("Risk exposure");
-  const [incomeGroup, setIncomeGroup] = useState("Income group");
-  const [populationGroup, setPopulationGroup] = useState("Population group");
-  const [rating, setRating] = useState("Rating");
+  const [country, setCountry] = useState("Страна");
+  const [climate, setClimate] = useState("Климат");
+  const [riskExposure, setRiskExposure] = useState("Риск");
+  const [incomeGroup, setIncomeGroup] = useState("Доход");
+  const [populationGroup, setPopulationGroup] = useState("Население");
+  const [rating, setRating] = useState("Рейтинг");
 
   const onCountryChange = useCallback((event: SelectChangeEvent) => {
     setCountry(event.target.value);
@@ -53,38 +53,38 @@ export const FilterButtons = () => {
           ></div>
           <CustomSelect
             value={country}
-            label="Country"
-            options={["Country", "Canada"]}
+            label="Страна"
+            options={["Страна", "Канада"]}
             onChange={onCountryChange}
           />
           <CustomSelect
             value={climate}
-            label="Climate"
-            options={["Climate", "Tropical"]}
+            label="Климат"
+            options={["Климат", "Тропический"]}
             onChange={onClimateChange}
           />
           <CustomSelect
             value={riskExposure}
-            label="Risk exposure"
-            options={["Risk exposure", "Low"]}
+            label="Риск"
+            options={["Риск", "Низкий"]}
             onChange={onRiskExposureChange}
           />
           <CustomSelect
             value={incomeGroup}
-            label="Income group"
-            options={["Income group", "High"]}
+            label="Доход"
+            options={["Доход", "Высокий"]}
             onChange={onIncomeGroupChange}
           />
           <CustomSelect
             value={populationGroup}
-            label="Population group"
-            options={["Population group", "High"]}
+            label="Население"
+            options={["Население", "Высокое"]}
             onChange={onPopulationGroupChange}
           />
           <CustomSelect
             value={rating}
-            label="Rating"
-            options={["Rating", "High"]}
+            label="Рейтинг"
+            options={["Рейтинг", "Высокий"]}
             onChange={onRatingChange}
           />
           <Button
@@ -97,7 +97,7 @@ export const FilterButtons = () => {
             variant="outlined"
             onClick={() => setFiltersOpen(false)}
           >
-            Close
+            Закрыть
             <img style={{height: "1.1vh"}} src="assets/closeIcon.svg" alt="close" />
           </Button>
         </div>
@@ -109,7 +109,7 @@ export const FilterButtons = () => {
             setFiltersOpen(true);
           }}
         >
-          Filter by
+          Фильтр
         </Button>
       )}
     </div>

@@ -1,7 +1,7 @@
 import type { FC } from "react";
 
 interface HeaderProps {
-  setMenuVisible(menuVisible: boolean): void;
+  setMenuVisible?(menuVisible: boolean): void;
   isOrange?: boolean;
   isInverted?: boolean;
   isBackArrowShown?: boolean;
@@ -14,7 +14,6 @@ export const Header: FC<HeaderProps> = ({
   isBackArrowShown = false,
   isInverted = false,
   isUserLoggedIn = false,
-  setMenuVisible,
   onBackClick = () => {},
 }) => {
   return (
@@ -42,6 +41,7 @@ export const Header: FC<HeaderProps> = ({
             display: "flex",
             flexDirection: "row",
             gap: "8px",
+            minWidth: "32px",
           }}
         >
           {isBackArrowShown && (
@@ -50,24 +50,6 @@ export const Header: FC<HeaderProps> = ({
               alt=""
               width="32"
               onClick={onBackClick}
-            />
-          )}
-          {isOrange ? (
-            <img
-              src="/assets/orangeMenuIcon.svg"
-              width={32}
-              alt="menu icon"
-              onClick={() => setMenuVisible(true)}
-              style={{
-                filter: isInverted ? "invert(1)" : "unset",
-              }}
-            />
-          ) : (
-            <img
-              src="/assets/menuIcon.svg"
-              width={32}
-              alt="menu icon"
-              onClick={() => setMenuVisible(true)}
             />
           )}
         </div>

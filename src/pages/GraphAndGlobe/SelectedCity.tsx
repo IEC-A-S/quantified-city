@@ -5,8 +5,10 @@ import { BigStatItem } from "./components/BigStatItem";
 import { SmallStatItem } from "./components/SmallStatItem";
 import { Button, Typography } from "@mui/material";
 import { SelectedMap } from "./components/SelectedMap";
-import { CITY_DATA } from "../../data";
 import { useNavigate } from "react-router-dom";
+import { getCityId } from "../../constants";
+import { getCompatibleCityData, getCompatibleCityLabel } from "../../v2/data/compat";
+import { getV2CityById } from "../../v2/data/selectors";
 
 interface ISelectedCityProps {
   selectedCityName: string;
@@ -16,8 +18,10 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
   const { classes } = useSelectedCityStyles();
 
   const navigate = useNavigate();
-
-  const cityData = CITY_DATA.find((city) => city.City === selectedCityName);
+  const cityId = getCityId(selectedCityName);
+  const v2City = getV2CityById(cityId);
+  const cityLabel = getCompatibleCityLabel(cityId);
+  const cityData = getCompatibleCityData(cityId);
 
   const numberWithSpaces = (number: number | string) => {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
@@ -29,8 +33,10 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
         <div className={classes.root}>
           <div className={classes.titleWrapper}>
             <div className={classes.cityNameAndCountryNameWrapper}>
-              <div className={classes.cityName}>{selectedCityName}</div>
-              <div className={classes.countryName}>{cityData.Country}</div>
+              <div className={classes.cityName}>{cityLabel}</div>
+              <div className={classes.countryName}>
+                {v2City?.country ?? cityData.Country}
+              </div>
             </div>
             <div
               className={classes.cityDescription}
@@ -42,32 +48,32 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
               {/*<br />*/}
               {/*country, centre <br />*/}
               {/*of region*/}
-              {cityData["Text description"]}
+              {v2City?.description ?? cityData["Text description"]}
               <br />
             </div>
           </div>
           <div className={classes.statWrapper}>
             <StatItem
               color="#FF3B29"
-              title="Population in urban cluster"
+              title="Население городской агломерации"
               value={numberWithSpaces(cityData.Population)}
               status={cityData["Population description"]}
             />
             <StatItem
               color="#FF3B29"
-              title="Population city proper"
+              title="Население города"
               value={numberWithSpaces(cityData["Population city proper"])}
               status={cityData["Population description"]}
             />
             <StatItem
               color="#FF3B29"
-              title="Population density"
-              value={cityData["Population density"] + " people/ha"}
+              title="Плотность населения"
+              value={cityData["Population density"] + " чел./га"}
               status={cityData["Population density description"]}
             />
             <StatItem
               color="#2D67FF"
-              title="Climate"
+              title="Климат"
               value={cityData.Climate}
               status={cityData["Climate description"]}
             />
@@ -91,18 +97,18 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
               }}
             >
               <BigStatItem
-                label="Urban resilience index"
+                label="Индекс городской устойчивости"
                 status={cityData["Urban Resilience Index"]}
                 isFirst={true}
               />
               <div className={classes.smallItemsListWrapper}>
                 <SmallStatItem
-                  label="Environmental"
+                  label="Экологический"
                   status={cityData.Environmental}
                 />
-                <SmallStatItem label="Social" status={cityData.Social} />
+                <SmallStatItem label="Социальный" status={cityData.Social} />
                 <SmallStatItem
-                  label="Governmental"
+                  label="Управленческий"
                   status={cityData.Governmental}
                 />
               </div>
@@ -114,7 +120,7 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
               >
                 {/*<SmallStatItem label="Current state" status="Low" />*/}
                 <SmallStatItem
-                  label="Ability & Willingness"
+                  label="Способность и готовность"
                   status={cityData["Ability & Willingness"]}
                 />
               </div>
@@ -130,12 +136,12 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
               }}
             >
               <BigStatItem
-                label="Basic needs"
-                subLabel="Scope 0"
+                label="Базовые потребности"
+                subLabel="Охват 0"
                 status={cityData["Basic needs Scope"]}
               />
               <BigStatItem
-                label="Transport resilience index"
+                label="Индекс транспортной устойчивости"
                 status={cityData["Transport Resilience Index"]}
               />
               {/*<BigStatItem label="Corporate resilience" status="Low" />*/}
@@ -151,21 +157,21 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
               }}
             >
               <BigStatItem
-                label="Natural risk exposure"
+                label="Подверженность природным рискам"
                 status={cityData["Natural Risk Exposure"]}
               />
               <BigStatItem
-                label="Urban sentiment index"
+                label="Индекс городских настроений"
                 status={cityData["Urban Sentiment Index"]}
               />
             </div>
           </div>
         </div>
       )}
-      <SelectedMap selectedCityName={selectedCityName} />
+      <SelectedMap selectedCityName={cityId} />
       <Button
         onClick={() => {
-          navigate("/city/" + selectedCityName);
+          navigate("/city/" + cityId);
         }}
         style={{
           position: "absolute",
@@ -183,7 +189,7 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
           textTransform: "none",
         }}
       >
-        Dashboard
+        Дашборд
       </Button>
       <div
         className={classes.bottomWrapper}
@@ -204,7 +210,7 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
           }}
         >
           <Typography className={classes.smallText}>
-            How the rating works
+            Как работает рейтинг
           </Typography>
           <img
             src="/assets/questionGray.svg"
@@ -228,8 +234,7 @@ export const SelectedCity: FC<ISelectedCityProps> = ({ selectedCityName }) => {
           width: "30%",
         }}
       >
-        The height of a bar represents the total number of people in a grid
-        cell.
+        Высота столбца отражает общее число людей в ячейке сетки.
       </div>
     </>
   );

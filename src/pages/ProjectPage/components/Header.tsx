@@ -4,10 +4,10 @@ import type { FC } from "react";
 import { useNavigate } from "react-router-dom";
 
 const i18nObject = {
-  menu: "Menu",
-  login: "Log in",
-  signup: "Sign up",
-  back: "Back to globe",
+  menu: "Меню",
+  login: "Войти",
+  signup: "Регистрация",
+  back: "Назад к глобусу",
 };
 
 interface HeaderProps {
@@ -60,7 +60,7 @@ export const Header: FC<HeaderProps> = ({ invertColors, setMenuVisible }) => {
               color: "#000",
             }}
           >
-            Back to project market
+            Назад к рынку проектов
           </Typography>
         </div>
         <div

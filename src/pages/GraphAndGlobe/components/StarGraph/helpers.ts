@@ -65,7 +65,7 @@ export const getData =
         pointHoverBackgroundColor: "#fff",
         pointHoverBorderColor: "rgba(34, 202, 236, 1)",
         pointRadius: 5,
-        data: cityData.map((cityData) => cityData.value),
+        data: cityData.map((cityData) => cityData.natural_value),
       })),
     };
   };

@@ -8,6 +8,7 @@ import { LayersToggleList } from "../../../pages/Landing/components/GeoAnalytics
 import { GeoMapAstana } from "../../../pages/Landing/components/GeoAnalyticsSection/components/GeoMap/GeoMapAstana";
 import { GeoMapLahore } from "../../../pages/Landing/components/GeoAnalyticsSection/components/GeoMap/GeoMapLahore";
 import { GeoMapNairobi } from "../../../pages/Landing/components/GeoAnalyticsSection/components/GeoMap/GeoMapNairobi";
+import { getCityId } from "../../../constants";
 export const GeoAnalytics = () => {
   const [map, setMap] = useState<mapboxgl.Map | null>(null);
   const [legend, setLegend] = useState<string | null>(null);
@@ -15,6 +16,7 @@ export const GeoAnalytics = () => {
 
   const cityData = useSelectedCityData();
   const cityName = cityData.City;
+  const cityId = getCityId(cityName);
   return (
     <div
       style={{
@@ -34,7 +36,7 @@ export const GeoAnalytics = () => {
           zIndex: "4",
         }}
       >
-        {selectedCity?.City}: Geoanalytics
+        {selectedCity?.City}: Геоаналитика
       </Typography>
       <div
         style={{
@@ -83,17 +85,17 @@ export const GeoAnalytics = () => {
         </div>
         <LayersToggleList map={map} setLegend={setLegend} isMobile={true} />
       </div>
-      {cityName === "Dubai" && <GeoMapDubai setMap={setMap} isMobile={true} />}
-      {cityName === "Dar es Salaam" && (
+      {cityId === "Dubai" && <GeoMapDubai setMap={setMap} isMobile={true} />}
+      {cityId === "Dar es Salaam" && (
         <GeoMapDeSalam setMap={setMap} isMobile={true} />
       )}
-      {cityName === "Astana" && (
+      {cityId === "Astana" && (
         <GeoMapAstana setMap={setMap} isMobile={true} />
       )}
-      {cityName === "Lahore" && (
+      {cityId === "Lahore" && (
         <GeoMapLahore setMap={setMap} isMobile={true} />
       )}
-      {cityName === "Nairobi" && (
+      {cityId === "Nairobi" && (
         <GeoMapNairobi setMap={setMap} isMobile={true} />
       )}
     </div>

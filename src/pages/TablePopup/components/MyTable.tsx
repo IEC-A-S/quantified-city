@@ -8,129 +8,53 @@ import {
 import { useState } from "react";
 import { useImageSectionStyles } from "../../Landing/components/ImageSection/components/styles";
 import { ButtonWithMenu } from "./ButtonWithMenu";
-import cityDataArr from "../../../data/indicatorsData.json";
-import newValuesForIndicators from "../../../data/indeicatorsData_newValues.json";
-import newIndicatorsDescription from "../../../data/indicatorDescriptionData.json";
 import { useSelectedCityData } from "../../../hooks/useSelectedCityData";
+import { getCompatibleIndicatorTableRows } from "../../../v2/data/compat";
 
-const city = "Dubai";
+interface MyTableProps {
+  isMobile?: boolean;
+}
 
-const createData = (
-  id: number | undefined,
-  group: string | undefined,
-  category: string | undefined,
-  indicator: string | undefined,
-  scope: number | undefined,
-  dimension: string | undefined,
-  type: string | undefined,
-  unit: string | undefined,
-  natural_value: number | string | undefined
-) => {
-  return {
-    id,
-    group,
-    category,
-    indicator,
-    scope,
-    dimension,
-    type,
-    unit,
-    natural_value,
-  };
+type TableRowData = ReturnType<typeof getCompatibleIndicatorTableRows>[number];
+
+const TABLE_COLUMN_LABELS: Record<string, string> = {
+  Category: "Категория",
+  Component: "Компонент",
+  Indicator: "Индикатор",
+  Scope: "Охват",
+  Dimension: "Измерение",
+  Type: "Тип",
+  Unit: "Единица",
+  Value: "Значение",
 };
 
-export const MyTable = ({ isMobile }) => {
+const TABLE_VALUE_LABELS: Record<string, string> = {
+  "Current state": "Текущее состояние",
+  "Ability & willingness": "Способность и готовность",
+  "Ability & Willingness": "Способность и готовность",
+};
+
+const getTableLabel = (value: string) => TABLE_VALUE_LABELS[value] ?? value;
+
+export const MyTable = ({ isMobile }: MyTableProps) => {
   const { classes } = useImageSectionStyles();
   const selectedCity = useSelectedCityData();
-  const city = selectedCity.City;
-
-
-  const indicatorsDataNewValues = cityDataArr.map((cityData) => {
-    const indicatorsData = cityData.data.map((indicator) => {
-      const newValues = newValuesForIndicators.find(
-        (newValues) =>
-          newValues.City === cityData.city &&
-          newValues.Indicator === indicator.indicator
-      );
-      const newDescription = newIndicatorsDescription.find(
-        (newDescription) =>
-          newDescription.City === cityData.city &&
-          newDescription.Indicator === indicator.indicator
-      );
-      if (newValues?.Value === 0) {
-        return {
-          ...indicator,
-          value: newValues?.Assessment ? newValues.Assessment : indicator.value,
-          natural_value: 0,
-          unit: newDescription?.Unit ? newDescription.Unit : indicator.unit,
-        };
-      } else {
-        return {
-          ...indicator,
-          value: newValues?.Assessment ? newValues.Assessment : indicator.value,
-          natural_value: newValues?.Value ? newValues.Value : indicator.natural_value,
-          unit: newDescription?.Unit ? newDescription.Unit : indicator.unit,
-        };
-      }
-    });
-    return {
-      ...cityData,
-      data: indicatorsData,
-    };
-  }
-  );
-
-  const indicatorsData = indicatorsDataNewValues.find(
-    (cityData) => cityData.city === city
-  )!.data;
+  const rowsInit = getCompatibleIndicatorTableRows(selectedCity.City);
 
   const [filteredColumn, setFilteredColumn] = useState("");
 
-  //map through indicatorsData and create array of objects with vallues from TABLE_DATA and indicatorsData where indicator is the same
-
-  const getUniqueValues = (key: string) => {
+  const getUniqueValues = (key: keyof TableRowData) => {
     const values = rowsInit.map((row) => row[key]);
     return [...new Set(values)];
   };
-
-  const indicatorsDataArr = indicatorsData.map((indicator) => {
-    const indicatorData = newIndicatorsDescription.find(
-      (item) => item.Indicator === indicator.indicator
-    );
-    return {
-      id: indicatorData?.ID,
-      group: indicatorData?.Component,
-      category: indicatorData?.Category,
-      indicator: indicatorData?.Indicator,
-      scope: indicatorData?.Scope,
-      dimension: indicatorData?.Dimension,
-      type: indicatorData?.["Type of Variable"],
-      unit: indicatorData?.Unit,
-      natural_value: indicator.natural_value,
-    };
-  });
-
-  const rowsInit = indicatorsDataArr.map((item) => {
-    return createData(
-      item.id,
-      item.group,
-      item.category,
-      item.indicator,
-      item.scope,
-      item.dimension,
-      item.type,
-      item.unit,
-      item.natural_value
-    );
-  });
+  const indicatorsDataArr = rowsInit;
 
   const [rows, setRows] = useState(rowsInit);
 
   const tableCellMobileStyle = {
-    
     fontWeight: 600,
     fontSize: isMobile ? "12px" : "2vh",
-    textTransform: "none",
+    textTransform: "none" as const,
     padding: "3px 14px",
   };
 
@@ -146,7 +70,7 @@ export const MyTable = ({ isMobile }) => {
           <TableCell align="left" style={isMobile ? tableHeadMobileStyle : {}}>
             <ButtonWithMenu
               isMobile={isMobile}
-              title={"Category"}
+              title={TABLE_COLUMN_LABELS.Category}
               accessorKey={"category"}
               menuItems={getUniqueValues("category")}
               indicatorsDataArr={indicatorsDataArr}
@@ -158,7 +82,7 @@ export const MyTable = ({ isMobile }) => {
           <TableCell align="left" style={isMobile ? tableHeadMobileStyle : {}}>
             <ButtonWithMenu
               isMobile={isMobile}
-              title={"Component"}
+              title={TABLE_COLUMN_LABELS.Component}
               accessorKey={"group"}
               menuItems={getUniqueValues("group")}
               indicatorsDataArr={indicatorsDataArr}
@@ -171,7 +95,7 @@ export const MyTable = ({ isMobile }) => {
             <ButtonWithMenu
               isMobile={isMobile}
               disabled={true}
-              title={"Indicator"}
+              title={TABLE_COLUMN_LABELS.Indicator}
               accessorKey={"indicator"}
               menuItems={getUniqueValues("indicator")}
               indicatorsDataArr={indicatorsDataArr}
@@ -186,7 +110,7 @@ export const MyTable = ({ isMobile }) => {
           >
             <ButtonWithMenu
               isMobile={isMobile}
-              title={"Scope"}
+              title={TABLE_COLUMN_LABELS.Scope}
               accessorKey={"scope"}
               menuItems={getUniqueValues("scope")}
               indicatorsDataArr={indicatorsDataArr}
@@ -201,7 +125,7 @@ export const MyTable = ({ isMobile }) => {
           >
             <ButtonWithMenu
               isMobile={isMobile}
-              title={"Dimension"}
+              title={TABLE_COLUMN_LABELS.Dimension}
               accessorKey={"dimension"}
               menuItems={getUniqueValues("dimension")}
               indicatorsDataArr={indicatorsDataArr}
@@ -213,7 +137,7 @@ export const MyTable = ({ isMobile }) => {
           <TableCell align="left" style={isMobile ? tableHeadMobileStyle : {}}>
             <ButtonWithMenu
               isMobile={isMobile}
-              title={"Type"}
+              title={TABLE_COLUMN_LABELS.Type}
               accessorKey={"type"}
               menuItems={getUniqueValues("type")}
               indicatorsDataArr={indicatorsDataArr}
@@ -225,7 +149,7 @@ export const MyTable = ({ isMobile }) => {
           <TableCell align="left" style={isMobile ? tableHeadMobileStyle : {}}>
             <ButtonWithMenu
               isMobile={isMobile}
-              title={"Unit"}
+              title={TABLE_COLUMN_LABELS.Unit}
               accessorKey={"unit"}
               menuItems={getUniqueValues("unit")}
               indicatorsDataArr={indicatorsDataArr}
@@ -238,7 +162,7 @@ export const MyTable = ({ isMobile }) => {
             <ButtonWithMenu
               isMobile={isMobile}
               disabled={true}
-              title={"Value"}
+              title={TABLE_COLUMN_LABELS.Value}
               accessorKey={"natural_value"}
               menuItems={getUniqueValues("natural_value")}
               indicatorsDataArr={indicatorsDataArr}
@@ -282,7 +206,7 @@ export const MyTable = ({ isMobile }) => {
               align="center"
               style={isMobile ? tableCellMobileStyle : {}}
             >
-              {row.dimension}
+              {getTableLabel(row.dimension)}
             </TableCell>
             <TableCell
               align="left"

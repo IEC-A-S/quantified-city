@@ -1,1080 +1,1080 @@
 [
   {
-    "city": "Dubai",
-    "category": "Air Pollution",
+    "city": "Дубай",
+    "category": "Загрязнение воздуха",
     "date": "2023-01-07",
-    "sentiment": "negative",
-    "article": "The 13n place of Dubai with air pollution at more than 4 times the level a human can live in"
+    "sentiment": "отрицательный",
+    "article": "Дубай занимает 13-е место в мире по уровню загрязнения воздуха — концентрация превышает безопасный для человека порог более чем в 4 раза."
   },
   {
-    "city": "Dubai",
-    "category": "Water Pollution",
+    "city": "Дубай",
+    "category": "Загрязнение воды",
     "date": "2023-08-17",
-    "sentiment": "positive",
-    "article": "DEWA's Central Lab thousands of conducted water quality tests in 2022"
+    "sentiment": "положительный",
+    "article": "Центральная лаборатория DEWA провела в 2022 году тысячи тестов качества воды."
   },
   {
-    "city": "Dubai",
-    "category": "Land Use And Waste",
+    "city": "Дубай",
+    "category": "Землепользование и отходы",
     "date": "2023-07-04",
-    "sentiment": "positive",
-    "article": "The world’s largest and most efficient waste-to-energy facility in Warsan, a remarkable project that reinforces Dubai’s status as a global leader in sustainable infrastructure."
+    "sentiment": "положительный",
+    "article": "В Варсане запущено крупнейшее и наиболее эффективное в мире предприятие по переработке отходов в энергию — знаковый проект, подтверждающий лидерство Дубая в области устойчивой инфраструктуры."
   },
   {
-    "city": "Dubai",
-    "category": "Natural Disaster Hazards",
+    "city": "Дубай",
+    "category": "Опасность стихийных бедствий",
     "date": "2023-08-23",
-    "sentiment": "negative",
-    "article": "Dubai’s chaos after hurricane-force winds across the city."
+    "sentiment": "отрицательный",
+    "article": "Хаос в Дубае после прохождения ураганных ветров по городу."
   },
   {
-    "city": "Dubai",
-    "category": "Water Availability",
+    "city": "Дубай",
+    "category": "Доступность воды",
     "date": "2022-03-26",
-    "sentiment": "positive",
-    "article": "Dubai-based company developed models to combat water scarcity in the UAE."
+    "sentiment": "положительный",
+    "article": "Дубайская компания разработала модели для борьбы с дефицитом водных ресурсов в ОАЭ."
   },
   {
-    "city": "Dubai",
-    "category": "Food Availability",
+    "city": "Дубай",
+    "category": "Доступность продуктов питания",
     "date": "2023-02-22",
-    "sentiment": "positive",
-    "article": "Guaranteed heat and high-quality food in Dubai."
+    "sentiment": "положительный",
+    "article": "В Дубае гарантированы тепло и качественное питание."
   },
   {
-    "city": "Dubai",
-    "category": "Energy Availability",
+    "city": "Дубай",
+    "category": "Доступность энергии",
     "date": "2023-07-04",
-    "sentiment": "positive",
-    "article": "The world’s largest and most efficient waste-to-energy facility in Warsan, a remarkable project that reinforces Dubai’s status as a global leader in sustainable infrastructure."
+    "sentiment": "положительный",
+    "article": "В Варсане запущено крупнейшее и наиболее эффективное в мире предприятие по переработке отходов в энергию — знаковый проект, подтверждающий лидерство Дубая в области устойчивой инфраструктуры."
   },
   {
-    "city": "Dubai",
-    "category": "Energy Availability",
+    "city": "Дубай",
+    "category": "Доступность энергии",
     "date": "2023-01-07",
-    "sentiment": "positive",
-    "article": "COP28 and many efforts made on renewable energy projects."
+    "sentiment": "положительный",
+    "article": "COP28 и масштабные усилия по реализации проектов возобновляемой энергетики."
   },
   {
-    "city": "Dubai",
-    "category": "Health",
+    "city": "Дубай",
+    "category": "Здоровье",
     "date": "2023-07-03",
-    "sentiment": "positive",
-    "article": "The new Dubai Healthcare City vision for 2030."
+    "sentiment": "положительный",
+    "article": "Представлено новое видение Dubai Healthcare City до 2030 года."
   },
   {
-    "city": "Dubai",
-    "category": "Health",
+    "city": "Дубай",
+    "category": "Здоровье",
     "date": "2023-01-30",
-    "sentiment": "positive",
-    "article": "The first AI-powered Smart Hospital Platform to United Arab Emirates in Dubai."
+    "sentiment": "положительный",
+    "article": "В Дубае запущена первая в ОАЭ платформа «умной больницы» на базе искусственного интеллекта."
   },
   {
-    "city": "Dubai",
-    "category": "Education",
+    "city": "Дубай",
+    "category": "Образование",
     "date": "2023-02-01",
-    "sentiment": "positive",
-    "article": "Dubai's Sheikh Hamdan scholarships, financial rewards to top high school students"
+    "sentiment": "положительный",
+    "article": "Стипендии шейха Хамдана в Дубае: финансовые поощрения для лучших старшеклассников."
   },
   {
-    "city": "Dubai",
-    "category": "Education",
+    "city": "Дубай",
+    "category": "Образование",
     "date": "2023-02-09",
-    "sentiment": "positive",
-    "article": "The possibility to enroll and pay tuition fee with crypto currency at leading Dubai university"
+    "sentiment": "положительный",
+    "article": "Ведущий университет Дубая разрешил поступление и оплату обучения криптовалютой."
   },
   {
-    "city": "Dubai",
-    "category": "Wealth",
+    "city": "Дубай",
+    "category": "Благосостояние",
     "date": "2022-09-22",
-    "sentiment": "negative",
-    "article": "Significant differences in salaries in Dubai"
+    "sentiment": "отрицательный",
+    "article": "Значительное расслоение зарплат в Дубае."
   },
   {
-    "city": "Dubai",
-    "category": "Safety",
+    "city": "Дубай",
+    "category": "Безопасность",
     "date": "2022-07-22",
-    "sentiment": "negative",
-    "article": "Texas TikToker trapped in Dubai and faced 2 years in prison for “screaming” at a car rental worker"
+    "sentiment": "отрицательный",
+    "article": "Тиктокер из Техаса застрял в Дубае и рискует получить 2 года тюрьмы за «крик» на сотрудника прокатной компании."
   },
   {
-    "city": "Dubai",
-    "category": "Livability",
+    "city": "Дубай",
+    "category": "Благоустройство",
     "date": "2023-07-02",
-    "sentiment": "positive",
-    "article": "Dubai had become a climate-controlled city"
+    "sentiment": "положительный",
+    "article": "Дубай превратился в город с полностью контролируемым климатом."
   },
   {
-    "city": "Dubai",
-    "category": "Transport",
+    "city": "Дубай",
+    "category": "Транспорт",
     "date": "2023-02-22",
-    "sentiment": "positive",
-    "article": "Driverless taxi in Dubai was launched"
+    "sentiment": "положительный",
+    "article": "В Дубае официально запущены беспилотные такси."
   },
   {
-    "city": "Dubai",
-    "category": "Transport",
+    "city": "Дубай",
+    "category": "Транспорт",
     "date": "2023-01-13",
-    "sentiment": "positive",
-    "article": "Buses in Dubai arrived exactly at the time that is fixed and departed exactly at the time they have to depart"
+    "sentiment": "положительный",
+    "article": "Автобусы в Дубае приходят и отправляются строго по расписанию."
   },
   {
-    "city": "Dubai",
-    "category": "Inclusion",
+    "city": "Дубай",
+    "category": "Инклюзивность",
     "date": "2022-10-08",
-    "sentiment": "negative",
-    "article": "Disrespectful actions towards Bobi Wine (Ugandan politician, singer, and actor) who landed in Dubai and which travel documents were confiscated"
+    "sentiment": "отрицательный",
+    "article": "Неуважительное обращение с Боби Вайном (угандийский политик, певец и актёр): по прилёте в Дубай у него изъяли проездные документы."
   },
   {
-    "city": "Dubai",
-    "category": "Inclusion",
+    "city": "Дубай",
+    "category": "Инклюзивность",
     "date": "2022-08-15",
-    "sentiment": "positive",
-    "article": "The appearance of the Indian flag on its Independence Day at the Burj Khalifa"
+    "sentiment": "положительный",
+    "article": "В День независимости Индии на Бурдж-Халифа зажёгся индийский флаг."
   },
   {
-    "city": "Dubai",
-    "category": "Accountability",
+    "city": "Дубай",
+    "category": "Подотчётность",
     "date": "2022-09-21",
-    "sentiment": "positive",
-    "article": "The launch of Dubaiverse as the metaverse to the United Arab Emirates"
+    "sentiment": "положительный",
+    "article": "Запущена Dubaiverse — метавселенная Объединённых Арабских Эмиратов."
   },
   {
-    "city": "Dubai",
-    "category": "City Budget",
+    "city": "Дубай",
+    "category": "Городской бюджет",
     "date": "2022-12-08",
-    "sentiment": "positive",
-    "article": "The approvement of Dubai’s budget for 2023-2025 with a total expenditure of Dh205 billion"
+    "sentiment": "положительный",
+    "article": "Утверждён бюджет Дубая на 2023-2025 годы с общим объёмом расходов 205 млрд дирхамов."
   },
   {
-    "city": "Dubai",
-    "category": "SME",
+    "city": "Дубай",
+    "category": "МСП",
     "date": "2023-01-07",
-    "sentiment": "positive",
-    "article": "Dubai had become a global financial and technology hub"
+    "sentiment": "положительный",
+    "article": "Дубай закрепил статус глобального финансового и технологического хаба."
   },
   {
-    "city": "Dubai",
-    "category": "Public Services",
+    "city": "Дубай",
+    "category": "Государственные услуги",
     "date": "2022-09-29",
-    "sentiment": "positive",
-    "article": "Dubai’s 5th rank globally and 1st in the Arab World in the Local Online Service Index (LOSI) 2022"
+    "sentiment": "положительный",
+    "article": "Дубай занял 5-е место в мире и 1-е в арабском мире по Индексу местных онлайн-услуг (LOSI) 2022."
   },
   {
-    "city": "Dubai",
-    "category": "Sustainability Commitment",
+    "city": "Дубай",
+    "category": "Приверженность устойчивому развитию",
     "date": "2022-10-06",
-    "sentiment": "positive",
-    "article": "Crypto Expo Dubai 2022 as the largest crypto event"
+    "sentiment": "положительный",
+    "article": "Crypto Expo Dubai 2022 — крупнейшее криптовалютное событие года."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Air Pollution",
+    "city": "Экспо-сити Дубай",
+    "category": "Загрязнение воздуха",
     "date": "2022-12-15",
-    "sentiment": "positive",
-    "article": "Measuring and reporting GHG emissions with full transparency and accuracy"
+    "sentiment": "положительный",
+    "article": "Полная прозрачность и точность измерения и отчётности по выбросам парниковых газов."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Water Pollution",
+    "city": "Экспо-сити Дубай",
+    "category": "Загрязнение воды",
     "date": "2023-04-25",
-    "sentiment": "positive",
-    "article": "Circular buildings and less consumed water for construction of Expo City Dubai"
+    "sentiment": "положительный",
+    "article": "Циркулярные здания и минимизация водопотребления при строительстве Expo City Dubai."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Land Use And Waste",
+    "city": "Экспо-сити Дубай",
+    "category": "Землепользование и отходы",
     "date": "2022-11-23",
-    "sentiment": "positive",
-    "article": "Waste responsibility and better live in Expo City Dubai"
+    "sentiment": "положительный",
+    "article": "Ответственное обращение с отходами и повышение качества жизни в Expo City Dubai."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Natural Disaster Hazards",
+    "city": "Экспо-сити Дубай",
+    "category": "Опасность стихийных бедствий",
     "date": "2023-05-09",
-    "sentiment": "positive",
-    "article": "Preparing the city for any natural disaster emergency"
+    "sentiment": "положительный",
+    "article": "Город активно готовится к чрезвычайным ситуациям, связанным с природными катастрофами."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Water Availability",
+    "city": "Экспо-сити Дубай",
+    "category": "Доступность воды",
     "date": "2023-03-23",
-    "sentiment": "positive",
-    "article": "Technology transfer for sustainable water management"
+    "sentiment": "положительный",
+    "article": "Передача технологий устойчивого водопользования."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Food Availability",
+    "city": "Экспо-сити Дубай",
+    "category": "Доступность продуктов питания",
     "date": "2023-02-05",
-    "sentiment": "positive",
-    "article": "New innovations, equipment, and techniques, as well as best practices in modern agriculture"
+    "sentiment": "положительный",
+    "article": "Новые инновации, оборудование, методики и передовые практики современного сельского хозяйства."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Energy Availability",
+    "city": "Экспо-сити Дубай",
+    "category": "Доступность энергии",
     "date": "2023-02-17",
-    "sentiment": "positive",
-    "article": "Crypto Expo Dubai and Renewable Energy Token was one of the featured sponsors of the Dubai Crypto Expo"
+    "sentiment": "положительный",
+    "article": "На Crypto Expo Dubai одним из ключевых спонсоров выступил Renewable Energy Token."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Health",
+    "city": "Экспо-сити Дубай",
+    "category": "Здоровье",
     "date": "2022-11-04",
-    "sentiment": "positive",
-    "article": "New agreements with global investors signed at Expo 2020 in investment in health care"
+    "sentiment": "положительный",
+    "article": "На Expo 2020 подписаны новые соглашения с глобальными инвесторами в сфере здравоохранения."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Health",
+    "city": "Экспо-сити Дубай",
+    "category": "Здоровье",
     "date": "2023-05-29",
-    "sentiment": "positive",
-    "article": "The fastest ambulance unveiled by the Dubai Corporation for Ambulance Services (DCAS)"
+    "sentiment": "положительный",
+    "article": "Скорая медицинская помощь Дубая (DCAS) представила самую быструю в мире скорую помощь."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Education",
+    "city": "Экспо-сити Дубай",
+    "category": "Образование",
     "date": "2023-05-18",
-    "sentiment": "positive",
-    "article": "Delivering more and better funding to education to accelerate the transition to a greener world"
+    "sentiment": "положительный",
+    "article": "Увеличение и повышение эффективности финансирования образования для ускоренного перехода к зелёной экономике."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Wealth",
+    "city": "Экспо-сити Дубай",
+    "category": "Благосостояние",
     "date": "2022-09-03",
-    "sentiment": "positive",
-    "article": "Establishment of a new standard for accessibility and united people and places across the physical and digital divide"
+    "sentiment": "положительный",
+    "article": "Установлен новый стандарт доступности, объединяющий физическое и цифровое пространство для людей и мест."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Safety",
+    "city": "Экспо-сити Дубай",
+    "category": "Безопасность",
     "date": "2022-09-22",
-    "sentiment": "negative",
-    "article": "Looking for ways to protect the Expo City Dubai from possible drone attacks from Iran-backed fighters"
+    "sentiment": "отрицательный",
+    "article": "Изыскиваются способы защиты Экспо-сити Дубай от возможных атак дронов, поддерживаемых проиранскими силами."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Livability",
+    "city": "Экспо-сити Дубай",
+    "category": "Благоустройство",
     "date": "2022-11-28",
-    "sentiment": "positive",
-    "article": "47 construction contracts were awarded in with a total value of US$ 3 billion in Expo City Dubai "
+    "sentiment": "положительный",
+    "article": "В Экспо-сити Дубай заключено 47 строительных контрактов на общую сумму 3 млрд долларов США."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Transport",
+    "city": "Экспо-сити Дубай",
+    "category": "Транспорт",
     "date": "2023-04-02",
-    "sentiment": "positive",
-    "article": "Autonomous transport and smart cities were designed and presented in the “Mobility Pavilion” of Expo City Dubai"
+    "sentiment": "положительный",
+    "article": "Автономный транспорт и концепции умных городов представлены в «Павильоне мобильности» Expo City Dubai."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Inclusion",
+    "city": "Экспо-сити Дубай",
+    "category": "Инклюзивность",
     "date": "2022-11-15",
-    "sentiment": "positive",
-    "article": "Events for people with disabilities organized in Expo City Dubai"
+    "sentiment": "положительный",
+    "article": "В Expo City Dubai организованы мероприятия для людей с ограниченными возможностями."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Accountability",
+    "city": "Экспо-сити Дубай",
+    "category": "Подотчётность",
     "date": "2022-09-26",
-    "sentiment": "positive",
-    "article": "Disclosed awarded SMEs contracts in Expo City Dubai"
+    "sentiment": "положительный",
+    "article": "Опубликована информация о контрактах, присуждённых малым и средним предприятиям в Экспо-сити Дубай."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "City Budget",
+    "city": "Экспо-сити Дубай",
+    "category": "Городской бюджет",
     "date": "2022-12-08",
-    "sentiment": "positive",
-    "article": "Increase of the UAE’s budget revenue thanks to economic activity around Expo 2020 Dubai"
+    "sentiment": "положительный",
+    "article": "Экономическая активность вокруг Expo 2020 Dubai существенно увеличила доходы бюджета ОАЭ."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "SME",
+    "city": "Экспо-сити Дубай",
+    "category": "МСП",
     "date": "2023-05-03",
-    "sentiment": "positive",
-    "article": "India's effective utilization of Expo 2020 Dubai to promote startups"
+    "sentiment": "положительный",
+    "article": "Индия эффективно использовала Expo 2020 Dubai для продвижения своих стартапов."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Public Services",
+    "city": "Экспо-сити Дубай",
+    "category": "Государственные услуги",
     "date": "2023-05-21",
-    "sentiment": "negative",
-    "article": "The worst UAE government services provided for citizen were announced"
+    "sentiment": "отрицательный",
+    "article": "Обнародован список худших государственных услуг ОАЭ для граждан."
   },
   {
-    "city": "Expo City Dubai",
-    "category": "Sustainability Commitment",
+    "city": "Экспо-сити Дубай",
+    "category": "Приверженность устойчивому развитию",
     "date": "2023-09-22",
-    "sentiment": "positive",
-    "article": "Revealing of Expo City Dubai decarbonization plan ahead of COP28"
+    "sentiment": "положительный",
+    "article": "Накануне COP28 представлен план декарбонизации Экспо-сити Дубай."
   },
   {
-    "city": "Valparaiso",
-    "category": "Air Pollution",
+    "city": "Вальпараисо",
+    "category": "Загрязнение воздуха",
     "date": "2023-09-14",
-    "sentiment": "negative",
-    "article": "Unhealthy air quality in Valparaiso"
+    "sentiment": "отрицательный",
+    "article": "В Вальпараисо зафиксировано нездоровое качество воздуха."
   },
   {
-    "city": "Valparaiso",
-    "category": "Water Pollution",
+    "city": "Вальпараисо",
+    "category": "Загрязнение воды",
     "date": "2023-02-13",
-    "sentiment": "negative",
-    "article": "Chemicals polluted water in the city"
+    "sentiment": "отрицательный",
+    "article": "Вода в городе загрязнена химическими веществами."
   },
   {
-    "city": "Valparaiso",
-    "category": "Land Use And Waste",
+    "city": "Вальпараисо",
+    "category": "Землепользование и отходы",
     "date": "2023-05-09",
-    "sentiment": "negative",
-    "article": "Unpleasant smell because of excessive amount of waste"
+    "sentiment": "отрицательный",
+    "article": "Неприятный запах из-за огромного количества отходов."
   },
   {
-    "city": "Valparaiso",
-    "category": "Natural Disaster Hazards",
+    "city": "Вальпараисо",
+    "category": "Опасность стихийных бедствий",
     "date": "2022-10-19",
-    "sentiment": "positive",
-    "article": "Pleasant weather and peaceful and comforting environment in the city"
+    "sentiment": "положительный",
+    "article": "Приятная погода и спокойная, умиротворяющая атмосфера в городе."
   },
   {
-    "city": "Valparaiso",
-    "category": "Water Availability",
+    "city": "Вальпараисо",
+    "category": "Доступность воды",
     "date": "2022-09-06",
-    "sentiment": "negative",
-    "article": "Water scarcity and the necessity to reuse water for garden irrigation or street cleaning"
+    "sentiment": "отрицательный",
+    "article": "Дефицит воды вынуждает использовать её повторно для полива садов и уборки улиц."
   },
   {
-    "city": "Valparaiso",
-    "category": "Food Availability",
+    "city": "Вальпараисо",
+    "category": "Доступность продуктов питания",
     "date": "2022-11-25",
-    "sentiment": "negative",
-    "article": "Citizens’ complaints about unattainable prices of food"
+    "sentiment": "отрицательный",
+    "article": "Жалобы жителей на недоступные цены на продукты питания."
   },
   {
-    "city": "Valparaiso",
-    "category": "Energy Availability",
+    "city": "Вальпараисо",
+    "category": "Доступность энергии",
     "date": "2023-02-23",
-    "sentiment": "positive",
-    "article": "Extending the network where people have been without a secure and permanent electricity supply for more than 20 years near Valparaiso"
+    "sentiment": "положительный",
+    "article": "Расширение электросетей в районах недалеко от Вальпараисо, где более 20 лет отсутствует надёжное постоянное электроснабжение."
   },
   {
-    "city": "Valparaiso",
-    "category": "Health",
+    "city": "Вальпараисо",
+    "category": "Здоровье",
     "date": "2023-07-05",
-    "sentiment": "positive",
-    "article": "Voting on a constitution that recognizes healthcare, reproductive care, and safe climate as human rights in Chile"
+    "sentiment": "положительный",
+    "article": "В Чили принята конституция, признающая здравоохранение, репродуктивные права и безопасный климат неотъемлемыми правами человека."
   },
   {
-    "city": "Valparaiso",
-    "category": "Health",
+    "city": "Вальпараисо",
+    "category": "Здоровье",
     "date": "2023-09-03",
-    "sentiment": "negative",
-    "article": "Different diseases were spreading in the public transport in Chile"
+    "sentiment": "отрицательный",
+    "article": "В общественном транспорте Чили распространяются различные заболевания."
   },
   {
-    "city": "Valparaiso",
-    "category": "Education",
+    "city": "Вальпараисо",
+    "category": "Образование",
     "date": "2023-08-13",
-    "sentiment": "negative",
-    "article": "Excessive number of sick children at schools in the city"
+    "sentiment": "отрицательный",
+    "article": "В школах города наблюдается чрезмерно большое количество заболевших детей."
   },
   {
-    "city": "Valparaiso",
-    "category": "Wealth",
+    "city": "Вальпараисо",
+    "category": "Благосостояние",
     "date": "2023-01-18",
-    "sentiment": "positive",
-    "article": "Non-profit organization dedicated to improving the lives of Valparaiso residents by assisting qualifying homeowners in maintenance"
+    "sentiment": "положительный",
+    "article": "Некоммерческая организация помогает жителям Вальпараисо: оказывает поддержку квалифицированным домовладельцам в обслуживании жилья."
   },
   {
-    "city": "Valparaiso",
-    "category": "Safety",
+    "city": "Вальпараисо",
+    "category": "Безопасность",
     "date": "2022-12-01",
-    "sentiment": "negative",
-    "article": "Killings the policeman in Valparaiso"
+    "sentiment": "отрицательный",
+    "article": "В Вальпараисо убит полицейский."
   },
   {
-    "city": "Valparaiso",
-    "category": "Safety",
+    "city": "Вальпараисо",
+    "category": "Безопасность",
     "date": "2023-04-06",
-    "sentiment": "negative",
-    "article": "National Migration Service which did not constitute a security risk"
+    "sentiment": "отрицательный",
+    "article": "Национальная миграционная служба не представляет угрозы безопасности."
   },
   {
-    "city": "Valparaiso",
-    "category": "Livability",
+    "city": "Вальпараисо",
+    "category": "Благоустройство",
     "date": "2023-02-17",
-    "sentiment": "negative",
-    "article": "Necessity to recover the metro stations that was an architectural example for the world in the city"
+    "sentiment": "отрицательный",
+    "article": "Необходима реставрация станций метро — всемирно известного архитектурного шедевра города."
   },
   {
-    "city": "Valparaiso",
-    "category": "Transport",
+    "city": "Вальпараисо",
+    "category": "Транспорт",
     "date": "2023-01-11",
-    "sentiment": "positive",
-    "article": "Safe, clean and reliable means of transport in Valparaiso"
+    "sentiment": "положительный",
+    "article": "В Вальпараисо обеспечивается безопасный, чистый и надёжный общественный транспорт."
   },
   {
-    "city": "Valparaiso",
-    "category": "Inclusion",
+    "city": "Вальпараисо",
+    "category": "Инклюзивность",
     "date": "2023-05-23",
-    "sentiment": "negative",
-    "article": "Violence and harassment against women in Chile"
+    "sentiment": "отрицательный",
+    "article": "В Чили сохраняется высокий уровень насилия и домогательств в отношении женщин."
   },
   {
-    "city": "Valparaiso",
-    "category": "Accountability",
+    "city": "Вальпараисо",
+    "category": "Подотчётность",
     "date": "2023-01-31",
-    "sentiment": "negative",
-    "article": "Civil servants paying trapped within their bureaucracy"
+    "sentiment": "отрицательный",
+    "article": "Государственные служащие тонут в бюрократических проволочках."
   },
   {
-    "city": "Valparaiso",
-    "category": "City Budget",
+    "city": "Вальпараисо",
+    "category": "Городской бюджет",
     "date": "2022-09-04",
-    "sentiment": "negative",
-    "article": "Stolen finance from the city budget of Valparaiso"
+    "sentiment": "отрицательный",
+    "article": "Из бюджета Вальпараисо похищены средства."
   },
   {
-    "city": "Valparaiso",
-    "category": "SME",
+    "city": "Вальпараисо",
+    "category": "МСП",
     "date": "2023-02-28",
-    "sentiment": "positive",
-    "article": "Small grants to manage projects benefiting micro, small and medium-sized enterprises"
+    "sentiment": "положительный",
+    "article": "Выделены малые гранты на проекты, полезные для микро, малых и средних предприятий."
   },
   {
-    "city": "Valparaiso",
-    "category": "Public Services",
+    "city": "Вальпараисо",
+    "category": "Государственные услуги",
     "date": "2023-02-22",
-    "sentiment": "positive",
-    "article": "Fast contained and resolved situation about release of hazardous chemical materials thanks to public services"
+    "sentiment": "положительный",
+    "article": "Благодаря оперативным действиям общественных служб быстро локализована и устранена утечка опасных химических веществ."
   },
   {
-    "city": "Valparaiso",
-    "category": "Sustainability Commitment",
+    "city": "Вальпараисо",
+    "category": "Приверженность устойчивому развитию",
     "date": "2023-07-06",
-    "sentiment": "positive",
-    "article": "Discussion of a new draft of  “ecological constitution”"
+    "sentiment": "положительный",
+    "article": "Обсуждается проект новой «экологической конституции»."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Air Pollution",
+    "city": "Дар-эс-Салам",
+    "category": "Загрязнение воздуха",
     "date": "2023-10-29",
-    "sentiment": "positive",
-    "article": "Pollution-free environment in rural areas near Dar-es-Salaam."
+    "sentiment": "положительный",
+    "article": "Сельские районы в окрестностях Дар-эс-Салама остаются свободными от загрязнения."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Water Pollution",
+    "city": "Дар-эс-Салам",
+    "category": "Загрязнение воды",
     "date": "2022-11-22",
-    "sentiment": "negative",
-    "article": "Necessity to provide clean water in the city"
+    "sentiment": "отрицательный",
+    "article": "Город нуждается в обеспечении чистой питьевой водой."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Land Use And Waste",
+    "city": "Дар-эс-Салам",
+    "category": "Землепользование и отходы",
     "date": "2023-01-06",
-    "sentiment": "positive",
-    "article": "Banned plastic bags in a bid to reduce plastic waste in Tanzania."
+    "sentiment": "положительный",
+    "article": "В Танзании введён запрет на пластиковые пакеты, в целях сокращения пластиковых отходов."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Natural Disaster Hazards",
+    "city": "Дар-эс-Салам",
+    "category": "Опасность стихийных бедствий",
     "date": "2022-09-04",
-    "sentiment": "negative",
-    "article": "The increased frequency and intensity of heavy rainfall events in Tanzania"
+    "sentiment": "отрицательный",
+    "article": "В Танзании участились и усилились сильные дожди."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Water Availability",
+    "city": "Дар-эс-Салам",
+    "category": "Доступность воды",
     "date": "2023-02-13",
-    "sentiment": "negative",
-    "article": "Necessity to ensure safe water and sanitation that helps to reduce poverty and promote economic growth in Tanzania"
+    "sentiment": "отрицательный",
+    "article": "Обеспечение безопасной воды и санитарии необходимо для снижения бедности и экономического роста в Танзании."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Food Availability",
+    "city": "Дар-эс-Салам",
+    "category": "Доступность продуктов питания",
     "date": "2022-12-14",
-    "sentiment": "negative",
-    "article": "Tanzanian food crisis which had been worsening from 2020."
+    "sentiment": "отрицательный",
+    "article": "Продовольственный кризис в Танзании усугубляется с 2020 года."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Energy Availability",
+    "city": "Дар-эс-Салам",
+    "category": "Доступность энергии",
     "date": "2023-06-21",
-    "sentiment": "positive",
-    "article": "Strengthened collaboration Tanzania's Energy Minister Makamba with China, focusing on renewable energy projects and investment opportunities, especially in Dar-es-Salaam."
+    "sentiment": "положительный",
+    "article": "Министр энергетики Танзании Макамба укрепил сотрудничество с Китаем в сфере возобновляемой энергетики и инвестиций, особенно в Дар-эс-Саламе."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Health",
+    "city": "Дар-эс-Салам",
+    "category": "Здоровье",
     "date": "2022-10-11",
-    "sentiment": "positive",
-    "article": "Tanzania Health Summit and discussion about medical treatment progress"
+    "sentiment": "положительный",
+    "article": "На саммите здравоохранения Танзании обсудили прогресс в медицинском обслуживании."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Health",
+    "city": "Дар-эс-Салам",
+    "category": "Здоровье",
     "date": "2022-04-07",
-    "sentiment": "negative",
-    "article": "Detected sick people in Tanzania and the warning to monitor the health for three weeks after visiting the country"
+    "sentiment": "отрицательный",
+    "article": "В Танзании выявлены заболевшие; рекомендовано три недели мониторить здоровье после посещения страны."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Education",
+    "city": "Дар-эс-Салам",
+    "category": "Образование",
     "date": "2022-09-21",
-    "sentiment": "negative",
-    "article": "Citizens recommendation for Tanzanian universities to make reforms in higher education and to get rid of incompetent teachers"
+    "sentiment": "отрицательный",
+    "article": "Граждане призывают университеты Танзании провести реформы высшего образования и уволить некомпетентных преподавателей."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Wealth",
+    "city": "Дар-эс-Салам",
+    "category": "Благосостояние",
     "date": "2022-11-18",
-    "sentiment": "positive",
-    "article": "Dar es Salaam and other African cities were not technologically and financially backwards"
+    "sentiment": "положительный",
+    "article": "Дар-эс-Салам и другие африканские города не отстают ни технологически, ни финансово."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Safety",
+    "city": "Дар-эс-Салам",
+    "category": "Безопасность",
     "date": "2023-08-11",
-    "sentiment": "negative",
-    "article": "Arrests of activists called for a nationwide peaceful protest against Tanzania and DP world’s spurious contract"
+    "sentiment": "отрицательный",
+    "article": "Арестованы активисты, призывавшие к мирному общенациональному протесту против сомнительного контракта Танзании с DP World."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Safety",
+    "city": "Дар-эс-Салам",
+    "category": "Безопасность",
     "date": "2023-03-15",
-    "sentiment": "positive",
-    "article": "Streetlights that had helped reduce road accidents in the city"
+    "sentiment": "положительный",
+    "article": "Установка уличного освещения позволила снизить количество ДТП в городе."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Livability",
+    "city": "Дар-эс-Салам",
+    "category": "Благоустройство",
     "date": "2023-03-31",
-    "sentiment": "positive",
-    "article": "Tanzania and the US agreement on providing tech and 5G assistance to the country and boosting cyber security"
+    "sentiment": "положительный",
+    "article": "Танзания и США заключили соглашение о технологической помощи, развитии 5G и укреплении кибербезопасности."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Transport",
+    "city": "Дар-эс-Салам",
+    "category": "Транспорт",
     "date": "2023-11-07",
-    "sentiment": "negative",
-    "article": "The crashed plane into Lake Victoria and at least 19 dead people"
+    "sentiment": "отрицательный",
+    "article": "Самолёт разбился в озеро Виктория, погибло не менее 19 человек."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Inclusion",
+    "city": "Дар-эс-Салам",
+    "category": "Инклюзивность",
     "date": "2023-03-28",
-    "sentiment": "negative",
-    "article": "Necessity to create a constitution where the human rights are protected and not limited"
+    "sentiment": "отрицательный",
+    "article": "Необходимо принять конституцию, гарантирующую защиту и неограниченность прав человека."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Accountability",
+    "city": "Дар-эс-Салам",
+    "category": "Подотчётность",
     "date": "2022-01-02",
-    "sentiment": "positive",
-    "article": "Open information sharing and transparent data on the city’s website"
+    "sentiment": "положительный",
+    "article": "Город открыл свободный доступ к информации и разместил прозрачные данные на своём сайте."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "City Budget",
+    "city": "Дар-эс-Салам",
+    "category": "Городской бюджет",
     "date": "2022-10-15",
-    "sentiment": "negative",
-    "article": "Complaints about weak city financial power"
+    "sentiment": "отрицательный",
+    "article": "Жители жалуются на слабую финансовую базу города."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "SME",
+    "city": "Дар-эс-Салам",
+    "category": "МСП",
     "date": "2022-11-06",
-    "sentiment": "positive",
-    "article": "Dar es Salaam had become the financial hub of Tanzania"
+    "sentiment": "положительный",
+    "article": "Дар-эс-Салам стал финансовым центром Танзании."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Public Services",
+    "city": "Дар-эс-Салам",
+    "category": "Государственные услуги",
     "date": "2022-01-02",
-    "sentiment": "positive",
-    "article": "Citizens were kept more informed thanks to new public services"
+    "sentiment": "положительный",
+    "article": "Благодаря новым общественным сервисам граждане получают гораздо больше информации."
   },
   {
-    "city": "Dar es Salaam",
-    "category": "Sustainability Commitment",
+    "city": "Дар-эс-Салам",
+    "category": "Приверженность устойчивому развитию",
     "date": "2023-07-19",
-    "sentiment": "positive",
-    "article": "Dar-es-Salaam collaboration with the African cities leading on climate about sharing best practice on the transition to renewable energy and waste treatment"
+    "sentiment": "положительный",
+    "article": "Дар-эс-Салам обменивается лучшими практиками с лидирующими африканскими городами по переходу на возобновляемую энергию и переработке отходов."
   },
   {
-    "city": "Adoni",
-    "category": "Air Pollution",
+    "city": "Адони",
+    "category": "Загрязнение воздуха",
     "date": "2022-12-26",
-    "sentiment": "negative",
-    "article": "Problems with greenhouse gas emissions in the city"
+    "sentiment": "отрицательный",
+    "article": "В городе сохраняются проблемы с выбросами парниковых газов."
   },
   {
-    "city": "Adoni",
-    "category": "Water Pollution",
+    "city": "Адони",
+    "category": "Загрязнение воды",
     "date": "2022-09-22",
-    "sentiment": "negative",
-    "article": "Infected cows because of sprayed chemicals in water"
+    "sentiment": "отрицательный",
+    "article": "Коровы пострадали от химикатов, распылённых в воду."
   },
   {
-    "city": "Adoni",
-    "category": "Water Pollution",
+    "city": "Адони",
+    "category": "Загрязнение воды",
     "date": "2023-08-01",
-    "sentiment": "negative",
-    "article": "Fewer water resources as the government delayed the drip irrigation subsidies for 2 years due to a lack of funds"
+    "sentiment": "отрицательный",
+    "article": "Из-за двухлетней задержки субсидий на капельное орошение водные ресурсы сократились."
   },
   {
-    "city": "Adoni",
-    "category": "Land Use And Waste",
+    "city": "Адони",
+    "category": "Землепользование и отходы",
     "date": "2022-10-12",
-    "sentiment": "negative",
-    "article": "Huge amount of garbage thrown daily in the city"
+    "sentiment": "отрицательный",
+    "article": "Ежедневно в городе выбрасывается огромное количество мусора."
   },
   {
-    "city": "Adoni",
-    "category": "Land Use And Waste",
+    "city": "Адони",
+    "category": "Землепользование и отходы",
     "date": "2023-05-27",
-    "sentiment": "positive",
-    "article": "Waste was collected for recycling in the city"
+    "sentiment": "положительный",
+    "article": "В городе организован сбор отходов для переработки."
   },
   {
-    "city": "Adoni",
-    "category": "Natural Disaster Hazards",
+    "city": "Адони",
+    "category": "Опасность стихийных бедствий",
     "date": "2023-04-11",
-    "sentiment": "negative",
-    "article": "Heatwaves affected citizens in Adoni"
+    "sentiment": "отрицательный",
+    "article": "Жара негативно повлияла на жителей Адони."
   },
   {
-    "city": "Adoni",
-    "category": "Water Availability",
+    "city": "Адони",
+    "category": "Доступность воды",
     "date": "2023-01-03",
-    "sentiment": "negative",
-    "article": "Water scarcity and excessive population growth influencing the migration process"
+    "sentiment": "отрицательный",
+    "article": "Дефицит воды и быстрый рост населения стимулируют миграционные процессы."
   },
   {
-    "city": "Adoni",
-    "category": "Food Availability",
+    "city": "Адони",
+    "category": "Доступность продуктов питания",
     "date": "2023-10-29",
-    "sentiment": "positive",
-    "article": "Volunteers freely distributed food in India"
+    "sentiment": "положительный",
+    "article": "Волонтёры бесплатно раздавали продукты питания в Индии."
   },
   {
-    "city": "Adoni",
+    "city": "Адони",
     "category": "2023-02-17",
-    "date": "Food Availability",
-    "sentiment": "negative",
-    "article": "People suffering from unemployment and hunger in Adoni"
+    "date": "Доступность продуктов питания",
+    "sentiment": "отрицательный",
+    "article": "Жители Адони страдают от безработицы и голода."
   },
   {
-    "city": "Adoni",
-    "category": "Energy Availability",
+    "city": "Адони",
+    "category": "Доступность энергии",
     "date": "2023-04-17",
-    "sentiment": "negative",
-    "article": "People's complaints about heating issues"
+    "sentiment": "отрицательный",
+    "article": "Жалобы населения на проблемы с отоплением."
   },
   {
-    "city": "Adoni",
-    "category": "Health",
+    "city": "Адони",
+    "category": "Здоровье",
     "date": "2023-07-06",
-    "sentiment": "positive",
-    "article": "Extension of quality healthcare in Andhra Pradesh thanks to opening a new hospital."
+    "sentiment": "положительный",
+    "article": "В Андхра-Прадеш расширено качественное здравоохранение благодаря открытию новой больницы."
   },
   {
-    "city": "Adoni",
-    "category": "Health",
+    "city": "Адони",
+    "category": "Здоровье",
     "date": "2023-08-12",
-    "sentiment": "negative",
-    "article": "A woman committed suicide in front of train due to year-long medical issues in Adoni"
+    "sentiment": "отрицательный",
+    "article": "Женщина совершила самоубийство перед поездом из-за многолетних проблем со здоровьем в Адони."
   },
   {
-    "city": "Adoni",
-    "category": "Education",
+    "city": "Адони",
+    "category": "Образование",
     "date": "2022-10-19",
-    "sentiment": "positive",
-    "article": "Media collaboration Adoni Arts and Science College with the Andhra Pradesh government."
+    "sentiment": "положительный",
+    "article": "Колледж искусств и наук Адони наладил сотрудничество со СМИ и правительством Андхра-Прадеш."
   },
   {
-    "city": "Adoni",
-    "category": "Wealth",
+    "city": "Адони",
+    "category": "Благосостояние",
     "date": "2023-07-21",
-    "sentiment": "positive",
-    "article": "Implementing the distribution of land to economically weaker sections, thereby addressing the perpetuation of poverty and disparity in Andhra Pradesh."
+    "sentiment": "положительный",
+    "article": "В Андхра-Прадеш реализуется распределение земель экономически слабым слоям для борьбы с бедностью и неравенством."
   },
   {
-    "city": "Adoni",
-    "category": "Safety",
+    "city": "Адони",
+    "category": "Безопасность",
     "date": "2023-03-18",
-    "sentiment": "negative",
-    "article": "Security problems during elections"
+    "sentiment": "отрицательный",
+    "article": "Во время выборов возникли проблемы с обеспечением безопасности."
   },
   {
-    "city": "Adoni",
-    "category": "Livability",
+    "city": "Адони",
+    "category": "Благоустройство",
     "date": "2022-12-29",
-    "sentiment": "negative",
-    "article": "Heavy traffic, large number of people in means of public transport and on the roads."
+    "sentiment": "отрицательный",
+    "article": "Интенсивное дорожное движение и переполненный общественный транспорт."
   },
   {
-    "city": "Adoni",
-    "category": "Transport",
+    "city": "Адони",
+    "category": "Транспорт",
     "date": "2023-05-02",
-    "sentiment": "positive",
-    "article": "Introduction of safer public transportation with new technology in India."
+    "sentiment": "положительный",
+    "article": "В Индии внедряется более безопасный общественный транспорт с использованием новых технологий."
   },
   {
-    "city": "Adoni",
-    "category": "Inclusion",
+    "city": "Адони",
+    "category": "Инклюзивность",
     "date": "2023-10-19",
-    "sentiment": "negative",
-    "article": "Safe and security problems for Muslims in India"
+    "sentiment": "отрицательный",
+    "article": "Мусульмане в Индии сталкиваются с проблемами безопасности."
   },
   {
-    "city": "Adoni",
-    "category": "Inclusion",
+    "city": "Адони",
+    "category": "Инклюзивность",
     "date": "2023-02-23",
-    "sentiment": "negative",
-    "article": "Safe and security problems for women at nights"
+    "sentiment": "отрицательный",
+    "article": "Женщины в Индии испытывают угрозы безопасности в ночное время."
   },
   {
-    "city": "Adoni",
-    "category": "Accountability",
+    "city": "Адони",
+    "category": "Подотчётность",
     "date": "2023-10-19",
-    "sentiment": "negative",
-    "article": "Interdependence of regional parties in Andhra Pradesh and lack of internal democracy."
+    "sentiment": "отрицательный",
+    "article": "Региональные партии в Андхра-Прадеш взаимозависимы и лишены внутренней демократии."
   },
   {
-    "city": "Adoni",
-    "category": "City Budget",
+    "city": "Адони",
+    "category": "Городской бюджет",
     "date": "2022-10-18",
-    "sentiment": "positive",
-    "article": "Clear explanation of city income source, tax details and party funds."
+    "sentiment": "положительный",
+    "article": "Чётко разъяснены источники доходов города, налоговые детали и партийные фонды."
   },
   {
-    "city": "Adoni",
-    "category": "SME",
+    "city": "Адони",
+    "category": "МСП",
     "date": "2022-08-01",
-    "sentiment": "positive",
-    "article": "Achievement of top spot in “Ease of Doing Business” by Andhra Pradesh."
+    "sentiment": "положительный",
+    "article": "Андхра-Прадеш занял первое место в рейтинге Рейтинге лёгкости ведения бизнеса (Ease of doing business index)."
   },
   {
-    "city": "Adoni",
-    "category": "Public Services",
+    "city": "Адони",
+    "category": "Государственные услуги",
     "date": "2022-08-01",
-    "sentiment": "positive",
-    "article": "Hiring new candidates for developing public services in Andhra Pradesh."
+    "sentiment": "положительный",
+    "article": "В Андхра-Прадеш нанимают новых специалистов для развития общественных услуг."
   },
   {
-    "city": "Adoni",
-    "category": "Sustainability Commitment",
+    "city": "Адони",
+    "category": "Приверженность устойчивому развитию",
     "date": "2022-07-03",
-    "sentiment": "positive",
-    "article": "Launching green hydrogen and green ammonia policy-2023 to drive sustainable energy growth in Andhra Pradesh, including Adoni"
+    "sentiment": "положительный",
+    "article": "Запущена политика зелёного водорода и зелёного аммиака-2023 для развития устойчивой энергетики в Андхра-Прадеш, включая Адони."
   },
   {
-    "city": "Natal",
-    "category": "Air Pollution",
+    "city": "Натал",
+    "category": "Загрязнение воздуха",
     "date": "2022-05-16",
-    "sentiment": "negative",
-    "article": "Volcanic ash generating respiratory diseases in Natal"
+    "sentiment": "отрицательный",
+    "article": "Вулканический пепел вызывает респираторные заболевания в Натале."
   },
   {
-    "city": "Natal",
-    "category": "Air Pollution",
+    "city": "Натал",
+    "category": "Загрязнение воздуха",
     "date": "2022-09-12",
-    "sentiment": "positive",
-    "article": "Necessity to update environmental policy to ensure high air quality in Natal"
+    "sentiment": "положительный",
+    "article": "Необходима актуализация экологической политики для обеспечения высокого качества воздуха в Натале."
   },
   {
-    "city": "Natal",
-    "category": "Water Pollution",
+    "city": "Натал",
+    "category": "Загрязнение воды",
     "date": "2023-05-15",
-    "sentiment": "positive",
-    "article": "A pulled out 984-foot net trapped in a sewage pipe threatening Natal’s marine biodiversity"
+    "sentiment": "положительный",
+    "article": "300-метровая сеть, застрявшая в канализационной трубе, угрожает морской биоразнообразности Наталя."
   },
   {
-    "city": "Natal",
-    "category": "Water Pollution",
+    "city": "Натал",
+    "category": "Загрязнение воды",
     "date": "2023-08-04",
-    "sentiment": "negative",
-    "article": "Necessity to clean rivers located near Natal"
+    "sentiment": "отрицательный",
+    "article": "Требуется очистка рек в окрестностях Наталя."
   },
   {
-    "city": "Natal",
-    "category": "Land Use And Waste",
+    "city": "Натал",
+    "category": "Землепользование и отходы",
     "date": "2023-02-13",
-    "sentiment": "negative",
-    "article": "Citizens’ complaints about prioritized waste incineration"
+    "sentiment": "отрицательный",
+    "article": "Жители жалуются на приоритет сжигания отходов."
   },
   {
-    "city": "Natal",
-    "category": "Natural Disaster Hazards",
+    "city": "Натал",
+    "category": "Опасность стихийных бедствий",
     "date": "2022-07-04",
-    "sentiment": "negative",
-    "article": "Heavy rains damaged the city’s roads"
+    "sentiment": "отрицательный",
+    "article": "Сильные дожди повредили дороги города."
   },
   {
-    "city": "Natal",
-    "category": "Water Availability",
+    "city": "Натал",
+    "category": "Доступность воды",
     "date": "2022-08-07",
-    "sentiment": "positive",
-    "article": "Launch of water desalination technology"
+    "sentiment": "положительный",
+    "article": "Запущена технология опреснения морской воды."
   },
   {
-    "city": "Natal",
-    "category": "Food Availability",
+    "city": "Натал",
+    "category": "Доступность продуктов питания",
     "date": "2023-01-10",
-    "sentiment": "negative",
-    "article": "Citizens’ complaints about short food and water supply for elderly people and children in federal police shed"
+    "sentiment": "отрицательный",
+    "article": "Жалобы граждан на недостаток еды и воды для пожилых и детей в отделении федеральной полиции."
   },
   {
-    "city": "Natal",
-    "category": "Energy Availability",
+    "city": "Натал",
+    "category": "Доступность энергии",
     "date": "2023-03-22",
-    "sentiment": "positive",
-    "article": "Launch of the renewable complex integrating wind and solar energy to generate renewable energy"
+    "sentiment": "положительный",
+    "article": "Открыт возобновляемый энергетический комплекс, объединяющий ветровую и солнечную генерацию."
   },
   {
-    "city": "Natal",
-    "category": "Health",
+    "city": "Натал",
+    "category": "Здоровье",
     "date": "2022-12-15",
-    "sentiment": "positive",
-    "article": "Health program tours with professionals to treat people in Brazilian cities, including Natal."
+    "sentiment": "положительный",
+    "article": "Мобильные бригады медиков проводят лечение в городах Бразилии, включая Натал."
   },
   {
-    "city": "Natal",
-    "category": "Education",
+    "city": "Натал",
+    "category": "Образование",
     "date": "2022-09-27",
-    "sentiment": "positive",
-    "article": "Use of international education practices to promote economic growth in the city"
+    "sentiment": "положительный",
+    "article": "Применение международных образовательных практик для стимулирования экономического роста города."
   },
   {
-    "city": "Natal",
-    "category": "Education",
+    "city": "Натал",
+    "category": "Образование",
     "date": "2022-12-14",
-    "sentiment": "negative",
-    "article": "Citizens’ complaints about universities which were still struggling with no money to pay utility bills"
+    "sentiment": "отрицательный",
+    "article": "Университеты жалуются на отсутствие средств даже на оплату коммунальных услуг."
   },
   {
-    "city": "Natal",
-    "category": "Wealth",
+    "city": "Натал",
+    "category": "Благосостояние",
     "date": "2023-05-25",
-    "sentiment": "negative",
-    "article": "80% of people living below the poverty line were in rural areas, including areas near Natal"
+    "sentiment": "отрицательный",
+    "article": "80 % населения, живущего за чертой бедности, сосредоточено в сельских районах, включая окрестности Наталя."
   },
   {
-    "city": "Natal",
-    "category": "Safety",
+    "city": "Натал",
+    "category": "Безопасность",
     "date": "2023-01-08",
-    "sentiment": "positive",
-    "article": "Expertise to identify those responsible for acts of vandalism in Natal, including with facial identification systems was completed"
+    "sentiment": "положительный",
+    "article": "В Натале внедрены системы распознавания лиц для выявления вандалов."
   },
   {
-    "city": "Natal",
-    "category": "Livability",
+    "city": "Натал",
+    "category": "Благоустройство",
     "date": "2023-03-07",
-    "sentiment": "positive",
-    "article": "Newly built bike lanes in the city"
+    "sentiment": "положительный",
+    "article": "В городе построены новые велодорожки."
   },
   {
-    "city": "Natal",
-    "category": "Transport",
+    "city": "Натал",
+    "category": "Транспорт",
     "date": "2023-03-07",
-    "sentiment": "positive",
-    "article": "Application of the social fare in the public transport system."
+    "sentiment": "положительный",
+    "article": "Введён социальный тариф на общественный транспорт."
   },
   {
-    "city": "Natal",
-    "category": "Inclusion",
+    "city": "Натал",
+    "category": "Инклюзивность",
     "date": "2022-12-07",
-    "sentiment": "positive",
-    "article": "Successful work of the center for people with disabilities"
+    "sentiment": "положительный",
+    "article": "Успешно работает центр поддержки людей с ограниченными возможностями."
   },
   {
-    "city": "Natal",
-    "category": "Accountability",
+    "city": "Натал",
+    "category": "Подотчётность",
     "date": "2023-03-23",
-    "sentiment": "positive",
-    "article": "Consistent access to organized city data in a robust, secure and decentralized way"
+    "sentiment": "положительный",
+    "article": "Обеспечен постоянный, безопасный и децентрализованный доступ к городским данным."
   },
   {
-    "city": "Natal",
-    "category": "City Budget",
+    "city": "Натал",
+    "category": "Городской бюджет",
     "date": "2022-10-14",
-    "sentiment": "negative",
-    "article": "Budget corruption and disrespect for the laws"
+    "sentiment": "отрицательный",
+    "article": "Коррупция в бюджете и неуважение к законам."
   },
   {
-    "city": "Natal",
-    "category": "SME",
+    "city": "Натал",
+    "category": "МСП",
     "date": "2023-07-17",
-    "sentiment": "positive",
-    "article": "The highest employment in small and medium companies in Natal."
+    "sentiment": "положительный",
+    "article": "Наибольшая занятость в Натале приходится на малый и средний бизнес."
   },
   {
-    "city": "Natal",
-    "category": "Public Services",
+    "city": "Натал",
+    "category": "Государственные услуги",
     "date": "2022-03-20",
-    "sentiment": "negative",
-    "article": "Paralyzed public services due to criminal attacks"
+    "sentiment": "отрицательный",
+    "article": "Общественные услуги парализованы из-за криминальных атак."
   },
   {
-    "city": "Natal",
-    "category": "Sustainability Commitment",
+    "city": "Натал",
+    "category": "Приверженность устойчивому развитию",
     "date": "2022-10-14",
-    "sentiment": "positive",
-    "article": "Organized events about entrepreneurship and sustainability in Natal."
+    "sentiment": "положительный",
+    "article": "В Натале проводятся мероприятия по предпринимательству и устойчивому развитию."
   },
   {
-    "city": "Brazzaville",
-    "category": "Air Pollution",
+    "city": "Браззавиль",
+    "category": "Загрязнение воздуха",
     "date": "2022-11-06",
-    "sentiment": "positive",
-    "article": "Very little contribution to global greenhouse gas emissions from African cities"
+    "sentiment": "положительный",
+    "article": "Африканские города вносят минимальный вклад в глобальные выбросы парниковых газов."
   },
   {
-    "city": "Brazzaville",
-    "category": "Water Pollution",
+    "city": "Браззавиль",
+    "category": "Загрязнение воды",
     "date": "2023-03-11",
-    "sentiment": "negative",
-    "article": "Damaged tanker on the Congo River and consequent water pollution"
+    "sentiment": "отрицательный",
+    "article": "Повреждённый танкер на реке Конго привёл к загрязнению воды."
   },
   {
-    "city": "Brazzaville",
-    "category": "Land Use And Waste",
+    "city": "Браззавиль",
+    "category": "Землепользование и отходы",
     "date": "2023-06-10",
-    "sentiment": "positive",
-    "article": "Organized march to fight plastic pollution in Brazzaville"
+    "sentiment": "положительный",
+    "article": "В Браззавиле организован марш против пластикового загрязнения."
   },
   {
-    "city": "Brazzaville",
-    "category": "Natural Disaster Hazards",
+    "city": "Браззавиль",
+    "category": "Опасность стихийных бедствий",
     "date": "2023-01-04",
-    "sentiment": "negative",
-    "article": "Overflowing of the Congo River and other rivers near Brazzaville."
+    "sentiment": "отрицательный",
+    "article": "Разлив реки Конго и других рек в окрестностях Браззавиля."
   },
   {
-    "city": "Brazzaville",
-    "category": "Water Availability",
+    "city": "Браззавиль",
+    "category": "Доступность воды",
     "date": "2022-12-01",
-    "sentiment": "negative",
-    "article": "Lack of clean drinking water in Brazzaville"
+    "sentiment": "отрицательный",
+    "article": "В Браззавиле отсутствует доступ к чистой питьевой воде."
   },
   {
-    "city": "Brazzaville",
-    "category": "Food Availability",
+    "city": "Браззавиль",
+    "category": "Доступность продуктов питания",
     "date": "2023-01-31",
-    "sentiment": "negative",
-    "article": "Inflated prices for “intrenational” cuisine in Brazzaville for tourists."
+    "sentiment": "отрицательный",
+    "article": "Завышенные цены на «международную» кухню для туристов в Браззавиле."
   },
   {
-    "city": "Brazzaville",
-    "category": "Energy Availability",
+    "city": "Браззавиль",
+    "category": "Доступность энергии",
     "date": "2023-01-05",
-    "sentiment": "negative",
-    "article": "Power cut and air conditioning problems at the airport"
+    "sentiment": "отрицательный",
+    "article": "Перебои с электричеством и проблемы с кондиционированием в аэропорту."
   },
   {
-    "city": "Brazzaville",
-    "category": "Energy Availability",
+    "city": "Браззавиль",
+    "category": "Доступность энергии",
     "date": "2023-02-19",
-    "sentiment": "negative",
-    "article": "Lack of public lighting in the city leading to multiple negative accidents"
+    "sentiment": "отрицательный",
+    "article": "Отсутствие уличного освещения приводит к многочисленным происшествиям."
   },
   {
-    "city": "Brazzaville",
-    "category": "Health",
+    "city": "Браззавиль",
+    "category": "Здоровье",
     "date": "2023-12-05",
-    "sentiment": "positive",
-    "article": "Organized event about the contribution of women to the promotion of public health in Africa"
+    "sentiment": "положительный",
+    "article": "Проведено мероприятие о вкладе женщин в продвижение общественного здоровья в Африке."
   },
   {
-    "city": "Brazzaville",
-    "category": "Health",
+    "city": "Браззавиль",
+    "category": "Здоровье",
     "date": "2023-01-29",
-    "sentiment": "positive",
-    "article": "Expert meeting in Brazzaville related to discuss training of primary health care providers for hearing care"
+    "sentiment": "положительный",
+    "article": "В Браззавиле состоялась экспертная встреча по подготовке специалистов первичной медико-санитарной помощи в области слуха."
   },
   {
-    "city": "Brazzaville",
-    "category": "Education",
+    "city": "Браззавиль",
+    "category": "Образование",
     "date": "2022-10-22",
-    "sentiment": "positive",
-    "article": "Vulnerable refugee students were supported in order to improve their schooling conditions in Brazzaville"
+    "sentiment": "положительный",
+    "article": "Поддержка уязвимых студентов-беженцев для улучшения условий обучения в Браззавиле."
   },
   {
-    "city": "Brazzaville",
-    "category": "Education",
+    "city": "Браззавиль",
+    "category": "Образование",
     "date": "2022-04-06",
-    "sentiment": "positive",
-    "article": "Proposed measures to fight against harmful practices at schools in Brazzaville"
+    "sentiment": "положительный",
+    "article": "Предложены меры по борьбе с вредными практиками в школах Браззавиля."
   },
   {
-    "city": "Brazzaville",
-    "category": "Wealth",
+    "city": "Браззавиль",
+    "category": "Благосостояние",
     "date": "2023-06-16",
-    "sentiment": "positive",
-    "article": "Official launch of the quality of basic social services for vulnerable citizens organized in Brazzaville"
+    "sentiment": "положительный",
+    "article": "Официально запущена программа повышения качества базовых социальных услуг для уязвимых граждан в Браззавиле."
   },
   {
-    "city": "Brazzaville",
-    "category": "Safety",
+    "city": "Браззавиль",
+    "category": "Безопасность",
     "date": "2023-04-01",
-    "sentiment": "negative",
-    "article": "Kidnapping happened in Brazzaville"
+    "sentiment": "отрицательный",
+    "article": "В Браззавиле произошло похищение человека."
   },
   {
-    "city": "Brazzaville",
-    "category": "Livability",
+    "city": "Браззавиль",
+    "category": "Благоустройство",
     "date": "2023-07-29",
-    "sentiment": "negative",
-    "article": "Lack of infrastructure for tourists in Brazzaville"
+    "sentiment": "отрицательный",
+    "article": "В Браззавиле недостаточно инфраструктуры для туристов."
   },
   {
-    "city": "Brazzaville",
-    "category": "Transport",
+    "city": "Браззавиль",
+    "category": "Транспорт",
     "date": "2023-07-30",
-    "sentiment": "negative",
-    "article": "Public buses were in a state of decomposition in Brazzaville."
+    "sentiment": "отрицательный",
+    "article": "Общественные автобусы в Браззавиле находятся в состоянии разрушения."
   },
   {
-    "city": "Brazzaville",
-    "category": "Inclusion",
+    "city": "Браззавиль",
+    "category": "Инклюзивность",
     "date": "2023-03-08",
-    "sentiment": "positive",
-    "article": "Official launch of the Women's rights day in Congo-Brazzaville."
+    "sentiment": "положительный",
+    "article": "Официально открыт День прав женщин в Конго-Браззавиле."
   },
   {
-    "city": "Brazzaville",
-    "category": "Accountability",
+    "city": "Браззавиль",
+    "category": "Подотчётность",
     "date": "2023-03-30",
-    "sentiment": "positive",
-    "article": "Development of the national financial social and inclusion strategy in the Republic of Congo"
+    "sentiment": "положительный",
+    "article": "Разработана национальная стратегия финансовой и социальной инклюзии в Республике Конго."
   },
   {
-    "city": "Brazzaville",
-    "category": "City Budget",
+    "city": "Браззавиль",
+    "category": "Городской бюджет",
     "date": "2023-09-01",
-    "sentiment": "negative",
-    "article": "Reduced expenditures on sportsmen travelled to the African Games"
+    "sentiment": "отрицательный",
+    "article": "Сокращены расходы на поездки спортсменов на Африканские игры."
   },
   {
-    "city": "Brazzaville",
-    "category": "SME",
+    "city": "Браззавиль",
+    "category": "МСП",
     "date": "2023-03-08",
-    "sentiment": "positive",
-    "article": "Coming back of Turkish small and medium enterprises to Brazzaville"
+    "sentiment": "положительный",
+    "article": "Турецкие малые и средние предприятия возвращаются в Браззавиль."
   },
   {
-    "city": "Brazzaville",
-    "category": "Public Services",
+    "city": "Браззавиль",
+    "category": "Государственные услуги",
     "date": "2023-01-27",
-    "sentiment": "positive",
-    "article": "The Congo and World Bank launch of the digital acceleration project related to improving of universal public services"
+    "sentiment": "положительный",
+    "article": "Конго и Всемирный банк запустили проект цифрового ускорения для улучшения универсальных государственных услуг."
   },
   {
-    "city": "Brazzaville",
-    "category": "Sustainability Commitment",
+    "city": "Браззавиль",
+    "category": "Приверженность устойчивому развитию",
     "date": "2023-03-10",
-    "sentiment": "positive",
-    "article": "Discussion of sustainable forest management in Brazzaville."
+    "sentiment": "положительный",
+    "article": "В Браззавиле обсудили устойчивое управление лесами."
   }
 ]

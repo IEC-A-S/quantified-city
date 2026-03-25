@@ -1,12 +1,17 @@
 import { Typography } from "@mui/material";
 import { IndicatorChart } from "../../../../../pages/GraphAndGlobe/components/IndicatorChart";
-import indicatorDataByCitiesArr from "../../../../../data/indicatorsData.json";
-import newValuesForIndicators from "../../../../../data/indeicatorsData_newValues.json";
-import newIndicatorsDescription from "../../../../../data/indicatorDescriptionData.json";
 import { usePopupStyles } from "../index";
 import { type FC, useState } from "react";
+import { getCategoryLabel } from "../../../../../utils/categories";
+import { getCompatibleIndicatorDataset } from "../../../../../v2/data/compat";
 
-const yLabels = ["Very low", "Low", "Average", "Strong", "Very strong"];
+const yLabels = [
+  "Очень низкий",
+  "Низкий",
+  "Средний",
+  "Высокий",
+  "Очень высокий",
+];
 const yColors = ["#FF3B29", "#FF632F", "#FF9B3F", "#A0DA8B", "#35CB00"];
 
 interface ThirdSectionProps {
@@ -16,46 +21,16 @@ interface ThirdSectionProps {
 
 export const ThirdSection: FC<ThirdSectionProps> = ({ city, category }) => {
   const { classes } = usePopupStyles();
-
-  const indicatorsDataNewValues = indicatorDataByCitiesArr.map((cityData) => {
-    const indicatorsData = cityData.data.map((indicator) => {
-      const newValues = newValuesForIndicators.find(
-        (newValues) =>
-          newValues.City === cityData.city &&
-          newValues.Indicator === indicator.indicator
-      );
-      const newDescription = newIndicatorsDescription.find(
-        (newDescription) =>
-          newDescription.City === cityData.city &&
-          newDescription.Indicator === indicator.indicator
-      );
-      if (newValues?.Value === 0) {
-        return {
-          ...indicator,
-          value: newValues?.Assessment ? newValues.Assessment : indicator.value,
-          natural_value: 0,
-          unit: newDescription?.Unit ? newDescription.Unit : indicator.unit,
-        };
-      } else {
-        return {
-          ...indicator,
-          value: newValues?.Assessment ? newValues.Assessment : indicator.value,
-          natural_value: newValues?.Value ? newValues.Value : indicator.natural_value,
-          unit: newDescription?.Unit ? newDescription.Unit : indicator.unit,
-        };
-      }
-    });
-    return {
-      ...cityData,
-      data: indicatorsData,
-    };
-  });
+  const categoryLabel = getCategoryLabel(category);
+  const indicatorsDataNewValues = getCompatibleIndicatorDataset();
 
   const indicatorsDataByCurrentCityAndCategory = indicatorsDataNewValues
     .find((cityData) => cityData.city === city)!
-    .data.filter((indicator) => indicator.category === category);
+    .data.filter((indicator) => indicator.category === categoryLabel);
 
   const [currentIndicator, setCurrentIndicator] = useState(0);
+  const activeIndicator =
+    indicatorsDataByCurrentCityAndCategory[currentIndicator] ?? null;
 
   const handleClickOnToggler = (direction: boolean) => {
     if (
@@ -121,7 +96,7 @@ export const ThirdSection: FC<ThirdSectionProps> = ({ city, category }) => {
             onClick={() => handleClickOnToggler(true)}
           />
           <Typography variant={"h6"}>
-            Browse indicators for the {category} category
+            Просмотр индикаторов категории {categoryLabel}
           </Typography>
         </div>
         <div
@@ -138,28 +113,25 @@ export const ThirdSection: FC<ThirdSectionProps> = ({ city, category }) => {
               maxWidth: "320px",
             }}
           >
-            {indicatorsDataByCurrentCityAndCategory[currentIndicator].indicator}
+            {activeIndicator?.indicator ?? categoryLabel}
           </Typography>
-          <Typography variant={"h6"}>
-            {indicatorsDataByCurrentCityAndCategory[currentIndicator].unit}
-          </Typography>
+          <Typography variant={"h6"}>{activeIndicator?.unit ?? ""}</Typography>
           <div
             style={{
               marginTop: "32px",
             }}
           >
-            <IndicatorChart
-              isMobile={true}
-              indicatorDataByCitiesArr={indicatorsDataNewValues}
-              currentCity={city}
-              category={category}
-              indicator={
-                indicatorsDataByCurrentCityAndCategory[currentIndicator]
-                  .indicator
-              }
-              yLabels={yLabels}
-              yColors={yColors}
-            />
+            {activeIndicator && (
+              <IndicatorChart
+                isMobile={true}
+                indicatorDataByCitiesArr={indicatorsDataNewValues}
+                currentCity={city}
+                category={categoryLabel}
+                indicator={activeIndicator.indicator}
+                yLabels={yLabels}
+                yColors={yColors}
+              />
+            )}
           </div>
         </div>
       </div>

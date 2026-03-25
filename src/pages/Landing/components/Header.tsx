@@ -4,22 +4,19 @@ import type { FC } from "react";
 import { useNavigate } from "react-router-dom";
 
 const i18nObject = {
-  menu: "Menu",
   login: "Log in",
   signup: "Sign up",
-  back: "Back to globe",
+  back: "Назад к глобусу",
 };
 
 interface HeaderProps {
   invertColors?: boolean;
   displayBackButton?: boolean;
   marginLogo?: string;
-  setMenuVisible(visible: boolean): void;
 }
 
 export const Header: FC<HeaderProps> = ({
   invertColors,
-  setMenuVisible,
   displayBackButton,
   marginLogo,
 }) => {
@@ -77,40 +74,14 @@ export const Header: FC<HeaderProps> = ({
               </Typography>
             </div>
           )}
-
-          <div
-            onClick={() => setMenuVisible(true)}
-            style={{
-              display: "flex",
-              gap: "1vh",
-              flexDirection: "row",
-              alignItems: "center",
-            }}
-          >
-              <img
-                style={{ width: "4.7vh" }}
-                src="/assets/blackMenuIcon.svg"
-                width={45}
-                alt="logo"
-              />
-            <Typography
-              className={classes.whiteText}
-              style={{
-                color: "#121212",
-              }}
-            >
-              {t("menu")}
-            </Typography>
-          </div>
         </div>
       </div>
       <img
         style={{
-          // width: "7.8vh",
           position: "absolute",
           left: "50%",
           transform: "translateX(-50%)",
-      }}
+        }}
         src="/assets/logo.svg"
         alt="logo"
       />
@@ -120,46 +91,6 @@ export const Header: FC<HeaderProps> = ({
             width: "19vh",
           }}
         ></div>
-        {/*<Button*/}
-        {/*  style={{*/}
-        {/*    color: "#000",*/}
-        {/*    background: "#fff",*/}
-        {/*    borderRadius: 50,*/}
-        {/*    padding: ".8vh 2vh",*/}
-        {/*    textTransform: "none",*/}
-        {/*    */}
-        {/*    fontSize: "1.7vh",*/}
-        {/*  }}*/}
-        {/*>*/}
-        {/*  Dashboard*/}
-        {/*</Button>*/}
-        {/*{!invertColors ? (*/}
-        {/*  <div*/}
-        {/*    style={{*/}
-        {/*      fontWeight: 600,*/}
-        {/*      color: "#fff",*/}
-        {/*      textTransform: "none",*/}
-        {/*      fontSize: "1.8vh",*/}
-        {/*      height: "4.6vh",*/}
-        {/*      width: "fit-content",*/}
-        {/*      padding: "0 1.5vh",*/}
-        {/*      backgroundColor: "#fff",*/}
-        {/*      borderRadius: "50px",*/}
-        {/*      display: "flex",*/}
-        {/*      alignItems: "center",*/}
-        {/*    }}*/}
-        {/*  >*/}
-        {/*    <img*/}
-        {/*      src="/assets/avatarIcon.svg"*/}
-        {/*      alt="user icon"*/}
-        {/*      style={{*/}
-        {/*        width: "2.5vh",*/}
-        {/*      }}*/}
-        {/*    />*/}
-        {/*  </div>*/}
-        {/*) : (*/}
-        {/*  <img src="/assets/blackAvatarIcon.svg" alt="user icon" />*/}
-        {/*)}*/}
       </div>
     </div>
   );

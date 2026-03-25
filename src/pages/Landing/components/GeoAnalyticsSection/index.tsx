@@ -13,6 +13,7 @@ import { GeoMapLahore } from "./components/GeoMap/GeoMapLahore";
 import { GeoMapNairobi } from "./components/GeoMap/GeoMapNairobi";
 import { useParams } from "react-router-dom";
 import { CITY_DATA } from "../../../../data";
+import { getCityId } from "../../../../constants";
 
 export const GeoAnalyticsSection = () => {
   const { classes } = useGeoPageStyles();
@@ -22,6 +23,7 @@ export const GeoAnalyticsSection = () => {
 
   const cityData = useSelectedCityData();
   const cityName = cityData.City;
+  const cityId = getCityId(cityName);
   //const { cityName } = useParams();
   //const cityData = CITY_DATA.find((city) => city.City === cityName)!;
 
@@ -43,7 +45,7 @@ export const GeoAnalyticsSection = () => {
   return (
     <PageWrapper>
       <ContentWrapper>
-        <div className={classes.title}>{selectedCity?.City}: Geoanalytics</div>
+        <div className={classes.title}>{selectedCity?.City}: Геоаналитика</div>
         {/*<div className={classes.subTitle}>*/}
         {/*  Some short text about borders that we show on the map*/}
         {/*</div>*/}
@@ -56,11 +58,11 @@ export const GeoAnalyticsSection = () => {
         />
         <LayersToggleList map={map} setLegend={setLegend} />
       </ContentWrapper>
-      {cityName === "Dubai" && <GeoMapDubai setMap={setMap} />}
-      {cityName === "Dar es Salaam" && <GeoMapDeSalam setMap={setMap} />}
-      {cityName === "Astana" && <GeoMapAstana setMap={setMap} />}
-      {cityName === "Lahore" && <GeoMapLahore setMap={setMap} />}
-      {cityName === "Nairobi" && <GeoMapNairobi setMap={setMap} />}
+      {cityId === "Dubai" && <GeoMapDubai setMap={setMap} />}
+      {cityId === "Dar es Salaam" && <GeoMapDeSalam setMap={setMap} />}
+      {cityId === "Astana" && <GeoMapAstana setMap={setMap} />}
+      {cityId === "Lahore" && <GeoMapLahore setMap={setMap} />}
+      {cityId === "Nairobi" && <GeoMapNairobi setMap={setMap} />}
       <div
         style={{
           position: "absolute",

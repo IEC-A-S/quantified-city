@@ -1,1066 +1,1066 @@
 [
   {
     "ID": 1,
-    "Indicator": "CO2 emissions",
-    "City": "Brazzaville",
+    "Indicator": "Выбросы CO2",
+    "City": "Браззавиль",
     "Value": "1.3",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 2,
-    "Indicator": "CO2 emissions (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Выбросы CO2 (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "1.2",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 3,
-    "Indicator": "CO2 concentration",
-    "City": "Brazzaville",
+    "Indicator": "Концентрация CO2",
+    "City": "Браззавиль",
     "Value": "453.6",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 4,
-    "Indicator": "CO2 concentration (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Концентрация CO2 (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "0.2",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 5,
-    "Indicator": "Annual average of SO2 concentration in ambient air",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация SO2 в атмосферном воздухе",
+    "City": "Браззавиль",
     "Value": "3.3",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 6,
-    "Indicator": "Annual Average of SO2 Concentration in Ambient Air (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация SO2 в атмосферном воздухе (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "23.5",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 7,
-    "Indicator": "Annual Average of NO2 Concentration in Ambient Air",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация NO2 в атмосферном воздухе",
+    "City": "Браззавиль",
     "Value": "7.5",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 8,
-    "Indicator": "Annual Average of NO2 Concentration in Ambient Air (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация NO2 в атмосферном воздухе (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "-1.9",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 9,
-    "Indicator": "Annual Average of O3 Concentration in Ambient Air",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация O3 в атмосферном воздухе",
+    "City": "Браззавиль",
     "Value": "42.7",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 10,
-    "Indicator": "Annual Average of O3 Concentration in Ambient Air (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация O3 в атмосферном воздухе (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "-4.3",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 11,
-    "Indicator": "Annual Average of CO Concentration in Ambient Air",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация CO в атмосферном воздухе",
+    "City": "Браззавиль",
     "Value": "0.7",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 12,
-    "Indicator": "Annual Average of CO Concentration in Ambient Air (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация CO в атмосферном воздухе (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "-1.8",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 13,
-    "Indicator": "Annual Average of Particulate Matter (PM10) Concentration in Ambient Air",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация твердых частиц (PM10) в атмосферном воздухе",
+    "City": "Браззавиль",
     "Value": "85.2",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 14,
-    "Indicator": "Annual Average of Particulate Matter (PM10) Concentration in Ambient Air (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация твердых частиц (PM10) в атмосферном воздухе (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": 5,
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 15,
-    "Indicator": "Volatile organic compounds/reactive organic gases emissions",
-    "City": "Brazzaville",
+    "Indicator": "Выбросы летучих органических соединений/химически активных органических газов",
+    "City": "Браззавиль",
     "Value": "1.7",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 16,
-    "Indicator": "Perception of air pollution index",
-    "City": "Brazzaville",
+    "Indicator": "Восприятие индекса загрязнения воздуха",
+    "City": "Браззавиль",
     "Value": "0.73",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 17,
-    "Indicator": "Paris Agreement (international agreement on climate change mitigation)",
-    "City": "Brazzaville",
+    "Indicator": "Парижское соглашение (международное соглашение о смягчении последствий изменения климата)",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 18,
-    "Indicator": "Annual average of dissolved oxygen (DO) concentration in water",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовая концентрация растворенного кислорода (DO) в воде",
+    "City": "Браззавиль",
     "Value": "4.5",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 19,
-    "Indicator": "Annual average of pH concentration in water",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовое значение концентрации pH в воде",
+    "City": "Браззавиль",
     "Value": "6.95",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 20,
-    "Indicator": "Annual average dissolved solids in drinking water",
-    "City": "Brazzaville",
+    "Indicator": "Среднегодовое содержание растворенных твердых веществ в питьевой воде",
+    "City": "Браззавиль",
     "Value": "139",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 21,
-    "Indicator": "Water management strategy in a city",
-    "City": "Brazzaville",
+    "Indicator": "Стратегия управления водными ресурсами в городе",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 22,
-    "Indicator": "Perception of water pollution index",
-    "City": "Brazzaville",
+    "Indicator": "Восприятие индекса загрязнения воды",
+    "City": "Браззавиль",
     "Value": "0.46",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 23,
-    "Indicator": "Share of devastated and degraded land area requiring reclamation",
-    "City": "Brazzaville",
+    "Indicator": "Доля опустошенных и деградированных земель, требующих рекультивации",
+    "City": "Браззавиль",
     "Value": "1.8",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 24,
-    "Indicator": "3-year average growth rate of devastated and degraded land area requiring reclamation",
-    "City": "Brazzaville",
+    "Indicator": "Средние темпы роста площади опустошенных и деградированных земель, требующих рекультивации, за 3 последние года",
+    "City": "Браззавиль",
     "Value": "0.09",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 25,
-    "Indicator": "Waste deposits, % of total area",
-    "City": "Brazzaville",
+    "Indicator": "Площадь, занятая отходами, % от общей площади",
+    "City": "Браззавиль",
     "Value": "0.02",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 26,
-    "Indicator": "Collected and managed in dumps wastes (hazardous and non-hazardous) (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Объем отходов (опасных и неопасных), собранных и размещенных на свалках (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "1.090",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 27,
-    "Indicator": "Total recycled construction waste",
-    "City": "Brazzaville",
+    "Indicator": "Общий объем переработанных строительных отходов",
+    "City": "Браззавиль",
     "Value": "0.02",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 28,
-    "Indicator": "Share of recycled construction and demolish waste in total generated construction and demolish waste",
-    "City": "Brazzaville",
+    "Indicator": "Доля переработанных строительных отходов и материалов для сноса зданий в общем объеме произведенных строительных отходов и материалов для сноса зданий",
+    "City": "Браззавиль",
     "Value": "29.3",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 29,
-    "Indicator": "Total area of impervious surfaces and percentage to total city area",
-    "City": "Brazzaville",
+    "Indicator": "Общая площадь водонепроницаемых поверхностей и процентное соотношение к общей площади города",
+    "City": "Браззавиль",
     "Value": "2",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 30,
-    "Indicator": "Waste management strategy",
-    "City": "Brazzaville",
+    "Indicator": "Стратегия управления отходами",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 31,
-    "Indicator": "Perception of waste index",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия обращения с отходами",
+    "City": "Браззавиль",
     "Value": "1.81",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 32,
-    "Indicator": "Green spaces, % city area",
-    "City": "Brazzaville",
+    "Indicator": "Площадь зеленых насаждений, % от площади города",
+    "City": "Браззавиль",
     "Value": "8.1",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 33,
-    "Indicator": "Green spaces, change in last 3 years",
-    "City": "Brazzaville",
+    "Indicator": "Площадь зеленых насаждений, изменение за последние 3 года",
+    "City": "Браззавиль",
     "Value": "-5.5",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 34,
-    "Indicator": "NDVI (Normalized Difference Vegetation Index)",
-    "City": "Brazzaville",
+    "Indicator": "NDVI (нормализованный вегетационный индекс)",
+    "City": "Браззавиль",
     "Value": "0.15",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 35,
-    "Indicator": "Share of total area with altitude above sea level less than 0,5 meters",
-    "City": "Brazzaville",
+    "Indicator": "Доля общей площади с высотой над уровнем моря менее 0,5 метров",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 36,
-    "Indicator": "Growth rate of freshwater mirror area",
-    "City": "Brazzaville",
+    "Indicator": "Темп роста площади водной поверхности пресноводных водоемов",
+    "City": "Браззавиль",
     "Value": "-0.3",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 37,
-    "Indicator": "Number of registered heavy rain, flood and thunderbolt (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Количество зарегистрированных ливней, наводнений и ударов молний (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "-3.19",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 38,
-    "Indicator": "Environmental/natural disasters’ risk mitigation",
-    "City": "Brazzaville",
+    "Indicator": "Меры по снижению риска экологических и природных катастроф",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 39,
-    "Indicator": "Strategy/policy/government officials’ statement on environmental issues",
-    "City": "Brazzaville",
+    "Indicator": "Стратегия / политика / заявления государственных должностных лиц по экологическим вопросам",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 40,
-    "Indicator": "Total overall losses from natural disaster hazards",
-    "City": "Brazzaville",
+    "Indicator": "Общий объем потерь от стихийных бедствий",
+    "City": "Браззавиль",
     "Value": "0.2",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 41,
-    "Indicator": "Number of days with average daily temperature above the threshold for 1990-2010",
-    "City": "Brazzaville",
+    "Indicator": "Количество дней со среднесуточной температурой выше порогового значения за период 1990-2010 гг.",
+    "City": "Браззавиль",
     "Value": "15",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 42,
-    "Indicator": "Water consumption per capita",
-    "City": "Brazzaville",
+    "Indicator": "Потребление воды на душу населения",
+    "City": "Браззавиль",
     "Value": "0.2",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 43,
-    "Indicator": "Water tariff to disposable income ratio",
-    "City": "Brazzaville",
+    "Indicator": "Соотношение тарифа на водоснабжение и располагаемого дохода",
+    "City": "Браззавиль",
     "Value": "0.006",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 44,
-    "Indicator": "Sanitary facilities tariff to disposable income ratio",
-    "City": "Brazzaville",
+    "Indicator": "Соотношение тарифов на санитарные услуги к располагаемому доходу",
+    "City": "Браззавиль",
     "Value": "0.004",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 45,
-    "Indicator": "Water consumption per capita (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Потребление воды на душу населения (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "-0.02",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 46,
-    "Indicator": "Percentage of population with access to drinking water",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, имеющего доступ к питьевой воде",
+    "City": "Браззавиль",
     "Value": "73.59",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 47,
-    "Indicator": "Percentage of population with access to drinking water (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, имеющего доступ к питьевой воде (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "0.2",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 48,
-    "Indicator": "Percentage of population with access to sanitary facilities",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, имеющего доступ к санитарно-техническим удобствам",
+    "City": "Браззавиль",
     "Value": "20.39",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 49,
-    "Indicator": "Percentage of population with access to sanitary facilities (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, имеющего доступ к санитарно-техническим удобствам (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "0.3",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 50,
-    "Indicator": "Cereal import dependency ratio (5-years average)",
-    "City": "Brazzaville",
+    "Indicator": "Коэффициент зависимости от импорта зерновых (средний за 5 лет)",
+    "City": "Браззавиль",
     "Value": "93.9",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 51,
-    "Indicator": "Cereal import dependency ratio (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "коэффициент зависимости от импорта зерновых (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "1.43",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 52,
-    "Indicator": "Prevalence of undernourishment",
-    "City": "Brazzaville",
+    "Indicator": "Распространенность недоедания",
+    "City": "Браззавиль",
     "Value": "5.6",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 53,
-    "Indicator": "Prevalence of undernourishment (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Распространенность недоедания (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "2.299",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 54,
-    "Indicator": "Prevalence of undernourishment children",
-    "City": "Brazzaville",
+    "Indicator": "Распространенность недоедания среди детей",
+    "City": "Браззавиль",
     "Value": "35.70",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 55,
-    "Indicator": "Prevalence of undernourishment children (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Распространенность недоедания среди детей (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "-2.5",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 56,
-    "Indicator": "Prevalence of moderate or severe food insecurity in the population",
-    "City": "Brazzaville",
+    "Indicator": "Распространенность умеренной или острой нехватки продовольствия среди населения",
+    "City": "Браззавиль",
     "Value": "88.4",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 57,
-    "Indicator": "Share of imports in food resources",
-    "City": "Brazzaville",
+    "Indicator": "Доля импорта в продовольственных ресурсах",
+    "City": "Браззавиль",
     "Value": "36",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 58,
-    "Indicator": "Perception of food availability index",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия доступности продовольствия",
+    "City": "Браззавиль",
     "Value": "1.77",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 59,
-    "Indicator": "Percentage of urban population with access to electricity",
-    "City": "Brazzaville",
+    "Indicator": "Процент городского населения, имеющего доступ к электроэнергии",
+    "City": "Браззавиль",
     "Value": "48.7",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 60,
-    "Indicator": "Percentage of urban population with access to electricity (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Доля городского населения, имеющего доступ к электроэнергии (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "1.3",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 61,
-    "Indicator": "Consumption of electricity per capita",
-    "City": "Brazzaville",
+    "Indicator": "Потребление электроэнергии на душу населения",
+    "City": "Браззавиль",
     "Value": "233.9",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 62,
-    "Indicator": "Consumption of electricity per capita (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Потребление электроэнергии на душу населения (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "21.2",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 63,
-    "Indicator": "Electricity tariff to disposable income ratio",
-    "City": "Brazzaville",
+    "Indicator": "Соотношение тарифа на электроэнергию к располагаемому доходу",
+    "City": "Браззавиль",
     "Value": "0.16",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 64,
-    "Indicator": "Share of renewable sources in electricity consumption",
-    "City": "Brazzaville",
+    "Indicator": "Доля возобновляемых источников энергии в потреблении электроэнергии",
+    "City": "Браззавиль",
     "Value": "21",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 65,
-    "Indicator": "Perception of energy availability index",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия доступности энергии",
+    "City": "Браззавиль",
     "Value": "1.46",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 66,
-    "Indicator": "Child mortality rate (under 5 years-old)",
-    "City": "Brazzaville",
+    "Indicator": "Уровень детской смертности (в возрасте до 5 лет)",
+    "City": "Браззавиль",
     "Value": "3.131",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 67,
-    "Indicator": "City ambulance",
-    "City": "Brazzaville",
+    "Indicator": "Городская скорая помощь",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 68,
-    "Indicator": "Life expectancy at birth, years",
-    "City": "Brazzaville",
+    "Indicator": "Средняя ожидаемая продолжительность жизни при рождении, лет",
+    "City": "Браззавиль",
     "Value": "63.4",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 69,
-    "Indicator": "Life expectancy at birth goals",
-    "City": "Brazzaville",
+    "Indicator": "Наличие плановых значений по продолжительности жизни",
+    "City": "Браззавиль",
     "Value": "1. No plans aimed at achieving any of components of Goal 3 or increasing LEaB",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 70,
-    "Indicator": "Number of hospital beds per 1,000 population",
-    "City": "Brazzaville",
+    "Indicator": "Количество больничных коек на 1000 жителей",
+    "City": "Браззавиль",
     "Value": "0.8",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 71,
-    "Indicator": "Number of doctors per 1,000 population",
-    "City": "Brazzaville",
+    "Indicator": "Количество врачей на 1000 жителей",
+    "City": "Браззавиль",
     "Value": "0.2",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 72,
-    "Indicator": "Maternal mortality ratio",
-    "City": "Brazzaville",
+    "Indicator": "коэффициент материнской смертности",
+    "City": "Браззавиль",
     "Value": 490,
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 73,
-    "Indicator": "Ambulance arrival speed",
-    "City": "Brazzaville",
+    "Indicator": "Скорость прибытия скорой помощи",
+    "City": "Браззавиль",
     "Value": "70",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 74,
-    "Indicator": "Literacy rate among population (15-24 Years)",
-    "City": "Brazzaville",
+    "Indicator": "Уровень грамотности среди населения (15-24 лет)",
+    "City": "Браззавиль",
     "Value": "81.8",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 75,
-    "Indicator": "Literacy rate among population (15-24 Years) (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Уровень грамотности среди населения (15-24 лет) (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "0.6",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 76,
-    "Indicator": "Primary education engagement",
-    "City": "Brazzaville",
+    "Indicator": "Охват начальным образованием",
+    "City": "Браззавиль",
     "Value": "84.4",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 77,
-    "Indicator": "Pupils per teacher rate",
-    "City": "Brazzaville",
+    "Indicator": "Количество учеников на одного учителя",
+    "City": "Браззавиль",
     "Value": "42.7",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 78,
-    "Indicator": "Proportion of population with post-secondary and higher education",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения со средним профессиональным и высшим образованием",
+    "City": "Браззавиль",
     "Value": "37.70",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 79,
-    "Indicator": "Percentage of population with food expenditure is above 52% of total expenditure",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, расходы на питание которого превышают 52% от общих расходов",
+    "City": "Браззавиль",
     "Value": "15.7",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 80,
-    "Indicator": "Mean monthly salary",
-    "City": "Brazzaville",
+    "Indicator": "Среднемесячная заработная плата",
+    "City": "Браззавиль",
     "Value": 172,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 81,
-    "Indicator": "Mean monthly salary, change in last 3 years",
-    "City": "Brazzaville",
+    "Indicator": "Средняя месячная зарплата, изменение за последние 3 года",
+    "City": "Браззавиль",
     "Value": "-2.67",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 82,
-    "Indicator": "Disposable monthly income",
-    "City": "Brazzaville",
+    "Indicator": "Ежемесячный располагаемый доход",
+    "City": "Браззавиль",
     "Value": 130,
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 83,
-    "Indicator": "Disposable monthly income (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Ежемесячный располагаемый доход (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "8.710",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 84,
-    "Indicator": "Debt to salary ratio",
-    "City": "Brazzaville",
+    "Indicator": "Соотношение долга к заработной плате",
+    "City": "Браззавиль",
     "Value": "8.1",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 85,
-    "Indicator": "Number of mobile phones per 1,000 population",
-    "City": "Brazzaville",
+    "Indicator": "Количество мобильных телефонов на 1000 жителей",
+    "City": "Браззавиль",
     "Value": 957,
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 86,
-    "Indicator": "Decile income coefficient",
-    "City": "Brazzaville",
+    "Indicator": "Коэффициент децильной дифференциации доходов",
+    "City": "Браззавиль",
     "Value": "21.1",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 87,
-    "Indicator": "Decile income coefficient (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Коэффициент децильной дифференциации доходов (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "13.31",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 88,
-    "Indicator": "Poverty headcount ratio at national poverty lines",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, живущего за национальной чертой бедности",
+    "City": "Браззавиль",
     "Value": "19.3",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 89,
-    "Indicator": "Working poverty rate (percentage of employed living below US$1.90 PPP), 15+ age (%)",
-    "City": "Brazzaville",
+    "Indicator": "Уровень бедности среди работающего населения (доля занятых, живущих менее чем на $1,90 по ППС), возраст 15+ (%)",
+    "City": "Браззавиль",
     "Value": "1.100",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 90,
-    "Indicator": "Poverty headcount ratio at $2.15 PPP 2017 a day",
-    "City": "Brazzaville",
+    "Indicator": "Уровень бедности (доля населения за чертой бедности) при уровне $2,15 по ППС 2017 года в день",
+    "City": "Браззавиль",
     "Value": "1.9",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 91,
-    "Indicator": "Living spaces per capita, sq m (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Жилая площадь на душу населения, кв. м (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "0.0002",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 92,
-    "Indicator": "Population living in slums (% of urban population)",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, проживающего в трущобах (% от городского населения)",
+    "City": "Браззавиль",
     "Value": "17",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 93,
-    "Indicator": "Availability of finance (consumer loans)",
-    "City": "Brazzaville",
+    "Indicator": "Доступность финансирования (потребительские кредиты)",
+    "City": "Браззавиль",
     "Value": "50",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 94,
-    "Indicator": "Perception of wealth & poverty index",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия благосостояния и бедности",
+    "City": "Браззавиль",
     "Value": "0.74",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 95,
-    "Indicator": "Road fatalities rate per 100,000 population",
-    "City": "Brazzaville",
+    "Indicator": "Уровень смертности в ДТП на 100 000 жителей",
+    "City": "Браззавиль",
     "Value": "29.2",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 96,
-    "Indicator": "Road fatalities rate per 100,000 population (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Уровень смертности в ДТП на 100 000 жителей (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "1.3",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 97,
-    "Indicator": "Violent crime rate per 100,000 population",
-    "City": "Brazzaville",
+    "Indicator": "Уровень насильственных преступлений на 100 000 жителей",
+    "City": "Браззавиль",
     "Value": "34.79",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 98,
-    "Indicator": "Violent crime rate per 100,000 population (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Уровень насильственных преступлений на 100 000 жителей (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "-0.2",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 99,
-    "Indicator": "Crime rate per 100,000 population",
-    "City": "Brazzaville",
+    "Indicator": "Уровень преступности на 100 000 жителей",
+    "City": "Браззавиль",
     "Value": "511.3",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 100,
-    "Indicator": "Crime rate per 100,000 population  (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Уровень преступности на 100 000 жителей  (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "-0.2",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 101,
-    "Indicator": "Police arrival speed",
-    "City": "Brazzaville",
+    "Indicator": "скорость прибытия сотрудников полиции",
+    "City": "Браззавиль",
     "Value": "31",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 102,
-    "Indicator": "Perception of safety index",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия безопасности",
+    "City": "Браззавиль",
     "Value": "1.72",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 103,
-    "Indicator": "Number of LEED certified green buildings",
-    "City": "Brazzaville",
+    "Indicator": "Количество зданий, сертифицированных по стандарту LEED",
+    "City": "Браззавиль",
     "Value": "0.01",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 104,
-    "Indicator": "Number of CEEQUAL certified projects",
-    "City": "Brazzaville",
+    "Indicator": "Количество проектов, сертифицированных по стандарту CEEQUAL",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 105,
-    "Indicator": "Whether or not the city has ISO 37120 certification",
-    "City": "Brazzaville",
+    "Indicator": "Наличие у города сертификата ISO 37120",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 106,
-    "Indicator": "Mobile connection coverage",
-    "City": "Brazzaville",
+    "Indicator": "покрытие мобильной связи",
+    "City": "Браззавиль",
     "Value": "54.8",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 107,
-    "Indicator": "Internet coverage",
-    "City": "Brazzaville",
+    "Indicator": "Покрытие интернетом",
+    "City": "Браззавиль",
     "Value": "54.8",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 108,
-    "Indicator": "Perception of livability index",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия качества жизни",
+    "City": "Браззавиль",
     "Value": "0.94",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 109,
-    "Indicator": "Share of population in 1 km from hospitals",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, проживающего в радиусе 1 км от больниц",
+    "City": "Браззавиль",
     "Value": "98.6",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 110,
-    "Indicator": "Share of population in 1 km from parks",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, проживающего в радиусе 1 км от парков",
+    "City": "Браззавиль",
     "Value": "32.79",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 111,
-    "Indicator": "Time loss in traffic",
-    "City": "Brazzaville",
+    "Indicator": "Потеря времени в пробках",
+    "City": "Браззавиль",
     "Value": "15.7",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 112,
-    "Indicator": "Share of the population in 1 km from public transport stop",
-    "City": "Brazzaville",
+    "Indicator": "Доля населения, проживающего в радиусе 1 км от остановки общественного транспорта",
+    "City": "Браззавиль",
     "Value": "52.5",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 113,
-    "Indicator": "Ratio of the cost of monthly public transport usage (the cheapest option) to average monthly income",
-    "City": "Brazzaville",
+    "Indicator": "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу",
+    "City": "Браззавиль",
     "Value": "0.04",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 114,
-    "Indicator": "Ratio of the cost of a 1-kilometer taxi ride to average monthly income",
-    "City": "Brazzaville",
+    "Indicator": "Соотношение стоимости поездки на такси на расстояние 1 километр к среднемесячному доходу",
+    "City": "Браззавиль",
     "Value": "0.4",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 115,
-    "Indicator": "Public transport (excluding subway) operates by schedule",
-    "City": "Brazzaville",
+    "Indicator": "Общественный транспорт (кроме метро) работает по расписанию",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 116,
-    "Indicator": "Perception of transport index",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия транспорта",
+    "City": "Браззавиль",
     "Value": "0.94",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 117,
-    "Indicator": "Female-friendly city",
-    "City": "Brazzaville",
+    "Indicator": "Город, благоприятный для женщин",
+    "City": "Браззавиль",
     "Value": "2",
-    "Assessment": "Low"
+    "Assessment": "Низкий"
   },
   {
     "ID": 118,
-    "Indicator": "Number of refugees per 1,000 population",
-    "City": "Brazzaville",
+    "Indicator": "Количество беженцев на 1000 жителей",
+    "City": "Браззавиль",
     "Value": "9.4",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 119,
-    "Indicator": "Homeless people per 1,000 population",
-    "City": "Brazzaville",
+    "Indicator": "Количество бездомных на 1000 жителей",
+    "City": "Браззавиль",
     "Value": "73.28",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 120,
-    "Indicator": "Difference in number of years of schooling between woman and man, woman to man ratio",
-    "City": "Brazzaville",
+    "Indicator": "Разница в количестве лет обучения между женщинами и мужчинами, соотношение женщин и мужчин",
+    "City": "Браззавиль",
     "Value": "1.05",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 121,
-    "Indicator": "Slavery index",
-    "City": "Brazzaville",
+    "Indicator": "индекс рабства",
+    "City": "Браззавиль",
     "Value": "8",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 122,
-    "Indicator": "Percentage of women aged 25-34 years old that have successfully completed secondary education",
-    "City": "Brazzaville",
+    "Indicator": "Процент женщин в возрасте 25-34 лет, получивших среднее образование",
+    "City": "Браззавиль",
     "Value": "54.2",
-    "Assessment": "Strong"
+    "Assessment": "Высокий"
   },
   {
     "ID": 123,
-    "Indicator": "Regulations for building construction and equipment, public transport for people with disabilities",
-    "City": "Brazzaville",
+    "Indicator": "Наличие нормативных требований к строительству зданий и оснащению общественного транспорта для людей с ограниченными возможностями",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 124,
-    "Indicator": "Perception of inclusion index",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия инклюзивности",
+    "City": "Браззавиль",
     "Value": "0.85",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 125,
-    "Indicator": "City budget execution publication",
-    "City": "Brazzaville",
+    "Indicator": "Публикация отчета об исполнении бюджета муниципального образования",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 126,
-    "Indicator": "City budget publication",
-    "City": "Brazzaville",
+    "Indicator": "Публикация городского бюджета",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 127,
-    "Indicator": "Financial transparency on city government companies",
-    "City": "Brazzaville",
+    "Indicator": "Финансовая прозрачность компаний городского правительства",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 128,
-    "Indicator": "ISO certification",
-    "City": "Brazzaville",
+    "Indicator": "Наличие сертификации ISO",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 129,
-    "Indicator": "City council checks and balances",
-    "City": "Brazzaville",
+    "Indicator": "Система сдержек и противовесов органов муниципальной власти",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 130,
-    "Indicator": "Plans to obtain ISO certification",
-    "City": "Brazzaville",
+    "Indicator": "Планы по получению сертификации ISO",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 131,
-    "Indicator": "Perception of accountability index",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия подотчетности",
+    "City": "Браззавиль",
     "Value": "0.33",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 132,
-    "Indicator": "Poor financial condition",
-    "City": "Brazzaville",
+    "Indicator": "Неудовлетворительное финансовое состояние",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 133,
-    "Indicator": "Central/higher level government financial intervention taking place",
-    "City": "Brazzaville",
+    "Indicator": "Осуществляется финансовое вмешательство со стороны центрального/вышестоящего правительства",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 134,
-    "Indicator": "Long-term financial planning",
-    "City": "Brazzaville",
+    "Indicator": "Наличие долгосрочного плана развития",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 135,
-    "Indicator": "Central/higher level government financial intervention is considered",
-    "City": "Brazzaville",
+    "Indicator": "Финансовое вмешательство центрального/вышестоящего правительства",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 136,
-    "Indicator": "Prudent fiscal policy requirements",
-    "City": "Brazzaville",
+    "Indicator": "Требования к ответственной финансовой политике",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 137,
-    "Indicator": "Medium-term planning",
-    "City": "Brazzaville",
+    "Indicator": "Наличие среднесрочного плана развития",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 138,
-    "Indicator": "Number of SMEs per 100,000 population",
-    "City": "Brazzaville",
+    "Indicator": "Количество малых и средних предприятий на 100 000 населения",
+    "City": "Браззавиль",
     "Value": "44.4",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 139,
-    "Indicator": "Number of start-ups",
-    "City": "Brazzaville",
+    "Indicator": "Количество стартапов",
+    "City": "Браззавиль",
     "Value": "2",
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 140,
-    "Indicator": "Global Startup Ecosystem Index",
-    "City": "Brazzaville",
+    "Indicator": "Глобальный индекс стартап-экосистем",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 141,
-    "Indicator": "Number of SMEs per capita/100 000 population (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Количество малых и средних предприятий на 100 000 населения (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": "0.01",
-    "Assessment": "Average"
+    "Assessment": "Средний"
   },
   {
     "ID": 142,
-    "Indicator": "Number of start-ups (change in last 3 years)",
-    "City": "Brazzaville",
+    "Indicator": "Количество стартапов (изменение за последние 3 года)",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 143,
-    "Indicator": "Free phone to call the police, ambulance, firefighters",
-    "City": "Brazzaville",
+    "Indicator": "Наличие бесплатного телефона для вызова полиции, скорой помощи, пожарных",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 144,
-    "Indicator": "Services for working with citizens' appeals and complaint",
-    "City": "Brazzaville",
+    "Indicator": "Услуги по работе с обращениями и жалобами граждан",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 145,
-    "Indicator": "E-gov services",
-    "City": "Brazzaville",
+    "Indicator": "Наличие государственных услуг, оказываемых онлайн",
+    "City": "Браззавиль",
     "Value": "1",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 146,
-    "Indicator": "Perception of public services index: Public Services",
-    "City": "Brazzaville",
+    "Indicator": "Индекс восприятия государственных услуг",
+    "City": "Браззавиль",
     "Value": "0.69",
-    "Assessment": "Very strong"
+    "Assessment": "Очень высокий"
   },
   {
     "ID": 147,
-    "Indicator": "City ESG reporting",
-    "City": "Brazzaville",
+    "Indicator": "Наличие отчетности города по ESG",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 148,
-    "Indicator": "City ESG reporting verification",
-    "City": "Brazzaville",
+    "Indicator": "Проверка отчетности города по ESG",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 149,
-    "Indicator": "ESG planning",
-    "City": "Brazzaville",
+    "Indicator": "ESG Планирование",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 150,
-    "Indicator": "Plan with specific targets to develop and implement smart city principles",
-    "City": "Brazzaville",
+    "Indicator": "Наличие плана с конкретными целями по развитию и внедрению принципов умного города",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 151,
-    "Indicator": "Rollout and status of ESG / UN SDG training across the municipal/asset workforce",
-    "City": "Brazzaville",
+    "Indicator": "Внедрение обучения по ESG / ЦУР ООН среди муниципальных работников / сотрудников предприятий",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   },
   {
     "ID": 152,
-    "Indicator": "City municipality involved in network or partnership promoting sustainable development (for example, C40 Cities network)",
-    "City": "Brazzaville",
+    "Indicator": "Участие муниципалитета в сети или партнерстве, продвигающем устойчивое развитие (например, сеть C40 Cities)",
+    "City": "Браззавиль",
     "Value": 0,
-    "Assessment": "Very low"
+    "Assessment": "Очень низкий"
   }
 ]

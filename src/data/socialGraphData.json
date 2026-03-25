@@ -1,10 +1,10 @@
 [
     {
-        "city": "Expo City Dubai",
+        "city": "Экспо-сити Дубай",
         "total": 100607,
         "positive": 23156,
         "negative": 4163,
-        "category": "Air pollution",
+        "category": "Загрязнение воздуха",
         "categoryTotal": 100607,
         "categoryPositive": 23156,
         "categoryNegative": 4163,
@@ -1782,11 +1782,11 @@
         ]
     },
     {
-        "city": "Dubai",
+        "city": "Дубай",
         "total": 14039024,
         "positive": 1812462,
         "negative": 1497556,
-        "category": "Air pollution",
+        "category": "Загрязнение воздуха",
         "categoryTotal": 14039024,
         "categoryPositive": 1812462,
         "categoryNegative": 1497556,
@@ -3564,11 +3564,11 @@
         ]
     },
     {
-        "city": "Dar es Salaam",
+        "city": "Дар-эс-Салам",
         "total": 34056517,
         "positive": 2828015,
         "negative": 3394286,
-        "category": "Air pollution",
+        "category": "Загрязнение воздуха",
         "categoryTotal": 34056517,
         "categoryPositive": 2828015,
         "categoryNegative": 3394286,
@@ -5346,11 +5346,11 @@
         ]
     },
     {
-        "city": "Brazzaville",
+        "city": "Браззавиль",
         "total": 943759,
         "positive": 105565,
         "negative": 170373,
-        "category": "Air pollution",
+        "category": "Загрязнение воздуха",
         "categoryTotal": 943759,
         "categoryPositive": 105565,
         "categoryNegative": 170373,
@@ -7128,11 +7128,11 @@
         ]
     },
     {
-        "city": "Natal",
+        "city": "Натал",
         "total": 17278853,
         "positive": 3352613,
         "negative": 3698193,
-        "category": "Air pollution",
+        "category": "Загрязнение воздуха",
         "categoryTotal": 17278853,
         "categoryPositive": 3352613,
         "categoryNegative": 3698193,
@@ -8910,11 +8910,11 @@
         ]
     },
     {
-        "city": "Adoni",
+        "city": "Адони",
         "total": 1543182,
         "positive": 243013,
         "negative": 142074,
-        "category": "Air pollution",
+        "category": "Загрязнение воздуха",
         "categoryTotal": 1543182,
         "categoryPositive": 243013,
         "categoryNegative": 142074,
@@ -10692,11 +10692,11 @@
         ]
     },
     {
-        "city": "Valparaiso",
+        "city": "Вальпараисо",
         "total": 913969,
         "positive": 20008,
         "negative": 558901,
-        "category": "Air pollution",
+        "category": "Загрязнение воздуха",
         "categoryTotal": 913969,
         "categoryPositive": 20008,
         "categoryNegative": 558901,

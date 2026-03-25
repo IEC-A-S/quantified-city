@@ -1,4 +1,3 @@
-import { CITY_DATA } from "../../../../data";
 import type { FC } from "react";
 import { Button, Typography } from "@mui/material";
 import { makeStyles } from "tss-react/mui";
@@ -7,6 +6,7 @@ import { StatusBubble } from "../../../components/StatusBubble";
 import { SelectedMap } from "../../../../pages/GraphAndGlobe/components/SelectedMap";
 import { HowTheRatingWorks } from "../../../components/HowTheRatingWorks";
 import { useNavigate } from "react-router-dom";
+import { getCompatibleCityData, getCompatibleCityId } from "../../../../v2/data/compat";
 
 interface SelectedCityProps {
   selectedCityName: string;
@@ -43,9 +43,14 @@ export const useSelectedCityStyles = makeStyles()({
 
 export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
   const { classes } = useSelectedCityStyles();
-  const cityData = CITY_DATA.find((city) => city.City === selectedCityName);
+  const cityData = getCompatibleCityData(selectedCityName);
+  const cityId = getCompatibleCityId(selectedCityName);
 
   const navigate = useNavigate();
+
+  if (!cityData) {
+    return null;
+  }
 
   const URI = cityData?.["Urban Resilience Index"]?.replace("-", "");
   const populationDesc = cityData?.["Population description"];
@@ -70,14 +75,14 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
           gap: "8px",
         }}
       >
-        <Typography variant={"h1"}>{selectedCityName}</Typography>
+      <Typography variant={"h1"}>{selectedCityName}</Typography>
         <Typography variant={"h3"}>{cityData?.Country}</Typography>
       </div>
       <Typography variant={"h5"}>{cityData?.["Text description"]}</Typography>
       <div className={classes.row}>
         <Typography variant={"h3"}>
-          Urban <br />
-          resilience index
+          Индекс <br />
+          городской устойчивости
         </Typography>
         <RatingBubble rating={URI} />
       </div>
@@ -96,7 +101,7 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
               flex: 2,
             }}
           >
-            Population in urban cluster
+            Население городской агломерации
           </Typography>
           <Typography
             variant={"h4"}
@@ -122,7 +127,7 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
               flex: 2,
             }}
           >
-            Population city proper
+            Население города
           </Typography>
           <Typography
             variant={"h4"}
@@ -149,8 +154,8 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
               flex: 2,
             }}
           >
-            Population <br />
-            density
+            Плотность <br />
+            населения
           </Typography>
           <Typography
             variant={"h4"}
@@ -158,7 +163,7 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
               flex: 3,
             }}
           >
-            {cityData["Population density"] + " people/ha"}
+            {cityData["Population density"] + " чел./га"}
           </Typography>
           <StatusBubble text={populationDensity} />
         </div>
@@ -176,7 +181,7 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
               flex: 2,
             }}
           >
-            Climate
+            Климат
           </Typography>
           <Typography
             variant={"h4"}
@@ -189,7 +194,7 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
           <StatusBubble text={climate} />
         </div>
       </div>
-      <SelectedMap selectedCityName={selectedCityName} isMobile={true} />
+      <SelectedMap selectedCityName={cityId} isMobile={true} />
       <Typography
         variant={"h5"}
         style={{
@@ -197,28 +202,27 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
           textAlign: "center",
         }}
       >
-        The height of a bar represents the total number of people in a grid
-        cell.
+        Высота столбца показывает общее число людей в ячейке сетки.
       </Typography>
       <div className={classes.statusRow}>
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Environmental</Typography>
+          <Typography variant={"h4"}>Экологический</Typography>
           <StatusBubble status={cityData?.Environmental} variant="outlined" />
         </div>
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Social</Typography>
+          <Typography variant={"h4"}>Социальный</Typography>
           <StatusBubble status={cityData?.Social} variant="outlined" />
         </div>
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Governmental</Typography>
+          <Typography variant={"h4"}>Управленческий</Typography>
           <StatusBubble status={cityData.Governmental} variant="outlined" />
         </div>
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Current state</Typography>
+          <Typography variant={"h4"}>Текущее состояние</Typography>
           <StatusBubble status={cityData["Current state"]} variant="outlined" />
         </div>
         <div className={classes.statusColumn}>
-          <Typography variant={"h4"}>Ability & Willingness</Typography>
+          <Typography variant={"h4"}>Способность и готовность</Typography>
           <StatusBubble status={cityData["Ability & Willingness"]} />
         </div>
       </div>
@@ -240,7 +244,7 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
             marginTop: "16px",
           }}
         >
-          <Typography variant={"h3"}>Basic needs</Typography>
+          <Typography variant={"h3"}>Базовые потребности</Typography>
           <RatingBubble
             rating={cityData["Basic needs Scope"].replace("-", "")}
             size={"small"}
@@ -255,7 +259,7 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
             marginTop: "16px",
           }}
         >
-          <Typography variant={"h3"}>Natural risk exposure</Typography>
+          <Typography variant={"h3"}>Подверженность природным рискам</Typography>
           <StatusBubble
             status={cityData["Natural Risk Exposure"]}
             variant={"opacity"}
@@ -270,7 +274,7 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
             marginTop: "16px",
           }}
         >
-          <Typography variant={"h3"}>Transport resilience index</Typography>
+          <Typography variant={"h3"}>Индекс транспортной устойчивости</Typography>
           <StatusBubble
             status={cityData["Transport Resilience Index"]}
             variant={"opacity"}
@@ -285,7 +289,7 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
             marginTop: "16px",
           }}
         >
-          <Typography variant={"h3"}>Urban sentiment index</Typography>
+          <Typography variant={"h3"}>Индекс городских настроений</Typography>
           <StatusBubble
             status={cityData["Urban Sentiment Index"]}
             variant={"opacity"}
@@ -309,11 +313,11 @@ export const SelectedCity: FC<SelectedCityProps> = ({ selectedCityName }) => {
       >
         <Button
           onClick={() => {
-            navigate("/city/" + selectedCityName);
+            navigate("/city/" + cityId);
           }}
           variant="contained"
         >
-          Dashboard
+          Дашборд
         </Button>
       </div>
     </div>

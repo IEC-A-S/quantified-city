@@ -5,7 +5,7 @@ import boxplotData from "./timeLossInTrafficData.json";
 import testJson1 from "./testJson1.json";
 import testJson2 from "./testJson2.json";
 
-let city = "Dubai";
+let city = "Дубай";
 import triLineData from "./TransportResiliensPopupData.json";
 const dataArr = triLineData
   .filter((cityData) => {
@@ -59,12 +59,12 @@ export const TestPage = () => {
 
   const TransportCategoryData = indicatorsDataNewValues.map((cityData) => {
     const TransportCategoryData = cityData.data.filter((indicator) => {
-      if (indicator.category === "Transport") {
+      if (indicator.category === "Транспорт") {
         if (
           indicator.indicator !==
-            "Ratio of the cost of monthly public transport usage Ithe cheapest option) to average mobthly income" &&
+            "Соотношение стоимости ежемесячного пользования общественным транспортом (самый дешевый вариант) к среднемесячному доходу" &&
           indicator.indicator !==
-            "Percentage of city's roads that are segregated and/or has specialized lane for cyclists"
+            "Процент городских дорог, которые разделены и/или имеют выделенные полосы для велосипедистов"
         ) {
           return indicator;
         }
@@ -77,7 +77,7 @@ export const TestPage = () => {
   });
 
   //console.log(TransportCategoryData);
-  const city = "Dubai";
+  const city = "Дубай";
   const timeLossInTrafficByCity = boxplotData
     .filter((cityData) => {
       if (cityData.city === city) {
@@ -108,13 +108,13 @@ export const TestPage = () => {
       }
     );
     switch (indicatorValuesData.Value) {
-      case "1. No plans aimed at achieving any of components of Goal 3 or increasing LEaB":
+      case "1. Нет планов, направленных на достижение каких-либо компонентов Цели 3 или повышение LEaB":
         indicatorValuesData.Value = "1";
         break;
-      case "2. Country/city has a plan aimed at achieving any of components of Goal 3":
+      case "2. Страна/город имеет план, направленный на достижение каких-либо компонентов Цели 3":
         indicatorValuesData.Value = "2";
         break;
-      case "3. Country/city has a plan aimed directly at achieving of increasing LEaB":
+      case "3. Страна/город имеет план, непосредственно направленный на повышение LEaB":
         indicatorValuesData.Value = "3";
         break;
       default:
@@ -144,15 +144,15 @@ export const TestPage = () => {
 
   const AssesmentStringToNumber = (value: string) => {
     switch (value) {
-      case "Very low":
+      case "Очень низкий":
         return 1;
-      case "Low":
+      case "Низкий":
         return 2;
-      case "Average":
+      case "Средний":
         return 3;
-      case "Strong":
+      case "Высокий":
         return 4;
-      case "Very strong":
+      case "Очень высокий":
         return 5;
       default:
         break;

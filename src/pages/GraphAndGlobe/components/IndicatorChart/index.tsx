@@ -53,7 +53,7 @@ export const IndicatorChart: FC<IProps> = ({
   const selectedCityDataArr = selectedCities
     .map((city) => indicatorDataArr.find((item) => item.city === city)!)
     .slice(0, 5)
-    .sort((a, b) => a.natural_value - b.natural_value);
+    .sort((a, b) => a.value - b.value);
 
   const mobileOptions = getMobileOptions(currentCityData, selectedCityDataArr);
 

@@ -7,6 +7,7 @@ import { useSelectedCityData } from "../../hooks/useSelectedCityData";
 import { TimeLossInTrafficChart } from "../GraphAndGlobe/components/TimeLossInTrafficChart";
 import { CITY_DATA } from "../../data";
 import { sizing } from "@mui/system";
+import { SCORE_TO_RU_ASSESSMENT } from "../../utils/assessment";
 
 interface ITimeLossInTrafficPopUpProps {
   city: string;
@@ -20,29 +21,21 @@ export const TimeLossInTrafficPopUp: FC<ITimeLossInTrafficPopUpProps> = ({
   isMobile,
   onClose,
 }) => {
-
   const statusChangeNumberToString = (status: number) => {
-    switch (status) {
-      case 1:
-        return "Very low";
-      case 2:
-        return "Low";
-      case 3:
-        return "Average";
-      case 4:
-        return "Strong";
-      case 5:
-        return "Very strong";
-      default:
-        throw new Error("Invalid status index");
+    const assessment = SCORE_TO_RU_ASSESSMENT[status];
+
+    if (!assessment) {
+      throw new Error("Invalid status index");
     }
-  }
+
+    return assessment;
+  };
 
   const { classes } = usePopupStyles();
   const cityData = useSelectedCityData();
   const statuses = timeLossInTrafficStatuses.map((item) => ({
     city: item.city,
-    status: statusChangeNumberToString(item.data[0].value)
+    status: statusChangeNumberToString(item.data[0].value),
   }));
 
   return (
@@ -54,7 +47,7 @@ export const TimeLossInTrafficPopUp: FC<ITimeLossInTrafficPopUpProps> = ({
           alt="return back"
         />
         <Typography className={classes.returnBackText}>
-          Back to Urban resilience index
+          Назад
         </Typography>
       </div>
       <div className={classes.content}>
@@ -80,14 +73,14 @@ export const TimeLossInTrafficPopUp: FC<ITimeLossInTrafficPopUpProps> = ({
               letterSpacing: "-0.2vh",
             }}
           >
-            {city}: Time loss in traffic <br />
+            {city}: Потери времени в пробках <br />
             <span style={{
               color: "#fff",
               
               fontSize: "3vh",
               lineHeight: "4vh",
               letterSpacing: "0",
-            }}>Comparison to peers</span>
+            }}>Сравнение с сопоставимыми городами</span>
           </Typography>
           <div
             className="chart"
@@ -145,7 +138,7 @@ export const TimeLossInTrafficPopUp: FC<ITimeLossInTrafficPopUpProps> = ({
                   whiteSpace: "nowrap",
                 }}
               >
-                Download report
+                Скачать отчет
               </div>
               <img src="/assets/downloadIcon.svg" alt="arrow down" />
             </Button>

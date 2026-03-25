@@ -14,14 +14,21 @@ export const useSelectedCities = (
   >(
     cities
       .filter((city) => city !== currentCity)
-      .map((city) => cityDataArr.find((arr) => arr[0].city === city)!)
+      .map((city) =>
+        cityDataArr.find((arr) => arr.length > 0 && arr[0].city === city)
+      )
+      .filter((cityData): cityData is ICityIndicatorData[] => Boolean(cityData))
       .slice(0, 5)
   );
 
   const onSelectedCitiesChange = (menuIndex: number) => (newCity: string) => {
     const newCityData = cityDataArr.find(
-      (cityDataArr) => cityDataArr[0].city === newCity
-    )!;
+      (cityDataArr) => cityDataArr.length > 0 && cityDataArr[0].city === newCity
+    );
+
+    if (!newCityData) {
+      return;
+    }
 
     setSelectedCityDataArr(
       selectedCityDataArr.map((item, index) =>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRatingBubblesStyles } from './styles';
+import { getAssessmentColor } from '../../../../utils/assessment';
 
 interface RaitingBubbleProps {
     title: string;
@@ -14,31 +15,7 @@ export const RaitingBubble: React.FC<RaitingBubbleProps> = ({
     style,
     children
 }) => {
-
-    let statusCircleColor = "#000";
-
-    if (value) {
-        switch (value) {
-            case "Very strong":
-                statusCircleColor = "#35CB00";
-                break;
-            case "Strong":
-                statusCircleColor = "#A0DA8B";
-                break;
-            case "Average":
-                statusCircleColor = "#FF9B3F";
-                break;
-            case "Low":
-                statusCircleColor = "#FF632F";
-                break;
-            case "Very low":
-                statusCircleColor = "#FF3B29";
-                break;
-            default:
-                statusCircleColor = "#000";
-                break;
-        }
-    }
+    const statusCircleColor = value ? getAssessmentColor(value) : "#000";
 
     const { classes } = useRatingBubblesStyles();
 

@@ -1,27 +1,13 @@
 import type { ChartData, ChartOptions } from "chart.js";
 import type { ITimeLossInTrafficData } from "./interfaces";
-import type { ChartDataset } from "chart.js/dist/types";
+import { getAssessmentColor } from "../../../../utils/assessment";
 
 const getBackgroundColor = (
   city: string,
   statuses: { city: string; status: string }[]
 ) => {
   const status = statuses.find((s) => s.city === city)?.status;
-
-  switch (status) {
-    case "Very strong":
-      return "#35CB00";
-    case "Strong":
-      return "#A0DA8B";
-    case "Average":
-      return "#FF9B3F";
-    case "Low":
-      return "#FF632F";
-    case "Very low":
-      return "#FF3B29";
-    default:
-      return "#000";
-  }
+  return getAssessmentColor(status);
 };
 
 export const getMobileOptions = (

@@ -3,22 +3,19 @@ import { useHeaderStyles } from "../styles";
 import type { FC } from "react";
 
 const i18nObject = {
-  menu: "Menu",
   login: "Log in",
   signup: "Sign up",
-  back: "Back to globe",
+  back: "РќР°Р·Р°Рґ Рє РіР»РѕР±СѓСЃСѓ",
 };
 
 interface IHeaderProps {
   isCitySelected: boolean;
   setSelectedCity(city: string | null): void;
-  setMenuVisible(menuVisible: boolean): void;
 }
 
 export const Header: FC<IHeaderProps> = ({
   isCitySelected,
   setSelectedCity,
-  setMenuVisible,
 }) => {
   const t = (key: keyof typeof i18nObject) => i18nObject[key];
   const { classes } = useHeaderStyles();
@@ -48,28 +45,17 @@ export const Header: FC<IHeaderProps> = ({
             <Typography className={classes.whiteText}>{t("back")}</Typography>
           </div>
         )}
-        <div
-          onClick={() => setMenuVisible(true)}
-          className={classes.menuIconWrapper}
-        >
-          <img
-            style={{ 
-              width: "4.7vh",
-              filter: "invert(1)"
-          }}
-            src="/assets/menuIcon.svg"
-            width={45}
-            alt="logo"
-          />
-          <Typography className={classes.whiteText}>{t("menu")}</Typography>
-        </div>
       </div>
-      <img style={{ 
-        position: "absolute",
-        left: "50%",
-        transform: "translateX(-50%)",
-        width: "10.5vh" 
-      }} src="/assets/logo.svg" alt="logo" />
+      <img
+        style={{
+          position: "absolute",
+          left: "50%",
+          transform: "translateX(-50%)",
+          width: "10.5vh",
+        }}
+        src="/assets/logo.svg"
+        alt="logo"
+      />
       <div className={classes.buttonsWrapper}>
         {/*<Button className={classes.whiteText}>{t("login")}</Button>*/}
         {/*<Button*/}

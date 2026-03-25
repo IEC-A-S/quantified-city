@@ -25,7 +25,7 @@ export const BackToUrban: FC<BackToUrbanProps> = ({ setClickedCategory }) => {
         src="/assets/returnBackIcon.svg"
         alt="return back"
       />
-      <Typography variant={"h4"}>Back to Urban resilience index</Typography>
+      <Typography variant={"h4"}>Назад</Typography>
     </div>
   );
 };
