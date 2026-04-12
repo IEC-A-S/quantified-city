@@ -1,8 +1,54 @@
 import type { IMapLayer } from "./interfaces";
 
+const SCHOOL_SERVICE_AREAS_LEGEND =
+  "Зона доступности в радиусе 1 километра показывает территорию, где хотя бы одна школа находится на расстоянии менее 1 километра.";
+const TRANSPORT_SERVICE_AREAS_LEGEND =
+  "Зона доступности в радиусе 1 километра показывает территорию, где хотя бы одна остановка транспорта находится на расстоянии менее 1 километра.";
+const PARKS_SERVICE_AREA_LEGEND =
+  "Зона доступности в радиусе 1 километра показывает территорию, где хотя бы один парк находится на расстоянии менее 1 километра.";
+
+const COMMON_LAYERS = {
+  population: {
+    label: "Население",
+  },
+  buildUp: {
+    label: "Застройка",
+  },
+  schools: {
+    label: "Школы",
+  },
+  schoolsServiceAreas: {
+    label: "Зоны доступности школ",
+    legendText: SCHOOL_SERVICE_AREAS_LEGEND,
+  },
+  transportStops: {
+    label: "Остановки транспорта",
+  },
+  transportServiceAreas: {
+    label: "Зоны доступности остановок транспорта",
+    legendText: TRANSPORT_SERVICE_AREAS_LEGEND,
+  },
+  parks: {
+    label: "Парки",
+  },
+  parksServiceArea: {
+    label: "Зоны доступности парков",
+    legendText: PARKS_SERVICE_AREA_LEGEND,
+  },
+  freshWater: {
+    label: "Пресная вода",
+  },
+  damagedLand: {
+    label: "Нарушенные земли",
+  },
+  greenAreas: {
+    label: "Зеленые зоны",
+  },
+} as const;
+
 export const MAP_LAYERS_DUBAI: Record<string, IMapLayer> = {
   population: {
-    label: "Population",
+    label: COMMON_LAYERS.population.label,
     "2d": {
       mapboxId: "Population 2D",
       legendSvgUrl: "/legends/Dubai/population2d.svg",
@@ -67,68 +113,65 @@ export const MAP_LAYERS_DUBAI: Record<string, IMapLayer> = {
     },
   },
   buildUp: {
-    label: "Build up",
+    label: COMMON_LAYERS.buildUp.label,
     "2d": {
       mapboxId: "Build up",
       legendSvgUrl: "/legends/Dubai/buildUp.svg",
     },
   },
   schools: {
-    label: "Schools",
+    label: COMMON_LAYERS.schools.label,
     "2d": {
       mapboxId: "Schools",
     },
   },
   schoolsServiceAreas: {
-    label: "School service areas",
+    label: COMMON_LAYERS.schoolsServiceAreas.label,
     "2d": {
       mapboxId: "School service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.schoolsServiceAreas.legendText,
     },
   },
   transportStops: {
-    label: "Transport stops",
+    label: COMMON_LAYERS.transportStops.label,
     "2d": {
       mapboxId: "Transport stops",
     },
   },
   transportServiceAreas: {
-    label: "Transport service areas",
+    label: COMMON_LAYERS.transportServiceAreas.label,
     "2d": {
       mapboxId: "Transport service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one transport stop can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.transportServiceAreas.legendText,
     },
   },
   parks: {
-    label: "Parks",
+    label: COMMON_LAYERS.parks.label,
     "2d": {
       mapboxId: "Parks",
     },
   },
   parksServiceArea: {
-    label: "Parks service area",
+    label: COMMON_LAYERS.parksServiceArea.label,
     "2d": {
       mapboxId: "Parks service area",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.parksServiceArea.legendText,
     },
   },
   freshWater: {
-    label: "Fresh water",
+    label: COMMON_LAYERS.freshWater.label,
     "2d": {
       mapboxId: "Fresh water",
     },
   },
   damagedLand: {
-    label: "Damaged land",
+    label: COMMON_LAYERS.damagedLand.label,
     "2d": {
       mapboxId: "Damaged land",
     },
   },
   greenAreas: {
-    label: "Green areas",
+    label: COMMON_LAYERS.greenAreas.label,
     "2d": {
       mapboxId: "Green areas",
     },
@@ -137,7 +180,7 @@ export const MAP_LAYERS_DUBAI: Record<string, IMapLayer> = {
 
 export const MAP_LAYERS_DAR_ES_SALAAM: Record<string, IMapLayer> = {
   population: {
-    label: "Population",
+    label: COMMON_LAYERS.population.label,
     "2d": {
       mapboxId: "Population 2D",
       legendSvgUrl: "/legends/DarEsSalaam/population2dDarEsSalam.svg",
@@ -202,68 +245,65 @@ export const MAP_LAYERS_DAR_ES_SALAAM: Record<string, IMapLayer> = {
     },
   },
   buildUp: {
-    label: "Build up",
+    label: COMMON_LAYERS.buildUp.label,
     "2d": {
       mapboxId: "Build up",
       legendSvgUrl: "/legends/DarEsSalaam/buildupAreasDarEsSalaam.svg",
     },
   },
   schools: {
-    label: "Schools",
+    label: COMMON_LAYERS.schools.label,
     "2d": {
       mapboxId: "Schools",
     },
   },
   schoolsServiceAreas: {
-    label: "School service areas",
+    label: COMMON_LAYERS.schoolsServiceAreas.label,
     "2d": {
       mapboxId: "School service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.schoolsServiceAreas.legendText,
     },
   },
   transportStops: {
-    label: "Transport stops",
+    label: COMMON_LAYERS.transportStops.label,
     "2d": {
       mapboxId: "Transport stops",
     },
   },
   transportServiceAreas: {
-    label: "Transport service areas",
+    label: COMMON_LAYERS.transportServiceAreas.label,
     "2d": {
       mapboxId: "Transport service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one transport stop can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.transportServiceAreas.legendText,
     },
   },
   parks: {
-    label: "Parks",
+    label: COMMON_LAYERS.parks.label,
     "2d": {
       mapboxId: "Parks",
     },
   },
   parksServiceArea: {
-    label: "Parks service area",
+    label: COMMON_LAYERS.parksServiceArea.label,
     "2d": {
       mapboxId: "Parks service area",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.parksServiceArea.legendText,
     },
   },
   freshWater: {
-    label: "Fresh water",
+    label: COMMON_LAYERS.freshWater.label,
     "2d": {
       mapboxId: "Fresh water",
     },
   },
   damagedLand: {
-    label: "Damaged land",
+    label: COMMON_LAYERS.damagedLand.label,
     "2d": {
       mapboxId: "Damaged land",
     },
   },
   greenAreas: {
-    label: "Green areas",
+    label: COMMON_LAYERS.greenAreas.label,
     "2d": {
       mapboxId: "Green areas",
     },
@@ -272,7 +312,7 @@ export const MAP_LAYERS_DAR_ES_SALAAM: Record<string, IMapLayer> = {
 
 export const MAP_LAYERS_ASTANA: Record<string, IMapLayer> = {
   population: {
-    label: "Population",
+    label: COMMON_LAYERS.population.label,
     "2d": {
       mapboxId: "Population 2D",
       legendSvgUrl: "/legends/Astana/population2dAstana.svg",
@@ -337,92 +377,89 @@ export const MAP_LAYERS_ASTANA: Record<string, IMapLayer> = {
     },
   },
   buildUp: {
-    label: "Build up",
+    label: COMMON_LAYERS.buildUp.label,
     "2d": {
       mapboxId: "Build up",
       legendSvgUrl: "/legends/Astana/buildupAreasAstana.svg",
     },
   },
   police: {
-    label: "Police stations",
+    label: "Полицейские участки",
     "2d": {
       mapboxId: "Police stations",
     },
   },
   policeServiceAreas: {
-    label: "Police service areas",
+    label: "Зоны доступности полицейских участков",
     "2d": {
       mapboxId: "Police service areas",
     },
   },
   ambulance: {
-    label: "Ambulance stations",
+    label: "Станции скорой помощи",
     "2d": {
       mapboxId: "Ambulance stations",
     },
   },
   ambulanceServiceAreas: {
-    label: "Ambulance service areas",
+    label: "Зоны доступности станций скорой помощи",
     "2d": {
       mapboxId: "Ambulance service areas",
     },
   },
   schools: {
-    label: "Schools",
+    label: COMMON_LAYERS.schools.label,
     "2d": {
       mapboxId: "Schools",
     },
   },
   schoolsServiceAreas: {
-    label: "School service areas",
+    label: COMMON_LAYERS.schoolsServiceAreas.label,
     "2d": {
       mapboxId: "School service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.schoolsServiceAreas.legendText,
     },
   },
   transportStops: {
-    label: "Transport stops",
+    label: COMMON_LAYERS.transportStops.label,
     "2d": {
       mapboxId: "Transport stops",
     },
   },
   transportServiceAreas: {
-    label: "Transport service areas",
+    label: COMMON_LAYERS.transportServiceAreas.label,
     "2d": {
       mapboxId: "Transport service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one transport stop can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.transportServiceAreas.legendText,
     },
   },
   parks: {
-    label: "Parks",
+    label: COMMON_LAYERS.parks.label,
     "2d": {
       mapboxId: "Parks",
     },
   },
   parksServiceArea: {
-    label: "Parks service area",
+    label: COMMON_LAYERS.parksServiceArea.label,
     "2d": {
       mapboxId: "Parks service area",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.parksServiceArea.legendText,
     },
   },
   freshWater: {
-    label: "Fresh water",
+    label: COMMON_LAYERS.freshWater.label,
     "2d": {
       mapboxId: "Fresh water",
     },
   },
   damagedLand: {
-    label: "Damaged land",
+    label: COMMON_LAYERS.damagedLand.label,
     "2d": {
       mapboxId: "Damaged land",
     },
   },
   greenAreas: {
-    label: "Green areas",
+    label: COMMON_LAYERS.greenAreas.label,
     "2d": {
       mapboxId: "Green areas",
     },
@@ -431,7 +468,7 @@ export const MAP_LAYERS_ASTANA: Record<string, IMapLayer> = {
 
 export const MAP_LAYERS_LAHORE: Record<string, IMapLayer> = {
   population: {
-    label: "Population",
+    label: COMMON_LAYERS.population.label,
     "2d": {
       mapboxId: "Population 2D",
       legendSvgUrl: "/legends/Lahore/population2d.svg",
@@ -496,68 +533,65 @@ export const MAP_LAYERS_LAHORE: Record<string, IMapLayer> = {
     },
   },
   buildUp: {
-    label: "Build up",
+    label: COMMON_LAYERS.buildUp.label,
     "2d": {
       mapboxId: "Build up",
       legendSvgUrl: "/legends/Lahore/buildupAreas.svg",
     },
   },
   schools: {
-    label: "Schools",
+    label: COMMON_LAYERS.schools.label,
     "2d": {
       mapboxId: "Schools",
     },
   },
   schoolsServiceAreas: {
-    label: "School service areas",
+    label: COMMON_LAYERS.schoolsServiceAreas.label,
     "2d": {
       mapboxId: "School service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.schoolsServiceAreas.legendText,
     },
   },
   transportStops: {
-    label: "Transport stops",
+    label: COMMON_LAYERS.transportStops.label,
     "2d": {
       mapboxId: "Transport stops",
     },
   },
   transportServiceAreas: {
-    label: "Transport service areas",
+    label: COMMON_LAYERS.transportServiceAreas.label,
     "2d": {
       mapboxId: "Transport service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one transport stop can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.transportServiceAreas.legendText,
     },
   },
   parks: {
-    label: "Parks",
+    label: COMMON_LAYERS.parks.label,
     "2d": {
       mapboxId: "Parks",
     },
   },
   parksServiceArea: {
-    label: "Parks service area",
+    label: COMMON_LAYERS.parksServiceArea.label,
     "2d": {
       mapboxId: "Parks service area",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.parksServiceArea.legendText,
     },
   },
   freshWater: {
-    label: "Fresh water",
+    label: COMMON_LAYERS.freshWater.label,
     "2d": {
       mapboxId: "Fresh water",
     },
   },
   damagedLand: {
-    label: "Damaged land",
+    label: COMMON_LAYERS.damagedLand.label,
     "2d": {
       mapboxId: "Damaged land",
     },
   },
   greenAreas: {
-    label: "Green areas",
+    label: COMMON_LAYERS.greenAreas.label,
     "2d": {
       mapboxId: "Green areas",
     },
@@ -566,7 +600,7 @@ export const MAP_LAYERS_LAHORE: Record<string, IMapLayer> = {
 
 export const MAP_LAYERS_NAIROBI: Record<string, IMapLayer> = {
   population: {
-    label: "Population",
+    label: COMMON_LAYERS.population.label,
     "2d": {
       mapboxId: "Population 2D",
       legendSvgUrl: "/legends/Nairobi/population2dNairobi.svg",
@@ -631,68 +665,65 @@ export const MAP_LAYERS_NAIROBI: Record<string, IMapLayer> = {
     },
   },
   buildUp: {
-    label: "Build up",
+    label: COMMON_LAYERS.buildUp.label,
     "2d": {
       mapboxId: "Build up",
       legendSvgUrl: "/legends/Nairobi/buildupAreasNairobi.svg",
     },
   },
   schools: {
-    label: "Schools",
+    label: COMMON_LAYERS.schools.label,
     "2d": {
       mapboxId: "Schools",
     },
   },
   schoolsServiceAreas: {
-    label: "School service areas",
+    label: COMMON_LAYERS.schoolsServiceAreas.label,
     "2d": {
       mapboxId: "School service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.schoolsServiceAreas.legendText,
     },
   },
   transportStops: {
-    label: "Transport stops",
+    label: COMMON_LAYERS.transportStops.label,
     "2d": {
       mapboxId: "Transport stops",
     },
   },
   transportServiceAreas: {
-    label: "Transport service areas",
+    label: COMMON_LAYERS.transportServiceAreas.label,
     "2d": {
       mapboxId: "Transport service areas",
-      legendText:
-        "The 1 kilometre service area is an area where at least one transport stop can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.transportServiceAreas.legendText,
     },
   },
   parks: {
-    label: "Parks",
+    label: COMMON_LAYERS.parks.label,
     "2d": {
       mapboxId: "Parks",
     },
   },
   parksServiceArea: {
-    label: "Parks service area",
+    label: COMMON_LAYERS.parksServiceArea.label,
     "2d": {
       mapboxId: "Parks service area",
-      legendText:
-        "The 1 kilometre service area is an area where at least one park can be reached in a distance of less than one kilometre.",
+      legendText: COMMON_LAYERS.parksServiceArea.legendText,
     },
   },
   freshWater: {
-    label: "Fresh water",
+    label: COMMON_LAYERS.freshWater.label,
     "2d": {
       mapboxId: "Fresh water",
     },
   },
   damagedLand: {
-    label: "Damaged land",
+    label: COMMON_LAYERS.damagedLand.label,
     "2d": {
       mapboxId: "Damaged land",
     },
   },
   greenAreas: {
-    label: "Green areas",
+    label: COMMON_LAYERS.greenAreas.label,
     "2d": {
       mapboxId: "Green areas",
     },

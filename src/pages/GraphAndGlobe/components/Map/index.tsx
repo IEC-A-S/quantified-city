@@ -3,6 +3,34 @@ import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
+const GLOBAL_MAP_CITY_LABELS: Record<string, string> = {
+  Amman: "Амман",
+  "Mexico City": "Мехико",
+  Bangkok: "Бангкок",
+  "Panama City": "Панама",
+  Colombo: "Коломбо",
+  Jakarta: "Джакарта",
+  "Cape Town": "Кейптаун",
+  Valparaiso: "Вальпараисо",
+  Natal: "Натал",
+  "Dar es Salaam": "Дар-эс-Салам",
+  Brazzaville: "Браззавиль",
+  Dubai: "Дубай",
+  "Expo City Dubai": "Экспо-сити Дубай",
+  Almaty: "Алматы",
+  Adoni: "Адони",
+  Astana: "Астана",
+  Lahore: "Лахор",
+  Nairobi: "Найроби",
+};
+
+const CITY_NAME_LABEL_EXPRESSION = [
+  "match",
+  ["get", "City_Name"],
+  ...Object.entries(GLOBAL_MAP_CITY_LABELS).flat(),
+  ["to-string", ["get", "City_Name"]],
+] as any;
+
 interface BlueMapProps {
   setMap(map: mapboxgl.Map): void;
   setSelectedCity(city: string): void;
@@ -157,7 +185,7 @@ export const BlueMap: FC<BlueMapProps> = ({ setMap, setSelectedCity }) => {
           "text-font": ["Suisse Intl Regular", "Arial Unicode MS Regular"],
           "text-offset": [0, -1.2],
           "text-anchor": "bottom",
-          "text-field": ["to-string", ["get", "City_Name"]],
+          "text-field": CITY_NAME_LABEL_EXPRESSION,
         },
         paint: {
           "text-color": "#121212",

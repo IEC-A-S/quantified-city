@@ -22,7 +22,7 @@ export const useToggleButtonListStyles = makeStyles()({
     borderRadius: 20,
     marginTop: "3vh",
     gap: "2vh",
-    width: "245px",
+    width: "340px",
   },
   columnWrapper: {
     position: "relative",

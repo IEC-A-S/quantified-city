@@ -18,6 +18,12 @@ export const TextToggleButton: FC<TextToggleButtonProps> = ({
   onClick,
 }) => {
   const [hovered, setHovered] = useState(false);
+  const labelText = typeof label === "string" ? label : "";
+  const isLongLabel =
+    labelText === "Population" ||
+    labelText === "Население" ||
+    labelText.length > 24 ||
+    labelText.includes("доступности");
 
   return (
     <button
@@ -35,13 +41,11 @@ export const TextToggleButton: FC<TextToggleButtonProps> = ({
         border: "none",
         textAlign: "left",
         opacity: disabled ? 0.5 : 1,
-        display: "inline-block",
-        textWrap: "nowrap",
-        width: isMobile
-          ? label === "Population"
-            ? "100%"
-            : "40%"
-          : "fit-content",
+        display: "block",
+        width: isMobile ? (isLongLabel ? "100%" : "40%") : "100%",
+        whiteSpace: "normal",
+        overflowWrap: "anywhere",
+        lineHeight: isLongLabel ? 1.15 : 1.2,
       }}
     >
       <div
