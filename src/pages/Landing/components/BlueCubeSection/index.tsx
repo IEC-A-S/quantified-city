@@ -5,6 +5,7 @@ import { useSelectedCityData } from "../../../../hooks/useSelectedCityData";
 import { NewCube } from "./components/NewCube";
 import { getCityId } from "../../../../constants";
 import { getCompatiblePolicyHints } from "../../../../v2/data/compat";
+import { CATEGORY_DATA } from "./components/Cube/data";
 
 interface BlueCubeSectionProps {
   clickedCategory: string | null;
@@ -22,6 +23,9 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
   const [activeHint, setActiveHint] = useState<string | null>(null);
   const cityData = useSelectedCityData();
   const cityId = getCityId(cityData.City);
+  const hasCategoryData = CATEGORY_DATA.some(
+    (item) => getCityId(item.City) === cityId
+  );
 
   useEffect(() => {
     const hints = getCompatiblePolicyHints(cityId);
@@ -49,6 +53,10 @@ export const BlueCubeSection: FC<BlueCubeSectionProps> = ({
   }, [cityId, hoveredSide]);
 
   void clickedCategory;
+
+  if (!hasCategoryData) {
+    return null;
+  }
 
   return (
     <div

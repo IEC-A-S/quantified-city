@@ -63,6 +63,12 @@ export const Landing = () => {
   const cityLabel = getCompatibleCityLabel(currentCity?.id ?? cityName);
   const cityId = currentCity?.id ?? getCityId(cityName);
   const cityData = getCompatibleCityData(cityId) ?? getCompatibleCityData(cityLabel);
+  const sentimentCityDataArr = getCityDataForSentimentGraph(
+    SENTIMENT_DATA as unknown as ISentimentDTO[]
+  );
+  const hasSentimentData = sentimentCityDataArr.some(
+    (item) => item.City === cityData?.City
+  );
 
   if (!cityData) {
     throw new Error(`Unknown city: ${cityName}`);
@@ -213,16 +219,14 @@ export const Landing = () => {
         {/*<SectionWrapper isActive={activeSection === 3} sectionIndex={3} key={3}>*/}
         {/*  <BlackCubeSection />*/}
         {/*</SectionWrapper>*/}
-        {cityId !== "Lahore" && cityId !== "Nairobi" && (
+        {cityId !== "Lahore" && cityId !== "Nairobi" && hasSentimentData && (
           <SectionWrapper
             isActive={activeSection === 4}
             sectionIndex={4}
             key={4}
           >
             <UrbanSentimentSection
-              cityDataArr={getCityDataForSentimentGraph(
-                SENTIMENT_DATA as unknown as ISentimentDTO[]
-              )}
+              cityDataArr={sentimentCityDataArr}
               currentCity={cityData.City}
               colors={[
                 "#2D67FF",

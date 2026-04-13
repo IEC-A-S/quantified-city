@@ -13,7 +13,6 @@ export const SelectedLandingMap: FC<ISelectedMapProps> = ({
   selectedCityName,
   setMap,
 }) => {
-  
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map>(null);
 
@@ -21,9 +20,18 @@ export const SelectedLandingMap: FC<ISelectedMapProps> = ({
     if (map.current || !mapContainerRef.current) return; // initialize map only once
 
     const cityId = getCityId(selectedCityName);
-    const initData = initCitiesData.find(
-      (city) => city.properties.City_Name === cityId
-    )?.properties;
+    const initData =
+      initCitiesData.find((city) => city.properties.City_Name === cityId)
+        ?.properties ??
+      (cityId === "Panama"
+        ? initCitiesData.find(
+            (city) => city.properties.City_Name === "Panama City"
+          )?.properties
+        : undefined);
+
+    if (!initData) {
+      return;
+    }
 
     map.current = new mapboxgl.Map({
       accessToken: "pk.eyJ1IjoidHNrbm9mZiIsImEiOiJjbGNxZDlxMnowNHV4M3JwZHp0ZTlvM2NiIn0.Tz-_y_F7EwR2NkPNA-Xlkw",

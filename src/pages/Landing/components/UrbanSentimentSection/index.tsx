@@ -27,7 +27,11 @@ export const UrbanSentimentSection: FC<IProps> = ({
   const cities = cityDataArr.map((cityData) => cityData.City);
   const currentCityData = cityDataArr.find(
     (cityData: ISentimentDTO) => cityData.City === currentCity
-  )!;
+  );
+
+  if (!currentCityData) {
+    return null;
+  }
 
   const [selectedCityDataArr, onSelectedCitiesChange] = useSelectedCities(
     currentCity,

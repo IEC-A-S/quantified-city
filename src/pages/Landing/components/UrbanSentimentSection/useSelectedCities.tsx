@@ -15,12 +15,17 @@ export const useSelectedCities = (
   >(
     cities
       .filter((city) => city !== currentCity)
-      .map((city) => cityDataArr.find((data) => data.City === city)!)
+      .map((city) => cityDataArr.find((data) => data.City === city))
+      .filter((cityData): cityData is ISentimentDTO => Boolean(cityData))
       .slice(0, 5)
   );
 
   const onSelectedCitiesChange = (menuIndex: number) => (newCity: string) => {
-    const newCityData = cityDataArr.find((data) => data.City === newCity)!;
+    const newCityData = cityDataArr.find((data) => data.City === newCity);
+
+    if (!newCityData) {
+      return;
+    }
 
     setSelectedCityDataArr(
       selectedCityDataArr.map((item, index) =>

@@ -50,6 +50,9 @@ export const NewCube = ({
 }: NewCubeProps) => {
   const cityData = useSelectedCityData();
   const cityId = getCityId(cityData.City);
+  const categoryData = CATEGORY_DATA.find(
+    (item) => getCityId(item.City) === cityId
+  );
   const [scale, setScale] = useState(
     isMobile
       ? Math.min(
@@ -115,9 +118,6 @@ export const NewCube = ({
           }}
         >
           {categories.left.map((category) => {
-            const categoryData = CATEGORY_DATA.find(
-              (item) => item.City === cityId
-            );
             if (!categoryData) {
               return null;
             }
@@ -152,9 +152,6 @@ export const NewCube = ({
           }}
         >
           {categories.right.map((category) => {
-            const categoryData = CATEGORY_DATA.find(
-              (item) => item.City === cityId
-            );
             if (!categoryData) {
               return null;
             }
@@ -185,9 +182,6 @@ export const NewCube = ({
           }}
         >
           {categories.top.map((category) => {
-            const categoryData = CATEGORY_DATA.find(
-              (item) => item.City === cityId
-            );
             if (!categoryData) {
               return null;
             }

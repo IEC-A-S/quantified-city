@@ -40,7 +40,12 @@ export const CITY_LABELS: Record<string, string> = {
 export const getCityLabel = (cityId?: string | null) =>
   (cityId && CITY_LABELS[cityId]) || cityId || "";
 
+const CITY_ID_ALIASES: Record<string, string> = {
+  "Panama City": "Panama",
+};
+
 export const getCityId = (cityLabel?: string | null) =>
+  (cityLabel && CITY_ID_ALIASES[cityLabel]) ||
   Object.entries(CITY_LABELS).find(([, label]) => label === cityLabel)?.[0] ||
   cityLabel ||
   "";

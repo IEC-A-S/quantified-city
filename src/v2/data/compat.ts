@@ -28,6 +28,8 @@ const POLICY_HINT_CITY_IDS = [
   "Nairobi",
 ] as const;
 
+const LEGACY_CITY_DATA_ORDER = POLICY_HINT_CITY_IDS;
+
 const LOCALIZED_POLICY_HINTS: Record<
   (typeof POLICY_HINT_CITY_IDS)[number],
   { E: string; S: string; G: string }
@@ -151,10 +153,21 @@ export interface CompatibleIndicatorCityDataset {
 
 export const getCompatibleCityData = (cityRef?: string | null): CityData | undefined => {
   const cityId = getCityId(cityRef);
+  const v2City = getV2City(cityRef);
 
-  return CITY_DATA.find((city) => getCityId(city.City) === cityId) as
-    | CityData
-    | undefined;
+  const matchedCity =
+    CITY_DATA.find((city) => getCityId(city.City) === cityId) ??
+    CITY_DATA.find((city) => city.City === v2City?.label);
+
+  if (matchedCity) {
+    return matchedCity as CityData;
+  }
+
+  const legacyIndex = LEGACY_CITY_DATA_ORDER.indexOf(
+    cityId as (typeof LEGACY_CITY_DATA_ORDER)[number]
+  );
+
+  return legacyIndex >= 0 ? (CITY_DATA[legacyIndex] as CityData | undefined) : undefined;
 };
 
 export const getCompatibleCityLabel = (cityRef?: string | null) =>
